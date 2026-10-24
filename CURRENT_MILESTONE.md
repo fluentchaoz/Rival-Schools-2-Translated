@@ -1,52 +1,53 @@
 # Current Known-Good Milestone
 
-## Name-entry UI v7 — live tested
+## School-choice UI v8 — live tested
 
 Live-tested rebuilt-disc SHA-256:
 
-`c9eb6cc1c15eb3b65f1aa9e02cee102fbb1bc502483e88950175139720ca48f5`
-
-Patched `DAT1/MGENT.BIN` SHA-256:
-
-`a3459705345ac3457e941aa72ae5e48cec43afdca635cff269a9ebaf0e9946e3`
+`07b4dda156ab0eac7f149f66f7bcb9727a8e74fad4faa2d19d77cee362504d84`
 
 Local working CUE (not tracked by Git):
 
-`upstream\work\english-name-entry-nickname-default-az-v7\build\justice-gakuen2-name-entry-nickname-default-az-v7.cue`
+`upstream\work\english-name-entry-school-choices-v8\build\justice-gakuen2-name-entry-school-choices-v8.cue`
 
 ### Confirmed behavior
 
-- English enrollment form renders correctly in-game.
-- Native name-entry controls render as `HIRA / KATA / A-Z / DEL / NEXT / BACK / OK`.
-- Original control colors remain correct.
-- Native `0-9 / A-Z / a-z` keyboard is intact.
-- NAME opens directly on A-Z.
-- Moving into NICKNAME also keeps/opens A-Z.
-- HIRA/KATA/A-Z cycling still works.
-- Keyboard navigation and cursor highlighting work.
-- v5 form/control graphics remain intact.
+Everything from v7 remains working:
 
-### v7 behavior patch
+- English enrollment form
+- `HIRA / KATA / A-Z / DEL / NEXT / BACK / OK`
+- native `0-9 / A-Z / a-z` keyboard
+- NAME defaults to A-Z
+- NICKNAME defaults to A-Z
+- page cycling and cursor behavior remain functional
 
-v7 builds on v6 and changes only the nickname-specific page seed:
+v8 additionally translates the five-school popup while preserving the crest icons and selection logic:
 
-- `MGENT + 0x1FA4`: `addiu v0, zero, 1` -> `addiu v0, zero, 2`
-- `MGENT + 0x1FA8`: existing `sb v0, 9(s0)` then stores page index 2
+- `TAIYO HIGH`
+- `GORIN HIGH`
+- `PACIFIC HIGH`
+- `GEDO HIGH`
+- `JUSTICE HIGH`
 
-Patch scope from v6 to v7:
-
-- `1` changed byte in `DAT1/MGENT.BIN`
-- `1` raw disc sector changed
-
-### Next target
-
-Translate the five-school selection popup shown immediately after nickname entry while preserving the crest icons and selection logic.
-
-Known school-choice descriptor table:
+School choice descriptor table:
 
 - `MGENT + 0x15F8`
 - 10 descriptors total
-- text descriptors are indexes `1, 3, 5, 7, 9`
-- 5 logical school choices
+- text descriptors: `1, 3, 5, 7, 9`
+- crest/icon descriptors remain untouched
 
-Do not promote a later build over v7 until it is live-tested.
+### Current polish target
+
+The opening three-line greeting currently renders all three lines in the native blue/lavender palette even though the intended localization design was:
+
+- `SCHOOL LIFE 2` — native blue/lavender (`0x0009`)
+- `WELCOME!` — normal white dialogue palette (`0x00ff`)
+- `HAVE A GREAT YEAR!` — normal white dialogue palette (`0x00ff`)
+
+Cause: an earlier size-neutral reflow converted the source body-palette control into a line-break control, and the later blue-title patch therefore left no white-palette switch for the body.
+
+The next candidate rebuild should restore the white body palette and add a separate line break after the blue title, then transplant only `DAT2/MGK04.BIZ` onto v8 and live-test the greeting plus following dialogue.
+
+After that polish, continue the enrollment subsystem: SEX, BIRTH DATE, BEST SUBJECT, FAVORITE WORD.
+
+Do not promote a later build over v8 until it is live-tested.
