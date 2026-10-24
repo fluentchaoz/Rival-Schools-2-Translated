@@ -1,0 +1,54 @@
+# ---------------------------------------------------------------------------
+# Rival Schools 2 Translated
+# Project source/scripts only. Do NOT commit copyrighted disc images/assets.
+# ---------------------------------------------------------------------------
+
+# External pinned reverse-engineering repository
+upstream/
+
+# Disc / ROM / converted images
+*.bin
+*.cue
+*.iso
+*.img
+*.chd
+*.pbp
+*.mdf
+*.mds
+
+# Emulator memory cards / saves / states
+*.mcr
+*.srm
+*.sav
+*.state
+*.sst
+*.st0
+*.st1
+*.st2
+*.st3
+*.st4
+*.st5
+*.st6
+*.st7
+*.st8
+*.st9
+
+# Generated build output
+target/
+**/target/
+work/
+**/work/
+previews/
+**/previews/
+
+# Common temporary output
+*.tmp
+*.bak
+*.log
+*.orig
+*.rej
+Thumbs.db
+.DS_Store
+
+# PowerShell editor backups
+*.ps1~
