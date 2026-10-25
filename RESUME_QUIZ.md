@@ -1,10 +1,26 @@
 # Resume from the English quiz
 
-**Prerequisite:** the SHA-verified v16 image must already exist. The latest
-Downloads scan found the original Japanese disc but no v16 image. If that is
-still the case, use the isolated recovery kit in
-`recovery/RECOVERY_README.txt` first. The original image cannot substitute for
-v16, and downloading the v17h script alone does not rebuild its predecessors.
+## Continue the completed recovery
+
+The 2026-10-25 Windows run restored the exact v16 image; all 22 stage hashes
+matched. In the same extracted `JG2-Recovery-Kit-v1` folder, run:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\rebuild_quiz_from_original.ps1 -Resume
+```
+
+Omit `-StopAtV16`. The runner verifies its saved state, current source, and
+v16 output, skips the completed stages, and builds v17h in a fresh output
+directory. It prints `V17H CANDIDATE` followed by the exact CUE path.
+
+Keep the existing kit and recovery folder. A replacement kit with a different
+plan hash will be rejected on resume. The archived v1 kit's README predates the
+successful Windows run; current validation is in `recovery/VALIDATION.md`.
+
+## Direct builder for a separately prepared project
+
+The direct builder requires the exact v16 and original Japanese BINs. For a
+moved project, pass their full paths with `-MasterBin` and `-SourceBin`.
 
 Put `build_quiz_fixed_ui_english_v17h.ps1` in the existing project root beside
 `upstream/`. Open PowerShell there and run:
@@ -23,7 +39,10 @@ candidate or put output on another drive, specify a fresh `-WorkRoot` folder.
 `CARGO_TARGET_DIR` can place compiler output on another drive. No input-hash
 bypass is provided.
 
-## Test this output
+## Test the candidate
+
+Use the exact CUE path printed by the recovery runner. Its work-directory name
+includes a unique suffix. The standalone builder's default path is:
 
 ```text
 upstream\work\english-quiz-fixed-ui-v17h\build\justice-gakuen2-quiz-fixed-ui-v17h.cue
@@ -45,6 +64,9 @@ a fresh `-WorkRoot` so previous results are never silently deleted.
 
 ## Validation
 
+- The full recovery chain through v16 passed on Windows on 2026-10-25:
+  22 outputs matched their saved hashes. This does not execute or certify v17h.
+
 - Recovered v17g Rust test compiled against pinned upstream
   `98ca12ddf082d6e2367b2963f76edf5a09242deb` using Rust 1.98.0.
 - v17h asset validation passed against the hash-bound original MGBGK04 archive.
@@ -61,9 +83,10 @@ a fresh `-WorkRoot` so previous results are never silently deleted.
   in a temporary QA copy, not the unavailable translated v16 disc. The
   production script's required v16 hash was not changed.
 
-These checks do not replace testing the actual translated v16 master or the
-native game's rendering. Windows PowerShell 5.1 and in-game testing remain
-pending. The production builder always enforces the original and v16 hashes.
+The v17h candidate still requires a build from the restored translated v16
+master and native in-game testing. Its Windows execution remains pending;
+the predecessor recovery chain has now passed. The production builder always
+enforces the original and v16 hashes.
 
 Run the wrapper regressions without game data:
 

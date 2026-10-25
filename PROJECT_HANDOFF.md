@@ -2,24 +2,25 @@
 
 This file is the continuity document for future ChatGPT sessions working on this project.
 
-## Recovery update — 2026-10-25
+## Recovery completed — 2026-10-25
 
-The newly recovered v8 CUE only names its companion BIN. No translated BIN was
-attached in this session. A CUE can be regenerated after a BIN is verified; it
-cannot recover the game or translation itself.
+The full Windows recovery run completed all 22 stages and restored v16 with
+SHA-256 `67ad4b9d628d0141493a42b456dfd8ce7631d3e9fdd7b2d387ceb84362127a51`.
+Every reported stage hash matches the recovery plan. The original missing-image
+blocker is resolved. The v8 CUE alone was insufficient; the recovered builders,
+workspace and quiz packets rebuilt the translated disc from the original.
 
-The default v16 image is absent. A Downloads scan found the original Japanese
-BIN (`0fce6eda...`), with no matching v16 image. Do not assume the translated
-master still exists locally. Other drives have not been ruled out.
+Current project: `C:\Users\Fluent\JG2-Recovery-v1\project`.
+The extracted kit is `C:\Users\Fluent\Downloads\JG2-Recovery-Kit-v1`.
 
-A private recovery kit combines the saved bootstrap workspace and quiz JSON
-with `recovery/rebuild_quiz_from_original.ps1`. It reconstructs 22 historical
-layers in a fresh owned directory, preserves predecessor hashes, checkpoints
-source for resume, and runs the v17h candidate only after exact v16 recovery.
-The package generator supplies the missing mode/title module injections,
-including the title v2 placement fix and v3 PLAY/LOAD fix, before repair-only
-scripts run. It never runs the old reset/clean bootstrap scripts in the user's
-existing project. See `recovery/RECOVERY_README.txt` for usage and limits.
+Next: run the same kit's `rebuild_quiz_from_original.ps1 -Resume`, omitting
+`-StopAtV16`. It verifies the saved state and v16 before running v17h.
+Do not replace the kit or edit its plan/scripts before resuming: the runner
+checks their identities against its saved state. See `RESUME_QUIZ.md`.
+
+The source checkpoints, predecessor builds, and original input are retained.
+v17h remains a separate candidate awaiting its actual build and in-game checks.
+The validation record is in `recovery/VALIDATION.md`.
 
 Source-bound workspace ZIP/JSON stays outside public Git. No original game
 disc, font, rebuilt image, or extracted workspace is included in this repository.
@@ -71,11 +72,11 @@ When something fails, diagnose the **first actual error** and provide a correcte
 
 Project root:
 
-`C:\Users\Fluent\Downloads\Justice_Gakuen_English_Project_Phase1_with_bootstrap`
+`C:\Users\Fluent\JG2-Recovery-v1\project`
 
 Pinned upstream checkout:
 
-`C:\Users\Fluent\Downloads\Justice_Gakuen_English_Project_Phase1_with_bootstrap\upstream`
+`C:\Users\Fluent\JG2-Recovery-v1\project\upstream`
 
 Source ROM folder:
 

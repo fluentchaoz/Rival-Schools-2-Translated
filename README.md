@@ -10,13 +10,15 @@ the v16 quiz build; its exact input hash is enforced by the next builder.
 See [CURRENT_MILESTONE.md](CURRENT_MILESTONE.md) for the distinction between
 repository-recorded live milestones, recovered work, and untested candidates.
 
+**Recovery completed on 2026-10-25.** The Windows rebuild passed all 22 recorded
+output hashes and restored the exact v16 image. See
+[recovery/VALIDATION.md](recovery/VALIDATION.md) for the transcript verification.
+
 **Next candidate: quiz fixed UI v17h** — `QUESTION`, `CORRECT!`, `WRONG!`, and
-`EXAM OVER`. The user's latest scan did not find the required v16 BIN under
-Downloads. If v16 is available elsewhere, use [RESUME_QUIZ.md](RESUME_QUIZ.md).
-Otherwise use the separate recovery kit described in
-[recovery/RECOVERY_README.txt](recovery/RECOVERY_README.txt). It rebuilds the
-earlier layers from the verified original in a new folder; Windows validation
-of that full recovery chain is still pending.
+`EXAM OVER`. Resume the existing recovery kit as described in
+[RESUME_QUIZ.md](RESUME_QUIZ.md). The completed stages are retained; the next
+build creates a separate graphics candidate. That candidate still requires
+an actual v16-based build and in-game validation.
 
 ### Confirmed English work so far
 
