@@ -56,3 +56,8 @@ Thumbs.db
 # Local source-bound translation packets include extracted Japanese game text.
 /mgk04-selector6-english-v1.json
 /mgk10-bank6-english-v1.json
+
+# Recovery bundles contain private, source-bound workspace inputs.
+JG2-Recovery-Kit*/
+JG2-Recovery-Kit*.zip
+__pycache__/

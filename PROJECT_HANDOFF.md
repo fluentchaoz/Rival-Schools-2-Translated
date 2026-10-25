@@ -2,6 +2,28 @@
 
 This file is the continuity document for future ChatGPT sessions working on this project.
 
+## Recovery update — 2026-10-25
+
+The newly recovered v8 CUE only names its companion BIN. No translated BIN was
+attached in this session. A CUE can be regenerated after a BIN is verified; it
+cannot recover the game or translation itself.
+
+The default v16 image is absent. A Downloads scan found the original Japanese
+BIN (`0fce6eda...`), with no matching v16 image. Do not assume the translated
+master still exists locally. Other drives have not been ruled out.
+
+A private recovery kit combines the saved bootstrap workspace and quiz JSON
+with `recovery/rebuild_quiz_from_original.ps1`. It reconstructs 22 historical
+layers in a fresh owned directory, preserves predecessor hashes, checkpoints
+source for resume, and runs the v17h candidate only after exact v16 recovery.
+The package generator supplies the missing mode/title module injections,
+including the title v2 placement fix and v3 PLAY/LOAD fix, before repair-only
+scripts run. It never runs the old reset/clean bootstrap scripts in the user's
+existing project. See `recovery/RECOVERY_README.txt` for usage and limits.
+
+Source-bound workspace ZIP/JSON stays outside public Git. No original game
+disc, font, rebuilt image, or extracted workspace is included in this repository.
+
 ## Resume update — 2026-10-24
 
 Read `CURRENT_MILESTONE.md` and `RESUME_QUIZ.md` before selecting an input build.

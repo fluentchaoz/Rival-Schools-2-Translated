@@ -1,5 +1,11 @@
 # Resume from the English quiz
 
+**Prerequisite:** the SHA-verified v16 image must already exist. The latest
+Downloads scan found the original Japanese disc but no v16 image. If that is
+still the case, use the isolated recovery kit in
+`recovery/RECOVERY_README.txt` first. The original image cannot substitute for
+v16, and downloading the v17h script alone does not rebuild its predecessors.
+
 Put `build_quiz_fixed_ui_english_v17h.ps1` in the existing project root beside
 `upstream/`. Open PowerShell there and run:
 

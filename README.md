@@ -11,9 +11,12 @@ See [CURRENT_MILESTONE.md](CURRENT_MILESTONE.md) for the distinction between
 repository-recorded live milestones, recovered work, and untested candidates.
 
 **Next candidate: quiz fixed UI v17h** — `QUESTION`, `CORRECT!`, `WRONG!`, and
-`EXAM OVER`. Read [RESUME_QUIZ.md](RESUME_QUIZ.md) for the one-command build and
-the required in-game check. It uses your existing v16 BIN and original source
-BIN, so there is no need to unpack the full translation workspace again.
+`EXAM OVER`. The user's latest scan did not find the required v16 BIN under
+Downloads. If v16 is available elsewhere, use [RESUME_QUIZ.md](RESUME_QUIZ.md).
+Otherwise use the separate recovery kit described in
+[recovery/RECOVERY_README.txt](recovery/RECOVERY_README.txt). It rebuilds the
+earlier layers from the verified original in a new folder; Windows validation
+of that full recovery chain is still pending.
 
 ### Confirmed English work so far
 
