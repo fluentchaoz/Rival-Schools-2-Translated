@@ -5,11 +5,15 @@ release of **Shiritsu Justice Gakuen - Nekketsu Seishun Nikki 2** (`SLPS-02120`)
 
 ## Status
 
-Current live-tested working milestone: **Name-entry UI v5**
+Work has progressed through the **English quiz**. The active resume target is
+the v16 quiz build; its exact input hash is enforced by the next builder.
+See [CURRENT_MILESTONE.md](CURRENT_MILESTONE.md) for the distinction between
+repository-recorded live milestones, recovered work, and untested candidates.
 
-Known-good rebuilt-disc SHA-256:
-
-`2fe51561d025cc2ffdface62d1a7e7222a40937bb3b5a97ebc019f8338d43977`
+**Next candidate: quiz fixed UI v17h** — `QUESTION`, `CORRECT!`, `WRONG!`, and
+`EXAM OVER`. Read [RESUME_QUIZ.md](RESUME_QUIZ.md) for the one-command build and
+the required in-game check. It uses your existing v16 BIN and original source
+BIN, so there is no need to unpack the full translation workspace again.
 
 ### Confirmed English work so far
 
@@ -25,6 +29,18 @@ Known-good rebuilt-disc SHA-256:
 - Enrollment/application form
 - Name-entry controls (`HIRA / KATA / A-Z / DEL / NEXT / BACK / OK`)
 - Native `0-9 / A-Z / a-z` keyboard preserved and verified in-game
+
+### Recovered later work
+
+Twelve builders missing from the previous repository snapshot have been
+recovered, covering v6–v17g: name/nickname A-Z defaults, school choices,
+greeting palettes, sex/subject/favorite-word choices, enrollment completion,
+face customization, and the MGK10/MGK04 quiz layers. Recovery preserves the
+historical scripts; it does not certify every intermediate candidate.
+
+`recovery_manifest.json` records their content hashes. The v15b/v16 translation
+packets remain local because they also contain extracted Japanese text.
+They are not needed to run v17h on an existing v16 master.
 
 ## Development philosophy
 

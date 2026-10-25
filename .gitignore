@@ -52,3 +52,7 @@ Thumbs.db
 
 # PowerShell editor backups
 *.ps1~
+
+# Local source-bound translation packets include extracted Japanese game text.
+/mgk04-selector6-english-v1.json
+/mgk10-bank6-english-v1.json

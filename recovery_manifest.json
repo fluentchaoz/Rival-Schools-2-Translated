@@ -1,0 +1,54 @@
+{
+  "recovered_on": "2026-10-24",
+  "note": "LF-normalized UTF-8 content hashes (BOM retained); Git checkout line endings may vary. Recovery is not live-test certification. Source-bound translation packets remain local.",
+  "scripts": [
+    {
+      "path": "build_enrollment_completion_sweep_v13.ps1",
+      "lf_sha256": "e6203eafb963e9c4a2d2c51d305ae35db3d1b777ec96025f6ce373376f8850e0"
+    },
+    {
+      "path": "build_face_customization_sweep_v14.ps1",
+      "lf_sha256": "8be5184c163a442cb451313c0ab3dbf5aafdd9d64907ea913ab70da438c4b67d"
+    },
+    {
+      "path": "build_live_mgk04_quiz_english_v16.ps1",
+      "lf_sha256": "0ab0309da4953f84ad9cf65c434ea222d3a64c7a1312904be91d0253cc94aa02"
+    },
+    {
+      "path": "build_mgk04_welcome_hybrid_palette_v9b.ps1",
+      "lf_sha256": "38964719ecaf127d71ce296528ae0121f33fcd2c63baf9994639304f5d3c7a1c"
+    },
+    {
+      "path": "build_mgk10_quiz_english_v15b.ps1",
+      "lf_sha256": "416fffc9e16b0706e09ebd11993243a01626259c416098db2ec8b1996b984031"
+    },
+    {
+      "path": "build_name_entry_best_subject_english_v11.ps1",
+      "lf_sha256": "e8b3abe94b232379361e0772dea65b5e22e0ca62110ea44027adaadadcc8b2a6"
+    },
+    {
+      "path": "build_name_entry_default_az_v6.ps1",
+      "lf_sha256": "9026bc056251d8c1b246cec1b64be8e8e599536dc8d1eff40cdbb535f1bd8a42"
+    },
+    {
+      "path": "build_name_entry_favorite_words_english_v12.ps1",
+      "lf_sha256": "67555068810202142553153599e24373ce11da86c65338c1c0a280b51c68fe45"
+    },
+    {
+      "path": "build_name_entry_nickname_default_az_v7.ps1",
+      "lf_sha256": "45a681e3cd15db31c6d642faa72058ee9e82c3a19e9c651bc9cc6a115ee00d3a"
+    },
+    {
+      "path": "build_name_entry_school_choices_english_v8.ps1",
+      "lf_sha256": "eadb7c57100e5f39079411a56cc07a25311fe0c1aaa2951bc89334e10906d261"
+    },
+    {
+      "path": "build_name_entry_sex_choices_english_v10.ps1",
+      "lf_sha256": "691621e66fa15262722dd95ab185c9042d21bd3574d32d3253781a75eb047ea1"
+    },
+    {
+      "path": "build_quiz_fixed_ui_english_v17g.ps1",
+      "lf_sha256": "a286d78dc95afc44d3132a9f3a758bc87888506f90cef9b5de9980436f72e0f5"
+    }
+  ]
+}

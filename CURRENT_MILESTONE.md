@@ -1,53 +1,72 @@
-# Current Known-Good Milestone
+# Translation state — 2026-10-24
 
-## School-choice UI v8 — live tested
+## Active resume target: English quiz v16
 
-Live-tested rebuilt-disc SHA-256:
+The user confirmed successfully reaching the English quiz. Saved builders
+identify the next input as the v16 live MGK04 quiz build. This establishes the
+resume target, while the local file must still pass the exact hash check.
+
+Required v16 BIN SHA-256:
+
+`67ad4b9d628d0141493a42b456dfd8ce7631d3e9fdd7b2d387ceb84362127a51`
+
+Default local BIN:
+
+`upstream\work\english-live-mgk04-quiz-v16\build\justice-gakuen2-live-mgk04-quiz-v16.bin`
+
+The recovered v16 builder translates MGK04 selector 6: 20 questions and 80
+answers. It builds from v15b, preserving the preceding enrollment and face
+customization layers. This is one quiz bank, not proof of complete game coverage.
+
+## Next candidate: quiz fixed UI v17h
+
+Builder: `build_quiz_fixed_ui_english_v17h.ps1`
+
+Scope: four graphic areas in `DAT2/MGBGK04.BZZ`, member 2, TIM at `0xE000`:
+
+- QUESTION
+- CORRECT!
+- WRONG!
+- EXAM OVER
+
+The patch starts from v16's current archive, preserves other members including
+School Gate, and verifies compression, record readback, disc length, and sector
+scope. Its wrapper checks free space and output collisions before any writes,
+retains an exact source backup, and restores source bytes after the build.
+
+Status: candidate only. Follow `RESUME_QUIZ.md`; do not promote until the actual
+v16 build and in-game checks pass.
+
+## Recovered work after the previous repository snapshot
+
+| Version | Purpose | Evidence / limitation |
+| --- | --- | --- |
+| v6–v7 | NAME and NICKNAME default to A-Z | v7 was promoted in repository history |
+| v8 | Five school choices in English | Promoted and recorded as live-tested |
+| v9b | Blue greeting title, white body | Recovered builder; final live status not established here |
+| v10–v12 | Sex, best subject, favorite words | Recovered builders and later input-hash chain |
+| v13–v14 | Enrollment completion, face customization | Recovered builders and later input-hash chain |
+| v15b | MGK10 quiz translation | Predecessor required by v16 builder |
+| v16 | Live MGK04 quiz translation | User reports English quiz playable; next builder checks exact BIN hash |
+| v17g | Fixed quiz graphics | Recovered candidate, not promoted |
+| v17h | Fixed quiz graphics with safer build wrapper | New candidate; validation described in `RESUME_QUIZ.md` |
+
+## Last milestone explicitly promoted in the old repository: v8
+
+School-choice UI v8 live-tested BIN SHA-256:
 
 `07b4dda156ab0eac7f149f66f7bcb9727a8e74fad4faa2d19d77cee362504d84`
 
-Local working CUE (not tracked by Git):
+Local CUE:
 
 `upstream\work\english-name-entry-school-choices-v8\build\justice-gakuen2-name-entry-school-choices-v8.cue`
 
-### Confirmed behavior
+Confirmed behavior included English enrollment/name-entry controls, native
+alphanumeric keyboard, NAME/NICKNAME A-Z defaults, and TAIYO/GORIN/PACIFIC/GEDO/
+JUSTICE HIGH choices with crest icons and selection logic preserved.
 
-Everything from v7 remains working:
+School descriptors are at `MGENT + 0x15F8`: ten entries, with text in indices
+`1, 3, 5, 7, 9`. The crest descriptors remain untouched.
 
-- English enrollment form
-- `HIRA / KATA / A-Z / DEL / NEXT / BACK / OK`
-- native `0-9 / A-Z / a-z` keyboard
-- NAME defaults to A-Z
-- NICKNAME defaults to A-Z
-- page cycling and cursor behavior remain functional
-
-v8 additionally translates the five-school popup while preserving the crest icons and selection logic:
-
-- `TAIYO HIGH`
-- `GORIN HIGH`
-- `PACIFIC HIGH`
-- `GEDO HIGH`
-- `JUSTICE HIGH`
-
-School choice descriptor table:
-
-- `MGENT + 0x15F8`
-- 10 descriptors total
-- text descriptors: `1, 3, 5, 7, 9`
-- crest/icon descriptors remain untouched
-
-### Current polish target
-
-The opening three-line greeting currently renders all three lines in the native blue/lavender palette even though the intended localization design was:
-
-- `SCHOOL LIFE 2` — native blue/lavender (`0x0009`)
-- `WELCOME!` — normal white dialogue palette (`0x00ff`)
-- `HAVE A GREAT YEAR!` — normal white dialogue palette (`0x00ff`)
-
-Cause: an earlier size-neutral reflow converted the source body-palette control into a line-break control, and the later blue-title patch therefore left no white-palette switch for the body.
-
-The next candidate rebuild should restore the white body palette and add a separate line break after the blue title, then transplant only `DAT2/MGK04.BIZ` onto v8 and live-test the greeting plus following dialogue.
-
-After that polish, continue the enrollment subsystem: SEX, BIRTH DATE, BEST SUBJECT, FAVORITE WORD.
-
-Do not promote a later build over v8 until it is live-tested.
+The former greeting-color task is historical. Do not rebuild from v8 as a
+substitute for resuming the later quiz build.

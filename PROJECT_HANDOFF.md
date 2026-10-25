@@ -2,6 +2,21 @@
 
 This file is the continuity document for future ChatGPT sessions working on this project.
 
+## Resume update — 2026-10-24
+
+Read `CURRENT_MILESTONE.md` and `RESUME_QUIZ.md` before selecting an input build.
+The user reports successfully reaching the English quiz. The active target is
+v16, with a required input SHA enforced by `build_quiz_fixed_ui_english_v17h.ps1`.
+The v5/v6 status sections and nickname task below are historical notes, not the
+current starting point. Twelve later build scripts have been recovered into
+this repository. The v17h candidate still requires a test on the actual v16
+master and in-game validation before promotion.
+
+Do not run the older v9 greeting rebuild over the later quiz work. A saved
+attempt exhausted disk space during full workspace extraction. The v17h quiz
+builder checks space first and patches only the relevant graphics member;
+it does not extract the full translation workspace.
+
 ## Project
 
 English fan translation / reverse-engineering of:
@@ -90,7 +105,7 @@ Do **not** commit:
 
 The repository is currently public, so err on the side of not committing extracted game text/assets unless they are clearly safe to redistribute.
 
-## Known-good milestone
+## Historical milestone
 
 ### v5 — live-tested master before behavior patch
 
@@ -117,7 +132,7 @@ Confirmed working layers include:
 - English name-entry controls: `HIRA / KATA / A-Z / DEL / NEXT / BACK / OK`
 - native `0-9 / A-Z / a-z` keyboard preserved and verified in-game
 
-## Current candidate
+## Historical candidate
 
 ### v6 — default A-Z on first name-entry open
 
@@ -285,6 +300,6 @@ Then verify the newest live-tested master before making a new patch.
 
 Do not assume the newest generated build is promoted merely because it compiled.
 
-At the time this handoff was written, the immediate task is:
-
-> Build the next name-entry behavior patch from v6 so NICKNAME also defaults to A-Z by changing the nickname-specific initial page seed from `1` to `2`, then live-test it.
+The original handoff's v6 nickname task is superseded by the recovered v7
+builder. The current task is to build and test the v17h quiz graphics candidate
+from the SHA-verified v16 master, as described in `RESUME_QUIZ.md`.
