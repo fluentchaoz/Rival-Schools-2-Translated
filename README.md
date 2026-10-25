@@ -14,11 +14,11 @@ repository-recorded live milestones, recovered work, and untested candidates.
 output hashes and restored the exact v16 image. See
 [recovery/VALIDATION.md](recovery/VALIDATION.md) for the transcript verification.
 
-**Next candidate: quiz fixed UI v17h** — `QUESTION`, `CORRECT!`, `WRONG!`, and
-`EXAM OVER`. Resume the existing recovery kit as described in
-[RESUME_QUIZ.md](RESUME_QUIZ.md). The completed stages are retained; the next
-build creates a separate graphics candidate. That candidate still requires
-an actual v16-based build and in-game validation.
+**v17h candidate built on Windows.** The actual restored v16 image produced a
+verified candidate translating `QUESTION`, `CORRECT!`, `WRONG!`, and `EXAM OVER`.
+Its SHA-256 is `2ff4d83cca04a22a217883ac9c29b3e2fa9c5c4796d9661db3f95d9acd92149a`.
+The next step is the in-game checklist in [RESUME_QUIZ.md](RESUME_QUIZ.md).
+Keep v16 as the working master until the candidate passes those checks.
 
 ### Confirmed English work so far
 

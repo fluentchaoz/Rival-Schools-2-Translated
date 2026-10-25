@@ -1,21 +1,25 @@
 # Resume from the English quiz
 
-## Continue the completed recovery
+## Test the built v17h candidate
 
-The 2026-10-25 Windows run restored the exact v16 image; all 22 stage hashes
-matched. In the same extracted `JG2-Recovery-Kit-v1` folder, run:
+Both the 22-stage recovery and the subsequent v17h Windows build passed on
+2026-10-25. The actual candidate BIN SHA-256 is:
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\rebuild_quiz_from_original.ps1 -Resume
+`2ff4d83cca04a22a217883ac9c29b3e2fa9c5c4796d9661db3f95d9acd92149a`
+
+Open this CUE in DuckStation:
+
+```text
+C:\Users\Fluent\JG2-Recovery-v1\project\upstream\work\english-quiz-fixed-ui-v17h-e380163248384b70a99130d1193c7368\build\justice-gakuen2-quiz-fixed-ui-v17h.cue
 ```
 
-Omit `-StopAtV16`. The runner verifies its saved state, current source, and
-v16 output, skips the completed stages, and builds v17h in a fresh output
-directory. It prints `V17H CANDIDATE` followed by the exact CUE path.
+Start the candidate from the disc for this test; an old emulator save state
+can restore previously loaded game data. Follow the checklist below and
+retain the restored v16 until the in-game checks pass.
 
-Keep the existing kit and recovery folder. A replacement kit with a different
-plan hash will be rejected on resume. The archived v1 kit's README predates the
-successful Windows run; current validation is in `recovery/VALIDATION.md`.
+The same unchanged recovery kit's `-Resume` command verifies and reports an
+already-completed v17h candidate. No rebuild of the 22 predecessor stages is
+needed. Keep the kit and its plan intact so its saved state remains valid.
 
 ## Direct builder for a separately prepared project
 
@@ -65,7 +69,11 @@ a fresh `-WorkRoot` so previous results are never silently deleted.
 ## Validation
 
 - The full recovery chain through v16 passed on Windows on 2026-10-25:
-  22 outputs matched their saved hashes. This does not execute or certify v17h.
+  22 outputs matched their saved hashes.
+- The subsequent actual v16-based v17h Windows build also passed: 1 build test
+  passed, final output verification completed, and 26 raw sectors changed.
+  The candidate hash above was reported by both the builder and final check.
+  This establishes a built candidate, not successful native rendering.
 
 - Recovered v17g Rust test compiled against pinned upstream
   `98ca12ddf082d6e2367b2963f76edf5a09242deb` using Rust 1.98.0.
@@ -83,9 +91,8 @@ a fresh `-WorkRoot` so previous results are never silently deleted.
   in a temporary QA copy, not the unavailable translated v16 disc. The
   production script's required v16 hash was not changed.
 
-The v17h candidate still requires a build from the restored translated v16
-master and native in-game testing. Its Windows execution remains pending;
-the predecessor recovery chain has now passed. The production builder always
+The v17h Windows build from restored v16 has now passed. Native in-game
+rendering and progression remain unverified. The production builder always
 enforces the original and v16 hashes.
 
 Run the wrapper regressions without game data:

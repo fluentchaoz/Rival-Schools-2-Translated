@@ -13,13 +13,17 @@ workspace and quiz packets rebuilt the translated disc from the original.
 Current project: `C:\Users\Fluent\JG2-Recovery-v1\project`.
 The extracted kit is `C:\Users\Fluent\Downloads\JG2-Recovery-Kit-v1`.
 
-Next: run the same kit's `rebuild_quiz_from_original.ps1 -Resume`, omitting
-`-StopAtV16`. It verifies the saved state and v16 before running v17h.
-Do not replace the kit or edit its plan/scripts before resuming: the runner
-checks their identities against its saved state. See `RESUME_QUIZ.md`.
+The subsequent Windows `-Resume` run successfully built v17h from this exact v16.
+Candidate BIN SHA-256: `2ff4d83cca04a22a217883ac9c29b3e2fa9c5c4796d9661db3f95d9acd92149a`.
+The patch changed 26 raw sectors and its build test passed. The complete CUE
+path and in-game checklist are in `RESUME_QUIZ.md`.
+
+Next: test that candidate in DuckStation. Keep the kit, its plan/scripts, and
+v16 unchanged; the recovery runner checks their saved identities on resume.
 
 The source checkpoints, predecessor builds, and original input are retained.
-v17h remains a separate candidate awaiting its actual build and in-game checks.
+v17h remains a separate candidate awaiting in-game checks; its Windows build
+from the restored v16 has passed.
 The validation record is in `recovery/VALIDATION.md`.
 
 Source-bound workspace ZIP/JSON stays outside public Git. No original game
@@ -324,5 +328,5 @@ Then verify the newest live-tested master before making a new patch.
 Do not assume the newest generated build is promoted merely because it compiled.
 
 The original handoff's v6 nickname task is superseded by the recovered v7
-builder. The current task is to build and test the v17h quiz graphics candidate
-from the SHA-verified v16 master, as described in `RESUME_QUIZ.md`.
+builder. The current task is to test the built v17h quiz graphics candidate
+in-game, as described in `RESUME_QUIZ.md`.

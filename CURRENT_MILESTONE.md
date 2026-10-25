@@ -17,18 +17,14 @@ Current recovered CUE:
 
 This reproduces the historical v16 image, including MGK04 selector 6's 20
 questions and 80 answers, the preceding MGK10 quiz work, and earlier layers.
-No v17h output or new in-game result was supplied in this transcript.
+The original recovery transcript stopped at v16; a subsequent resume transcript
+establishes the v17h candidate below. No new in-game result has been supplied.
 
-From the same extracted recovery kit, run:
-
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\rebuild_quiz_from_original.ps1 -Resume
-```
-
-Omit `-StopAtV16` to continue to the candidate. Keep this kit and its
+The same recovery kit has now built v17h successfully from this v16 image.
+The next action is the in-game candidate check below. Keep the kit and its
 `recovery-plan.json` unchanged: resume binds to their saved identities.
 
-## Next candidate: quiz fixed UI v17h
+## Built candidate: quiz fixed UI v17h — awaiting in-game validation
 
 Builder: `build_quiz_fixed_ui_english_v17h.ps1`
 
@@ -44,8 +40,24 @@ School Gate, and verifies compression, record readback, disc length, and sector
 scope. Its wrapper checks free space and output collisions before any writes,
 retains an exact source backup, and restores source bytes after the build.
 
-Status: candidate only. Follow `RESUME_QUIZ.md`; do not promote until the
-v16-based v17h build and in-game checks pass.
+The user's Windows resume run completed the v16-based v17h build on 2026-10-25.
+Its build test passed (1 passed, 0 failed), and final-output verification completed.
+
+Candidate BIN SHA-256:
+
+`2ff4d83cca04a22a217883ac9c29b3e2fa9c5c4796d9661db3f95d9acd92149a`
+
+Current candidate CUE:
+
+`C:\Users\Fluent\JG2-Recovery-v1\project\upstream\work\english-quiz-fixed-ui-v17h-e380163248384b70a99130d1193c7368\build\justice-gakuen2-quiz-fixed-ui-v17h.cue`
+
+Observed scope: 26 raw sectors changed; member 2 compressed to 86,044 of 86,620
+bytes (576 bytes spare). The restored v16 is retained. See
+`recovery/VALIDATION.md` for the record.
+
+Status: candidate only. Open this CUE and test QUESTION, correct/wrong answers,
+EXAM OVER, normal quiz progression, and School Gate. Follow `RESUME_QUIZ.md`;
+do not promote until those in-game checks pass.
 
 ## Recovered work after the previous repository snapshot
 
@@ -59,7 +71,7 @@ v16-based v17h build and in-game checks pass.
 | v15b | MGK10 quiz translation | Predecessor required by v16 builder |
 | v16 | Live MGK04 quiz translation | Exact historical image restored on Windows; all 22 predecessor/output hashes passed |
 | v17g | Fixed quiz graphics | Recovered candidate, not promoted |
-| v17h | Fixed quiz graphics with safer build wrapper | New candidate; validation described in `RESUME_QUIZ.md` |
+| v17h | Fixed quiz graphics with safer build wrapper | Windows build from exact v16 passed; in-game checks pending |
 
 ## Last milestone explicitly promoted in the old repository: v8
 

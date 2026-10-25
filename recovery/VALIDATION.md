@@ -28,8 +28,9 @@ Observed build environment:
 - Compiler warnings and PowerShell stderr wrapper entries did not stop the run.
 
 The original recovery kit and plan must remain unchanged when using `-Resume`.
-The next step builds the separate v17h candidate and requires in-game checks
-before promotion. See [RESUME_QUIZ.md](../RESUME_QUIZ.md).
+A subsequent resume run built the separate v17h candidate, recorded below.
+In-game checks are required before promotion. See
+[RESUME_QUIZ.md](../RESUME_QUIZ.md).
 
 ## Verified stage outputs
 
@@ -57,3 +58,30 @@ before promotion. See [RESUME_QUIZ.md](../RESUME_QUIZ.md).
 | 20 | `build_face_customization_sweep_v14.ps1` | `e88b4bdc6faf4aaebb35709efbe5324bb875a2272ec9a3d40b8285ac25041d67` |
 | 21 | `build_mgk10_quiz_english_v15b.ps1` | `4c43c6a02e15bd5d470a649ab17b9ff4905c0c8b63ad77e91ea57afcb38e42c5` |
 | 22 | `build_live_mgk04_quiz_english_v16.ps1` | `67ad4b9d628d0141493a42b456dfd8ce7631d3e9fdd7b2d387ceb84362127a51` |
+
+## Actual v17h Windows candidate — 2026-10-25
+
+The subsequent user-supplied resume output reports a successful build from the
+exact restored v16 image. The build test passed (1 passed, 0 failed) and the
+wrapper completed final-output verification, ending with `V17H CANDIDATE`.
+
+- Output BIN SHA-256: `2ff4d83cca04a22a217883ac9c29b3e2fa9c5c4796d9661db3f95d9acd92149a`.
+- Patched MGBGK04 SHA-256: `f418235d0a1d714ae1d63e88d254ffe42d034db9e3eb54e64892f261b92c5277`.
+- Changed raw sectors: 26.
+- Changed indexed pixels: 35,761.
+- Member 2 compressed size: 86,044 / 86,620 bytes; 576 bytes spare.
+- Current CUE: `C:\Users\Fluent\JG2-Recovery-v1\project\upstream\work\english-quiz-fixed-ui-v17h-e380163248384b70a99130d1193c7368\build\justice-gakuen2-quiz-fixed-ui-v17h.cue`.
+
+Reported palette indices:
+
+| Graphic | Clear | Fill | Outline |
+| --- | --- | --- | --- |
+| CORRECT! | 0 | 1 | None reported |
+| WRONG! | 0 | 2 | None reported |
+| QUESTION | 0 | 14 | 11 |
+| EXAM OVER | 0 | 1 | 15 |
+
+This evidence comes from the supplied Windows output, not direct access to the
+user's filesystem. The candidate is not yet promoted: QUESTION, correct/wrong
+answer feedback, EXAM OVER, ordinary quiz progression, and School Gate still
+need in-game checks. The v16 working master remains retained.
