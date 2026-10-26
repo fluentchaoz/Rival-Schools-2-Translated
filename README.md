@@ -5,8 +5,9 @@ release of **Shiritsu Justice Gakuen - Nekketsu Seishun Nikki 2** (`SLPS-02120`)
 
 ## Status
 
-Work has progressed through the **English quiz**. The active resume target is
-the v16 quiz build; its exact input hash is enforced by the next builder.
+Work has progressed through the **English quiz to the post-quiz stat results**.
+The next investigation starts from the working v17h image; the probe enforces
+its exact input hash.
 See [CURRENT_MILESTONE.md](CURRENT_MILESTONE.md) for the distinction between
 repository-recorded live milestones, recovered work, and untested candidates.
 
@@ -17,8 +18,14 @@ output hashes and restored the exact v16 image. See
 **v17h candidate built on Windows.** The actual restored v16 image produced a
 verified candidate translating `QUESTION`, `CORRECT!`, `WRONG!`, and `EXAM OVER`.
 Its SHA-256 is `2ff4d83cca04a22a217883ac9c29b3e2fa9c5c4796d9661db3f95d9acd92149a`.
-The next step is the in-game checklist in [RESUME_QUIZ.md](RESUME_QUIZ.md).
-Keep v16 as the working master until the candidate passes those checks.
+The user subsequently reported successful play to the first remaining Japanese:
+the stat-change message after the quiz. The screenshot shows the English date
+and stat HUD. Individual quiz branches have not been separately enumerated.
+
+**Next: stat increase/decrease messages.** Use the read-only export described in
+[STAT_RESULTS_V18.md](STAT_RESULTS_V18.md). Retain v16 as a recovery fallback and
+keep the existing recovery kit unchanged. [RESUME_QUIZ.md](RESUME_QUIZ.md) retains
+the quiz regression checklist.
 
 ### Confirmed English work so far
 

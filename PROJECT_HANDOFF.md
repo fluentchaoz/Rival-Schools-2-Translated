@@ -2,6 +2,19 @@
 
 This file is the continuity document for future ChatGPT sessions working on this project.
 
+## Live continuation — 2026-10-25
+
+The user reported v17h working through the quiz and supplied a screenshot of the
+first remaining Japanese: the post-quiz intelligence-decrease message. The date
+and stat HUD are English. Continue from v17h, retain v16, and address the paired
+stat-result messages next. This report does not enumerate every quiz branch.
+
+`probe_stat_results_v18.ps1` is a standalone read-only export, with seven passing
+synthetic tests. It reads four records from each verified original/v17h image
+and writes a private ZIP for the user to attach in the conversation. It does
+not edit or rebuild anything in the recovery project. Read `STAT_RESULTS_V18.md`.
+The next patch requires the actual exported records; no v18 candidate exists yet.
+
 ## Recovery completed — 2026-10-25
 
 The full Windows recovery run completed all 22 stages and restored v16 with
@@ -18,12 +31,13 @@ Candidate BIN SHA-256: `2ff4d83cca04a22a217883ac9c29b3e2fa9c5c4796d9661db3f95d9a
 The patch changed 26 raw sectors and its build test passed. The complete CUE
 path and in-game checklist are in `RESUME_QUIZ.md`.
 
-Next: test that candidate in DuckStation. Keep the kit, its plan/scripts, and
+Keep the kit, its plan/scripts, and
 v16 unchanged; the recovery runner checks their saved identities on resume.
 
 The source checkpoints, predecessor builds, and original input are retained.
-v17h remains a separate candidate awaiting in-game checks; its Windows build
-from the restored v16 has passed.
+v17h remains a separate image. Its Windows build and the user's subsequent
+playthrough to the post-quiz stat screen are recorded; individual graphic/branch
+checks have not all been separately reported.
 The validation record is in `recovery/VALIDATION.md`.
 
 Source-bound workspace ZIP/JSON stays outside public Git. No original game
@@ -36,8 +50,9 @@ The user reports successfully reaching the English quiz. The active target is
 v16, with a required input SHA enforced by `build_quiz_fixed_ui_english_v17h.ps1`.
 The v5/v6 status sections and nickname task below are historical notes, not the
 current starting point. Twelve later build scripts have been recovered into
-this repository. The v17h candidate still requires a test on the actual v16
-master and in-game validation before promotion.
+this repository. At that earlier checkpoint, v17h still required a build on the
+actual v16 master and in-game validation. The 2026-10-25 updates above supersede
+that status.
 
 Do not run the older v9 greeting rebuild over the later quiz work. A saved
 attempt exhausted disk space during full workspace extraction. The v17h quiz

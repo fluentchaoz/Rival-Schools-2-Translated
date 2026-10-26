@@ -61,3 +61,8 @@ Thumbs.db
 JG2-Recovery-Kit*/
 JG2-Recovery-Kit*.zip
 __pycache__/
+
+# Private stat-result exports contain extracted game records.
+JG2-Stat-Probe-v18-*/
+JG2-Stat-Probe-v18-*.zip
+JG2-Stat-Probe-v18-*.zip.partial

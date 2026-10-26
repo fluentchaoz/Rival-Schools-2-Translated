@@ -29,8 +29,8 @@ Observed build environment:
 
 The original recovery kit and plan must remain unchanged when using `-Resume`.
 A subsequent resume run built the separate v17h candidate, recorded below.
-In-game checks are required before promotion. See
-[RESUME_QUIZ.md](../RESUME_QUIZ.md).
+The subsequent user playthrough is recorded below. See
+[RESUME_QUIZ.md](../RESUME_QUIZ.md) for the remaining regression checklist.
 
 ## Verified stage outputs
 
@@ -81,7 +81,22 @@ Reported palette indices:
 | QUESTION | 0 | 14 | 11 |
 | EXAM OVER | 0 | 1 | 15 |
 
-This evidence comes from the supplied Windows output, not direct access to the
-user's filesystem. The candidate is not yet promoted: QUESTION, correct/wrong
-answer feedback, EXAM OVER, ordinary quiz progression, and School Gate still
-need in-game checks. The v16 working master remains retained.
+This build evidence comes from the supplied Windows output, not direct access
+to the user's filesystem. The subsequent live report is recorded below.
+
+## User playthrough to post-quiz stat results — 2026-10-25
+
+After the v17h build, the user reported that it worked and that they reached
+the classroom stat-result screen before encountering Japanese. Their screenshot
+shows the English date and `ATK / DEF / STAM / GUTS / POT / INT` HUD with the
+untranslated intelligence-decrease message and native down-arrow.
+
+This supports successful live progression through the visited quiz route to
+that result screen. It does not independently establish every QUESTION,
+correct/wrong, EXAM OVER, timer, and School Gate check or all other routes.
+Continue from v17h while retaining v16 as the recovery fallback.
+
+The next task is the stat-result message family. The standalone read-only probe
+and its synthetic validation are documented in
+[STAT_RESULTS_V18.md](../STAT_RESULTS_V18.md). No new v18 patch has been built;
+the exact exported records are needed to prepare it.

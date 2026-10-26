@@ -1,6 +1,18 @@
 # Resume from the English quiz
 
-## Test the built v17h candidate
+## Continue from v17h at the stat-result screen
+
+The user subsequently reported successful play through the quiz to the
+post-quiz classroom stat-result screen. The first remaining Japanese is the
+intelligence-decrease message; the screenshot shows the English date and stat
+HUD. The next task is the paired stat increase/decrease messages.
+
+Run the standalone read-only `probe_stat_results_v18.ps1` and attach its ZIP in
+the translation conversation. See [STAT_RESULTS_V18.md](STAT_RESULTS_V18.md).
+This export uses the current v17h and original disc and does not rebuild or
+modify the recovery project. Keep both v17h and the v16 fallback.
+
+## v17h build and remaining regression checks
 
 Both the 22-stage recovery and the subsequent v17h Windows build passed on
 2026-10-25. The actual candidate BIN SHA-256 is:
@@ -13,9 +25,9 @@ Open this CUE in DuckStation:
 C:\Users\Fluent\JG2-Recovery-v1\project\upstream\work\english-quiz-fixed-ui-v17h-e380163248384b70a99130d1193c7368\build\justice-gakuen2-quiz-fixed-ui-v17h.cue
 ```
 
-Start the candidate from the disc for this test; an old emulator save state
-can restore previously loaded game data. Follow the checklist below and
-retain the restored v16 until the in-game checks pass.
+For remaining regression checks, start from the disc; an old emulator save
+state can restore previously loaded game data. The user's successful
+playthrough does not separately enumerate each check below. Retain v16.
 
 The same unchanged recovery kit's `-Resume` command verifies and reports an
 already-completed v17h candidate. No rebuild of the 22 predecessor stages is
@@ -60,8 +72,8 @@ Open the new CUE in the emulator, then check:
 4. Finishing the quiz displays EXAM OVER.
 5. School Gate, the timer, and adjacent graphics still display correctly.
 
-Keep v16 as the working master until these pass. Save the output SHA-256 and
-`quiz-fixed-ui-v17h-report.json` with the test result before promoting it.
+Keep v16 as the recovery fallback while continuing from the played v17h image.
+Save the output SHA-256 and `quiz-fixed-ui-v17h-report.json` with test results.
 If the build fails, retain `build-v17h.log`; the exact Rust-source backup is
 `runtime_bundle_build.pre-v17h.rs.bak` in the selected work folder. A rerun uses
 a fresh `-WorkRoot` so previous results are never silently deleted.
@@ -73,7 +85,8 @@ a fresh `-WorkRoot` so previous results are never silently deleted.
 - The subsequent actual v16-based v17h Windows build also passed: 1 build test
   passed, final output verification completed, and 26 raw sectors changed.
   The candidate hash above was reported by both the builder and final check.
-  This establishes a built candidate, not successful native rendering.
+  This establishes the built image. The later user report and screenshot
+  establish live progression to the post-quiz stat-result screen.
 
 - Recovered v17g Rust test compiled against pinned upstream
   `98ca12ddf082d6e2367b2963f76edf5a09242deb` using Rust 1.98.0.
@@ -91,9 +104,10 @@ a fresh `-WorkRoot` so previous results are never silently deleted.
   in a temporary QA copy, not the unavailable translated v16 disc. The
   production script's required v16 hash was not changed.
 
-The v17h Windows build from restored v16 has now passed. Native in-game
-rendering and progression remain unverified. The production builder always
-enforces the original and v16 hashes.
+The v17h Windows build from restored v16 passed, followed by the user's
+successful playthrough to the first untranslated stat-result message. Individual
+branches and all remaining graphics are not exhaustively verified. The production
+v17h builder always enforces the original and v16 hashes.
 
 Run the wrapper regressions without game data:
 
@@ -105,8 +119,8 @@ Set `POWERSHELL` to the executable path if PowerShell is not on PATH.
 
 ## Remaining translation work
 
-After quiz UI validation, inventory the remaining reachable School Life
-dialogue and graphics, then work through them in source-verified batches.
+Address the post-quiz stat-result messages next, then inventory the remaining
+reachable School Life dialogue and graphics in source-verified batches.
 The current evidence establishes 20 questions in the live MGK04 bank; it does
 not establish that every quiz, route, event, or ending has been translated.
 The full MGK04/MGK10 source-bound JSON packets remain local and are required

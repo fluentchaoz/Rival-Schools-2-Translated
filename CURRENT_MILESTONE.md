@@ -1,6 +1,19 @@
 # Translation state — 2026-10-25
 
-## Current working input: English quiz v16 restored
+## Current continuation input: v17h reaches the post-quiz stat results
+
+On 2026-10-25 the user reported that v17h worked and that the first Japanese
+they reached was the post-quiz classroom stat-result message. The supplied
+screenshot shows the English date and six-stat HUD alongside the untranslated
+intelligence-decrease message. This is live evidence for the visited route,
+not exhaustive verification of every quiz branch or graphic.
+
+Next: translate the related stat increase/decrease messages and preserve the
+native arrows. Run the standalone read-only `probe_stat_results_v18.ps1` to
+export the exact original/v17h records. See [STAT_RESULTS_V18.md](STAT_RESULTS_V18.md).
+Retain both v17h and v16; keep the recovery kit unchanged.
+
+## Recovered baseline: English quiz v16
 
 On 2026-10-25 the user supplied the complete Windows recovery transcript.
 All 22 stages passed. Each reported output hash was compared with the saved
@@ -18,13 +31,13 @@ Current recovered CUE:
 This reproduces the historical v16 image, including MGK04 selector 6's 20
 questions and 80 answers, the preceding MGK10 quiz work, and earlier layers.
 The original recovery transcript stopped at v16; a subsequent resume transcript
-establishes the v17h candidate below. No new in-game result has been supplied.
+establishes the v17h build below. The later playthrough report is recorded above.
 
 The same recovery kit has now built v17h successfully from this v16 image.
-The next action is the in-game candidate check below. Keep the kit and its
+The next action is the stat-result export above. Keep the kit and its
 `recovery-plan.json` unchanged: resume binds to their saved identities.
 
-## Built candidate: quiz fixed UI v17h — awaiting in-game validation
+## Built and played: quiz fixed UI v17h
 
 Builder: `build_quiz_fixed_ui_english_v17h.ps1`
 
@@ -55,9 +68,10 @@ Observed scope: 26 raw sectors changed; member 2 compressed to 86,044 of 86,620
 bytes (576 bytes spare). The restored v16 is retained. See
 `recovery/VALIDATION.md` for the record.
 
-Status: candidate only. Open this CUE and test QUESTION, correct/wrong answers,
-EXAM OVER, normal quiz progression, and School Gate. Follow `RESUME_QUIZ.md`;
-do not promote until those in-game checks pass.
+Status: the user reports successful play through the quiz to the stat-result
+screen. Individual QUESTION, correct/wrong, EXAM OVER, timer, and School Gate
+checks were not separately enumerated. Continue from this image while retaining
+v16 and the remaining regression checklist in `RESUME_QUIZ.md`.
 
 ## Recovered work after the previous repository snapshot
 
@@ -71,7 +85,7 @@ do not promote until those in-game checks pass.
 | v15b | MGK10 quiz translation | Predecessor required by v16 builder |
 | v16 | Live MGK04 quiz translation | Exact historical image restored on Windows; all 22 predecessor/output hashes passed |
 | v17g | Fixed quiz graphics | Recovered candidate, not promoted |
-| v17h | Fixed quiz graphics with safer build wrapper | Windows build from exact v16 passed; in-game checks pending |
+| v17h | Fixed quiz graphics with safer build wrapper | Windows build passed; user reports reaching post-quiz stat results successfully; individual branch checks not enumerated |
 
 ## Last milestone explicitly promoted in the old repository: v8
 
