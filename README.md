@@ -6,8 +6,8 @@ release of **Shiritsu Justice Gakuen - Nekketsu Seishun Nikki 2** (`SLPS-02120`)
 ## Status
 
 Work has progressed through the **English quiz to the post-quiz stat results**.
-The next investigation starts from the working v17h image; the probe enforces
-its exact input hash.
+The v18 stat-message candidate starts from the working v17h image; its builder
+enforces the exact input hash.
 See [CURRENT_MILESTONE.md](CURRENT_MILESTONE.md) for the distinction between
 repository-recorded live milestones, recovered work, and untested candidates.
 
@@ -22,10 +22,13 @@ The user subsequently reported successful play to the first remaining Japanese:
 the stat-change message after the quiz. The screenshot shows the English date
 and stat HUD. Individual quiz branches have not been separately enumerated.
 
-**Next: stat increase/decrease messages.** Use the read-only export described in
-[STAT_RESULTS_V18.md](STAT_RESULTS_V18.md). Retain v16 as a recovery fallback and
-keep the existing recovery kit unchanged. [RESUME_QUIZ.md](RESUME_QUIZ.md) retains
-the quiz regression checklist.
+**v18 stat-message builder ready.** The private export was verified, and the
+patch translates 18 MGK04 increase/decrease messages while preserving native
+arrows and the 100 quiz entries. The record patch, six wrapper tests, and full
+disc-fixture build passed. Build and test it using
+[STAT_RESULTS_V18.md](STAT_RESULTS_V18.md). Retain v17h and v16 and keep the
+existing recovery kit unchanged. Windows execution and the v18 live test are
+still pending. [RESUME_QUIZ.md](RESUME_QUIZ.md) retains the quiz regression checklist.
 
 ### Confirmed English work so far
 

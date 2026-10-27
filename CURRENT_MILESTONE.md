@@ -1,4 +1,22 @@
-# Translation state — 2026-10-25
+# Translation state — 2026-10-26
+
+## Next candidate: MGK04 stat results English v18
+
+The user's private stat-record export has been received and verified. The new
+`build_stat_results_english_v18.ps1` translates selector 2 entries 34–51 in
+MGK04: nine stat increases and nine decreases. It retains the native arrows,
+game logic, all 100 quiz entries, and earlier layers. It starts from exact v17h
+and creates a separate candidate without changing the recovery kit.
+
+The actual record patch, rendered text layout, six wrapper regressions, and
+full disc-fixture build passed. Compressed MGK04 occupies 206,858 / 207,226 bytes.
+Patched record SHA-256:
+`91ca0e81829fb578d41797854718590e0f05e29b1325b6a1675e9df3a4584fa0`.
+
+Next: run the builder on Windows and test the new CUE in DuckStation. Retain v17h
+until this candidate passes live testing. The real v18 disc hash is pending the
+user's build; do not substitute the synthetic disc-fixture hash.
+See [STAT_RESULTS_V18.md](STAT_RESULTS_V18.md).
 
 ## Current continuation input: v17h reaches the post-quiz stat results
 
@@ -8,9 +26,8 @@ screenshot shows the English date and six-stat HUD alongside the untranslated
 intelligence-decrease message. This is live evidence for the visited route,
 not exhaustive verification of every quiz branch or graphic.
 
-Next: translate the related stat increase/decrease messages and preserve the
-native arrows. Run the standalone read-only `probe_stat_results_v18.ps1` to
-export the exact original/v17h records. See [STAT_RESULTS_V18.md](STAT_RESULTS_V18.md).
+The related stat-message patch is now prepared from the completed private
+export; see the v18 candidate section above.
 Retain both v17h and v16; keep the recovery kit unchanged.
 
 ## Recovered baseline: English quiz v16
@@ -34,7 +51,7 @@ The original recovery transcript stopped at v16; a subsequent resume transcript
 establishes the v17h build below. The later playthrough report is recorded above.
 
 The same recovery kit has now built v17h successfully from this v16 image.
-The next action is the stat-result export above. Keep the kit and its
+The next action is the v18 candidate build above. Keep the kit and its
 `recovery-plan.json` unchanged: resume binds to their saved identities.
 
 ## Built and played: quiz fixed UI v17h
@@ -86,6 +103,7 @@ v16 and the remaining regression checklist in `RESUME_QUIZ.md`.
 | v16 | Live MGK04 quiz translation | Exact historical image restored on Windows; all 22 predecessor/output hashes passed |
 | v17g | Fixed quiz graphics | Recovered candidate, not promoted |
 | v17h | Fixed quiz graphics with safer build wrapper | Windows build passed; user reports reaching post-quiz stat results successfully; individual branch checks not enumerated |
+| v18 | MGK04 stat increase/decrease messages | Actual record patch, wrapper tests, and disc fixture passed; Windows build and live test pending |
 
 ## Last milestone explicitly promoted in the old repository: v8
 

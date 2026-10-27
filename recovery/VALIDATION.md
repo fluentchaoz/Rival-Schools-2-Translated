@@ -96,7 +96,9 @@ that result screen. It does not independently establish every QUESTION,
 correct/wrong, EXAM OVER, timer, and School Gate check or all other routes.
 Continue from v17h while retaining v16 as the recovery fallback.
 
-The next task is the stat-result message family. The standalone read-only probe
-and its synthetic validation are documented in
-[STAT_RESULTS_V18.md](../STAT_RESULTS_V18.md). No new v18 patch has been built;
-the exact exported records are needed to prepare it.
+The standalone read-only probe subsequently completed on the user's Windows PC.
+Its 0.85 MiB private ZIP was received, and all eight extracted records matched
+their manifest hashes. The v18 stat-message record patch and a complete disc
+fixture now pass; the actual Windows v18 build and live test remain pending.
+See [STAT_RESULTS_V18.md](../STAT_RESULTS_V18.md). The original recovery kit and
+its hash-bound plan were not modified for this continuation.

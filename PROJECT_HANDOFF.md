@@ -2,6 +2,25 @@
 
 This file is the continuity document for future ChatGPT sessions working on this project.
 
+## v18 candidate prepared — 2026-10-26
+
+The actual stat-probe ZIP has been received and its eight record hashes verified.
+`build_stat_results_english_v18.ps1` is ready: MGK04 selector 2 entries 34–51
+become 18 English stat messages. It uses compact labels made from the current
+English font, keeps both native palette controls and padding controls, and
+preserves the shared MGAME arrow table rather than changing other scenes.
+
+The actual record build, text-layout inspection, six wrapper regressions, and
+a complete disc-fixture build passed. The fixture changed 71 sectors inside
+MGK04 only. Tested replacement record SHA-256:
+`91ca0e81829fb578d41797854718590e0f05e29b1325b6a1675e9df3a4584fa0`.
+It uses 206,858 / 207,226 compressed bytes. All 100 quiz payloads are unchanged.
+
+Next: the user's actual Windows build, then a fresh-boot DuckStation test.
+Keep v17h as the continuation input. No real v18 output-disc hash or live result
+has been supplied yet. Read `STAT_RESULTS_V18.md`; its validation section clearly
+distinguishes actual records from the synthetic whole-disc fixture.
+
 ## Live continuation — 2026-10-25
 
 The user reported v17h working through the quiz and supplied a screenshot of the
@@ -13,7 +32,8 @@ stat-result messages next. This report does not enumerate every quiz branch.
 synthetic tests. It reads four records from each verified original/v17h image
 and writes a private ZIP for the user to attach in the conversation. It does
 not edit or rebuild anything in the recovery project. Read `STAT_RESULTS_V18.md`.
-The next patch requires the actual exported records; no v18 candidate exists yet.
+That export is now complete; the 2026-10-26 update above supersedes this earlier
+export-waiting checkpoint.
 
 ## Recovery completed — 2026-10-25
 

@@ -7,10 +7,12 @@ post-quiz classroom stat-result screen. The first remaining Japanese is the
 intelligence-decrease message; the screenshot shows the English date and stat
 HUD. The next task is the paired stat increase/decrease messages.
 
-Run the standalone read-only `probe_stat_results_v18.ps1` and attach its ZIP in
-the translation conversation. See [STAT_RESULTS_V18.md](STAT_RESULTS_V18.md).
-This export uses the current v17h and original disc and does not rebuild or
-modify the recovery project. Keep both v17h and the v16 fallback.
+The stat-probe export has been received and verified. Run
+`build_stat_results_english_v18.ps1` to build the next candidate from v17h and
+the original disc. See [STAT_RESULTS_V18.md](STAT_RESULTS_V18.md) for its scope,
+validation, output location, and in-game checklist. It creates a separate image,
+restores its temporary source edit exactly, and keeps the recovery kit unchanged.
+Retain both v17h and the v16 fallback until v18 passes live testing.
 
 ## v17h build and remaining regression checks
 
