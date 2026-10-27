@@ -99,6 +99,24 @@ Continue from v17h while retaining v16 as the recovery fallback.
 The standalone read-only probe subsequently completed on the user's Windows PC.
 Its 0.85 MiB private ZIP was received, and all eight extracted records matched
 their manifest hashes. The v18 stat-message record patch and a complete disc
-fixture now pass; the actual Windows v18 build and live test remain pending.
+fixture now pass. The subsequent actual Windows v18 build is recorded below.
 See [STAT_RESULTS_V18.md](../STAT_RESULTS_V18.md). The original recovery kit and
 its hash-bound plan were not modified for this continuation.
+
+
+## Actual v18 Windows candidate — 2026-10-26
+
+The user supplied a successful production run of `build_stat_results_english_v18.ps1`.
+The build test passed (1 passed, 0 failed), and final-output verification completed.
+
+- Output BIN SHA-256: `d720ea2ae3c2c1c52981b0536642b836ec8e2151c6e94b658abdd1a49e094068`.
+- Translated stat messages: 18 (nine increases and nine decreases).
+- Changed raw sectors: 71, confined to MGK04.
+- Compressed MGK04: 206,858 / 207,226 bytes.
+- Current CUE: `C:\Users\Fluent\JG2-Recovery-v1\candidates\stat-results-v18-9cca1bc3a5df467c9c476262aa44900e\build\justice-gakuen2-stat-results-v18.cue`.
+
+The next screenshot shows a Japanese classroom location banner before the quiz,
+not a stat-result message. Native validation of v18's result text remains pending.
+The separate v19 banner patch continues from the exact v18 hash above; see
+[CLASSROOM_LABEL_V19.md](../CLASSROOM_LABEL_V19.md). This transcript establishes
+the user's build result; it is not a direct read of their Windows filesystem.

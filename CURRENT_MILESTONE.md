@@ -1,6 +1,20 @@
 # Translation state — 2026-10-26
 
-## Next candidate: MGK04 stat results English v18
+## Next candidate: CLASSROOM location banner v19
+
+The v18 Windows build passed. The user then pointed out `教室` (Classroom)
+beneath the stat HUD in the pre-quiz classroom. This is a separate graphic;
+that screenshot does not show or validate the v18 stat-result messages.
+
+`build_classroom_label_english_v19.ps1` changes only the classroom location
+strip in MGBGK04 member 1, preserving the background, portraits, School Gate,
+quiz graphics, and v18 text bank. It starts from the exact v18 hash below and
+creates a separate candidate. Read [CLASSROOM_LABEL_V19.md](CLASSROOM_LABEL_V19.md)
+for build instructions, evidence, and the native-test checklist. The record patch,
+eight wrapper tests, and full disc fixture passed; Windows v19 and native checks
+remain pending. Keep v18.
+
+## Built on Windows: MGK04 stat results English v18
 
 The user's private stat-record export has been received and verified. The new
 `build_stat_results_english_v18.ps1` translates selector 2 entries 34–51 in
@@ -13,9 +27,11 @@ full disc-fixture build passed. Compressed MGK04 occupies 206,858 / 207,226 byte
 Patched record SHA-256:
 `91ca0e81829fb578d41797854718590e0f05e29b1325b6a1675e9df3a4584fa0`.
 
-Next: run the builder on Windows and test the new CUE in DuckStation. Retain v17h
-until this candidate passes live testing. The real v18 disc hash is pending the
-user's build; do not substitute the synthetic disc-fixture hash.
+The user's Windows run passed its build test and final checks: 18 messages,
+71 changed sectors, and 206,858 / 207,226 compressed bytes. Actual output SHA-256:
+`d720ea2ae3c2c1c52981b0536642b836ec8e2151c6e94b658abdd1a49e094068`.
+Native stat-message validation is still pending; continue with the v19 banner
+candidate and check both together. Retain v18, v17h, and v16.
 See [STAT_RESULTS_V18.md](STAT_RESULTS_V18.md).
 
 ## Current continuation input: v17h reaches the post-quiz stat results
@@ -51,7 +67,7 @@ The original recovery transcript stopped at v16; a subsequent resume transcript
 establishes the v17h build below. The later playthrough report is recorded above.
 
 The same recovery kit has now built v17h successfully from this v16 image.
-The next action is the v18 candidate build above. Keep the kit and its
+The next action is the v19 candidate build above. Keep the kit and its
 `recovery-plan.json` unchanged: resume binds to their saved identities.
 
 ## Built and played: quiz fixed UI v17h
@@ -103,7 +119,8 @@ v16 and the remaining regression checklist in `RESUME_QUIZ.md`.
 | v16 | Live MGK04 quiz translation | Exact historical image restored on Windows; all 22 predecessor/output hashes passed |
 | v17g | Fixed quiz graphics | Recovered candidate, not promoted |
 | v17h | Fixed quiz graphics with safer build wrapper | Windows build passed; user reports reaching post-quiz stat results successfully; individual branch checks not enumerated |
-| v18 | MGK04 stat increase/decrease messages | Actual record patch, wrapper tests, and disc fixture passed; Windows build and live test pending |
+| v18 | MGK04 stat increase/decrease messages | Actual Windows build and final verification passed; native stat-message test pending |
+| v19 | CLASSROOM location banner | Candidate prepared from exact v18; Windows build and live test pending |
 
 ## Last milestone explicitly promoted in the old repository: v8
 

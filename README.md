@@ -6,8 +6,8 @@ release of **Shiritsu Justice Gakuen - Nekketsu Seishun Nikki 2** (`SLPS-02120`)
 ## Status
 
 Work has progressed through the **English quiz to the post-quiz stat results**.
-The v18 stat-message candidate starts from the working v17h image; its builder
-enforces the exact input hash.
+v18 has now built successfully on Windows. The next candidate translates the
+CLASSROOM location banner from that exact v18 image.
 See [CURRENT_MILESTONE.md](CURRENT_MILESTONE.md) for the distinction between
 repository-recorded live milestones, recovered work, and untested candidates.
 
@@ -22,13 +22,16 @@ The user subsequently reported successful play to the first remaining Japanese:
 the stat-change message after the quiz. The screenshot shows the English date
 and stat HUD. Individual quiz branches have not been separately enumerated.
 
-**v18 stat-message builder ready.** The private export was verified, and the
-patch translates 18 MGK04 increase/decrease messages while preserving native
-arrows and the 100 quiz entries. The record patch, six wrapper tests, and full
-disc-fixture build passed. Build and test it using
-[STAT_RESULTS_V18.md](STAT_RESULTS_V18.md). Retain v17h and v16 and keep the
-existing recovery kit unchanged. Windows execution and the v18 live test are
-still pending. [RESUME_QUIZ.md](RESUME_QUIZ.md) retains the quiz regression checklist.
+**v18 built on Windows.** It translates 18 MGK04 increase/decrease messages,
+preserving native arrows and the 100 quiz entries. Its build and final checks
+passed; actual SHA-256: `d720ea2ae3c2c1c52981b0536642b836ec8e2151c6e94b658abdd1a49e094068`.
+The stat-result live test is still pending. See [STAT_RESULTS_V18.md](STAT_RESULTS_V18.md).
+
+**Next: CLASSROOM banner v19.** The user identified Japanese in the separate
+location banner beneath the stat HUD. The new builder patches that graphic
+while preserving the background, portraits, quiz UI, School Gate, and v18 text.
+See [CLASSROOM_LABEL_V19.md](CLASSROOM_LABEL_V19.md). Keep v18, v17h, v16, and
+the original recovery kit. Windows v19 execution and native testing remain pending.
 
 ### Confirmed English work so far
 

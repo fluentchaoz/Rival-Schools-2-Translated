@@ -1,12 +1,23 @@
-# MGK04 stat results English v18 — candidate builder ready
+# MGK04 stat results English v18 — Windows build passed
 
 ## Current status — 2026-10-26
 
 The user's v17h playthrough reached the post-quiz stat-result screen before
 encountering Japanese. Their private stat-probe export is now received, and all
 eight extracted records match their manifest hashes. The v18 record patch and
-an end-to-end disc-fixture build passed. The next action is to build and test
-v18 on the user's actual Windows installation. It is not yet live-tested.
+an end-to-end disc-fixture build passed. The user's actual Windows build then
+passed its build test and final checks: 18 messages, 71 changed sectors, and
+206,858 / 207,226 compressed bytes. Actual output BIN SHA-256:
+
+`d720ea2ae3c2c1c52981b0536642b836ec8e2151c6e94b658abdd1a49e094068`
+
+Current CUE:
+`C:\Users\Fluent\JG2-Recovery-v1\candidates\stat-results-v18-9cca1bc3a5df467c9c476262aa44900e\build\justice-gakuen2-stat-results-v18.cue`
+
+The next screenshot identifies the separate Japanese classroom location banner
+before the quiz. It does not validate the new stat messages. Continue with
+[CLASSROOM_LABEL_V19.md](CLASSROOM_LABEL_V19.md), then test the banner and stat
+results together. Keep this v18 candidate as the next builder's exact input.
 
 The patch translates selector 2 entries 34–51 in `DAT2/MGK04.BIZ`: nine increase
 messages and nine decrease messages. Labels are `ATK`, `DEF`, `STAM`, `GUTS`,
@@ -104,8 +115,7 @@ Validated patched MGK04 SHA-256:
 
 Machine-readable metadata: [validation/stat-results-v18.json](validation/stat-results-v18.json).
 The production builder pins the tested replacement-record hash as well as both
-full input-image hashes. The actual Windows output-disc hash is not known yet;
-it will be reported by the user's run.
+full input-image hashes. The actual Windows output-disc hash is recorded above.
 
 ## Validation performed
 
@@ -123,8 +133,9 @@ it will be reported by the user's run.
 - That fixture build changed 71 raw sectors, all inside MGK04, and passed record
   readback, unchanged-image-length, and regenerated Mode 2 EDC/ECC checks.
   The original input images and exact pre-build Rust source were preserved.
-- Windows execution of this new builder and native in-game validation remain
-  pending. A fixture disc SHA is not a real v18 disc SHA.
+- Actual Windows execution subsequently passed: 1 build test passed, 0 failed,
+  followed by final verification. The real output SHA is recorded above.
+  Native stat-result validation remains pending; the new screenshot is pre-quiz.
 
 ```text
 python -m unittest discover -s tests -p test_stat_result_builder.py -v

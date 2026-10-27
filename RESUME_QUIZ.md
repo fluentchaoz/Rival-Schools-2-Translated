@@ -1,18 +1,19 @@
 # Resume from the English quiz
 
-## Continue from v17h at the stat-result screen
+## Continue from v18: classroom banner and stat results
 
-The user subsequently reported successful play through the quiz to the
-post-quiz classroom stat-result screen. The first remaining Japanese is the
-intelligence-decrease message; the screenshot shows the English date and stat
-HUD. The next task is the paired stat increase/decrease messages.
+The v18 Windows build and final verification passed. Its exact output hash is
+`d720ea2ae3c2c1c52981b0536642b836ec8e2151c6e94b658abdd1a49e094068`.
+The subsequent screenshot shows the pre-quiz classroom and Japanese `教室`
+beneath the stats. This is the location graphic; it is separate from the v18
+stat-result messages, whose live test is still pending.
 
-The stat-probe export has been received and verified. Run
-`build_stat_results_english_v18.ps1` to build the next candidate from v17h and
-the original disc. See [STAT_RESULTS_V18.md](STAT_RESULTS_V18.md) for its scope,
-validation, output location, and in-game checklist. It creates a separate image,
-restores its temporary source edit exactly, and keeps the recovery kit unchanged.
-Retain both v17h and the v16 fallback until v18 passes live testing.
+Run `build_classroom_label_english_v19.ps1` for the next candidate. It finds the
+exact v18 BIN in the recovery candidate folders and creates a new CUE without
+altering v18 or the recovery kit. Read [CLASSROOM_LABEL_V19.md](CLASSROOM_LABEL_V19.md).
+Boot fresh, check CLASSROOM, then replay the quiz and check the stat messages.
+Keep v18 and the earlier v17h/v16 fallbacks. The sections below retain the
+historical v17h instructions and remaining quiz regression checks.
 
 ## v17h build and remaining regression checks
 
@@ -121,7 +122,7 @@ Set `POWERSHELL` to the executable path if PowerShell is not on PATH.
 
 ## Remaining translation work
 
-Address the post-quiz stat-result messages next, then inventory the remaining
+Test the v19 classroom banner and v18 stat-result messages, then inventory the remaining
 reachable School Life dialogue and graphics in source-verified batches.
 The current evidence establishes 20 questions in the live MGK04 bank; it does
 not establish that every quiz, route, event, or ending has been translated.

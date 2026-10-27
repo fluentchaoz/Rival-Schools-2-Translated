@@ -2,6 +2,20 @@
 
 This file is the continuity document for future ChatGPT sessions working on this project.
 
+## v18 Windows build and v19 classroom continuation — 2026-10-26
+
+The user's v18 Windows build passed its test and final output checks. Actual
+BIN SHA-256: `d720ea2ae3c2c1c52981b0536642b836ec8e2151c6e94b658abdd1a49e094068`.
+It changed 71 sectors and translated 18 messages in MGK04. The next screenshot
+is the pre-quiz classroom; the user points to `教室` below the stats. It does
+not show the new stat messages, so do not promote them as native-validated yet.
+
+The v19 builder changes this classroom banner in MGBGK04 member 1 to CLASSROOM.
+It preserves the background, portraits, other members, and MGK04 text. It finds
+the exact v18 candidate automatically. Read `CLASSROOM_LABEL_V19.md` for the
+implementation and validation status. Next: Windows v19 build, fresh boot,
+classroom banner check, then quiz and v18 stat-result checks. Keep all baselines.
+
 ## v18 candidate prepared — 2026-10-26
 
 The actual stat-probe ZIP has been received and its eight record hashes verified.
@@ -16,10 +30,9 @@ MGK04 only. Tested replacement record SHA-256:
 `91ca0e81829fb578d41797854718590e0f05e29b1325b6a1675e9df3a4584fa0`.
 It uses 206,858 / 207,226 compressed bytes. All 100 quiz payloads are unchanged.
 
-Next: the user's actual Windows build, then a fresh-boot DuckStation test.
-Keep v17h as the continuation input. No real v18 output-disc hash or live result
-has been supplied yet. Read `STAT_RESULTS_V18.md`; its validation section clearly
-distinguishes actual records from the synthetic whole-disc fixture.
+The later Windows build is recorded above and supersedes the earlier build-pending
+status. Read `STAT_RESULTS_V18.md`; its validation section distinguishes actual
+records, the synthetic whole-disc fixture, and the successful user build.
 
 ## Live continuation — 2026-10-25
 
