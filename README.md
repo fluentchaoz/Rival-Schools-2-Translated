@@ -5,17 +5,20 @@ release of **Shiritsu Justice Gakuen - Nekketsu Seishun Nikki 2** (`SLPS-02120`)
 
 ## Status
 
-**v20 built on Windows and played through the quiz into April 8.** Actual
+**v21 ceremony candidate built successfully on Windows.** Actual v21 SHA-256:
+`f4a470836cded402c5ec5df041f0023693099761f1a25cd1045690d8bae005f0`.
+Native ceremony testing remains pending. The last reported playthrough is v20
+through the quiz into April 8. Actual v20
 SHA-256: `bf79b70fb5d806669fbf48917c634920e1934ff63d82072b9a0a48ab63238fec`.
-The next candidate translates the Taiyo entrance ceremony: both player variants,
+The v21 candidate translates the Taiyo entrance ceremony: both player variants,
 both ceremony choices, the title/date, and location graphics through Ran's
 introduction and the opening transition toward club orientation. See
 [ENTRANCE_CEREMONY_V21.md](ENTRANCE_CEREMONY_V21.md).
-Windows/native v21 checks remain pending. Later club scenes and other schools'
+The Windows build and final checks passed; native v21 testing remains pending. Later club scenes and other schools'
 ceremony dialogue remain untranslated.
 
 The recovery reproduced all 22 historical hashes through v16, then v17h, v18,
-v19, and v20 built successfully on Windows. The current source, hashes, recovery
+v19, v20, and v21 built successfully on Windows. The current source, hashes, recovery
 order, and validation limits are recorded in [PROJECT_HANDOFF.md](PROJECT_HANDOFF.md),
 [CURRENT_MILESTONE.md](CURRENT_MILESTONE.md), and [recovery/VALIDATION.md](recovery/VALIDATION.md).
 The private recovery kit, original disc, workspace/quiz packets, and rebuilt

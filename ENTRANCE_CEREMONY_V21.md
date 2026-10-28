@@ -95,10 +95,33 @@ layout/name/control checks pass, and the new text record reproduces the earlier
 visually inspected record hash. Local tests used Liberation Sans Regular,
 which is not claimed to be Windows Arial. Full machine-readable evidence is in
 `validation/entrance-ceremony-v21.json`. Its output hash is a fixture identity;
-that fixture lacks earlier English layers. Windows v21/native checks remain
-pending; the Windows output hash will be recorded after the user's run.
+that fixture lacks earlier English layers. The later Windows production run passed as recorded below. Native v21 checks
+remain pending.
 
 Boot the new CUE fresh and complete the quiz. Check the pink title card, the
 `4/8` date, School Gate/Gym labels, Batsu calling the player's name, both ceremony
 choices, Ran's introduction, and transition toward club orientation. Old emulator
 save states can retain loaded Japanese textures or banks. Keep v20 throughout.
+
+## Actual v21 Windows build passed — 2026-10-28
+
+The user's production v21 run passed one Rust test (0 failures) and every final
+PowerShell output check. Actual BIN SHA-256:
+`f4a470836cded402c5ec5df041f0023693099761f1a25cd1045690d8bae005f0`.
+Changed raw sectors: 1,516. Dialogue compression: 225,290 / 225,706 bytes.
+114 dialogue entries and four dynamic date messages were installed, along with
+five title-card copies, six School Gate copies, and three Gym copies.
+
+CUE to test:
+
+```text
+C:\Users\Fluent\JG2-Recovery-v1\candidates\entrance-ceremony-v21-b7a5cc0526a848acbfc2038e1f80067a\build\justice-gakuen2-entrance-ceremony-v21.cue
+```
+
+Next: boot this CUE fresh, replay the quiz, and check the April 8 title/date,
+Taiyo ceremony dialogue, player-name insertion, both apology/teasing branches,
+Ran's introduction, and transition toward club orientation. Keep v20 until
+that native check passes. The Windows build is verified from the supplied log;
+no v21 gameplay evidence has yet been received. Later club events and other
+schools' ceremony dialogue remain untranslated.
+

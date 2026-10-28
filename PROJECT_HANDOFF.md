@@ -2,6 +2,28 @@
 
 This file is the continuity document for future ChatGPT sessions working on this project.
 
+## Actual v21 Windows build passed — 2026-10-28
+
+The user's production v21 run passed one Rust test (0 failures) and every final
+PowerShell output check. Actual BIN SHA-256:
+`f4a470836cded402c5ec5df041f0023693099761f1a25cd1045690d8bae005f0`.
+Changed raw sectors: 1,516. Dialogue compression: 225,290 / 225,706 bytes.
+114 dialogue entries and four dynamic date messages were installed, along with
+five title-card copies, six School Gate copies, and three Gym copies.
+
+CUE to test:
+
+```text
+C:\Users\Fluent\JG2-Recovery-v1\candidates\entrance-ceremony-v21-b7a5cc0526a848acbfc2038e1f80067a\build\justice-gakuen2-entrance-ceremony-v21.cue
+```
+
+Next: boot this CUE fresh, replay the quiz, and check the April 8 title/date,
+Taiyo ceremony dialogue, player-name insertion, both apology/teasing branches,
+Ran's introduction, and transition toward club orientation. Keep v20 until
+that native check passes. The Windows build is verified from the supplied log;
+no v21 gameplay evidence has yet been received. Later club events and other
+schools' ceremony dialogue remain untranslated.
+
 ## v20 reached April 8; next candidate is Taiyo ceremony v21 — 2026-10-28
 
 The user's actual Windows v20 build passed its test and final checks:
@@ -25,7 +47,7 @@ and matching School Gate/Gym labels. It reaches Ran's introduction and the
 opening transition toward club orientation. Later club scenes and other
 schools' ceremony dialogue remain Japanese. The complete local fixture builder and
 eight wrapper tests passed; see `validation/entrance-ceremony-v21.json`.
-Windows/native v21 checks are pending.
+The later Windows build above passed; native v21 checks remain pending.
 
 Runtime ownership: MGG04T.BIZ is member 0 of the loaded MGG04.BZZ bundle;
 both must be updated. Graphics are in MGBGG04.BZZ. Ceremony messages are
@@ -429,5 +451,5 @@ Then verify the newest live-tested master before making a new patch.
 Do not assume the newest generated build is promoted merely because it compiled.
 
 The original handoff's v6 nickname task is superseded by the recovered v7
-builder. The current task is the rating-popup v20 candidate described at the top of this
-file and in `RATING_POPUP_V20.md`.
+builder. The current task is native testing of the built v21 ceremony candidate described
+at the top of this file and in `ENTRANCE_CEREMONY_V21.md`.

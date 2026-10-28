@@ -149,5 +149,29 @@
     "visual_preview_checked": true,
     "actual_v21_windows_built": false,
     "native_tested": false
+  },
+  "actual_windows_build": {
+    "evidence": "user-supplied complete production build log",
+    "date": "2026-10-28",
+    "rust_test_passed": true,
+    "final_wrapper_checks_passed": true,
+    "output_sha256": "f4a470836cded402c5ec5df041f0023693099761f1a25cd1045690d8bae005f0",
+    "cue": "C:\\Users\\Fluent\\JG2-Recovery-v1\\candidates\\entrance-ceremony-v21-b7a5cc0526a848acbfc2038e1f80067a\\build\\justice-gakuen2-entrance-ceremony-v21.cue",
+    "master_sha256": "bf79b70fb5d806669fbf48917c634920e1934ff63d82072b9a0a48ab63238fec",
+    "font_sha256": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+    "patched_text_record_sha256": "0373879a09b285164f8ac7e4424cfdb8bf466fe09e2b7e40c985563d7de93ed1",
+    "changed_raw_sectors": 1516,
+    "dialogue_compressed_bytes": 225290,
+    "dialogue_fixed_slot": 225706,
+    "arena_used": 100908,
+    "arena_capacity": 102368,
+    "translated_dialogue_entries": 114,
+    "translated_date_entries": 4,
+    "graphics_copies": {
+      "title": 5,
+      "school_gate": 6,
+      "gym": 3
+    },
+    "native_tested": false
   }
 }
