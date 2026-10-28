@@ -172,6 +172,32 @@
       "school_gate": 6,
       "gym": 3
     },
-    "native_tested": false
+    "native_tested": true,
+    "native_validation_scope": "partial: reported ceremony/apology route through entry55; teasing/other player variant not established"
+  },
+  "native_playtest": {
+    "date": "2026-10-28",
+    "evidence": "user report and four supplied gameplay screenshots",
+    "apology_route_reported_english": true,
+    "directly_visible_english_entries": [
+      3,
+      45,
+      55
+    ],
+    "first_remaining_japanese_dialogue_entry": 57,
+    "remaining_location_labels": [
+      {
+        "source": "渡り廊下",
+        "english": "Covered Walkway"
+      },
+      {
+        "source": "プールサイド",
+        "english": "Poolside"
+      }
+    ],
+    "teasing_branch_confirmed": false,
+    "other_player_variant_confirmed": false,
+    "name_insertion_visible": "yellow O or 0 matches HUD name area; intended enrolled name unknown",
+    "name_correctness_confirmed": false
   }
 }

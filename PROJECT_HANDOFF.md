@@ -2,6 +2,30 @@
 
 This file is the continuity document for future ChatGPT sessions working on this project.
 
+## v21 live playtest: apology route reaches pool conversation — 2026-10-28
+
+The user reports Batsu and the rest of the ceremony dialogue appeared in English,
+selected the apology response, and continued through the ceremony into the club
+orientation transition. Screenshots directly show English dialogue at entries
+3 (Batsu calling the inserted name), 45 (after being told off), and 55 (ceremony
+over / joining a club). The following screenshot is the untranslated pool
+conversation at entry 57. This is the expected end of v21's text scope.
+
+Retain the actual v21 build with SHA-256
+`f4a470836cded402c5ec5df041f0023693099761f1a25cd1045690d8bae005f0`,
+plus v20 as fallback. This validates the visited apology route; it does not
+establish the teasing branch, other player variant, all prior checks, or the
+separately unpictured title/date/location replacements.
+
+Remaining work identified:
+
+- Shared daily action menu: CONTINUE / STATUS / DIARY, with the help text.
+- Location graphics: `渡り廊下` (Covered Walkway) and `プールサイド` (Poolside).
+- Taiyo pool/club-orientation dialogue starting at selectors 0/1 entry 57.
+- Check the yellow O/0 shown in the HUD and Batsu's inserted name. It appears
+  to be the stored player name, but the intended enrolled name is not yet known.
+  Do not patch the character-name data based only on that visual inference.
+
 ## Actual v21 Windows build passed — 2026-10-28
 
 The user's production v21 run passed one Rust test (0 failures) and every final
