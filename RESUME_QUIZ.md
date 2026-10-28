@@ -1,5 +1,10 @@
 # Resume from the English quiz
 
+Latest continuation: v21's ceremony apology route reached the pool. Build the
+v22 candidate from exact v21 using [POOL_CLUB_V22.md](POOL_CLUB_V22.md), retaining
+v21. Read the current handoff before the historical resume checkpoints below.
+
+
 Current continuation: v20 built successfully and the user reached April 8.
 Read [ENTRANCE_CEREMONY_V21.md](ENTRANCE_CEREMONY_V21.md) and the top of
 `PROJECT_HANDOFF.md` before using the historical resume steps below.

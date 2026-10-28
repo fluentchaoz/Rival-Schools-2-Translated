@@ -469,7 +469,7 @@ mod english_pool_club_v22 {
     },
     {
       "index": 149,
-      "text": "{0}INT{1} RISES MOST.\n{2}POT{3} ALSO RISES.\nFUMBLES MAY BE AN\nISSUE..."
+      "text": "{0}INT{1} RISES MOST.\n{2}POT{3} ALSO RISES.\nOTHER STATS ARE\nABOUT AVERAGE."
     },
     {
       "index": 150,

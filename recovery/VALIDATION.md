@@ -166,3 +166,13 @@ that native check passes. The Windows build is verified from the supplied log;
 no v21 gameplay evidence has yet been received. Later club events and other
 schools' ceremony dialogue remain untranslated.
 
+
+## v21 visited route and v22 continuation — 2026-10-28
+
+The user's v21 apology-route playtest reached the untranslated pool conversation
+at selector 0/1 entry 57. The yellow O was probably the enrolled name. The v22
+candidate continues the pool/club/tutorial sequence and adds shared action-menu
+labels, Taiyo help text, and matching location labels. Read
+[POOL_CLUB_V22.md](../POOL_CLUB_V22.md). The original recovery kit/plan/state is
+unchanged. New source, English packet, assembly and inspection tools are committed;
+private exports, fixture images, and rendered game pixels stay out of GitHub.

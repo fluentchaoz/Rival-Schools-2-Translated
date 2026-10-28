@@ -2,6 +2,35 @@
 
 This file is the continuity document for future ChatGPT sessions working on this project.
 
+## Pool/club and daily menu v22 candidate — 2026-10-28
+
+Continue from actual v21 BIN SHA-256
+`f4a470836cded402c5ec5df041f0023693099761f1a25cd1045690d8bae005f0`.
+The user confirmed the ceremony apology route reached the pool and said the
+stored name was probably O. Do not alter name handling for that observation.
+Keep v21 as the visited-route checkpoint and v20 as another fallback.
+
+Read [POOL_CLUB_V22.md](POOL_CLUB_V22.md). The new candidate translates Taiyo
+selectors 0/1 entries 57–176 (240 story entries), selector 2 menu-help entries
+52–55, shared CONTINUE/MOVE/STATUS/DIARY graphics, and matching April location
+labels. It covers the pool introductions, all eight clubs and the go-home
+option, club selection, and the training tutorial. Windows/native v22 tests
+remain pending; later April events and other school dialogue remain Japanese.
+
+The v22 arena shares identical payloads through native message pointers. Future
+patches must use the pointer-aware reader in `patches/pool_club_v22.rs` (or the
+inspection helper) on v22 output; upstream's contiguous-bank parser rejects
+aliases. Native pointer-load and end-termination instructions are guarded.
+All earlier and untargeted payloads, scripts, graphics, and other school
+members are verified unchanged. Five records are owned; MGAME changes only
+its 72-byte action-label spacing block at +0x19454.
+
+Local PowerShell execution was blocked by automatic review over a Visual Studio
+telemetry connection. No wrapper runtime pass is claimed. Validation uses
+direct Rust execution, offline wrapper consistency checks, and actual saved
+MGAME/MGCOCK shared records inside a clearly identified disc fixture.
+See `validation/pool-club-v22.json` for final local results and limits.
+
 ## v21 live playtest: apology route reaches pool conversation — 2026-10-28
 
 The user reports Batsu and the rest of the ceremony dialogue appeared in English,

@@ -5,6 +5,13 @@ release of **Shiritsu Justice Gakuen - Nekketsu Seishun Nikki 2** (`SLPS-02120`)
 
 ## Status
 
+**Next candidate: v22 pool, club orientation, and daily menu.** It adds 240
+Taiyo story entries, four menu-help messages, shared action labels, and matching
+location labels. See [POOL_CLUB_V22.md](POOL_CLUB_V22.md). Windows/native v22
+testing remains pending. The last reported playthrough is v21's apology route
+through the ceremony into the pool scene. Older build checkpoints follow.
+
+
 **v21 ceremony candidate built successfully on Windows.** Actual v21 SHA-256:
 `f4a470836cded402c5ec5df041f0023693099761f1a25cd1045690d8bae005f0`.
 Native ceremony testing remains pending. The last reported playthrough is v20

@@ -1,7 +1,7 @@
 # Pool, club orientation, and daily menu English v22
 
-Implementation checkpoint: validation is in progress. Do not treat v22 as built
-or native-tested yet. Production input is actual v21 SHA-256
+Candidate prepared: direct Rust disc tests and offline consistency checks passed.
+Windows/native v22 execution remains pending. Production input is actual v21 SHA-256
 `f4a470836cded402c5ec5df041f0023693099761f1a25cd1045690d8bae005f0`.
 Keep v21 and v20, the original disc, and the private recovery kit.
 
@@ -96,3 +96,64 @@ original source anchors. The final local fixture incorporates these actual
 shared records alongside locally reconstructed v21 ceremony records. It still
 does not represent a complete actual Windows v21 image; the fixture master and
 text-record identities are substituted only in a temporary QA copy.
+
+## Build and playtest
+
+Download `build_pool_club_english_v22.ps1` from the same commit as this document.
+Run it from Windows PowerShell:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\build_pool_club_english_v22.ps1
+```
+
+It finds the SHA-verified v21 BIN under `JG2-Recovery-v1/candidates`, uses the
+staged original and installed Arial, and prints a fresh `CUE TO TEST` under
+`candidates/pool-club-v22-<unique-id>/build`. It needs roughly 4.65 GiB headroom
+on a single drive. The original kit, plan, state, input images, and earlier
+candidates remain available. No extra JSON/Rust download is needed on Windows.
+
+Use `-CheckOnly` for read-only preflight. Alternate `-RecoveryRoot`, `-MasterBin`,
+`-SourceBin`, `-UpstreamRoot`, `-FontPath`, and a fresh `-WorkRoot` are supported.
+The wrapper inherits v21's exact-byte backup/restoration and environment logic.
+Its backup is `name_entry_input_tests.pre-v22.rs.bak`, and its log is
+`build-v22.log`. If an external interruption leaves the v22 injection, restore
+that exact backup before retrying; do not bypass identity checks.
+
+Keep v21. Boot the new CUE fresh; older emulator save states can retain loaded
+Japanese resources. Test:
+
+1. CONTINUE / STATUS / DIARY, including the selected highlight and Taiyo help text.
+2. English pool dialogue and WALKWAY / POOLSIDE labels, then the club-building scene.
+3. Both club-choice pages (SPORTS / CULTURE): three rows, two columns, correct cursor alignment.
+4. Several club descriptions and NO / YES prompts. NO should return to the choices.
+5. A chosen club, the general training tutorial, and its skip/repeat choices.
+6. Player-name insertions and earlier English ceremony/quiz behavior.
+
+MOVE is also translated for days where that action replaces CONTINUE. Shared
+label graphics are global, while the help and new story text are Taiyo-specific.
+Later April scenes and other school dialogue remain outside this candidate.
+Report the club/branch tested and the next Japanese or any display issue.
+
+## Final local results
+
+The final direct Rust run passed both the complete disc build and the shared-
+pointer/invalid-pointer regression (two passed, zero failed). Its fixture used
+the verified original, reconstructed v21 ceremony records, and the user's
+actual saved MGAME/MGCOCK records (all eight private export records verified).
+Only expected master/text identities were substituted in the QA module.
+Production source and shared-record guards remain unchanged.
+
+The build changed 1,232 sectors inside the five owned records and passed all
+record-readback, input-hash, fixed-length and EDC/ECC checks. It shared 502
+message references, using 69,896 / 102,368 arena bytes; an unshared layout would
+need 109,400 bytes. Dialogue compression is 225,304 / 225,706 bytes; header
+compression is 75,818 / 77,342 bytes. New glyphs are colon, right angle bracket,
+and X in slots 927–929. Local test source was manually restored byte-for-byte.
+
+Preview review covered white/yellow menu states, location strips, the native
+two-column choice geometry, six-cell name insertions, and menu-help layout.
+These font-dependent numbers use Liberation Sans Regular; they are not claimed
+to be Windows Arial output identities. Full evidence and the fixture output
+hash are in `validation/pool-club-v22.json`. The PowerShell runtime-test limit
+above remains; the wrapper's embedded-source and offline consistency checks
+passed. No actual Windows v22 or native playtest is claimed.
