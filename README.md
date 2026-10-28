@@ -5,34 +5,21 @@ release of **Shiritsu Justice Gakuen - Nekketsu Seishun Nikki 2** (`SLPS-02120`)
 
 ## Status
 
-Work has progressed through the **English quiz to the post-quiz stat results**.
-v19 has built successfully on Windows. The next candidate translates the
-rainbow rating popup shown after a correct quiz answer; see [RATING_POPUP_V20.md](RATING_POPUP_V20.md).
-See [CURRENT_MILESTONE.md](CURRENT_MILESTONE.md) for the distinction between
-repository-recorded live milestones, recovered work, and untested candidates.
+**v20 built on Windows and played through the quiz into April 8.** Actual
+SHA-256: `bf79b70fb5d806669fbf48917c634920e1934ff63d82072b9a0a48ab63238fec`.
+The next candidate translates the Taiyo entrance ceremony: both player variants,
+both ceremony choices, the title/date, and location graphics through Ran's
+introduction and the opening transition toward club orientation. See
+[ENTRANCE_CEREMONY_V21.md](ENTRANCE_CEREMONY_V21.md).
+Windows/native v21 checks remain pending. Later club scenes and other schools'
+ceremony dialogue remain untranslated.
 
-**Recovery completed on 2026-10-25.** The Windows rebuild passed all 22 recorded
-output hashes and restored the exact v16 image. See
-[recovery/VALIDATION.md](recovery/VALIDATION.md) for the transcript verification.
-
-**v17h candidate built on Windows.** The actual restored v16 image produced a
-verified candidate translating `QUESTION`, `CORRECT!`, `WRONG!`, and `EXAM OVER`.
-Its SHA-256 is `2ff4d83cca04a22a217883ac9c29b3e2fa9c5c4796d9661db3f95d9acd92149a`.
-The user subsequently reported successful play to the first remaining Japanese:
-the stat-change message after the quiz. The screenshot shows the English date
-and stat HUD. Individual quiz branches have not been separately enumerated.
-
-**v18 built on Windows.** It translates 18 MGK04 increase/decrease messages,
-preserving native arrows and the 100 quiz entries. Its build and final checks
-passed; actual SHA-256: `d720ea2ae3c2c1c52981b0536642b836ec8e2151c6e94b658abdd1a49e094068`.
-The stat-result live test is still pending. See [STAT_RESULTS_V18.md](STAT_RESULTS_V18.md).
-
-**Built on Windows: CLASSROOM banner v19.** The user identified Japanese in the separate
-location banner beneath the stat HUD. The new builder patches that graphic
-while preserving the background, portraits, quiz UI, School Gate, and v18 text.
-See [CLASSROOM_LABEL_V19.md](CLASSROOM_LABEL_V19.md). Keep v18, v17h, v16, and
-the original recovery kit. Actual v19 SHA-256: `0b378dd421323c6248307013ef185270ea581964d34cd7ab52826eb8b6e412f2`.
-Native classroom and stat-result checks remain pending.
+The recovery reproduced all 22 historical hashes through v16, then v17h, v18,
+v19, and v20 built successfully on Windows. The current source, hashes, recovery
+order, and validation limits are recorded in [PROJECT_HANDOFF.md](PROJECT_HANDOFF.md),
+[CURRENT_MILESTONE.md](CURRENT_MILESTONE.md), and [recovery/VALIDATION.md](recovery/VALIDATION.md).
+The private recovery kit, original disc, workspace/quiz packets, and rebuilt
+images require a separate private backup; they are not in public GitHub.
 
 ### Confirmed English work so far
 

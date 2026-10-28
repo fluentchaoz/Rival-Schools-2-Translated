@@ -70,9 +70,33 @@ self-contained builder after changes; users need only that generated PS1.
 
 ## Validation and playtest
 
-This checkpoint is being validated; Windows v21/native checks remain pending.
-Final local results will be recorded in `validation/entrance-ceremony-v21.json`.
-Earlier record tests passed with Liberation Sans, which is not Windows Arial.
+The complete builder passed on a verified original-disc fixture. Only the QA
+copy's expected master hash was substituted; the production builder retains
+the exact v20 identity. All three source-record guards stayed active. The test
+changed 1,516 sectors inside the three owned records, passed record readback,
+image-length and EDC/ECC checks, preserved input hashes, restored source exactly,
+and passed every final PowerShell output check (exit code 0).
+
+The dialogue uses 35 new glyphs in slots 892–926, 100,908 / 102,368 message-arena
+bytes, and 225,290 / 225,706 compressed bytes. The graphics patch updates five
+title copies, six matching gate copies, and three matching gym copies across
+12 runtime members. All native compression contracts passed.
+
+Eight wrapper tests passed: wrong master, check-only, insufficient space,
+existing outputs, compiler failure/source restoration, missing success outputs,
+automatic v20 discovery, and missing font. Run with:
+
+```text
+python -m unittest discover -s tests -p test_entrance_ceremony_builder.py -v
+```
+
+The rendered title and location previews were visually inspected. Dialogue
+layout/name/control checks pass, and the new text record reproduces the earlier
+visually inspected record hash. Local tests used Liberation Sans Regular,
+which is not claimed to be Windows Arial. Full machine-readable evidence is in
+`validation/entrance-ceremony-v21.json`. Its output hash is a fixture identity;
+that fixture lacks earlier English layers. Windows v21/native checks remain
+pending; the Windows output hash will be recorded after the user's run.
 
 Boot the new CUE fresh and complete the quiz. Check the pink title card, the
 `4/8` date, School Gate/Gym labels, Batsu calling the player's name, both ceremony

@@ -133,3 +133,13 @@ The next screenshot shows English CORRECT! with a separate Japanese rating
 popup. It does not independently establish the loaded disc identity or validate
 the classroom banner/stat-result text. Continue with
 [RATING_POPUP_V20.md](../RATING_POPUP_V20.md) from exact v19, retaining all baselines.
+
+## v20 Windows build and April 8 playthrough — 2026-10-28
+
+The production v20 build passed: SHA-256
+`bf79b70fb5d806669fbf48917c634920e1934ff63d82072b9a0a48ab63238fec`,
+13 changed sectors and 86,044 / 86,620 compressed bytes. The user completed
+the quiz and supplied screenshots of the April 8 ceremony card and school
+exterior. Continue with [ENTRANCE_CEREMONY_V21.md](../ENTRANCE_CEREMONY_V21.md).
+The original recovery kit, hash-bound plan, private translation packets, and
+state were not changed for this continuation.

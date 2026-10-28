@@ -59,5 +59,18 @@
     "exact_source_restoration_passed": true,
     "actual_windows_v20_built": false,
     "native_tested": false
+  },
+  "actual_windows_build": {
+    "passed": true,
+    "output_sha256": "bf79b70fb5d806669fbf48917c634920e1934ff63d82072b9a0a48ab63238fec",
+    "changed_raw_sectors": 13,
+    "compressed_bytes": 86044,
+    "fixed_slot": 86620,
+    "font_px": 18
+  },
+  "user_playthrough": {
+    "completed_quiz": true,
+    "reached_april_8_ceremony": true,
+    "all_quiz_branches_enumerated": false
   }
 }

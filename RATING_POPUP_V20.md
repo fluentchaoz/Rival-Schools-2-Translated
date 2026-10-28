@@ -102,3 +102,13 @@ copy's expected master and text-record hashes were substituted. Production
 checks retain the actual v19 and v18-text identities. This test changed 13
 sectors, passed EDC/ECC/readback checks, preserved inputs, and restored source
 exactly. It is not an actual Windows v20 disc or in-game validation.
+
+## Actual Windows build and playthrough
+
+The production run passed with SHA-256
+`bf79b70fb5d806669fbf48917c634920e1934ff63d82072b9a0a48ab63238fec`,
+13 changed sectors, and 86,044 / 86,620 compressed bytes. Font size: 18px.
+The user subsequently reported completing the quiz; screenshots show the April 8
+ceremony card and school exterior. Continue from this v20 using
+`ENTRANCE_CEREMONY_V21.md`. This report does not enumerate every quiz branch or
+separately establish all older classroom/stat-message checks.

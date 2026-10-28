@@ -1,5 +1,10 @@
 # Resume from the English quiz
 
+Current continuation: v20 built successfully and the user reached April 8.
+Read [ENTRANCE_CEREMONY_V21.md](ENTRANCE_CEREMONY_V21.md) and the top of
+`PROJECT_HANDOFF.md` before using the historical resume steps below.
+
+
 Latest continuation: v19 built successfully on Windows. The next candidate is
 the correct-answer rating popup, documented in [RATING_POPUP_V20.md](RATING_POPUP_V20.md).
 Read the top of `PROJECT_HANDOFF.md` before following the historical steps below.

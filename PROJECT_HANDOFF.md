@@ -2,6 +2,38 @@
 
 This file is the continuity document for future ChatGPT sessions working on this project.
 
+## v20 reached April 8; next candidate is Taiyo ceremony v21 — 2026-10-28
+
+The user's actual Windows v20 build passed its test and final checks:
+`bf79b70fb5d806669fbf48917c634920e1934ff63d82072b9a0a48ab63238fec`.
+It changed 13 sectors and used 86,044 / 86,620 bytes in the quiz graphics member.
+The user then reported completing the quiz and supplied screenshots of the pink
+April 8 entrance-ceremony card and the following school exterior/date message.
+This establishes progression along the tested route; individual quiz branches
+and all earlier classroom/stat-message checks are not separately enumerated.
+
+Actual v20 CUE:
+
+```text
+C:\Users\Fluent\JG2-Recovery-v1\candidates\rating-popup-v20-dc07cc86a1334a718dfd03c037468812\build\justice-gakuen2-rating-popup-v20.cue
+```
+
+Continue from that exact v20 with [ENTRANCE_CEREMONY_V21.md](ENTRANCE_CEREMONY_V21.md).
+The new scene candidate covers 114 Taiyo dialogue entries across both player
+variants, apology/teasing branches, four dynamic date messages, the title card,
+and matching School Gate/Gym labels. It reaches Ran's introduction and the
+opening transition toward club orientation. Later club scenes and other
+schools' ceremony dialogue remain Japanese. The complete local fixture builder and
+eight wrapper tests passed; see `validation/entrance-ceremony-v21.json`.
+Windows/native v21 checks are pending.
+
+Runtime ownership: MGG04T.BIZ is member 0 of the loaded MGG04.BZZ bundle;
+both must be updated. Graphics are in MGBGG04.BZZ. Ceremony messages are
+selectors 0/1 entries 0–54; 55–56 begin the orientation transition, and 57 onward
+starts the pool/club sequence. Date-only messages are selectors 3/4 entries
+18/19. Do not overwrite shared month/day glyphs. The English packet, Rust
+template, assembly script, builder, and tests are committed for recovery.
+
 ## v19 Windows build succeeded; next target is the rating popup
 
 The user's actual Windows v19 build passed its Rust test and final verification.
