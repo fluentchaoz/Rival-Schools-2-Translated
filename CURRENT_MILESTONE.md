@@ -1,6 +1,27 @@
-# Translation state — 2026-10-26
+# Translation state — 2026-10-27
 
-## Next candidate: CLASSROOM location banner v19
+## v19 Windows build succeeded; next target is the rating popup
+
+The user's actual Windows v19 build passed its Rust test and final verification.
+BIN SHA-256: `0b378dd421323c6248307013ef185270ea581964d34cd7ab52826eb8b6e412f2`.
+It changed 66 raw sectors; classroom member size is 172,054 / 173,606 bytes,
+with 11px text. The actual CUE is:
+
+```text
+C:\Users\Fluent\JG2-Recovery-v1\candidates\classroom-label-v19-f025cc6ac36c4d4f94e886d4fa730ef6\build\justice-gakuen2-classroom-label-v19.cue
+```
+
+The next quiz screenshot confirms that the English `CORRECT!` stamp appears.
+It also shows a separate rainbow `評価UP` popup (Rating Up) still in Japanese.
+The screenshot does not establish which disc was loaded, does not show the
+classroom banner, and does not validate the post-quiz stat-result text.
+Do not mark those separate native checks as passed.
+
+Continue with [RATING_POPUP_V20.md](RATING_POPUP_V20.md), using the exact v19
+image as input and retaining it. v20 addresses only the rating popup. Keep the
+original recovery kit and its private translation packets unchanged.
+
+## Earlier checkpoint: CLASSROOM location banner v19
 
 The v18 Windows build passed. The user then pointed out `教室` (Classroom)
 beneath the stat HUD in the pre-quiz classroom. This is a separate graphic;
@@ -11,8 +32,8 @@ strip in MGBGK04 member 1, preserving the background, portraits, School Gate,
 quiz graphics, and v18 text bank. It starts from the exact v18 hash below and
 creates a separate candidate. Read [CLASSROOM_LABEL_V19.md](CLASSROOM_LABEL_V19.md)
 for build instructions, evidence, and the native-test checklist. The record patch,
-eight wrapper tests, and full disc fixture passed; Windows v19 and native checks
-remain pending. Keep v18.
+eight wrapper tests, and full disc fixture passed. The actual Windows build
+subsequently passed as recorded above; native checks remain pending. Keep v18.
 
 ## Built on Windows: MGK04 stat results English v18
 
@@ -67,7 +88,7 @@ The original recovery transcript stopped at v16; a subsequent resume transcript
 establishes the v17h build below. The later playthrough report is recorded above.
 
 The same recovery kit has now built v17h successfully from this v16 image.
-The next action is the v19 candidate build above. Keep the kit and its
+The next action is the v20 rating-popup candidate above. Keep the kit and its
 `recovery-plan.json` unchanged: resume binds to their saved identities.
 
 ## Built and played: quiz fixed UI v17h

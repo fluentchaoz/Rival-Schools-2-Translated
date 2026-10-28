@@ -6,8 +6,8 @@ release of **Shiritsu Justice Gakuen - Nekketsu Seishun Nikki 2** (`SLPS-02120`)
 ## Status
 
 Work has progressed through the **English quiz to the post-quiz stat results**.
-v18 has now built successfully on Windows. The next candidate translates the
-CLASSROOM location banner from that exact v18 image.
+v19 has built successfully on Windows. The next candidate translates the
+rainbow rating popup shown after a correct quiz answer; see [RATING_POPUP_V20.md](RATING_POPUP_V20.md).
 See [CURRENT_MILESTONE.md](CURRENT_MILESTONE.md) for the distinction between
 repository-recorded live milestones, recovered work, and untested candidates.
 
@@ -27,11 +27,12 @@ preserving native arrows and the 100 quiz entries. Its build and final checks
 passed; actual SHA-256: `d720ea2ae3c2c1c52981b0536642b836ec8e2151c6e94b658abdd1a49e094068`.
 The stat-result live test is still pending. See [STAT_RESULTS_V18.md](STAT_RESULTS_V18.md).
 
-**Next: CLASSROOM banner v19.** The user identified Japanese in the separate
+**Built on Windows: CLASSROOM banner v19.** The user identified Japanese in the separate
 location banner beneath the stat HUD. The new builder patches that graphic
 while preserving the background, portraits, quiz UI, School Gate, and v18 text.
 See [CLASSROOM_LABEL_V19.md](CLASSROOM_LABEL_V19.md). Keep v18, v17h, v16, and
-the original recovery kit. Windows v19 execution and native testing remain pending.
+the original recovery kit. Actual v19 SHA-256: `0b378dd421323c6248307013ef185270ea581964d34cd7ab52826eb8b6e412f2`.
+Native classroom and stat-result checks remain pending.
 
 ### Confirmed English work so far
 

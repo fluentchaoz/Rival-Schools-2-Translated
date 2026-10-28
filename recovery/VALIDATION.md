@@ -120,3 +120,16 @@ not a stat-result message. Native validation of v18's result text remains pendin
 The separate v19 banner patch continues from the exact v18 hash above; see
 [CLASSROOM_LABEL_V19.md](../CLASSROOM_LABEL_V19.md). This transcript establishes
 the user's build result; it is not a direct read of their Windows filesystem.
+
+## Actual v19 Windows candidate and v20 continuation
+
+The user supplied a successful v19 build: one Rust test passed, final checks
+passed, and output SHA-256 was
+`0b378dd421323c6248307013ef185270ea581964d34cd7ab52826eb8b6e412f2`.
+It changed 66 sectors; the classroom member occupied 172,054 / 173,606 bytes.
+This updates the earlier build-pending checkpoint without changing the kit.
+
+The next screenshot shows English CORRECT! with a separate Japanese rating
+popup. It does not independently establish the loaded disc identity or validate
+the classroom banner/stat-result text. Continue with
+[RATING_POPUP_V20.md](../RATING_POPUP_V20.md) from exact v19, retaining all baselines.

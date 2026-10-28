@@ -2,6 +2,27 @@
 
 This file is the continuity document for future ChatGPT sessions working on this project.
 
+## v19 Windows build succeeded; next target is the rating popup
+
+The user's actual Windows v19 build passed its Rust test and final verification.
+BIN SHA-256: `0b378dd421323c6248307013ef185270ea581964d34cd7ab52826eb8b6e412f2`.
+It changed 66 raw sectors; classroom member size is 172,054 / 173,606 bytes,
+with 11px text. The actual CUE is:
+
+```text
+C:\Users\Fluent\JG2-Recovery-v1\candidates\classroom-label-v19-f025cc6ac36c4d4f94e886d4fa730ef6\build\justice-gakuen2-classroom-label-v19.cue
+```
+
+The next quiz screenshot confirms that the English `CORRECT!` stamp appears.
+It also shows a separate rainbow `評価UP` popup (Rating Up) still in Japanese.
+The screenshot does not establish which disc was loaded, does not show the
+classroom banner, and does not validate the post-quiz stat-result text.
+Do not mark those separate native checks as passed.
+
+Continue with [RATING_POPUP_V20.md](RATING_POPUP_V20.md), using the exact v19
+image as input and retaining it. v20 addresses only the rating popup. Keep the
+original recovery kit and its private translation packets unchanged.
+
 ## v18 Windows build and v19 classroom continuation — 2026-10-26
 
 The user's v18 Windows build passed its test and final output checks. Actual
@@ -376,5 +397,5 @@ Then verify the newest live-tested master before making a new patch.
 Do not assume the newest generated build is promoted merely because it compiled.
 
 The original handoff's v6 nickname task is superseded by the recovered v7
-builder. The current task is to test the built v17h quiz graphics candidate
-in-game, as described in `RESUME_QUIZ.md`.
+builder. The current task is the rating-popup v20 candidate described at the top of this
+file and in `RATING_POPUP_V20.md`.

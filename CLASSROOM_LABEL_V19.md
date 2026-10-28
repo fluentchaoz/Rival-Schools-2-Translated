@@ -122,5 +122,14 @@ python -m unittest discover -s tests -p test_classroom_label_builder.py -v
 ```
 
 Set `POWERSHELL` to the executable path if `pwsh` is not on PATH. The actual
-Windows v19 build and native in-game check remain pending. The builder records
+Windows v19 build subsequently passed; native in-game checks remain pending. The builder records
 the selected font hash, pixel size, exact output hash, and preview path.
+
+## Actual Windows build received
+
+The user's run passed one Rust test and all final checks. Output SHA-256:
+`0b378dd421323c6248307013ef185270ea581964d34cd7ab52826eb8b6e412f2`.
+Changed sectors: 66. Compressed member: 172,054 / 173,606 bytes. Font: 11px,
+clear 0, outline 1, fill 228. This is actual Windows evidence, distinct from
+the earlier local fixture. The next screenshot shows the quiz CORRECT stamp
+and untranslated rating popup, not the classroom banner or stat results.

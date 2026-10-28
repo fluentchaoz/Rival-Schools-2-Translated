@@ -42,5 +42,15 @@
     "fixture_source_original_sha256": "0fce6eda2082d91af5a963c73fbf80a7935b1ebd5446dff5d01e548370fabe8e",
     "fixture_preserved_v18_mgk04_record": true,
     "exact_source_restoration_passed": true
+  },
+  "actual_windows_build": {
+    "test_passed": true,
+    "final_verification_passed": true,
+    "output_sha256": "0b378dd421323c6248307013ef185270ea581964d34cd7ab52826eb8b6e412f2",
+    "changed_raw_sectors": 66,
+    "compressed_bytes": 172054,
+    "fixed_compressed_slot": 173606,
+    "font_px": 11.0,
+    "native_classroom_check_confirmed": false
   }
 }

@@ -1,5 +1,10 @@
 # Resume from the English quiz
 
+Latest continuation: v19 built successfully on Windows. The next candidate is
+the correct-answer rating popup, documented in [RATING_POPUP_V20.md](RATING_POPUP_V20.md).
+Read the top of `PROJECT_HANDOFF.md` before following the historical steps below.
+
+
 ## Continue from v18: classroom banner and stat results
 
 The v18 Windows build and final verification passed. Its exact output hash is
