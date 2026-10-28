@@ -23,7 +23,7 @@ def decompress(d):
    else:out+=word().to_bytes(2,'little')
    c=(c<<1)&65535
 
-def banks(d):
+def contiguous_banks(d):
  result=[]
  for sel in range(8):
   value=struct.unpack_from('<I',d,0x31000+sel*4)[0]
@@ -36,6 +36,29 @@ def banks(d):
   for i,p in enumerate(ptrs):
    end=ptrs[i+1] if i+1<len(ptrs) else table
    result.append((sel,i,struct.unpack('<'+'H'*((end-p)//2),d[p:end])))
+ return result
+
+def banks(d):
+ """Read native end-terminated payloads, including shared-pointer v22 banks."""
+ result=[]
+ for sel in range(8):
+  value=struct.unpack_from('<I',d,0x31000+sel*4)[0]
+  if not value:continue
+  table=value-0x800d0000;assert 0x31020<=table<0x4a000 and table%4==0
+  index=0
+  while True:
+   assert table+index*4+4<=0x4a000
+   p=struct.unpack_from('<I',d,table+index*4)[0]
+   if p==0xffffffff:break
+   p-=0x800d0000;assert 0x31020<=p<0x4a000 and p%4==0
+   end=p
+   while True:
+    assert end+2<=0x4a000
+    code=struct.unpack_from('<H',d,end)[0];end+=2
+    if code==0x3001:break
+    if code in [0x3002,0x3003]or 0x2003<=code<=0x2009:end+=2
+   aligned=(end+3)&~3;assert not any(d[end:aligned])
+   result.append((sel,index,struct.unpack('<'+'H'*((aligned-p)//2),d[p:aligned])));index+=1
  return result
 
 def render(d,words):
