@@ -1,5 +1,32 @@
 # Translation state — 2026-10-28
 
+## Actual v22 Windows build passed — 2026-10-28
+
+The user's production builder passed its Rust test (1 passed, 0 failed) and
+final PowerShell verification. Actual output BIN SHA-256:
+`b21934066fc21a217ce5c37772abd53b81e881706d685bd10dc349cc0f8be95e`.
+
+The build changed 1,232 raw sectors. Dialogue uses 225,304 / 225,706 compressed
+bytes; the shared text arena uses 69,896 / 102,368 bytes, with 502 duplicate
+message references shared. The shared header uses 75,818 / 77,342 bytes.
+The report confirms 240 story entries, four menu-help entries, all seven
+location-label groups, and preservation checks. Actual Arial font SHA-256:
+`b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a`.
+
+CUE to test:
+
+```text
+C:\Users\Fluent\JG2-Recovery-v1\candidates\pool-club-v22-6fee622ae48d460093e6ce45ca87e084\build\justice-gakuen2-pool-club-v22.cue
+```
+
+Keep v21. Boot this CUE fresh in DuckStation, check the daily menu, pool
+conversation, both club-selection pages and choice columns, then join a club
+and test the training tutorial. Native v22 gameplay is still pending.
+The original compiler unused-import warnings did not prevent the successful
+build. See `validation/pool-club-v22-windows.json` for the actual production
+report; `validation/pool-club-v22.json` remains the separate local fixture.
+
+
 ## Pool/club and daily menu v22 candidate — 2026-10-28
 
 Continue from actual v21 BIN SHA-256
@@ -12,7 +39,7 @@ Read [POOL_CLUB_V22.md](POOL_CLUB_V22.md). The new candidate translates Taiyo
 selectors 0/1 entries 57–176 (240 story entries), selector 2 menu-help entries
 52–55, shared CONTINUE/MOVE/STATUS/DIARY graphics, and matching April location
 labels. It covers the pool introductions, all eight clubs and the go-home
-option, club selection, and the training tutorial. Windows/native v22 tests
+option, club selection, and the training tutorial. Windows v22 build passed; native v22 tests
 remain pending; later April events and other school dialogue remain Japanese.
 
 The v22 arena shares identical payloads through native message pointers. Future

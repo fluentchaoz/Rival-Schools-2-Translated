@@ -1,0 +1,197 @@
+{
+  "changed_sector_count": 1232,
+  "earlier_and_untargeted_layers_preserved": true,
+  "font_sha256": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+  "graphics": {
+    "all_other_graphics_preserved": true,
+    "copies": {
+      "CLASSROOM": 4,
+      "CLUB BUILDING": 1,
+      "FIELD": 3,
+      "GYM": 1,
+      "POOLSIDE": 1,
+      "SUMO ROOM": 1,
+      "WALKWAY": 6
+    },
+    "members": [
+      {
+        "compressed_bytes": 188446,
+        "fixed_slot": 188712,
+        "member": 2
+      },
+      {
+        "compressed_bytes": 272396,
+        "fixed_slot": 273482,
+        "member": 3
+      },
+      {
+        "compressed_bytes": 235548,
+        "fixed_slot": 236616,
+        "member": 4
+      },
+      {
+        "compressed_bytes": 106502,
+        "fixed_slot": 107418,
+        "member": 5
+      },
+      {
+        "compressed_bytes": 102416,
+        "fixed_slot": 103710,
+        "member": 6
+      },
+      {
+        "compressed_bytes": 92182,
+        "fixed_slot": 92956,
+        "member": 7
+      },
+      {
+        "compressed_bytes": 104464,
+        "fixed_slot": 105676,
+        "member": 8
+      },
+      {
+        "compressed_bytes": 98338,
+        "fixed_slot": 99922,
+        "member": 9
+      },
+      {
+        "compressed_bytes": 71682,
+        "fixed_slot": 73604,
+        "member": 10
+      },
+      {
+        "compressed_bytes": 94228,
+        "fixed_slot": 95042,
+        "member": 12
+      },
+      {
+        "compressed_bytes": 81950,
+        "fixed_slot": 82808,
+        "member": 13
+      },
+      {
+        "compressed_bytes": 239650,
+        "fixed_slot": 241454,
+        "member": 23
+      },
+      {
+        "compressed_bytes": 188446,
+        "fixed_slot": 188712,
+        "member": 24
+      },
+      {
+        "compressed_bytes": 188446,
+        "fixed_slot": 188712,
+        "member": 28
+      },
+      {
+        "compressed_bytes": 217098,
+        "fixed_slot": 218342,
+        "member": 31
+      },
+      {
+        "compressed_bytes": 188446,
+        "fixed_slot": 188712,
+        "member": 32
+      },
+      {
+        "compressed_bytes": 188446,
+        "fixed_slot": 188712,
+        "member": 36
+      }
+    ],
+    "palettes_preserved": true
+  },
+  "header": {
+    "all_other_header_bytes_preserved": true,
+    "compressed_bytes": 75818,
+    "fixed_slot": 77342,
+    "labels": [
+      "CONTINUE",
+      "MOVE",
+      "STATUS",
+      "DIARY"
+    ],
+    "native_palettes_preserved": true
+  },
+  "kind": "Taiyo pool/club and shared action labels English v22",
+  "master_sha256": "f4a470836cded402c5ec5df041f0023693099761f1a25cd1045690d8bae005f0",
+  "mgame_changed_range": [
+    103508,
+    103580
+  ],
+  "native_pointer_consumer_verified": true,
+  "other_schools_dialogue_preserved": true,
+  "output_sha256": "b21934066fc21a217ce5c37772abd53b81e881706d685bd10dc349cc0f8be95e",
+  "source_sha256": "0fce6eda2082d91af5a963c73fbf80a7935b1ebd5446dff5d01e548370fabe8e",
+  "text": {
+    "arena_capacity_bytes": 102368,
+    "arena_used_bytes": 69896,
+    "compressed_bytes": 225304,
+    "deduplicated_bytes": 39504,
+    "earlier_and_untargeted_payloads_preserved": true,
+    "fixed_slot": 225706,
+    "glyph_codes": {
+      " ": 892,
+      "!": 893,
+      "'": 894,
+      "(": 895,
+      ")": 896,
+      ",": 897,
+      "-": 898,
+      ".": 899,
+      "/": 900,
+      ":": 927,
+      ">": 928,
+      "?": 901,
+      "A": 902,
+      "B": 903,
+      "C": 904,
+      "D": 905,
+      "E": 906,
+      "F": 907,
+      "G": 908,
+      "H": 909,
+      "I": 910,
+      "J": 911,
+      "K": 912,
+      "L": 913,
+      "M": 914,
+      "N": 915,
+      "O": 916,
+      "P": 917,
+      "Q": 918,
+      "R": 919,
+      "S": 920,
+      "T": 921,
+      "U": 922,
+      "V": 923,
+      "W": 924,
+      "X": 929,
+      "Y": 925,
+      "Z": 926
+    },
+    "input_sha256": "0373879a09b285164f8ac7e4424cfdb8bf466fe09e2b7e40c985563d7de93ed1",
+    "native_pointer_readback_verified": true,
+    "new_glyph_count": 3,
+    "new_glyph_start": 927,
+    "patched_sha256": "df9fca06ae4edac941a36a05a5ffb35d17b87e9f28355b714dc97886fb0c5081",
+    "protected_controls_preserved": true,
+    "scripts_preserved": true,
+    "shared_message_references": 502,
+    "translated_menu_help_entries": 4,
+    "translated_story_entries": 240,
+    "unshared_arena_bytes": 109400
+  },
+  "cue": "C:\\Users\\Fluent\\JG2-Recovery-v1\\candidates\\pool-club-v22-6fee622ae48d460093e6ce45ca87e084\\build\\justice-gakuen2-pool-club-v22.cue",
+  "validation_context": {
+    "kind": "Actual Windows production run reported by user",
+    "date": "2026-10-28",
+    "rust_tests_passed": 1,
+    "rust_tests_failed": 0,
+    "powershell_final_output_verification_passed": true,
+    "actual_v22_windows_built": true,
+    "native_tested": false,
+    "evidence": "User supplied complete console report, POOL_CLUB_V22_COMPLETE=1, one passing test, and final CANDIDATE BUILT output. Build success does not establish native gameplay."
+  }
+}
