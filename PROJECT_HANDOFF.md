@@ -1,5 +1,27 @@
 # Project Handoff — Read This First
 
+## v23 native baseball route passed; April 16 field trip is next — 2026-10-29
+
+User reports getting through all baseball joining dialogue and reaching April 16.
+Screenshots show the BASEBALL HUD label in English and continued gameplay into
+April 16. This validates the visited baseball route, not all eight clubs or both
+player variants. Keep actual v23 SHA-256
+`9329e5a8ed0c1270fa090f015a4a833ee4b00f120ec884b3f079d67d619fd4f1`.
+
+First screenshot: graphic title card `4月16日 / 遠足` = APRIL 16 / FIELD TRIP.
+Second screenshot: dialogue date `4月16日`, then `今日は、春の遠足だ。` =
+Today is the spring field trip. The HUD date already reads 4/16 FRI.
+These are separate title graphics and dialogue date/text layers.
+
+User requests a comprehensive sweep of date screens, not only April 16.
+Next patch scope should inventory event title/date cards across the disc and
+all dynamic dialogue date templates, preserve existing English HUD dates,
+and translate the complete Taiyo spring field-trip event and branches.
+Do not claim all date screens fixed until this inventory and build validation
+are complete. No v24 patch has been built yet. Source-bank field-trip opening
+is expected just after entry 347; verify exact coordinates from source.
+
+
 ## Actual v23 Windows build passed — 2026-10-29
 
 The user's v23 build passed one Rust test (zero failures) and final PowerShell verification.
