@@ -1,5 +1,10 @@
 # Project Handoff — Read This First
 
+## v23 club joining candidate ready — 2026-10-29
+
+Read CLUB_JOIN_V23.md. The user reached Taiyo club selection in v22 and joined baseball; Japanese begins at the remaining tutorial farewell (entry 179). v23 translates selectors 0/1 entries 177–347 (342 messages), nine shared club HUD labels, and the missed secondary Club Building TIM in graphics member 3. The direct Rust full-disc fixture passed (1 test, zero failures); actual Windows and native testing remain pending. Keep actual v22 b21934066fc21a217ce5c37772abd53b81e881706d685bd10dc349cc0f8be95e. Run build_club_join_english_v23.ps1 to create a fresh candidate. Later field-trip scenes and other schools are outside scope.
+
+
 ## Actual v22 Windows build passed — 2026-10-28
 
 The user's production builder passed its Rust test (1 passed, 0 failed) and
