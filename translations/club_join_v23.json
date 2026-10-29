@@ -1,0 +1,698 @@
+{
+  "record": "DAT2/MGG04T.BIZ",
+  "selectors": [
+    0,
+    1
+  ],
+  "entries": [
+    {
+      "index": 177,
+      "text": "I SEE. THEN THERE'S\nNOTHING ELSE FOR\nTODAY."
+    },
+    {
+      "index": 178,
+      "text": "MAY'S SPECIAL\nPRACTICE IS NEXT.\nUNTIL THEN, KEEP UP\nREGULAR ACTIVITIES."
+    },
+    {
+      "index": 179,
+      "text": "SEE YOU NEXT MONTH.\nGIVE IT YOUR BEST\nTHIS YEAR!"
+    },
+    {
+      "index": 180,
+      "text": "JOINING VOLLEYBALL?\nI'M KOTARO OKITA,\nTHE COACH! LET'S\nHAVE A GREAT YEAR!"
+    },
+    {
+      "index": 181,
+      "text": "SHALL I EXPLAIN HOW\nCLUB ACTIVITIES\nWORK? WOULD YOU LIKE\nTO HEAR IT?"
+    },
+    {
+      "index": 182,
+      "text": "HEAR EXPLANATION\nSKIP EXPLANATION"
+    },
+    {
+      "index": 183,
+      "text": "ALL RIGHT. FIRST,\nREMEMBER THAT THERE\nARE TWO KINDS OF\nCLUB ACTIVITIES."
+    },
+    {
+      "index": 184,
+      "text": "REGULAR ACTIVITIES,\nAND SPECIAL PRACTICE\nAT THE START OF EACH\nMONTH."
+    },
+    {
+      "index": 185,
+      "text": "FIRST, REGULAR CLUB\nACTIVITIES. THERE'S\nNO SPECIAL TIME OR\nACTION TO CHOOSE."
+    },
+    {
+      "index": 186,
+      "text": "JUST BEING IN A CLUB\nGRADUALLY IMPROVES\nTHE ABILITIES THAT\nSUIT THAT CLUB."
+    },
+    {
+      "index": 187,
+      "text": "YOUR REGULAR GAINS\nARE REPORTED AT THE\nSTART OF THE MONTH,\nAT SPECIAL PRACTICE."
+    },
+    {
+      "index": 188,
+      "text": "YOU CAN'T PUSH HARD\nOR SLACK OFF DURING\nTHOSE GAINS, BUT\nTHEY BUILD STATS."
+    },
+    {
+      "index": 189,
+      "text": "NEXT IS SPECIAL\nPRACTICE. EACH CLUB\nHOLDS THIS TRAINING\nEVERY MONTH."
+    },
+    {
+      "index": 190,
+      "text": "YOU CONCENTRATE ON\nTRAINING THAT SUITS\nYOUR CLUB'S\nSPECIALTY."
+    },
+    {
+      "index": 191,
+      "text": "SPECIAL PRACTICE IS\nMUCH MORE EFFECTIVE\nTHAN REGULAR CLUB\nACTIVITIES."
+    },
+    {
+      "index": 192,
+      "text": "IF YOU WANT A BIG\nBOOST TO ONE STAT,\nMAKE THE MOST OF\nSPECIAL PRACTICE."
+    },
+    {
+      "index": 193,
+      "text": "REGULAR ACTIVITIES\nBUILD GENERAL STATS.\nSPECIAL PRACTICE\nFOCUSES ON ONE."
+    },
+    {
+      "index": 194,
+      "text": "THAT'S HOW CLUB\nTRAINING WORKS."
+    },
+    {
+      "index": 195,
+      "text": "WOULD YOU LIKE ME TO\nEXPLAIN IT AGAIN?"
+    },
+    {
+      "index": 196,
+      "text": "NO THANKS\nHEAR IT AGAIN"
+    },
+    {
+      "index": 197,
+      "text": "ALL RIGHT, THAT'S\nTHE EXPLANATION\nDONE. TODAY'S CLUB\nVISIT ENDS HERE."
+    },
+    {
+      "index": 198,
+      "text": "I SEE. THEN THERE'S\nNOTHING ELSE TO TALK\nABOUT TODAY."
+    },
+    {
+      "index": 199,
+      "text": "MAY'S SPECIAL\nPRACTICE IS NEXT.\nUNTIL THEN, KEEP UP\nREGULAR ACTIVITIES."
+    },
+    {
+      "index": 200,
+      "text": "SEE YOU NEXT MONTH.\nI'M COUNTING ON YOU.\nLET'S AIM FOR THE\nWORLD TOGETHER!"
+    },
+    {
+      "index": 201,
+      "text": "AH, {0}!\nWELCOME TO SOCCER.\n{1}I'VE BEEN WAITING.\nGLAD TO HAVE YOU!{2}"
+    },
+    {
+      "index": 202,
+      "text": "SHALL I EXPLAIN HOW\nCLUB ACTIVITIES\nWORK? WOULD YOU LIKE\nTO HEAR IT?"
+    },
+    {
+      "index": 203,
+      "text": "HEAR EXPLANATION\nSKIP EXPLANATION"
+    },
+    {
+      "index": 204,
+      "text": "ALL RIGHT. FIRST,\nREMEMBER THAT THERE\nARE TWO KINDS OF\nCLUB ACTIVITIES."
+    },
+    {
+      "index": 205,
+      "text": "REGULAR ACTIVITIES,\nAND SPECIAL PRACTICE\nAT THE START OF EACH\nMONTH."
+    },
+    {
+      "index": 206,
+      "text": "FIRST, REGULAR CLUB\nACTIVITIES. THERE'S\nNO SPECIAL TIME OR\nACTION TO CHOOSE."
+    },
+    {
+      "index": 207,
+      "text": "JUST BEING IN A CLUB\nGRADUALLY IMPROVES\nTHE ABILITIES THAT\nSUIT THAT CLUB."
+    },
+    {
+      "index": 208,
+      "text": "YOUR REGULAR GAINS\nARE REPORTED AT THE\nSTART OF THE MONTH,\nAT SPECIAL PRACTICE."
+    },
+    {
+      "index": 209,
+      "text": "YOU CAN'T PUSH HARD\nOR SLACK OFF DURING\nTHOSE GAINS, BUT\nTHEY BUILD STATS."
+    },
+    {
+      "index": 210,
+      "text": "NEXT IS SPECIAL\nPRACTICE. EACH CLUB\nHOLDS THIS TRAINING\nEVERY MONTH."
+    },
+    {
+      "index": 211,
+      "text": "YOU CONCENTRATE ON\nTRAINING THAT SUITS\nYOUR CLUB'S\nSPECIALTY."
+    },
+    {
+      "index": 212,
+      "text": "SPECIAL PRACTICE IS\nMUCH MORE EFFECTIVE\nTHAN REGULAR CLUB\nACTIVITIES."
+    },
+    {
+      "index": 213,
+      "text": "IF YOU WANT A BIG\nBOOST TO ONE STAT,\nMAKE THE MOST OF\nSPECIAL PRACTICE."
+    },
+    {
+      "index": 214,
+      "text": "REGULAR ACTIVITIES\nBUILD GENERAL STATS.\nSPECIAL PRACTICE\nFOCUSES ON ONE."
+    },
+    {
+      "index": 215,
+      "text": "THAT'S HOW CLUB\nTRAINING WORKS."
+    },
+    {
+      "index": 216,
+      "text": "WOULD YOU LIKE ME TO\nEXPLAIN IT AGAIN?"
+    },
+    {
+      "index": 217,
+      "text": "NO THANKS\nHEAR IT AGAIN"
+    },
+    {
+      "index": 218,
+      "text": "ALL RIGHT, THAT'S\nTHE EXPLANATION\nDONE. TODAY'S CLUB\nVISIT ENDS HERE."
+    },
+    {
+      "index": 219,
+      "text": "I SEE. THEN THERE'S\nNOTHING ELSE TO TALK\nABOUT TODAY."
+    },
+    {
+      "index": 220,
+      "text": "MAY'S SPECIAL\nPRACTICE IS NEXT.\nUNTIL THEN, KEEP UP\nREGULAR ACTIVITIES!"
+    },
+    {
+      "index": 221,
+      "text": "SEE YOU NEXT MONTH.\nLET'S DO OUR BEST\nTHIS YEAR!"
+    },
+    {
+      "index": 222,
+      "text": "WELCOME, KID! YOU'VE\nGOT NERVE JOINING\nSUMO. I'LL TRAIN YOU\nHARD THIS YEAR!"
+    },
+    {
+      "index": 223,
+      "text": "SHALL I EXPLAIN HOW\nCLUB ACTIVITIES\nWORK? WOULD YOU LIKE\nTO HEAR IT?"
+    },
+    {
+      "index": 224,
+      "text": "HEAR EXPLANATION\nSKIP EXPLANATION"
+    },
+    {
+      "index": 225,
+      "text": "ALL RIGHT. FIRST,\nREMEMBER THAT THERE\nARE TWO KINDS OF\nCLUB ACTIVITIES."
+    },
+    {
+      "index": 226,
+      "text": "REGULAR ACTIVITIES,\nAND SPECIAL PRACTICE\nAT THE START OF EACH\nMONTH."
+    },
+    {
+      "index": 227,
+      "text": "FIRST, REGULAR CLUB\nACTIVITIES. THERE'S\nNO SPECIAL TIME OR\nACTION TO CHOOSE."
+    },
+    {
+      "index": 228,
+      "text": "JUST BEING IN A CLUB\nGRADUALLY IMPROVES\nTHE ABILITIES THAT\nSUIT THAT CLUB."
+    },
+    {
+      "index": 229,
+      "text": "YOUR REGULAR GAINS\nARE REPORTED AT THE\nSTART OF THE MONTH,\nAT SPECIAL PRACTICE."
+    },
+    {
+      "index": 230,
+      "text": "YOU CAN'T PUSH HARD\nOR SLACK OFF DURING\nTHOSE GAINS, BUT\nTHEY BUILD STATS."
+    },
+    {
+      "index": 231,
+      "text": "NEXT IS SPECIAL\nPRACTICE. EACH CLUB\nHOLDS THIS TRAINING\nEVERY MONTH."
+    },
+    {
+      "index": 232,
+      "text": "YOU CONCENTRATE ON\nTRAINING THAT SUITS\nYOUR CLUB'S\nSPECIALTY."
+    },
+    {
+      "index": 233,
+      "text": "SPECIAL PRACTICE IS\nMUCH MORE EFFECTIVE\nTHAN REGULAR CLUB\nACTIVITIES."
+    },
+    {
+      "index": 234,
+      "text": "IF YOU WANT A BIG\nBOOST TO ONE STAT,\nMAKE THE MOST OF\nSPECIAL PRACTICE."
+    },
+    {
+      "index": 235,
+      "text": "REGULAR ACTIVITIES\nBUILD GENERAL STATS.\nSPECIAL PRACTICE\nFOCUSES ON ONE."
+    },
+    {
+      "index": 236,
+      "text": "THAT'S HOW CLUB\nTRAINING WORKS."
+    },
+    {
+      "index": 237,
+      "text": "WOULD YOU LIKE ME TO\nEXPLAIN IT AGAIN?"
+    },
+    {
+      "index": 238,
+      "text": "NO THANKS\nHEAR IT AGAIN"
+    },
+    {
+      "index": 239,
+      "text": "ALL RIGHT, THAT'S\nTHE EXPLANATION\nDONE. TODAY'S CLUB\nVISIT ENDS HERE."
+    },
+    {
+      "index": 240,
+      "text": "I SEE. THEN THERE'S\nNOTHING ELSE TO TALK\nABOUT TODAY."
+    },
+    {
+      "index": 241,
+      "text": "MAY'S SPECIAL\nPRACTICE IS NEXT.\nKEEP UP REGULAR\nWORK... IN SPIRIT!"
+    },
+    {
+      "index": 242,
+      "text": "SEE YOU NEXT MONTH.\nIT'S UP TO YOU HOW\nFAR YOU GO IN THIS\nTOUGH WORLD!"
+    },
+    {
+      "index": 243,
+      "text": "WELCOME, {0}!\n{1}I'M KOZUE YAMABUKI,\nART'S VICE CAPTAIN.\nGLAD YOU JOINED!{2}"
+    },
+    {
+      "index": 244,
+      "text": "SHALL I EXPLAIN HOW\nCLUB ACTIVITIES\nWORK? WOULD YOU LIKE\nTO HEAR IT?"
+    },
+    {
+      "index": 245,
+      "text": "HEAR EXPLANATION\nSKIP EXPLANATION"
+    },
+    {
+      "index": 246,
+      "text": "ALL RIGHT. FIRST,\nREMEMBER THAT THERE\nARE TWO KINDS OF\nCLUB ACTIVITIES."
+    },
+    {
+      "index": 247,
+      "text": "REGULAR ACTIVITIES,\nAND SPECIAL PRACTICE\nAT THE START OF EACH\nMONTH."
+    },
+    {
+      "index": 248,
+      "text": "FIRST, REGULAR CLUB\nACTIVITIES. THERE'S\nNO SPECIAL TIME OR\nACTION TO CHOOSE."
+    },
+    {
+      "index": 249,
+      "text": "JUST BEING IN A CLUB\nGRADUALLY IMPROVES\nTHE ABILITIES THAT\nSUIT THAT CLUB."
+    },
+    {
+      "index": 250,
+      "text": "YOUR REGULAR GAINS\nARE REPORTED AT THE\nSTART OF THE MONTH,\nAT SPECIAL PRACTICE."
+    },
+    {
+      "index": 251,
+      "text": "YOU CAN'T PUSH HARD\nOR SLACK OFF DURING\nTHOSE GAINS, BUT\nTHEY BUILD STATS."
+    },
+    {
+      "index": 252,
+      "text": "NEXT IS SPECIAL\nPRACTICE. EACH CLUB\nHOLDS THIS TRAINING\nEVERY MONTH."
+    },
+    {
+      "index": 253,
+      "text": "YOU CONCENTRATE ON\nTRAINING THAT SUITS\nYOUR CLUB'S\nSPECIALTY."
+    },
+    {
+      "index": 254,
+      "text": "SPECIAL PRACTICE IS\nMUCH MORE EFFECTIVE\nTHAN REGULAR CLUB\nACTIVITIES."
+    },
+    {
+      "index": 255,
+      "text": "IF YOU WANT A BIG\nBOOST TO ONE STAT,\nMAKE THE MOST OF\nSPECIAL PRACTICE."
+    },
+    {
+      "index": 256,
+      "text": "REGULAR ACTIVITIES\nBUILD GENERAL STATS.\nSPECIAL PRACTICE\nFOCUSES ON ONE."
+    },
+    {
+      "index": 257,
+      "text": "THAT'S HOW CLUB\nTRAINING WORKS."
+    },
+    {
+      "index": 258,
+      "text": "WOULD YOU LIKE ME TO\nEXPLAIN IT AGAIN?"
+    },
+    {
+      "index": 259,
+      "text": "NO THANKS\nHEAR IT AGAIN"
+    },
+    {
+      "index": 260,
+      "text": "OK, THAT'S THE TALK\nDONE. TODAY'S CLUB\nVISIT IS OVER. PHEW,\nTALKING IS TIRING!"
+    },
+    {
+      "index": 261,
+      "text": "I SEE. THEN THERE'S\nNOTHING ELSE TO TALK\nABOUT TODAY."
+    },
+    {
+      "index": 262,
+      "text": "MAY'S SPECIAL\nPRACTICE IS NEXT.\nUNTIL THEN... TRY,\nIN SPIRIT!"
+    },
+    {
+      "index": 263,
+      "text": "SEE YOU NEXT MONTH.\nGLAD TO HAVE YOU\nWITH US THIS YEAR!"
+    },
+    {
+      "index": 264,
+      "text": "...OH... A NEW\nMEMBER? I'M SHIZUNE\nKUJO. I'LL SHOW YOU\nTHE ROPES... HELLO."
+    },
+    {
+      "index": 265,
+      "text": "SHALL I EXPLAIN HOW\nCLUB ACTIVITIES\nWORK? WOULD YOU LIKE\nTO HEAR IT?"
+    },
+    {
+      "index": 266,
+      "text": "HEAR EXPLANATION\nSKIP EXPLANATION"
+    },
+    {
+      "index": 267,
+      "text": "ALL RIGHT. FIRST,\nREMEMBER THAT THERE\nARE TWO KINDS OF\nCLUB ACTIVITIES."
+    },
+    {
+      "index": 268,
+      "text": "REGULAR ACTIVITIES,\nAND SPECIAL PRACTICE\nAT THE START OF EACH\nMONTH."
+    },
+    {
+      "index": 269,
+      "text": "FIRST, REGULAR CLUB\nACTIVITIES. THERE'S\nNO SPECIAL TIME OR\nACTION TO CHOOSE."
+    },
+    {
+      "index": 270,
+      "text": "JUST BEING IN A CLUB\nGRADUALLY IMPROVES\nTHE ABILITIES THAT\nSUIT THAT CLUB."
+    },
+    {
+      "index": 271,
+      "text": "YOUR REGULAR GAINS\nARE REPORTED AT THE\nSTART OF THE MONTH,\nAT SPECIAL PRACTICE."
+    },
+    {
+      "index": 272,
+      "text": "YOU CAN'T PUSH HARD\nOR SLACK OFF DURING\nTHOSE GAINS, BUT\nTHEY BUILD STATS."
+    },
+    {
+      "index": 273,
+      "text": "NEXT IS SPECIAL\nPRACTICE. EACH CLUB\nHOLDS THIS TRAINING\nEVERY MONTH."
+    },
+    {
+      "index": 274,
+      "text": "YOU CONCENTRATE ON\nTRAINING THAT SUITS\nYOUR CLUB'S\nSPECIALTY."
+    },
+    {
+      "index": 275,
+      "text": "SPECIAL PRACTICE IS\nMUCH MORE EFFECTIVE\nTHAN REGULAR CLUB\nACTIVITIES."
+    },
+    {
+      "index": 276,
+      "text": "IF YOU WANT A BIG\nBOOST TO ONE STAT,\nMAKE THE MOST OF\nSPECIAL PRACTICE."
+    },
+    {
+      "index": 277,
+      "text": "REGULAR ACTIVITIES\nBUILD GENERAL STATS.\nSPECIAL PRACTICE\nFOCUSES ON ONE."
+    },
+    {
+      "index": 278,
+      "text": "THAT'S HOW CLUB\nTRAINING WORKS."
+    },
+    {
+      "index": 279,
+      "text": "WOULD YOU LIKE ME TO\nEXPLAIN IT AGAIN?"
+    },
+    {
+      "index": 280,
+      "text": "NO THANKS\nHEAR IT AGAIN"
+    },
+    {
+      "index": 281,
+      "text": "I SEE. THAT'S THE\nEXPLANATION DONE...\nAND TODAY'S CLUB\nVISIT IS OVER."
+    },
+    {
+      "index": 282,
+      "text": "I SEE. THEN THERE'S\nNOTHING ELSE TO TALK\nABOUT TODAY."
+    },
+    {
+      "index": 283,
+      "text": "MAY'S SPECIAL\nPRACTICE IS NEXT.\nUNTIL THEN... WELL,\nJUST REGULAR WORK."
+    },
+    {
+      "index": 284,
+      "text": "SEE YOU NEXT MONTH.\nI LOOK FORWARD TO\nWORKING WITH YOU."
+    },
+    {
+      "index": 285,
+      "text": "WELCOME TO DRAMA!\n{0}! {1}I'M SAYURI\nSHIRASAKI, CAPTAIN.\nNICE TO MEET YOU!{2}"
+    },
+    {
+      "index": 286,
+      "text": "SHALL I EXPLAIN HOW\nCLUB ACTIVITIES\nWORK? WOULD YOU LIKE\nTO HEAR IT?"
+    },
+    {
+      "index": 287,
+      "text": "HEAR EXPLANATION\nSKIP EXPLANATION"
+    },
+    {
+      "index": 288,
+      "text": "ALL RIGHT. FIRST,\nREMEMBER THAT THERE\nARE TWO KINDS OF\nCLUB ACTIVITIES."
+    },
+    {
+      "index": 289,
+      "text": "REGULAR ACTIVITIES,\nAND SPECIAL PRACTICE\nAT THE START OF EACH\nMONTH."
+    },
+    {
+      "index": 290,
+      "text": "FIRST, REGULAR CLUB\nACTIVITIES. THERE'S\nNO SPECIAL TIME OR\nACTION TO CHOOSE."
+    },
+    {
+      "index": 291,
+      "text": "JUST BEING IN A CLUB\nGRADUALLY IMPROVES\nTHE ABILITIES THAT\nSUIT THAT CLUB."
+    },
+    {
+      "index": 292,
+      "text": "YOUR REGULAR GAINS\nARE REPORTED AT THE\nSTART OF THE MONTH,\nAT SPECIAL PRACTICE."
+    },
+    {
+      "index": 293,
+      "text": "YOU CAN'T PUSH HARD\nOR SLACK OFF DURING\nTHOSE GAINS, BUT\nTHEY BUILD STATS."
+    },
+    {
+      "index": 294,
+      "text": "NEXT IS SPECIAL\nPRACTICE. EACH CLUB\nHOLDS THIS TRAINING\nEVERY MONTH."
+    },
+    {
+      "index": 295,
+      "text": "YOU CONCENTRATE ON\nTRAINING THAT SUITS\nYOUR CLUB'S\nSPECIALTY."
+    },
+    {
+      "index": 296,
+      "text": "SPECIAL PRACTICE IS\nMUCH MORE EFFECTIVE\nTHAN REGULAR CLUB\nACTIVITIES."
+    },
+    {
+      "index": 297,
+      "text": "IF YOU WANT A BIG\nBOOST TO ONE STAT,\nMAKE THE MOST OF\nSPECIAL PRACTICE."
+    },
+    {
+      "index": 298,
+      "text": "REGULAR ACTIVITIES\nBUILD GENERAL STATS.\nSPECIAL PRACTICE\nFOCUSES ON ONE."
+    },
+    {
+      "index": 299,
+      "text": "THAT'S HOW CLUB\nTRAINING WORKS."
+    },
+    {
+      "index": 300,
+      "text": "WOULD YOU LIKE ME TO\nEXPLAIN IT AGAIN?"
+    },
+    {
+      "index": 301,
+      "text": "NO THANKS\nHEAR IT AGAIN"
+    },
+    {
+      "index": 302,
+      "text": "ALL RIGHT, THAT'S\nTHE EXPLANATION\nDONE. TODAY'S CLUB\nVISIT ENDS HERE."
+    },
+    {
+      "index": 303,
+      "text": "I SEE. THEN THERE'S\nNOTHING ELSE TO TALK\nABOUT TODAY."
+    },
+    {
+      "index": 304,
+      "text": "MAY'S SPECIAL\nPRACTICE IS NEXT.\nUNTIL THEN, KEEP UP\nREGULAR ACTIVITIES."
+    },
+    {
+      "index": 305,
+      "text": "SEE YOU NEXT MONTH.\nI'M LOOKING FORWARD\nTO WORKING WITH YOU!"
+    },
+    {
+      "index": 306,
+      "text": "WELCOME! YOU'RE OUR\nFIRST NEW CHEMIST\nTHIS YEAR. JUST CALL\nME HAKASE."
+    },
+    {
+      "index": 307,
+      "text": "SHALL I EXPLAIN HOW\nCLUB ACTIVITIES\nWORK? WOULD YOU LIKE\nTO HEAR IT?"
+    },
+    {
+      "index": 308,
+      "text": "HEAR EXPLANATION\nSKIP EXPLANATION"
+    },
+    {
+      "index": 309,
+      "text": "ALL RIGHT. FIRST,\nREMEMBER THAT THERE\nARE TWO KINDS OF\nCLUB ACTIVITIES."
+    },
+    {
+      "index": 310,
+      "text": "REGULAR ACTIVITIES,\nAND SPECIAL PRACTICE\nAT THE START OF EACH\nMONTH."
+    },
+    {
+      "index": 311,
+      "text": "FIRST, REGULAR CLUB\nACTIVITIES. THERE'S\nNO SPECIAL TIME OR\nACTION TO CHOOSE."
+    },
+    {
+      "index": 312,
+      "text": "JUST BEING IN A CLUB\nGRADUALLY IMPROVES\nTHE ABILITIES THAT\nSUIT THAT CLUB."
+    },
+    {
+      "index": 313,
+      "text": "YOUR REGULAR GAINS\nARE REPORTED AT THE\nSTART OF THE MONTH,\nAT SPECIAL PRACTICE."
+    },
+    {
+      "index": 314,
+      "text": "YOU CAN'T PUSH HARD\nOR SLACK OFF DURING\nTHOSE GAINS, BUT\nTHEY BUILD STATS."
+    },
+    {
+      "index": 315,
+      "text": "NEXT IS SPECIAL\nPRACTICE. EACH CLUB\nHOLDS THIS TRAINING\nEVERY MONTH."
+    },
+    {
+      "index": 316,
+      "text": "CLUBS TRAIN IN THEIR\nSPECIALTY. THE\nCHEMISTRY CLUB IS NO\nEXCEPTION!"
+    },
+    {
+      "index": 317,
+      "text": "SPECIAL PRACTICE IS\nMUCH MORE EFFECTIVE\nTHAN REGULAR CLUB\nACTIVITIES."
+    },
+    {
+      "index": 318,
+      "text": "IF YOU WANT A BIG\nBOOST TO ONE STAT,\nMAKE THE MOST OF\nSPECIAL PRACTICE."
+    },
+    {
+      "index": 319,
+      "text": "REGULAR ACTIVITIES\nBUILD GENERAL STATS.\nSPECIAL PRACTICE\nFOCUSES ON ONE."
+    },
+    {
+      "index": 320,
+      "text": "THAT'S HOW CLUB\nTRAINING WORKS."
+    },
+    {
+      "index": 321,
+      "text": "WOULD YOU LIKE ME TO\nEXPLAIN IT AGAIN?"
+    },
+    {
+      "index": 322,
+      "text": "NO THANKS\nHEAR IT AGAIN"
+    },
+    {
+      "index": 323,
+      "text": "ALL RIGHT, THAT'S\nTHE EXPLANATION\nDONE. TODAY'S CLUB\nVISIT ENDS HERE."
+    },
+    {
+      "index": 324,
+      "text": "I SEE. THEN THERE'S\nNOTHING ELSE TO TALK\nABOUT TODAY."
+    },
+    {
+      "index": 325,
+      "text": "MAY'S SPECIAL\nPRACTICE IS NEXT.\nUNTIL THEN, KEEP UP\nREGULAR ACTIVITIES."
+    },
+    {
+      "index": 326,
+      "text": "SEE YOU NEXT MONTH.\nTAKE CARE OF YOUR\nHEALTH!"
+    },
+    {
+      "index": 327,
+      "text": "IT'S A SHAME TO MISS\nOUT ON SCHOOL CLUBS.\nI THINK YOU SHOULD\nJOIN ONE..."
+    },
+    {
+      "index": 328,
+      "text": "NO GO-HOME TALK.\nI'LL EXPLAIN NORMAL\nCLUBS. YOU CAN SKIP\nTHIS."
+    },
+    {
+      "index": 329,
+      "text": "HEAR EXPLANATION\nSKIP EXPLANATION"
+    },
+    {
+      "index": 330,
+      "text": "ALL RIGHT. FIRST,\nREMEMBER THAT THERE\nARE TWO KINDS OF\nCLUB ACTIVITIES."
+    },
+    {
+      "index": 331,
+      "text": "REGULAR ACTIVITIES,\nAND SPECIAL PRACTICE\nAT THE START OF EACH\nMONTH."
+    },
+    {
+      "index": 332,
+      "text": "FIRST, REGULAR CLUB\nACTIVITIES. THERE'S\nNO SPECIAL TIME OR\nACTION TO CHOOSE."
+    },
+    {
+      "index": 333,
+      "text": "JUST BEING IN A CLUB\nGRADUALLY IMPROVES\nTHE ABILITIES THAT\nSUIT THAT CLUB."
+    },
+    {
+      "index": 334,
+      "text": "YOUR REGULAR GAINS\nARE REPORTED AT THE\nSTART OF THE MONTH,\nAT SPECIAL PRACTICE."
+    },
+    {
+      "index": 335,
+      "text": "YOU CAN'T PUSH HARD\nOR SLACK OFF DURING\nTHOSE GAINS, BUT\nTHEY BUILD STATS."
+    },
+    {
+      "index": 336,
+      "text": "NEXT IS SPECIAL\nPRACTICE. EACH CLUB\nHOLDS THIS TRAINING\nEVERY MONTH."
+    },
+    {
+      "index": 337,
+      "text": "YOU CONCENTRATE ON\nTRAINING THAT SUITS\nYOUR CLUB'S\nSPECIALTY."
+    },
+    {
+      "index": 338,
+      "text": "IN NORMAL CLUBS,\nSPECIAL PRACTICE IS\nMORE EFFECTIVE AND\nRAISES STATS FASTER."
+    },
+    {
+      "index": 339,
+      "text": "IF YOU WANT A BIG\nBOOST TO ONE STAT,\nMAKE THE MOST OF\nSPECIAL PRACTICE."
+    },
+    {
+      "index": 340,
+      "text": "REGULAR ACTIVITIES\nBUILD GENERAL STATS.\nSPECIAL PRACTICE\nFOCUSES ON ONE."
+    },
+    {
+      "index": 341,
+      "text": "THAT'S HOW CLUB\nTRAINING WORKS."
+    },
+    {
+      "index": 342,
+      "text": "WOULD YOU LIKE ME TO\nEXPLAIN IT AGAIN?"
+    },
+    {
+      "index": 343,
+      "text": "NO THANKS\nHEAR IT AGAIN"
+    },
+    {
+      "index": 344,
+      "text": "ALL RIGHT, THAT'S\nTHE EXPLANATION\nDONE. TODAY'S CLUB\nVISIT ENDS HERE."
+    },
+    {
+      "index": 345,
+      "text": "I SEE. THEN THERE'S\nNOTHING ELSE TO TALK\nABOUT TODAY."
+    },
+    {
+      "index": 346,
+      "text": "EVEN GO-HOME HAS A\nSPECIAL PRACTICE\nDAY. I'LL SEE YOU\nAGAIN THEN."
+    },
+    {
+      "index": 347,
+      "text": "SEE YOU NEXT MONTH.\nDON'T SPEND ALL YOUR\nTIME PLAYING AROUND!"
+    }
+  ],
+  "overrides": {
+    "1:222": "A GIRL! COME TO TRY\nSUMO? THAT TAKES\nNERVE. GIRL OR NOT,\nI'LL TRAIN YOU HARD!",
+    "1:242": "SEE YOU NEXT MONTH.\nKEEP AT IT, GIRL!\nLET'S SEE HOW FAR\nYOUR EFFORT GOES."
+  },
+  "scope": "Complete remaining April club joining and regular/special practice tutorials, including repeat and skip branches, all eight clubs plus go home."
+}
