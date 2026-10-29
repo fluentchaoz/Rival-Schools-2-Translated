@@ -1,5 +1,25 @@
 # Translation state — 2026-10-28
 
+## Actual v23 Windows build passed — 2026-10-29
+
+The user's v23 build passed one Rust test (zero failures) and final PowerShell verification.
+Actual output SHA-256: `9329e5a8ed0c1270fa090f015a4a833ee4b00f120ec884b3f079d67d619fd4f1`.
+Changed raw sectors: 245. Text compression: 225,312 / 225,706 bytes.
+Shared arena: 61,672 / 102,368 bytes; 623 shared message references.
+342 remaining club tutorial/joining entries, nine HUD club labels and the secondary
+Club Building location label installed. Earlier/untargeted layers and MGAME verified preserved.
+
+Actual CUE:
+
+```text
+C:\Users\Fluent\JG2-Recovery-v1\candidates\club-join-v23-40f8384b526946e4835840503771845e\build\justice-gakuen2-club-join-v23.cue
+```
+
+Keep v22. Fresh-boot this CUE and test Club Building, baseball selection and HUD,
+remaining tutorial and farewell. Native v23 gameplay remains pending.
+See `validation/club-join-v23-windows.json`; the local fixture remains separate.
+
+
 ## v23 club joining candidate ready — 2026-10-29
 
 Read CLUB_JOIN_V23.md. The user reached Taiyo club selection in v22 and joined baseball; Japanese begins at the remaining tutorial farewell (entry 179). v23 translates selectors 0/1 entries 177–347 (342 messages), nine shared club HUD labels, and the missed secondary Club Building TIM in graphics member 3. The direct Rust full-disc fixture passed (1 test, zero failures); actual Windows and native testing remain pending. Keep actual v22 b21934066fc21a217ce5c37772abd53b81e881706d685bd10dc349cc0f8be95e. Run build_club_join_english_v23.ps1 to create a fresh candidate. Later field-trip scenes and other schools are outside scope.
