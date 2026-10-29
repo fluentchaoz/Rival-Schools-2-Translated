@@ -1,0 +1,301 @@
+{
+  "changed_sector_count": 10857,
+  "date_messages": 1550,
+  "font_sha256": "7c25be4d78155523080ab85b10277150657ff7dabbcad7037bdd536c9b6d0d08",
+  "output_sha256": "f429475b433b8fbd48f17af76e2877517fd5ea411be2c1e29e4eca51e865ceb0",
+  "records": [
+    {
+      "dates": {
+        "aliases": 708,
+        "arena_used": 64120,
+        "compressed_bytes": 225324,
+        "date_messages": 62,
+        "fixed_slot": 225706,
+        "slash_glyph": 900
+      },
+      "path": "DAT2/MGG04T.BIZ"
+    },
+    {
+      "dates": {
+        "aliases": 492,
+        "arena_used": 65500,
+        "compressed_bytes": 223242,
+        "date_messages": 62,
+        "fixed_slot": 223532,
+        "slash_glyph": 894
+      },
+      "path": "DAT2/MGG04O.BIZ"
+    },
+    {
+      "dates": {
+        "aliases": 482,
+        "arena_used": 66264,
+        "compressed_bytes": 227370,
+        "date_messages": 62,
+        "fixed_slot": 227842,
+        "slash_glyph": 912
+      },
+      "path": "DAT2/MGG04P.BIZ"
+    },
+    {
+      "dates": {
+        "aliases": 70,
+        "arena_used": 53828,
+        "compressed_bytes": 221198,
+        "date_messages": 62,
+        "fixed_slot": 221700,
+        "slash_glyph": 893
+      },
+      "path": "DAT2/MGG04G.BIZ"
+    },
+    {
+      "dates": {
+        "aliases": 467,
+        "arena_used": 65228,
+        "compressed_bytes": 225294,
+        "date_messages": 62,
+        "fixed_slot": 225766,
+        "slash_glyph": 910
+      },
+      "path": "DAT2/MGG04J.BIZ"
+    },
+    {
+      "dates": {
+        "aliases": 96,
+        "arena_used": 24736,
+        "compressed_bytes": 204810,
+        "date_messages": 62,
+        "fixed_slot": 205172,
+        "slash_glyph": 736
+      },
+      "path": "DAT2/MGG06T.BIZ"
+    },
+    {
+      "dates": {
+        "aliases": 89,
+        "arena_used": 23796,
+        "compressed_bytes": 202762,
+        "date_messages": 62,
+        "fixed_slot": 203256,
+        "slash_glyph": 717
+      },
+      "path": "DAT2/MGG06O.BIZ"
+    },
+    {
+      "dates": {
+        "aliases": 101,
+        "arena_used": 24612,
+        "compressed_bytes": 204810,
+        "date_messages": 62,
+        "fixed_slot": 205200,
+        "slash_glyph": 739
+      },
+      "path": "DAT2/MGG06P.BIZ"
+    },
+    {
+      "dates": {
+        "aliases": 60,
+        "arena_used": 21108,
+        "compressed_bytes": 202762,
+        "date_messages": 62,
+        "fixed_slot": 203072,
+        "slash_glyph": 690
+      },
+      "path": "DAT2/MGG06G.BIZ"
+    },
+    {
+      "dates": {
+        "aliases": 132,
+        "arena_used": 25008,
+        "compressed_bytes": 204810,
+        "date_messages": 62,
+        "fixed_slot": 205090,
+        "slash_glyph": 735
+      },
+      "path": "DAT2/MGG06J.BIZ"
+    },
+    {
+      "dates": {
+        "aliases": 436,
+        "arena_used": 63664,
+        "compressed_bytes": 217130,
+        "date_messages": 62,
+        "fixed_slot": 217624,
+        "slash_glyph": 855
+      },
+      "path": "DAT2/MGG08T.BIZ"
+    },
+    {
+      "dates": {
+        "aliases": 439,
+        "arena_used": 63992,
+        "compressed_bytes": 217098,
+        "date_messages": 62,
+        "fixed_slot": 217658,
+        "slash_glyph": 852
+      },
+      "path": "DAT2/MGG08O.BIZ"
+    },
+    {
+      "dates": {
+        "aliases": 437,
+        "arena_used": 63728,
+        "compressed_bytes": 217132,
+        "date_messages": 62,
+        "fixed_slot": 217582,
+        "slash_glyph": 857
+      },
+      "path": "DAT2/MGG08P.BIZ"
+    },
+    {
+      "dates": {
+        "aliases": 95,
+        "arena_used": 45816,
+        "compressed_bytes": 215058,
+        "date_messages": 62,
+        "fixed_slot": 215438,
+        "slash_glyph": 839
+      },
+      "path": "DAT2/MGG08G.BIZ"
+    },
+    {
+      "dates": {
+        "aliases": 439,
+        "arena_used": 63612,
+        "compressed_bytes": 219146,
+        "date_messages": 62,
+        "fixed_slot": 219654,
+        "slash_glyph": 857
+      },
+      "path": "DAT2/MGG08J.BIZ"
+    },
+    {
+      "dates": {
+        "aliases": 494,
+        "arena_used": 61672,
+        "compressed_bytes": 221194,
+        "date_messages": 62,
+        "fixed_slot": 221600,
+        "slash_glyph": 891
+      },
+      "path": "DAT2/MGG09T.BIZ"
+    },
+    {
+      "dates": {
+        "aliases": 499,
+        "arena_used": 61404,
+        "compressed_bytes": 223260,
+        "date_messages": 62,
+        "fixed_slot": 223672,
+        "slash_glyph": 892
+      },
+      "path": "DAT2/MGG09O.BIZ"
+    },
+    {
+      "dates": {
+        "aliases": 502,
+        "arena_used": 61296,
+        "compressed_bytes": 223242,
+        "date_messages": 62,
+        "fixed_slot": 223670,
+        "slash_glyph": 892
+      },
+      "path": "DAT2/MGG09P.BIZ"
+    },
+    {
+      "dates": {
+        "aliases": 117,
+        "arena_used": 46816,
+        "compressed_bytes": 217098,
+        "date_messages": 62,
+        "fixed_slot": 217694,
+        "slash_glyph": 890
+      },
+      "path": "DAT2/MGG09G.BIZ"
+    },
+    {
+      "dates": {
+        "aliases": 502,
+        "arena_used": 61380,
+        "compressed_bytes": 223242,
+        "date_messages": 62,
+        "fixed_slot": 223670,
+        "slash_glyph": 894
+      },
+      "path": "DAT2/MGG09J.BIZ"
+    },
+    {
+      "dates": {
+        "aliases": 91,
+        "arena_used": 32032,
+        "compressed_bytes": 206866,
+        "date_messages": 62,
+        "fixed_slot": 207300,
+        "slash_glyph": 741
+      },
+      "path": "DAT2/MGG11T.BIZ"
+    },
+    {
+      "dates": {
+        "aliases": 85,
+        "arena_used": 29952,
+        "compressed_bytes": 204810,
+        "date_messages": 62,
+        "fixed_slot": 205284,
+        "slash_glyph": 736
+      },
+      "path": "DAT2/MGG11O.BIZ"
+    },
+    {
+      "dates": {
+        "aliases": 86,
+        "arena_used": 28940,
+        "compressed_bytes": 204826,
+        "date_messages": 62,
+        "fixed_slot": 205110,
+        "slash_glyph": 737
+      },
+      "path": "DAT2/MGG11P.BIZ"
+    },
+    {
+      "dates": {
+        "aliases": 16,
+        "arena_used": 24708,
+        "compressed_bytes": 204810,
+        "date_messages": 62,
+        "fixed_slot": 205136,
+        "slash_glyph": 736
+      },
+      "path": "DAT2/MGG11G.BIZ"
+    },
+    {
+      "dates": {
+        "aliases": 92,
+        "arena_used": 29144,
+        "compressed_bytes": 208906,
+        "date_messages": 62,
+        "fixed_slot": 209248,
+        "slash_glyph": 764
+      },
+      "path": "DAT2/MGG11J.BIZ"
+    }
+  ],
+  "story_messages": 430,
+  "title_copies_patched": 48,
+  "validation_context": {
+    "kind": "Full original-disc fixture plus locally reconstructed v21/v22/v23 Taiyo text; other prior English layers absent",
+    "actual_windows_candidate": false,
+    "native_tested": false,
+    "font": "Nimbus Sans Regular",
+    "master_and_text_expected_hash_guards_bypassed_for_fixture_only": true,
+    "production_guards_retained": true,
+    "tests_passed": 1,
+    "tests_failed": 0,
+    "runtime_seconds": 249.46,
+    "full_disc_record_readback_sector_scope_edc_ecc_passed": true,
+    "powershell_runtime_tested": false,
+    "static_wrapper_consistency_passed": true,
+    "all_19_rendered_title_cards_visually_reviewed": true,
+    "fixture_master_sha256": "d448054046ca7421a289a2dbc4961ded28104353241c0169bd6c0a4c533ea3ad"
+  }
+}

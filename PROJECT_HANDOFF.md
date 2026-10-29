@@ -1,5 +1,10 @@
 # Project Handoff — Read This First
 
+## v24 field trip and event dates candidate ready — 2026-10-29
+
+Read FIELD_TRIP_DATES_V24.md and run build_field_trip_dates_english_v24.ps1 from actual v23 (9329e5a8ed0c1270fa090f015a4a833ee4b00f120ec884b3f079d67d619fd4f1). The complete direct-Rust full-disc fixture passed: 430 field-trip messages, the spring-trip opening, 1550 date formats in 25 event banks, and all 19 inventoried event/exam cards (48 original references; existing English April8 copies preserved on production). Final visual check passed after removing horizontal clearing bands. All changed records and sector checksums read back correctly; fixture changed10857 sectors. Windows/native v24 tests remain pending. Keep v23. Japanese prose attached to other dates, other schools' story dialogue and later events remain untranslated. See validation/field-trip-dates-v24.json for fixture/font/hash-guard limits. Native title-card style uses source-colored clearing panels and rainbow/white English.
+
+
 ## v23 native baseball route passed; April 16 field trip is next — 2026-10-29
 
 User reports getting through all baseball joining dialogue and reaching April 16.
