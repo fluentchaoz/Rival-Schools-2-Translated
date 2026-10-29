@@ -1,0 +1,870 @@
+{
+  "status": "DRAFT: male-source translation authored; source controls, female variants and choice geometry require review before encoding",
+  "record": "DAT2/MGG04T.BIZ",
+  "selectors": [
+    0,
+    1
+  ],
+  "entries": [
+    {
+      "index": 348,
+      "text": "THE FIELD TRIP IS TO\nAN AMUSEMENT PARK!\nIT'S BEEN AGES. I'LL\nENJOY EVERY BIT!"
+    },
+    {
+      "index": 349,
+      "text": "HEY! GLAD THE\nWEATHER CLEARED UP."
+    },
+    {
+      "index": 350,
+      "text": "MORNING, BATSU.\nWHERE'S EVERYONE?"
+    },
+    {
+      "index": 351,
+      "text": "HM? OH, SOMEWHERE\nAROUND HERE, I\nGUESS."
+    },
+    {
+      "index": 352,
+      "text": "GOOD MORNING! I'M\nEXCITED ABOUT\nTODAY'S TRIP!"
+    },
+    {
+      "index": 353,
+      "text": "MORNING, HINATA.\nYOU'RE EVEN LIVELIER\nTHAN USUAL."
+    },
+    {
+      "index": 354,
+      "text": "OF COURSE! IT'S AN\nAMUSEMENT PARK! I'M\nRIDING EVERY RIDE!"
+    },
+    {
+      "index": 355,
+      "text": "HINATA, DON'T GET\nCARRIED AWAY AND\nCAUSE TROUBLE, ALL\nRIGHT?"
+    },
+    {
+      "index": 356,
+      "text": "HAHA. SOUNDS LIKE\nYOU HAVE YOUR HANDS\nFULL, KYOSUKE."
+    },
+    {
+      "index": 357,
+      "text": "WELL, SUCH IS THE\nFATE OF A CLASS\nREPRESENTATIVE."
+    },
+    {
+      "index": 358,
+      "text": "HEY! DON'T JUST\nASSUME I'LL CAUSE\nTROUBLE!"
+    },
+    {
+      "index": 359,
+      "text": "HINATA'S READY TO\nGO! WHICH ATTRACTION\nFIRST?"
+    },
+    {
+      "index": 360,
+      "text": "UM, I WANT TO SEE\nTHE BIGGEST FERRIS\nWHEEL IN JAPAN."
+    },
+    {
+      "index": 361,
+      "text": "THE FERRIS WHEEL?\nSURE, WHY NOT. WHAT\nABOUT YOU?"
+    },
+    {
+      "index": 362,
+      "text": "HMM... WHAT SHOULD I\nDO?"
+    },
+    {
+      "index": 363,
+      "text": "NOT SURE? WE'LL BE\nAT THE FERRIS WHEEL.\nCOME ALONG LATER!"
+    },
+    {
+      "index": 364,
+      "text": "GOOD IDEA. I WILL."
+    },
+    {
+      "index": 365,
+      "text": "SEE YOU LATER!"
+    },
+    {
+      "index": 366,
+      "text": "OH! WHAT ARE YOU\nDOING HERE?"
+    },
+    {
+      "index": 367,
+      "text": "HEY, RAN. HUNTING\nFOR A SCOOP EVEN WAY\nOUT HERE?"
+    },
+    {
+      "index": 368,
+      "text": "WHAT DO YOU MEAN?\nPLACES LIKE THIS ARE\nPERFECT FOR FINDING\nSCOOPS!"
+    },
+    {
+      "index": 369,
+      "text": "YOU LOOK BORED. IF\nYOU'RE FREE, WILL\nYOU HELP WITH MY\nREPORTING?"
+    },
+    {
+      "index": 370,
+      "text": "HMM. HELPING RAN\nWITH HER REPORTING\nCOULD BE FUN..."
+    },
+    {
+      "index": 371,
+      "text": "HELP RAN\nDECLINE"
+    },
+    {
+      "index": 372,
+      "text": "I'VE NO PLANS. SURE,\nI'LL HELP."
+    },
+    {
+      "index": 373,
+      "text": "REALLY? GREAT! COME\nALONG, THEN!"
+    },
+    {
+      "index": 374,
+      "text": "SORRY, RAN. THERE'S\nSOMEWHERE I WANT TO\nGO. MAYBE ANOTHER\nTIME."
+    },
+    {
+      "index": 375,
+      "text": "WHAT?! HONESTLY,\nYOU'RE NO FUN!"
+    },
+    {
+      "index": 376,
+      "text": "SORRY! IF I FIND A\nGOOD STORY, YOU'LL\nBE THE FIRST TO\nKNOW."
+    },
+    {
+      "index": 377,
+      "text": "REALLY? OK, I'LL LET\nYOU OFF. SEE YOU!"
+    },
+    {
+      "index": 378,
+      "text": "PHEW, THAT WAS\nCLOSE. I DON'T WANT\nTO GET ON RAN'S BAD\nSIDE."
+    },
+    {
+      "index": 379,
+      "text": "WHERE TO NOW? WE'RE\nAT AN AMUSEMENT\nPARK. BETTER ENJOY\nIT!"
+    },
+    {
+      "index": 380,
+      "text": "FERRIS WHEEL COASTER\nHAUNTED HOUSE ARCADE\nTAKE A WALK"
+    },
+    {
+      "index": 381,
+      "text": "I HEARD THIS FERRIS\nWHEEL IS ONE OF THE\nWORLD'S BIGGEST.\nI'LL TAKE A LOOK!"
+    },
+    {
+      "index": 382,
+      "text": "AN AMUSEMENT PARK\nMEANS ROLLER\nCOASTERS! LET'S GO!"
+    },
+    {
+      "index": 383,
+      "text": "A HAUNTED HOUSE\nALONE SOUNDS LONELY.\nANYONE AROUND...?"
+    },
+    {
+      "index": 384,
+      "text": "COMING ALL THIS WAY\nJUST TO PLAY ARCADE\nGAMES... OH WELL."
+    },
+    {
+      "index": 385,
+      "text": "I'LL START WITH A\nLITTLE WALK AROUND."
+    },
+    {
+      "index": 386,
+      "text": "FIRST, WE NEED A\nDESTINATION. WHERE\nCOULD WE FIND A GOOD\nSTORY?"
+    },
+    {
+      "index": 387,
+      "text": "LET'S SEE..."
+    },
+    {
+      "index": 388,
+      "text": "WORLD-CLASS WHEEL?\nROLLER COASTER?\nHOW ABOUT THE POND?"
+    },
+    {
+      "index": 389,
+      "text": "HOW ABOUT THE FERRIS\nWHEEL? I HEAR IT'S\nONE OF THE WORLD'S\nBIGGEST."
+    },
+    {
+      "index": 390,
+      "text": "THE FERRIS WHEEL? A\nBIT TAME, BUT BEING\nONE OF THE WORLD'S\nBIGGEST IS A PLUS."
+    },
+    {
+      "index": 391,
+      "text": "OK! LET'S START\nTHERE!"
+    },
+    {
+      "index": 392,
+      "text": "THIS IS THAT\nSUPPOSEDLY\nWORLD-CLASS FERRIS\nWHEEL."
+    },
+    {
+      "index": 393,
+      "text": "BUT I'M NOT SURE IT\nREALLY IS ONE OF THE\nWORLD'S BIGGEST."
+    },
+    {
+      "index": 394,
+      "text": "WHY NOT RIDE IT?\nTHEN YOU CAN GET A\nPROPER FEEL FOR ITS\nSIZE."
+    },
+    {
+      "index": 395,
+      "text": "GOOD POINT. LET'S\nGO!"
+    },
+    {
+      "index": 396,
+      "text": ".................."
+    },
+    {
+      "index": 397,
+      "text": "HOW WAS IT, RAN?"
+    },
+    {
+      "index": 398,
+      "text": "YES, THAT WAS QUITE\nA VIEW. AS A STORY,\nIT WAS ALL RIGHT, I\nSUPPOSE."
+    },
+    {
+      "index": 399,
+      "text": "A TOUGH CRITIC!\nSTILL, I'M GLAD I\nCOULD HELP."
+    },
+    {
+      "index": 400,
+      "text": "LET'S TAKE A FEW\nPHOTOS, THEN HEAD\nBACK!"
+    },
+    {
+      "index": 401,
+      "text": "(WE CHATTED HAPPILY\nWHILE I HELPED RAN\nTAKE HER\nPHOTOGRAPHS.)"
+    },
+    {
+      "index": 402,
+      "text": "IT HAS TO BE THE\nROLLER COASTER.\nNOTHING BEATS IT FOR\nTHRILLS AND A STORY."
+    },
+    {
+      "index": 403,
+      "text": "THAT'S IT! COME WITH\nME!"
+    },
+    {
+      "index": 404,
+      "text": "NICE! VERY NICE!\nTHIS LOOKS GREAT!"
+    },
+    {
+      "index": 405,
+      "text": "RAN, THIS SIGN\nEXPLAINS THE\nCOASTER."
+    },
+    {
+      "index": 406,
+      "text": "LET'S SEE... WHAT'S\nIT SAY?"
+    },
+    {
+      "index": 407,
+      "text": "ROLLER COASTER:\nBEAGLE. THIS PARK'S\nFIRST COASTER WITH A\nSIDEWAYS LOOP."
+    },
+    {
+      "index": 408,
+      "text": "EVEN THE TOUGHEST\nRIDER WILL FORGET TO\nSCREAM AT ITS\nINCREDIBLE SPEED."
+    },
+    {
+      "index": 409,
+      "text": "...IT SAYS. SOUNDS\nPRETTY WILD."
+    },
+    {
+      "index": 410,
+      "text": "SOUNDS ALMOST TOO\nGOOD. IS ANY OF THAT\nREALLY TRUE?"
+    },
+    {
+      "index": 411,
+      "text": "WE NEED A SPECIAL\nCORRESPONDENT TO\nRIDE IT AND GIVE US\nA REPORT!"
+    },
+    {
+      "index": 412,
+      "text": "...WHO WOULD THAT\nBE?"
+    },
+    {
+      "index": 413,
+      "text": "WHAT DO YOU MEAN?\nYOU'RE THE ONE FOR\nTHE JOB!"
+    },
+    {
+      "index": 414,
+      "text": "W-WHY ME?!"
+    },
+    {
+      "index": 415,
+      "text": ".................."
+    },
+    {
+      "index": 416,
+      "text": "LOOKS LIKE TRUTH IN\nADVERTISING! GIVE ME\nALL THE DETAILS.\nWHAT A GREAT STORY!"
+    },
+    {
+      "index": 417,
+      "text": "(RAN LOOKS PLEASED.\nWELL, GOOD FOR\nHER... THAT WAS A\nROUGH RIDE!)"
+    },
+    {
+      "index": 418,
+      "text": "I THINK WE COULD TRY\nA MORE UNEXPECTED\nSPOT..."
+    },
+    {
+      "index": 419,
+      "text": "HMM. AND WHERE WOULD\nTHAT BE?"
+    },
+    {
+      "index": 420,
+      "text": "THE POND! BIG THINGS\nCAN HAPPEN IN\nORDINARY PLACES.\nTRUST ME, RAN!"
+    },
+    {
+      "index": 421,
+      "text": "WHAT ARE YOU TALKING\nABOUT? BUT YOU SOUND\nAWFULLY CONFIDENT.\nLET'S GO!"
+    },
+    {
+      "index": 422,
+      "text": ".................."
+    },
+    {
+      "index": 423,
+      "text": "SO WHERE'S THIS\nINCIDENT OF YOURS?"
+    },
+    {
+      "index": 424,
+      "text": ".................."
+    },
+    {
+      "index": 425,
+      "text": "A COUPLE, A FAMILY\nPICNIC... SO\nPEACEFUL. WHERE'S\nTHIS INCIDENT?"
+    },
+    {
+      "index": 426,
+      "text": "UM... THAT'S\nSTRANGE..."
+    },
+    {
+      "index": 427,
+      "text": "YOU WASTED MY\nPRECIOUS REPORTING\nTIME! HOW WILL YOU\nMAKE IT UP TO ME?!"
+    },
+    {
+      "index": 428,
+      "text": "(I SPENT THE REST OF\nTHE DAY BEING\nDRAGGED AROUND BY\nRAN...)"
+    },
+    {
+      "index": 429,
+      "text": "HEY, IT'S BATSU AND\nTHE OTHERS. HEY!"
+    },
+    {
+      "index": 430,
+      "text": "HEY! LOOK AT THIS\nLINE."
+    },
+    {
+      "index": 431,
+      "text": "I NEVER THOUGHT I'D\nHAVE TO WAIT THIS\nLONG FOR A FERRIS\nWHEEL."
+    },
+    {
+      "index": 432,
+      "text": "IT LOOKS NEW. NO\nWONDER IT'S POPULAR."
+    },
+    {
+      "index": 433,
+      "text": "PLUS, CALLING IT ONE\nOF THE WORLD'S\nBIGGEST DRAWS MORE\nPEOPLE, I SUPPOSE."
+    },
+    {
+      "index": 434,
+      "text": "EVEN SO, THIS IS\nRIDICULOUS..."
+    },
+    {
+      "index": 435,
+      "text": "DAMN IT! THAT GUY\nJUST CUT INTO THE\nLINE!"
+    },
+    {
+      "index": 436,
+      "text": "H-HEY, BATSU!"
+    },
+    {
+      "index": 437,
+      "text": "STOP BATSU\nBACK BATSU UP"
+    },
+    {
+      "index": 438,
+      "text": "BATSU, CALM DOWN! A\nFIGHT HERE WOULD BE\nTROUBLE!"
+    },
+    {
+      "index": 439,
+      "text": "HE BROKE THE RULES,\nBUT A FIGHT WOULD\nBOTHER EVERYONE.\nDON'T HIT HIM."
+    },
+    {
+      "index": 440,
+      "text": "EXACTLY. BESIDES,\nIT'S ALMOST OUR\nTURN. LET'S BE\nPATIENT."
+    },
+    {
+      "index": 441,
+      "text": "...TCH. ALL RIGHT."
+    },
+    {
+      "index": 442,
+      "text": "THE VIEW FROM THE\nFERRIS WHEEL WAS\nAMAZING!"
+    },
+    {
+      "index": 443,
+      "text": "YES, IT DESERVES TO\nBE CALLED ONE OF THE\nWORLD'S BIGGEST."
+    },
+    {
+      "index": 444,
+      "text": "YAWN... GREAT VIEW,\nBUT THAT THING MOVES\nSO SLOWLY IT PUT ME\nTO SLEEP."
+    },
+    {
+      "index": 445,
+      "text": "IT'S A FERRIS WHEEL,\nNOT A SCREAMING\nTHRILL RIDE. WHAT\nDID YOU EXPECT?"
+    },
+    {
+      "index": 446,
+      "text": "(WE HEADED HOME,\nCHATTING HAPPILY\nTOGETHER.)"
+    },
+    {
+      "index": 447,
+      "text": "I'LL BACK YOU UP! I\nWAS GETTING FED UP,\nTOO!"
+    },
+    {
+      "index": 448,
+      "text": "HEY, YOU! CAN'T YOU\nACT YOUR AGE AND\nWAIT YOUR TURN?"
+    },
+    {
+      "index": 449,
+      "text": "I KNEW IT WOULD TURN\nOUT THIS WAY, BUT\nSTILL..."
+    },
+    {
+      "index": 450,
+      "text": "WE NEVER GOT TO RIDE\nTHE FERRIS WHEEL! WE\nWAITED SO LONG, AND\nI WAS SO EXCITED!"
+    },
+    {
+      "index": 451,
+      "text": "SORRY. I JUST..."
+    },
+    {
+      "index": 452,
+      "text": "COME ON, HINATA. AT\nLEAST WE GOT THAT\nOUT OF OUR SYSTEMS!"
+    },
+    {
+      "index": 453,
+      "text": "IT WASN'T GOOD AT\nALL! YOU HAVEN'T\nREFLECTED ON IT ONE\nBIT!"
+    },
+    {
+      "index": 454,
+      "text": "BATSU, WHY NOT MAKE\nIT UP TO HER WITH A\nCAKE SOMETIME?"
+    },
+    {
+      "index": 455,
+      "text": "YES. YOU OWE US AT\nLEAST THAT MUCH!"
+    },
+    {
+      "index": 456,
+      "text": "(BATSU AND I ENDED\nUP BEING THOROUGHLY\nSCOLDED BY HINATA\nAND KYOSUKE...)"
+    },
+    {
+      "index": 457,
+      "text": "OH? AREN'T THOSE\nTHREE IN THE QUEUE\nAKIRA AND HER RATHER\nNOISY FRIENDS?"
+    },
+    {
+      "index": 458,
+      "text": "NOISY? SO WHAT IF\nWE'RE NOISY?"
+    },
+    {
+      "index": 459,
+      "text": "EDGE, DON'T THREATEN\nPEOPLE YOU KNOW!"
+    },
+    {
+      "index": 460,
+      "text": "HEY, IT'S OUR TURN.\nYOU CAME TO RIDE,\nDIDN'T YOU? LET'S\nGO."
+    },
+    {
+      "index": 461,
+      "text": "WAIT, AKIRA. ARE YOU\nREALLY KEEPING YOUR\nHELMET ON?"
+    },
+    {
+      "index": 462,
+      "text": "OF COURSE. WHY WOULD\nI TAKE IT OFF?"
+    },
+    {
+      "index": 463,
+      "text": "BECAUSE THE\nATTENDANT IS\nDEFINITELY GOING TO\nSTOP YOU!"
+    },
+    {
+      "index": 464,
+      "text": "REMOVE HER HELMET\nLEAVE IT ON"
+    },
+    {
+      "index": 465,
+      "text": "(DESPITE AKIRA'S\nPROTESTS, I MADE HER\nTAKE HER HELMET\nOFF.)"
+    },
+    {
+      "index": 466,
+      "text": "W-WHAT ARE YOU\nDOING?! S-STOP!"
+    },
+    {
+      "index": 467,
+      "text": "THERE. I'LL LOOK\nAFTER YOUR HELMET\nFOR NOW."
+    },
+    {
+      "index": 468,
+      "text": "PLEASE! GIVE IT\nBACK!"
+    },
+    {
+      "index": 469,
+      "text": "WOW! WHAT A COASTER!\nEVEN I WAS YELLING A\nLITTLE!"
+    },
+    {
+      "index": 470,
+      "text": "...HM? WHAT'S WRONG,\nAKIRA?"
+    },
+    {
+      "index": 471,
+      "text": "...HOW AWFUL. I'M\nSCARED OF COASTERS.\nTHAT'S WHY I WANTED\nMY HELMET..."
+    },
+    {
+      "index": 472,
+      "text": "HONESTLY! THAT WAS A\nTERRIBLE THING TO DO\nTO HER."
+    },
+    {
+      "index": 473,
+      "text": "S-SORRY! BUT THE\nTHRILLS WERE LIKE\nRIDING A MOTORCYCLE.\nFUN, RIGHT?"
+    },
+    {
+      "index": 474,
+      "text": ".................."
+    },
+    {
+      "index": 475,
+      "text": "(IT TOOK QUITE A\nWHILE TO SOOTHE\nAKIRA, WHO LOOKED\nCLOSE TO TEARS...)"
+    },
+    {
+      "index": 476,
+      "text": "WELL, IF AKIRA\nREALLY DOESN'T WANT\nTO TAKE IT OFF, WE\nCAN'T FORCE HER."
+    },
+    {
+      "index": 477,
+      "text": "SORRY. I ABSOLUTELY\nCAN'T TAKE IT OFF\nHERE."
+    },
+    {
+      "index": 478,
+      "text": "NO GOOD, HUH... TCH.\nWHAT AN INFLEXIBLE\nATTENDANT."
+    },
+    {
+      "index": 479,
+      "text": "SORRY, EVERYONE. I'M\nSCARED OF COASTERS.\nI CAN'T RIDE WITHOUT\nMY HELMET."
+    },
+    {
+      "index": 480,
+      "text": "WELL, IT CAN'T BE\nHELPED. THERE'S MORE\nTO AN AMUSEMENT PARK\nTHAN COASTERS!"
+    },
+    {
+      "index": 481,
+      "text": "THEN GET RIDES I CAN\nFIT ON! I CAN'T RIDE\nMOST OF THESE. IT'S\nBORING!"
+    },
+    {
+      "index": 482,
+      "text": "HMM... THAT MIGHT BE\nTHE TOUGHEST REQUEST\nOF ALL..."
+    },
+    {
+      "index": 483,
+      "text": "HEH! YOU SAID IT."
+    },
+    {
+      "index": 484,
+      "text": "HEEHEE! YOU'RE ALL\nSO SELFISH!"
+    },
+    {
+      "index": 485,
+      "text": "(WE NEVER RODE THE\nCOASTER, BUT WE\nSTILL HAD A GOOD\nTIME TOGETHER.)"
+    },
+    {
+      "index": 486,
+      "text": "(MAYBE IT WORKED OUT\nBETTER THIS WAY.)"
+    },
+    {
+      "index": 487,
+      "text": "HERE I AM AT THE\nHAUNTED HOUSE. GOING\nIN ALONE SEEMS DULL.\nWHAT SHOULD I DO?"
+    },
+    {
+      "index": 488,
+      "text": "OH? ISN'T THAT YOU?"
+    },
+    {
+      "index": 489,
+      "text": "IT IS! WHAT ARE YOU\nDOING HERE?"
+    },
+    {
+      "index": 490,
+      "text": "DECIDING WHETHER TO\nGO IN. THESE PLACES\nAREN'T MUCH FUN\nALONE, ARE THEY?"
+    },
+    {
+      "index": 491,
+      "text": "YOU SAY THAT, BUT\nYOU'RE REALLY\nFRIGHTENED, AREN'T\nYOU?"
+    },
+    {
+      "index": 492,
+      "text": "N-NO! THAT'S NOT IT!"
+    },
+    {
+      "index": 493,
+      "text": "HAHA! JUST A JOKE.\nWE WERE ABOUT TO GO\nIN. CARE TO JOIN US?"
+    },
+    {
+      "index": 494,
+      "text": "JOIN ROY AND FRIENDS\nGIVE IT A MISS"
+    },
+    {
+      "index": 495,
+      "text": "SURE! WITH BOMAN\nALONG, AT LEAST THE\nGHOSTS WON'T SCARE\nME."
+    },
+    {
+      "index": 496,
+      "text": "IT'S TOO DARK TO SEE\nANYTHING."
+    },
+    {
+      "index": 497,
+      "text": "OH, GREAT. I CAN'T\nEVEN TELL WHICH WAY\nTHE EXIT IS."
+    },
+    {
+      "index": 498,
+      "text": "EEK! WHO TOUCHED MY\nBOTTOM?!"
+    },
+    {
+      "index": 499,
+      "text": "IT WASN'T ME! OW!\nSTOP HITTING ME!"
+    },
+    {
+      "index": 500,
+      "text": ".................."
+    },
+    {
+      "index": 501,
+      "text": "UGH... THAT WAS\nAWFUL."
+    },
+    {
+      "index": 502,
+      "text": "STRANGE. WHAT\nHAPPENED INSIDE WAS\nMORE FUN THAN THE\nHAUNTED HOUSE."
+    },
+    {
+      "index": 503,
+      "text": "WE ENJOYED OURSELVES\nIN THE END. THAT'S\nWHAT MATTERS, ISN'T\nIT?"
+    },
+    {
+      "index": 504,
+      "text": "JUST AS BOMAN SAYS!"
+    },
+    {
+      "index": 505,
+      "text": "(TIFFANY'S HURRICANE\nBATTERED ME INSIDE,\nBUT EVERYONE SEEMED\nHAPPY.)"
+    },
+    {
+      "index": 506,
+      "text": "...MAYBE I'LL PASS.\nIT LOOKS A LITTLE\nSCARY."
+    },
+    {
+      "index": 507,
+      "text": "YOU HAVE NO GUT!"
+    },
+    {
+      "index": 508,
+      "text": "YOU MEAN GUTS. ARE\nYOU REALLY NOT\nCOMING?"
+    },
+    {
+      "index": 509,
+      "text": "SORRY, BUT I'LL PASS\nTHIS TIME."
+    },
+    {
+      "index": 510,
+      "text": "I SEE... WE'LL SEE\nYOU LATER, THEN."
+    },
+    {
+      "index": 511,
+      "text": "(I'D LOOK PATHETIC\nIF I SCREAMED IN\nFRONT OF EVERYONE.\nBETTER SKIP IT.)"
+    },
+    {
+      "index": 512,
+      "text": "HEY! YOU CAME HERE,\nTOO?"
+    },
+    {
+      "index": 513,
+      "text": "HI, EVERYONE. HAVING\nFUN?"
+    },
+    {
+      "index": 514,
+      "text": "MORE OR LESS. I\nTHINK ROBERTO IS\nENJOYING HIMSELF\nMOST."
+    },
+    {
+      "index": 515,
+      "text": "YEAH. SORRY FOR\nDRAGGING YOU ALONG."
+    },
+    {
+      "index": 516,
+      "text": "SINCE WE'RE ALL\nHERE, WHY DON'T WE\nPLAY A GAME\nTOGETHER?"
+    },
+    {
+      "index": 517,
+      "text": "GOOD IDEA..."
+    },
+    {
+      "index": 518,
+      "text": "LET'S PLAY HERE!\nGO SOMEWHERE ELSE"
+    },
+    {
+      "index": 519,
+      "text": "SOUNDS GOOD! WHICH\nGAME SHALL WE\nCOMPETE AT?"
+    },
+    {
+      "index": 520,
+      "text": "FOR A GROUP, A BIG\nMACHINE IS BEST. HOW\nABOUT THIS ONE?"
+    },
+    {
+      "index": 521,
+      "text": "HEY, THAT LOOKS FUN!\nI DON'T KNOW WHAT IT\nIS, THOUGH."
+    },
+    {
+      "index": 522,
+      "text": "I DON'T KNOW MUCH\nABOUT GAMES, SO I'LL\nLEAVE IT TO YOU."
+    },
+    {
+      "index": 523,
+      "text": "WOW, THAT WAS FUN!\nROBERTO, YOU'RE\nREALLY GOOD AT\nTHESE!"
+    },
+    {
+      "index": 524,
+      "text": "YES. HOW DO YOU\nMANAGE TO BE SO\nGOOD? IT'S A\nMYSTERY."
+    },
+    {
+      "index": 525,
+      "text": "HAHA! PRACTICE.\nRIGHT?"
+    },
+    {
+      "index": 526,
+      "text": "THAT'S TRUE. IT DOES\nGET EXPENSIVE,\nTHOUGH."
+    },
+    {
+      "index": 527,
+      "text": "(WE CARRIED ON\nENJOYING THE ARCADE\nTOGETHER.)"
+    },
+    {
+      "index": 528,
+      "text": "WE CAME TO THE PARK.\nSHOULD WE TRY\nSOMETHING WE CAN\nONLY DO HERE?"
+    },
+    {
+      "index": 529,
+      "text": "TRUE, BUT... WHAT\nWOULD EVERYONE LIKE\nTO DO?"
+    },
+    {
+      "index": 530,
+      "text": "HMM. I'D LIKE TO\nRIDE THE FERRIS\nWHEEL."
+    },
+    {
+      "index": 531,
+      "text": "WHAT? AT AN\nAMUSEMENT PARK, IT\nHAS TO BE THE ROLLER\nCOASTER!"
+    },
+    {
+      "index": 532,
+      "text": ".................."
+    },
+    {
+      "index": 533,
+      "text": "(NOBODY WANTS TO GO\nTO THE SAME\nPLACE...)"
+    },
+    {
+      "index": 534,
+      "text": "(AT THIS RATE, IT'LL\nBE TIME TO GO HOME\nBEFORE WE DECIDE.)"
+    },
+    {
+      "index": 535,
+      "text": "(THAT'S HYO, THE\nSTUDENT COUNCIL\nPRESIDENT... I'LL\nTRY TALKING TO HIM.)"
+    },
+    {
+      "index": 536,
+      "text": "HYO, ARE YOU HERE\nALONE?"
+    },
+    {
+      "index": 537,
+      "text": "...HM? AS YOU CAN\nSEE."
+    },
+    {
+      "index": 538,
+      "text": "IF YOU DON'T MIND...\nWOULD YOU LIKE TO\nLOOK AROUND WITH ME?"
+    },
+    {
+      "index": 539,
+      "text": "VERY WELL. I HAVE\nNOTHING IN\nPARTICULAR TO DO\nANYWAY."
+    },
+    {
+      "index": 540,
+      "text": "WELL, THEN..."
+    },
+    {
+      "index": 541,
+      "text": "TRY AN ATTRACTION\nRELAX BY THE POND"
+    },
+    {
+      "index": 542,
+      "text": "SHALL WE TRY A RIDE?"
+    },
+    {
+      "index": 543,
+      "text": "AN ATTRACTION?"
+    },
+    {
+      "index": 544,
+      "text": "Y-YES. THE FERRIS\nWHEEL OR THE ROLLER\nCOASTER. THEY'RE\nQUITE FUN."
+    },
+    {
+      "index": 545,
+      "text": "...WELL, ALL RIGHT.\nI SHALL ACCOMPANY\nYOU."
+    },
+    {
+      "index": 546,
+      "text": "I HEARD THE ROLLER\nCOASTER IS A GOOD\nCHOICE..."
+    },
+    {
+      "index": 547,
+      "text": ".................."
+    },
+    {
+      "index": 548,
+      "text": "N-NO, ACTUALLY...\nHOW ABOUT THE FERRIS\nWHEEL?"
+    },
+    {
+      "index": 549,
+      "text": "HOW TIRESOME! DID\nYOU BRING ME ALL\nTHIS WAY TO WASTE MY\nTIME?"
+    },
+    {
+      "index": 550,
+      "text": "HYO, PLEASE CALM\nDOWN."
+    },
+    {
+      "index": 551,
+      "text": "SILENCE! I HAVE NO\nWISH TO HEAR\nANYTHING MORE FROM\nYOU!"
+    },
+    {
+      "index": 552,
+      "text": "(...HE'S GONE.\nPERHAPS INVITING HIM\nALONG WAS A\nMISTAKE.)"
+    },
+    {
+      "index": 553,
+      "text": "SHALL WE GO\nSOMEWHERE QUIET? I\nHEAR THERE'S A POND\nA SHORT WALK AWAY."
+    },
+    {
+      "index": 554,
+      "text": "VERY WELL. I WAS\nGROWING RATHER TIRED\nOF THE CROWDS\nMYSELF."
+    },
+    {
+      "index": 555,
+      "text": "WHAT DO YOU THINK?\nIT'S NICE AND QUIET\nHERE."
+    },
+    {
+      "index": 556,
+      "text": "HM. NOT BAD. HERE,\nAT LEAST, I NEEDN'T\nENDURE THAT\nBOTHERSOME NOISE."
+    },
+    {
+      "index": 557,
+      "text": "...NATURE IS A FINE\nTHING."
+    },
+    {
+      "index": 558,
+      "text": "OPEN YOUR HEART AND\nTOUCH NATURE, AND\nYOUR PETTY TROUBLES\nSEEM TO DISAPPEAR."
+    },
+    {
+      "index": 559,
+      "text": "...NO. THE TROUBLES\nREMAIN. A WEAK HEART\nJUST FORGETS AND IS\nSOOTHED."
+    },
+    {
+      "index": 560,
+      "text": ".................."
+    },
+    {
+      "index": 561,
+      "text": "(HYO HAS WORRIES OF\nHIS OWN, TOO...)"
+    },
+    {
+      "index": 562,
+      "text": "(AFTER THAT, WE SAID\nNOTHING. WE SIMPLY\nSHARED A QUIET,\nPEACEFUL TIME.)"
+    }
+  ]
+}

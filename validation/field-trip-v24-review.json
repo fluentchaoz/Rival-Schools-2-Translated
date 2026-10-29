@@ -1,0 +1,830 @@
+{
+  "kind": "Source review coordinates only; no original dialogue",
+  "variant_differences": [
+    348,
+    350,
+    352,
+    353,
+    356,
+    362,
+    364,
+    366,
+    367,
+    370,
+    372,
+    374,
+    376,
+    378,
+    379,
+    381,
+    382,
+    383,
+    384,
+    385,
+    387,
+    389,
+    394,
+    395,
+    397,
+    399,
+    401,
+    402,
+    403,
+    405,
+    409,
+    414,
+    417,
+    418,
+    420,
+    426,
+    428,
+    429,
+    436,
+    438,
+    445,
+    446,
+    447,
+    449,
+    450,
+    451,
+    454,
+    456,
+    457,
+    461,
+    463,
+    465,
+    467,
+    468,
+    471,
+    473,
+    476,
+    478,
+    482,
+    485,
+    486,
+    487,
+    490,
+    492,
+    495,
+    498,
+    499,
+    501,
+    505,
+    506,
+    509,
+    511,
+    513,
+    517,
+    519,
+    525,
+    526,
+    527,
+    528,
+    533,
+    534,
+    535,
+    536,
+    537,
+    538,
+    539,
+    540,
+    542,
+    544,
+    546,
+    548,
+    550,
+    552,
+    553,
+    555,
+    561
+  ],
+  "protected_control_coordinates": [
+    {
+      "selector": 0,
+      "entry": 349,
+      "controls": [
+        [
+          8195,
+          0
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 352,
+      "controls": [
+        [
+          8198,
+          1
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 361,
+      "controls": [
+        [
+          8195,
+          0
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 365,
+      "controls": [
+        [
+          8195,
+          0
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 366,
+      "controls": [
+        [
+          8196,
+          19
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 395,
+      "controls": [
+        [
+          8196,
+          19
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 396,
+      "controls": [
+        [
+          12290,
+          15
+        ],
+        [
+          12290,
+          255
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 403,
+      "controls": [
+        [
+          8196,
+          19
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 415,
+      "controls": [
+        [
+          12290,
+          15
+        ],
+        [
+          12290,
+          255
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 422,
+      "controls": [
+        [
+          12290,
+          15
+        ],
+        [
+          12290,
+          255
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 424,
+      "controls": [
+        [
+          12290,
+          15
+        ],
+        [
+          12290,
+          255
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 430,
+      "controls": [
+        [
+          8195,
+          0
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 450,
+      "controls": [
+        [
+          8198,
+          1
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 454,
+      "controls": [
+        [
+          8196,
+          2
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 455,
+      "controls": [
+        [
+          12291,
+          5
+        ],
+        [
+          12291,
+          255
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 460,
+      "controls": [
+        [
+          8195,
+          10
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 468,
+      "controls": [
+        [
+          8197,
+          10
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 471,
+      "controls": [
+        [
+          8197,
+          10
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 474,
+      "controls": [
+        [
+          12290,
+          15
+        ],
+        [
+          12290,
+          255
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 484,
+      "controls": [
+        [
+          12291,
+          5
+        ],
+        [
+          12291,
+          255
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 488,
+      "controls": [
+        [
+          8196,
+          8
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 489,
+      "controls": [
+        [
+          8195,
+          7
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 500,
+      "controls": [
+        [
+          12290,
+          15
+        ],
+        [
+          12290,
+          255
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 507,
+      "controls": [
+        [
+          8195,
+          7
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 508,
+      "controls": [
+        [
+          8195,
+          6
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 512,
+      "controls": [
+        [
+          8195,
+          3
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 525,
+      "controls": [
+        [
+          8195,
+          5
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 532,
+      "controls": [
+        [
+          12290,
+          15
+        ],
+        [
+          12290,
+          255
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 537,
+      "controls": [
+        [
+          8192
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 547,
+      "controls": [
+        [
+          12290,
+          15
+        ],
+        [
+          12290,
+          255
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 557,
+      "controls": [
+        [
+          8192
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "entry": 560,
+      "controls": [
+        [
+          12290,
+          15
+        ],
+        [
+          12290,
+          255
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 349,
+      "controls": [
+        [
+          8195,
+          0
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 352,
+      "controls": [
+        [
+          8200,
+          1
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 361,
+      "controls": [
+        [
+          8195,
+          0
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 365,
+      "controls": [
+        [
+          8195,
+          0
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 366,
+      "controls": [
+        [
+          8200,
+          19
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 395,
+      "controls": [
+        [
+          8200,
+          19
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 396,
+      "controls": [
+        [
+          12290,
+          15
+        ],
+        [
+          12290,
+          255
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 403,
+      "controls": [
+        [
+          8200,
+          19
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 415,
+      "controls": [
+        [
+          12290,
+          15
+        ],
+        [
+          12290,
+          255
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 422,
+      "controls": [
+        [
+          12290,
+          15
+        ],
+        [
+          12290,
+          255
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 424,
+      "controls": [
+        [
+          12290,
+          15
+        ],
+        [
+          12290,
+          255
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 430,
+      "controls": [
+        [
+          8195,
+          0
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 450,
+      "controls": [
+        [
+          8200,
+          1
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 454,
+      "controls": [
+        [
+          8199,
+          2
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 455,
+      "controls": [
+        [
+          12291,
+          5
+        ],
+        [
+          12291,
+          255
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 460,
+      "controls": [
+        [
+          8195,
+          10
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 468,
+      "controls": [
+        [
+          8200,
+          10
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 471,
+      "controls": [
+        [
+          8200,
+          10
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 474,
+      "controls": [
+        [
+          12290,
+          15
+        ],
+        [
+          12290,
+          255
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 484,
+      "controls": [
+        [
+          12291,
+          5
+        ],
+        [
+          12291,
+          255
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 488,
+      "controls": [
+        [
+          8196,
+          8
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 489,
+      "controls": [
+        [
+          8195,
+          7
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 500,
+      "controls": [
+        [
+          12290,
+          15
+        ],
+        [
+          12290,
+          255
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 507,
+      "controls": [
+        [
+          8195,
+          7
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 508,
+      "controls": [
+        [
+          8195,
+          6
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 512,
+      "controls": [
+        [
+          8195,
+          3
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 525,
+      "controls": [
+        [
+          8199,
+          5
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 532,
+      "controls": [
+        [
+          12290,
+          15
+        ],
+        [
+          12290,
+          255
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 537,
+      "controls": [
+        [
+          8192
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 547,
+      "controls": [
+        [
+          12290,
+          15
+        ],
+        [
+          12290,
+          255
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 557,
+      "controls": [
+        [
+          8192
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "entry": 560,
+      "controls": [
+        [
+          12290,
+          15
+        ],
+        [
+          12290,
+          255
+        ]
+      ]
+    }
+  ],
+  "authored_messages": 215,
+  "draft_ascii_layout_passed": true,
+  "choice_geometry_and_names_verified": false
+}
