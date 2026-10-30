@@ -1,5 +1,30 @@
 # Translation state — 2026-10-28
 
+## Actual v25 Windows build passed — 2026-10-29
+
+The user's production v25 passed its Rust test (1 passed, 0 failed, 496.09 seconds)
+and final PowerShell output verification. Actual output BIN SHA-256:
+` 5f31d90f089f520d6824add5c5368e10be2607955ad3b9e5c24b73b9aa010453 `.
+Changed raw sectors: 23,126. All 100 honorific insertion strings across 25 event
+banks localized. Enrolled names and relationship-based name selection preserved.
+Matching location strips translated and existing English strips preserved.
+The console did not include per-label counts; the detailed JSON was not attached.
+Do not use the original-disc fixture's location counts as production counts.
+Unused-import/dead-code warnings did not prevent successful completion.
+
+CUE to test:
+
+```text
+C:\Users\Fluent\JG2-Recovery-v1\candidates\locations-names-v25-8ef409d5d481430d84ba83b3b08c64a1\build\justice-gakuen2-locations-names-v25.cue
+```
+
+Keep v24. Fresh-boot this v25 CUE in DuckStation and check School Gate and Plaza,
+Hinata/Ran addressing O without Japanese suffixes, and dialogue continuing normally
+after each inserted name. Native v25 gameplay remains pending. Unmatched graphics,
+other scene banks and untranslated later stories remain outside scope.
+See validation/locations-names-v25-windows.json for actual console evidence.
+
+
 ## v25 locations and English name insertions candidate ready — 2026-10-29
 
 Read LOCATIONS_NAMES_V25.md and use build_locations_names_english_v25.ps1 against actual v24 c21d3d0a6ffdfc3d4a666251f450edbc5b68f16b90716101143d2c69e2415e4f. It makes a fresh candidate. Keep v24.
