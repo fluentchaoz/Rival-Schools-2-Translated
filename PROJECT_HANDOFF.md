@@ -1,5 +1,23 @@
 # Project Handoff — Read This First
 
+## Actual v27 Windows build passed; Status/Diary next — 2026-10-30
+
+User console confirms both tests and final verification passed (97.31s).
+Output BIN SHA-256: 3f5b7630fd3115804c892e75c37213fbfff148b28ed657d0424ecba0614dc34e.
+Translated help coordinates:1,631; retained current custom payloads:7;
+changed raw sectors:5,776;11 map atlases/66 labels. Detailed report not attached;
+individual identities of the7 retained messages are not established here.
+Actual CUE:
+`C:\Users\Fluent\JG2-Recovery-v1\candidates\daily-map-v27-6a785800303b41728eb938abf8538be4\build\justice-gakuen2-daily-map-v27.cue`
+
+The Diary screenshot confirms native English BACKUP / SAVE OR LOAD DATA help.
+The Status screenshot still has Japanese headings, character names, gender/date
+sprites; the Diary menu options are Japanese. These shared interfaces are the
+next batch. User authorized Status/Diary work. Six-map-label/default-name tests
+are not independently certified by these screenshots. Keep v26.
+Evidence:validation/daily-map-v27-windows.json.
+
+
 ## v27 daily map, help and new-name defaults — 2026-10-30
 
 Next builder: build_daily_map_english_v27.ps1; read DAILY_MAP_V27.md.

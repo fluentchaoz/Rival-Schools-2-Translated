@@ -3,12 +3,12 @@
   "scope": "SLPS-02120 whole disc; School Life first",
   "roadmap": "TRANSLATION_ROADMAP.md",
   "current_candidate": {
-    "version": "v26",
-    "sha256": "1a1f3ec2f5ab6abf4730748fd68df9e30cc8db55e43bc85308593986932a1e45",
-    "cue": "C:\\Users\\Fluent\\JG2-Recovery-v1\\candidates\\shared-dates-v26-2134c53e3efb491dab5a7c41617964e8\\build\\justice-gakuen2-shared-dates-v26.cue",
-    "windows_build": "passed; 2 tests, 0 failures, 93.82s; final verification passed",
-    "native_evidence": "Reported post-build run shows English Ran scene and April21 travel map; new date/narration message was skipped and remains unconfirmed",
-    "fallback": "v25"
+    "version": "v27",
+    "sha256": "3f5b7630fd3115804c892e75c37213fbfff148b28ed657d0424ecba0614dc34e",
+    "cue": "C:\\Users\\Fluent\\JG2-Recovery-v1\\candidates\\daily-map-v27-6a785800303b41728eb938abf8538be4\\build\\justice-gakuen2-daily-map-v27.cue",
+    "windows_build": "passed; 2 tests, 0 failures, 97.31s; final verification passed",
+    "native_evidence": "Diary screenshot confirms English BACKUP / SAVE OR LOAD DATA help. Status and Diary menu graphics remain Japanese. Six map destination checks and new enrollment defaults not independently confirmed.",
+    "fallback": "v26"
   },
   "overall_translation_percentage": null,
   "percentage_reason": "Original-source inventory measured; current English build coverage and reachable surface denominator not fully audited",
@@ -47,7 +47,7 @@
     {
       "id": "B02",
       "name": "Shared daily actions, help, status, diary and common choices",
-      "status": "v27 fixture, custom-payload preservation, copier and visual checks passed; Windows/native pending",
+      "status": "v27 actual Windows build passed; diary help native evidence; Status/Diary graphics next",
       "reported_destinations": [
         "Rooftop",
         "Gym",
@@ -63,7 +63,9 @@
       "runtime_images": 78,
       "map_atlases": 11,
       "map_label_rectangles": 66,
-      "remaining_scope": "Unique story; remaining status/diary interface; fixed-position save/load prompts"
+      "remaining_scope": "Unique story; remaining status/diary interface; fixed-position save/load prompts",
+      "translated_help_coordinates": 1631,
+      "custom_help_preserved": 7
     },
     {
       "id": "B03",
@@ -94,11 +96,8 @@
   ],
   "private_checkpoint": "JG2-Daily-Map-v27-Inputs.zip",
   "next_candidate": {
-    "version": "v27",
-    "status": "ready for actual Windows build and native testing",
-    "instructions": "DAILY_MAP_V27.md",
-    "required_private_input": "JG2-Daily-Map-v27-Inputs.zip",
-    "required_master_sha256": "1a1f3ec2f5ab6abf4730748fd68df9e30cc8db55e43bc85308593986932a1e45",
+    "version": "v28",
+    "status": "Status/Diary implementation and validation in progress",
     "actual_output_sha256": null
   },
   "foundation_checkpoint": "JG2-Mainline-Foundation-Batch01.zip"
