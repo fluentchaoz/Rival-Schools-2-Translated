@@ -66,3 +66,9 @@ __pycache__/
 JG2-Stat-Probe-v18-*/
 JG2-Stat-Probe-v18-*.zip
 JG2-Stat-Probe-v18-*.zip.partial
+
+# Private mainline source inventory and English draft checkpoint (public upload withheld).
+/private-mainline/
+/translations/shared_daily_dates_batch01.json
+/validation/disc-translation-inventory.json
+/validation/mainline-foundation.json

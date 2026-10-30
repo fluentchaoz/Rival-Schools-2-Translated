@@ -1,5 +1,43 @@
 # Project Handoff — Read This First
 
+## Whole-disc translation programme started — 2026-10-29
+
+Publication boundary: automatic approval review rejected public dialogue-packet
+and detailed inventory publication. They and the validation report are saved in
+the private JG2-Mainline-Foundation-Batch01.zip checkpoint; public plan/tools are
+safe to publish. Do not silently retry the rejected publication.
+
+The user explicitly sets the goal to translate the whole disc, School Life first,
+including other modes afterward. Read TRANSLATION_ROADMAP.md, TRANSLATION_STYLE.md
+and translation_progress.json before choosing new work. This supersedes the
+screenshot-driven patch cadence. Native screenshots guide QA rather than define
+every next translation item.
+
+The original-disc structural inventory verified 947 ISO files and all78 runtime
+text images:62,639 message coordinates,42,681 raw unique payloads and18,807 exact
+glyph/control patterns. These match the pinned upstream structural denominators.
+They are not current-English completion percentages or independently reviewed
+semantic/reachability counts. Other-mode surfaces have file metadata only so far.
+
+Batch01 is started:46 source-reviewed English prose drafts for4,836 original
+dynamic-date coordinates across78 images. This includes the April21 after-school
+narration and its separately reviewed player variant. See
+the private translations/shared_daily_dates_batch01.json packet in
+JG2-Mainline-Foundation-Batch01.zip. Source-fingerprint and protected
+control audits pass; five parser regressions and syntax checks pass. Current v25
+English overrides must be reconciled before writing anything. Fitting, generic
+multi-bank patching, candidate build and native tests remain pending. No v26
+exists. Continue that batch; do not redo the inventory or ask Ryan for screenshots
+of every untranslated page.
+
+Current built v25 SHA remains
+5f31d90f089f520d6824add5c5368e10be2607955ad3b9e5c24b73b9aa010453;
+keep v24. Preserve previous successful layers and the original private recovery
+inputs. GitHub code/metadata alone does not restore missing ROM/font/codebook/save
+inputs. The full plan includes a cumulative original-disc recipe, private-input
+backup manifest, clean recovery drill and differential-patch release validation.
+
+
 ## Native route reaches April 21; after-school text/date gap — 2026-10-29
 
 After receiving the actual v25 CUE, the user reports accepting Ran's invitation,

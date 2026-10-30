@@ -1,84 +1,81 @@
 # Rival Schools 2 Translated
 
-English fan-translation / reverse-engineering project for the Japanese PlayStation
-release of **Shiritsu Justice Gakuen - Nekketsu Seishun Nikki 2** (`SLPS-02120`).
+English fan translation of **Shiritsu Justice Gakuen — Nekketsu Seishun Nikki 2**
+for Japanese PlayStation, `SLPS-02120`.
 
-## Status
+**Goal: the whole disc in English, with School Life first.** Japanese voice audio
+and game behavior are preserved. Other game modes, help, interfaces, graphics,
+bonus material and credits are part of the intended scope.
 
-**Next candidate: v22 pool, club orientation, and daily menu.** It adds 240
-Taiyo story entries, four menu-help messages, shared action labels, and matching
-location labels. See [POOL_CLUB_V22.md](POOL_CLUB_V22.md). Windows/native v22
-testing remains pending. The last reported playthrough is v21's apology route
-through the ceremony into the pool scene. Older build checkpoints follow.
+## Start here
 
+- [Whole-disc roadmap](TRANSLATION_ROADMAP.md): priorities, batch workflow, release and recovery requirements.
+- [Current milestone](CURRENT_MILESTONE.md): latest actual build and native evidence.
+- [Progress ledger](translation_progress.json): separate draft, fit, build and native statuses.
+- [Project handoff](PROJECT_HANDOFF.md): historical checkpoints and technical constraints.
+- [Translation conventions](TRANSLATION_STYLE.md).
 
-**v21 ceremony candidate built successfully on Windows.** Actual v21 SHA-256:
-`f4a470836cded402c5ec5df041f0023693099761f1a25cd1045690d8bae005f0`.
-Native ceremony testing remains pending. The last reported playthrough is v20
-through the quiz into April 8. Actual v20
-SHA-256: `bf79b70fb5d806669fbf48917c634920e1934ff63d82072b9a0a48ab63238fec`.
-The v21 candidate translates the Taiyo entrance ceremony: both player variants,
-both ceremony choices, the title/date, and location graphics through Ran's
-introduction and the opening transition toward club orientation. See
-[ENTRANCE_CEREMONY_V21.md](ENTRANCE_CEREMONY_V21.md).
-The Windows build and final checks passed; native v21 testing remains pending. Later club scenes and other schools'
-ceremony dialogue remain untranslated.
+## Current state
 
-The recovery reproduced all 22 historical hashes through v16, then v17h, v18,
-v19, v20, and v21 built successfully on Windows. The current source, hashes, recovery
-order, and validation limits are recorded in [PROJECT_HANDOFF.md](PROJECT_HANDOFF.md),
-[CURRENT_MILESTONE.md](CURRENT_MILESTONE.md), and [recovery/VALIDATION.md](recovery/VALIDATION.md).
-The private recovery kit, original disc, workspace/quiz packets, and rebuilt
-images require a separate private backup; they are not in public GitHub.
+**Latest Windows-built candidate: v25.** BIN SHA-256:
+`5f31d90f089f520d6824add5c5368e10be2607955ad3b9e5c24b73b9aa010453`.
 
-### Confirmed English work so far
+The user reports progressing through Ran's field-trip invitation/ride to April21
+on the ongoing Taiyo/baseball playthrough. The April21 daily narration is the next
+known untranslated boundary. Individual v25 location/suffix checks and all route
+branches have not been separately certified. Keep v24 as fallback.
+See [v25 directions](LOCATIONS_NAMES_V25.md).
 
-- Main mode-select graphics
-- School Life `PLAY / LOAD` title UI
-- English dialogue glyph support
-- Batsu-route prototype work
-- Status HUD (`ATK / DEF / STAM / GUTS / POT / INT`)
-- MGK04 opening greeting
-- `SCHOOL GATE` opening location
-- Dynamic English date (`4/1 THU`)
-- Full MGK04 tutorial/admissions dialogue layer
-- Enrollment/application form
-- Name-entry controls (`HIRA / KATA / A-Z / DEL / NEXT / BACK / OK`)
-- Native `0-9 / A-Z / a-z` keyboard preserved and verified in-game
+The project is moving to corpus-based batches instead of discovering each page
+during a playthrough. The original-disc structural scan verified **78 School Life
+text images, 62,639 message coordinates and 18,807 exact glyph/control patterns**.
+Coordinates include repeats, variants and potentially unreferenced content.
+These counts are not an English completion percentage.
 
-### Recovered later work
+**First bulk batch started:** 46 source-reviewed English prose drafts covering
+4,836 original dynamic-date/narration coordinates across the 78 images.
+The draft packet is saved in the private `JG2-Mainline-Foundation-Batch01.zip` checkpoint, not published in this repository.
+Current-English reconciliation, renderer fitting, patch construction and native
+testing remain pending. **No v26 candidate exists yet.**
 
-Twelve builders missing from the previous repository snapshot have been
-recovered, covering v6–v17g: name/nickname A-Z defaults, school choices,
-greeting palettes, sex/subject/favorite-word choices, enrollment completion,
-face customization, and the MGK10/MGK04 quiz layers. Recovery preserves the
-historical scripts; it does not certify every intermediate candidate.
+## Existing translation and recovery work
 
-`recovery_manifest.json` records their content hashes. The v15b/v16 translation
-packets remain local because they also contain extracted Japanese text.
-They are not needed to run v17h on an existing v16 master.
+Historical layers cover mode selection, School Life entry, admissions/enrollment,
+English name entry, the quiz and fixed UI, stat messages, Taiyo ceremony,
+pool/club orientation, club joining, spring field trip, event dates/titles and
+matching location/name-insertion work. Coverage is partial; other schools and
+later story content remain untranslated.
 
-## Development philosophy
+See the milestone/handoff for actual hashes and bounded playtest evidence.
+The original recovery reproduced all 22 historical stages through v16; later
+builders create separate verified candidates. Do not use an older builder over
+a later working master without its required input hash.
 
-Changes are built as isolated, source-verified layers. Each successful build is
-identified by SHA-256 and tested in-game before becoming the next working master.
+## Tooling and reproducibility
 
-## Upstream tooling
+Based on `mcpads/justice-gakuen2-kr-patch`, pinned upstream commit
+`98ca12ddf082d6e2367b2963f76edf5a09242deb`.
+The local `upstream/` checkout is intentionally not committed.
 
-Reverse-engineering/build tooling is based on:
+Read-only inventory (Python 3.11+ and Pillow, used by the shared reader):
 
-`mcpads/justice-gakuen2-kr-patch`
+```sh
+python tools/inventory_disc_translation.py "/path/to/original.bin" "/private/disc-translation-inventory.json" --private-output "/private/source-review"
+python tools/test_disc_translation_inventory.py
+python tools/audit_shared_dates_batch01.py "/private/shared_daily_dates_batch01.json"
+```
 
-Pinned upstream commit:
+The optional private output contains extracted records and source fingerprints;
+keep it outside public Git. See the roadmap for source binding, compression,
+pointer, layout, sector and clean-rebuild requirements.
 
-`98ca12ddf082d6e2367b2963f76edf5a09242deb`
+## Backups and public distribution
 
-The local `upstream/` checkout is intentionally not committed here.
+GitHub holds original translations, code, documentation, hashes and metadata.
+It does **not** back up the original disc, extracted game assets/source text,
+fonts, private codebook/workspace inputs, generated images or emulator saves.
+Keep a separate private backup of those prerequisites and memory cards.
 
-## Copyright / repository contents
-
-This repository is for translation code, build/probe scripts, documentation,
-checksums, and original project work.
-
-**No ROM/disc image, BIOS, rebuilt BIN/CUE, or copyrighted game asset is included.**
-You must supply your own legally obtained game data when using the tooling.
+No ROM/disc image, BIOS or copyrighted game asset is distributed here.
+The public-release goal is a reproducible differential patch for the exact
+supported original, with installation directions, credits and known issues.

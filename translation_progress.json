@@ -1,0 +1,76 @@
+{
+  "kind": "Whole-disc English translation work ledger",
+  "scope": "SLPS-02120 whole disc; School Life first",
+  "roadmap": "TRANSLATION_ROADMAP.md",
+  "current_candidate": {
+    "version": "v25",
+    "sha256": "5f31d90f089f520d6824add5c5368e10be2607955ad3b9e5c24b73b9aa010453",
+    "windows_build": "passed",
+    "native_evidence": "User reports Ran invitation/ride through April21; individual location and suffix checks not separately confirmed",
+    "fallback": "v24"
+  },
+  "overall_translation_percentage": null,
+  "percentage_reason": "Original-source inventory measured; current English build coverage and reachable surface denominator not fully audited",
+  "inventory": {
+    "report": "validation/disc-translation-inventory.json",
+    "iso_files": 947,
+    "runtime_text_images": 78,
+    "message_coordinates": 62639,
+    "exact_visual_control_patterns": 18807,
+    "dynamic_date_coordinates": 4836,
+    "dynamic_date_patterns": 46,
+    "reachability_audit": "upstream machinery identified; not rerun with private codebook/context in this pass",
+    "non_school_life_text_surface_classification": "pending; ISO paths catalogued only",
+    "report_storage": "private checkpoint; not in public GitHub"
+  },
+  "batches": [
+    {
+      "id": "B01",
+      "name": "Shared daily dates and narration across School Life",
+      "planned_candidate": "v26",
+      "packet": "translations/shared_daily_dates_batch01.json",
+      "source_patterns": 46,
+      "source_coordinates": 4836,
+      "drafted_patterns": 46,
+      "source_read_patterns": 46,
+      "renderer_fitted_patterns": 0,
+      "current_english_conflicts_reconciled": false,
+      "build": "not implemented",
+      "native_test": "pending",
+      "next": "Import v25 coverage/private inputs, reconcile existing English, fit and implement generic multi-bank patch",
+      "packet_storage": "private checkpoint; not in public GitHub"
+    },
+    {
+      "id": "B02",
+      "name": "Shared daily actions, help, status, diary and common choices",
+      "status": "queued for context-based grouping from full corpus"
+    },
+    {
+      "id": "B03",
+      "name": "Remaining Taiyo story through full year and endings, both variants",
+      "status": "inventory first; divide by complete coherent events and branches"
+    },
+    {
+      "id": "B04",
+      "name": "Other school routes: Pacific, Gorin, Gedo, Justice",
+      "status": "planned; reuse shared translations only after context review"
+    },
+    {
+      "id": "B05",
+      "name": "Other modes and remaining player-facing disc surfaces",
+      "status": "path catalogue complete; consumer/surface classification pending"
+    },
+    {
+      "id": "B06",
+      "name": "Release review, differential patch and clean recovery drill",
+      "status": "planned"
+    }
+  ],
+  "status_rules": [
+    "Source mapped, drafted, meaning reviewed, fitted, build passed and native tested are separate statuses.",
+    "Source coordinates include repeats and existing English work; 4836 date coordinates do not mean 4836 newly translated messages.",
+    "Code and public metadata go to GitHub; private original/asset/codebook/font/save inputs require separate backup.",
+    "Never replace a previously reviewed English override silently."
+  ],
+  "private_checkpoint": "JG2-Mainline-Foundation-Batch01.zip"
+}
