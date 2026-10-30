@@ -1,0 +1,34 @@
+{
+  "kind": "Status and Diary v28 validation",
+  "status": "Local validation passed; Windows build and native gameplay pending",
+  "scope": {
+    "shared_labels": 40,
+    "character_names": 19,
+    "item_descriptions": 57,
+    "runtime_text_banks": 78,
+    "item_coordinates": 4446
+  },
+  "tests": {
+    "passed": 2,
+    "failed": 0,
+    "seconds": 138.97,
+    "offline_wrapper_checks": 5,
+    "date_layout_cases": 372,
+    "date_layout_overlaps": 0
+  },
+  "checks": [
+    "Fixed compression slots",
+    "Native pointer readback",
+    "Raw sector EDC/ECC",
+    "Custom payload preservation",
+    "Unowned graphics and palettes preserved",
+    "Source restoration after tests",
+    "105 previews reviewed"
+  ],
+  "limitations": [
+    "Local fixture uses original disc and a substitute font",
+    "Earlier English layers absent from fixture",
+    "Actual Windows and native tests required",
+    "Save/load prompts and unique story dialogue outside scope"
+  ]
+}
