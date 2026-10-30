@@ -1,5 +1,26 @@
 # Translation state — 2026-10-28
 
+## Actual v24 Windows build passed — 2026-10-29
+
+User's actual v24 build passed one Rust test (zero failures,213.44 seconds) and
+final PowerShell verification. Output SHA-256: `c21d3d0a6ffdfc3d4a666251f450edbc5b68f16b90716101143d2c69e2415e4f`.
+Changed raw sectors:10,137. 430 field-trip messages,1550 event-date formats and
+43 title copies patched; the five earlier English entrance-ceremony copies were
+preserved. The compiler warnings did not prevent successful completion.
+
+CUE to test:
+
+```text
+C:\Users\Fluent\JG2-Recovery-v1\candidates\field-trip-dates-v24-0fd1c9c115b9475891766ead046da4ae\build\justice-gakuen2-field-trip-dates-v24.cue
+```
+
+Keep v23. Fresh-boot v24 and check April16 title, opening date/dialogue, and
+field-trip branches. Native v24 gameplay is still pending. Later stories and
+other schools' story prose remain outside scope. Actual console evidence is in
+validation/field-trip-dates-v24-windows.json; do not confuse the local fixture hash
+with this production output. Detailed Windows JSON report was not attached.
+
+
 ## v24 field trip and event dates candidate ready — 2026-10-29
 
 Read FIELD_TRIP_DATES_V24.md and run build_field_trip_dates_english_v24.ps1 from actual v23 (9329e5a8ed0c1270fa090f015a4a833ee4b00f120ec884b3f079d67d619fd4f1). The complete direct-Rust full-disc fixture passed: 430 field-trip messages, the spring-trip opening, 1550 date formats in 25 event banks, and all 19 inventoried event/exam cards (48 original references; existing English April8 copies preserved on production). Final visual check passed after removing horizontal clearing bands. All changed records and sector checksums read back correctly; fixture changed10857 sectors. Windows/native v24 tests remain pending. Keep v23. Japanese prose attached to other dates, other schools' story dialogue and later events remain untranslated. See validation/field-trip-dates-v24.json for fixture/font/hash-guard limits. Native title-card style uses source-colored clearing panels and rainbow/white English.

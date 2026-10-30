@@ -1,0 +1,18 @@
+{
+  "kind": "Actual Windows v24 production build console evidence",
+  "date": "2026-10-29",
+  "master_sha256": "9329e5a8ed0c1270fa090f015a4a833ee4b00f120ec884b3f079d67d619fd4f1",
+  "output_sha256": "c21d3d0a6ffdfc3d4a666251f450edbc5b68f16b90716101143d2c69e2415e4f",
+  "changed_sector_count": 10137,
+  "story_messages": 430,
+  "date_messages": 1550,
+  "title_copies_patched": 43,
+  "existing_english_entrance_ceremony_copies_preserved": 5,
+  "cue": "C:\\Users\\Fluent\\JG2-Recovery-v1\\candidates\\field-trip-dates-v24-0fd1c9c115b9475891766ead046da4ae\\build\\justice-gakuen2-field-trip-dates-v24.cue",
+  "rust_tests_passed": 1,
+  "rust_tests_failed": 0,
+  "rust_test_seconds": 213.44,
+  "final_powershell_verification_passed": true,
+  "native_tested": false,
+  "evidence": "User-provided successful test and final CANDIDATE BUILT console output; detailed JSON report not supplied."
+}
