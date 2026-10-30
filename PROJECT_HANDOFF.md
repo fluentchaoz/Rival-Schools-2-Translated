@@ -1,5 +1,44 @@
 # Project Handoff — Read This First
 
+## v26 shared dates and daily narration ready for Windows build — 2026-10-30
+
+Run build_shared_dates_english_v26.ps1 against actual v25
+5f31d90f089f520d6824add5c5368e10be2607955ad3b9e5c24b73b9aa010453.
+Download the private JG2-Shared-Dates-v26-Inputs.zip from the conversation into
+Downloads; leave it zipped. The standalone builder locates it and checks the
+packet member SHA-256 714f77e8112daed6585e5912a5e312b8093229bbd13ad1cce9fdafb521cebfa6.
+It also accepts -PacketPath with the ZIP or exact JSON. No dialogue is embedded
+in the public builder. Read SHARED_DATES_V26.md.
+
+The original-disc full fixture passed in131.08 seconds:78 banks,4836 date/narration
+coordinates,46 native-glyph previews,10761 changed raw sectors, all pointer/record,
+compression-slot, ownership and EDC/ECC checks. QA fixture output SHA-256
+4c02ebabd9e569fe96f5ada6bb38ab206c777d4ff1f27a5ca3a7cc56c827201a
+is NOT the production hash. Nimbus Sans substituted for Arial and only the QA
+master guard changed; production requires exact v25. Current v25 compression and
+preservation counts still require the actual Windows run.
+
+A separate mixed source/slash/custom-payload regression passed in3.26 seconds:
+custom payload retained byte-for-byte;61 other date slots translated.
+Five offline wrapper regressions passed; PowerShell was not locally executed.
+Both test invocations restored the exact original upstream Rust source.
+
+All46 bitmap previews were inspected for four-row/20-cell fit. Preview MM/DD
+illustrates dynamic two-digit dates, not literal text installed instead of digits.
+Native date controls and palette arguments remain unchanged. Other payloads,
+fonts except new empty glyph cells, scripts, HUD and graphics are preserved.
+Existing current custom date prose is retained and counted separately; source
+separator-only changes are eligible for upgrade.
+
+No actual v26 Windows hash/CUE or native v26 pass exists yet. Keep v25, build a
+fresh v26 candidate, then fresh-boot it using an in-game save. Check April21
+opening/date, seasonal or exam text and an earlier custom translated event.
+This batch does not translate subsequent unique story dialogue.
+Continue with shared daily interfaces and coherent story packages from the
+whole-disc roadmap. Detailed private input/QA is in JG2-Shared-Dates-v26-Inputs.zip;
+public validation summary is validation/shared-dates-v26.json.
+
+
 ## Whole-disc translation programme started — 2026-10-29
 
 Publication boundary: automatic approval review rejected public dialogue-packet

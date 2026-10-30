@@ -28,17 +28,18 @@
       "id": "B01",
       "name": "Shared daily dates and narration across School Life",
       "planned_candidate": "v26",
-      "packet": "translations/shared_daily_dates_batch01.json",
+      "packet": "shared_daily_dates_v26.json",
       "source_patterns": 46,
       "source_coordinates": 4836,
       "drafted_patterns": 46,
       "source_read_patterns": 46,
-      "renderer_fitted_patterns": 0,
+      "renderer_fitted_patterns": 46,
       "current_english_conflicts_reconciled": false,
-      "build": "not implemented",
+      "build": "original-disc fixture passed; actual Windows v25 build pending",
       "native_test": "pending",
-      "next": "Import v25 coverage/private inputs, reconcile existing English, fit and implement generic multi-bank patch",
-      "packet_storage": "private checkpoint; not in public GitHub"
+      "next": "Download private v26 input ZIP, run standalone builder against actual v25, fresh-boot candidate and check April21 / seasonal / prior-event text",
+      "packet_storage": "private JG2-Shared-Dates-v26-Inputs.zip",
+      "conflict_handling": "Runtime classifier implemented and mixed-content regression passed; actual v25 accounting pending"
     },
     {
       "id": "B02",
@@ -72,5 +73,14 @@
     "Code and public metadata go to GitHub; private original/asset/codebook/font/save inputs require separate backup.",
     "Never replace a previously reviewed English override silently."
   ],
-  "private_checkpoint": "JG2-Mainline-Foundation-Batch01.zip"
+  "private_checkpoint": "JG2-Shared-Dates-v26-Inputs.zip",
+  "next_candidate": {
+    "version": "v26",
+    "status": "ready for actual Windows build",
+    "builder": "build_shared_dates_english_v26.ps1",
+    "instructions": "SHARED_DATES_V26.md",
+    "required_private_input": "JG2-Shared-Dates-v26-Inputs.zip",
+    "actual_output_sha256": null
+  },
+  "foundation_checkpoint": "JG2-Mainline-Foundation-Batch01.zip"
 }

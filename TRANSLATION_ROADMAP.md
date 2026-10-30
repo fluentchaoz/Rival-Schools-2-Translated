@@ -17,7 +17,7 @@ Current built candidate: v25,
 `5f31d90f089f520d6824add5c5368e10be2607955ad3b9e5c24b73b9aa010453`.
 The user reports progressing through Ran's invitation/ride to April21. This is
 route progression evidence, not proof of every v25 location or name insertion.
-Keep v24 as fallback. No v26 has been built.
+Keep v24 as fallback. No actual Windows v26 output has been recorded yet.
 
 The read-only original-disc scan verified the following. Its detailed report and
 English draft packet are retained in the private `JG2-Mainline-Foundation-Batch01.zip`
@@ -88,8 +88,9 @@ candidate exactly. Do not spend an entire new pass redoing already-saved invento
 
 The private packet `translations/shared_daily_dates_batch01.json` starts the bulk workflow now:
 46 source-reviewed English drafts, linked by source glyph/control fingerprint to
-4,836 original coordinates across all 78 School Life text images. The raw English
-is not yet fitted or built. Existing English overrides, including the field-trip
+4,836 original coordinates across all 78 School Life text images. The 46 targets are now fitted; the direct Rust original-disc fixture and
+custom-payload preservation regression passed. Actual Windows v25 and native
+v26 validation are pending; see SHARED_DATES_V26.md. Existing English overrides, including the field-trip
 opening, must be retained or explicitly reconciled; never replace them blindly
 with a generic source match.
 
@@ -101,17 +102,21 @@ game loaded on that frame. The surrounding prose, seasonal lead-ins, exam and
 holiday notifications all belong in this batch. Preserve runtime month/day
 insertions and translate their literal separators.
 
-Next implementation steps:
+Implementation is now in patches/shared_dates_v26.rs and the standalone
+build_shared_dates_english_v26.ps1 wrapper. It handles all78 banks and the five
+loaded bundles, upgrades source/separator-only messages, retains other current
+custom payloads, allocates only empty unused extension glyph cells, and verifies
+fixed slots, native pointers, record readback and sector ownership/EDC/ECC.
+The private fitted packet is in JG2-Shared-Dates-v26-Inputs.zip.
 
-- Import current v25 coverage and private codebook/context from saved recovery
-  inputs; confirm current glyph/payload identities without publishing game data.
-- Resolve current-English conflicts for all 4,836 candidate coordinates.
-- Fit the 46 drafts and source-control signatures to the live dialogue renderer;
-  install missing glyphs without corrupting other messages.
-- Use a reusable multi-bank patcher with standalone/loaded-bundle bindings. Run
-  full fixed-slot/arena/sector validation and prepare a fresh v26 candidate.
-- Native checks: April21 ordinary after-school opening, one seasonal lead-in,
-  one exam notification, male/female variants and a previously translated event.
+Remaining B01 validation:
+
+- Run against actual v25 on Windows with its Arial font and private input ZIP;
+  record actual output identity and translated/custom-preserved counts.
+- Fresh-boot and check April21 daily narration, a seasonal/exam notice, both
+  player variants during wider QA and a prior custom translated event.
+- Retain v25 until that native check passes. Do not call the original-disc
+  fixture hash the production output.
 
 Batch02 then addresses common daily actions/help/status/diary choices identified
 by the same corpus. Unique story batches proceed from the full route inventory,

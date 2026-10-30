@@ -32,11 +32,14 @@ text images, 62,639 message coordinates and 18,807 exact glyph/control patterns*
 Coordinates include repeats, variants and potentially unreferenced content.
 These counts are not an English completion percentage.
 
-**First bulk batch started:** 46 source-reviewed English prose drafts covering
-4,836 original dynamic-date/narration coordinates across the 78 images.
-The draft packet is saved in the private `JG2-Mainline-Foundation-Batch01.zip` checkpoint, not published in this repository.
-Current-English reconciliation, renderer fitting, patch construction and native
-testing remain pending. **No v26 candidate exists yet.**
+**v26 shared dates and daily narration is ready for Windows building.**
+See [v26 directions](SHARED_DATES_V26.md). The generic public builder loads the
+private `JG2-Shared-Dates-v26-Inputs.zip` supplied in the conversation.
+It covers 46 date/narration patterns at 4,836 original coordinates across all78
+School Life text images, preserving existing custom prose. The full original-disc
+fixture, mixed custom-payload regression, bitmap previews and offline wrapper
+checks passed. Actual Windows v25 build and native v26 tests remain pending.
+Keep v25; no actual v26 output hash is recorded yet.
 
 ## Existing translation and recovery work
 
