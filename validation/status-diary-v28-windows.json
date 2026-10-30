@@ -1,0 +1,11 @@
+{
+  "version": "v28",
+  "windows_build": "passed; 2 tests, 0 failures, 99.93s; final verification passed",
+  "sha256": "47ed14e1936a0072be400dcdd41296be264ab8bdc1ddcff0e4e7be3bfdc4902b",
+  "translated_coordinates": 4388,
+  "custom_preserved": 58,
+  "changed_raw_sectors": 8026,
+  "native_evidence": "User reports Status and Diary menus work. Practice entry opens; exam instruction remains Japanese. Item descriptions and all birthdays not individually verified.",
+  "preserved_payload_identities": "Not supplied in console; detailed report required to classify these 58 entries.",
+  "fallback": "v27"
+}

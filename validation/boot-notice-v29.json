@@ -1,0 +1,23 @@
+{
+  "kind": "Boot notice v29 local validation",
+  "tests_passed": 2,
+  "tests_failed": 0,
+  "seconds": 2.58,
+  "offline_wrapper_checks": 3,
+  "changed_raw_sectors_in_original_fixture": 3,
+  "messages": 2,
+  "record_copies": 4,
+  "native_gameplay": "pending",
+  "windows_production_build": "pending",
+  "checks": [
+    "Original/current target equality guards",
+    "Custom target rejected",
+    "Earlier unrelated bytes preserved",
+    "Only bounded message slots changed",
+    "Exact record readback",
+    "Changed sector ownership and EDC/ECC",
+    "Existing resident English glyph preview reviewed",
+    "Source restored after test"
+  ],
+  "limitations": "Original-disc fixture lacks earlier English layers. Its hash is not a production hash."
+}

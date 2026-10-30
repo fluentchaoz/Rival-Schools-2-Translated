@@ -1,18 +1,18 @@
 # Status and Diary English v28
 
-Local validation passed. Actual Windows building and native gameplay remain pending.
+The actual Windows build passed: two tests, zero failures (99.93s), followed by final verification.
+The user reports that Status and Diary menus work in DuckStation. Individual item descriptions,
+all birthday combinations and all practice entries are not independently certified.
+See validation/status-diary-v28-windows.json. Keep v27 as fallback.
 
 Scope: 40 shared graphics labels, 19 character names, birthday layout, Diary options,
 speed settings and practice titles; 57 item descriptions across 78 School Life banks.
+The actual run translated 4,388 coordinates and retained 58 custom current payloads.
+The console does not identify those retained payloads; the detailed report is needed to classify them.
 Existing player names, stats, relationship faces, item effects and saved dates are preserved.
-Custom current descriptions are retained rather than overwritten.
 
-Two original-disc fixture tests passed (0 failures, 138.97s), along with five offline
-wrapper checks. All 105 previews were reviewed. An independent layout check covered
-372 date-width cases without overlap or header overflow. See validation/status-diary-v28.json.
-The fixture uses a substitute font and lacks earlier English layers; it is not a native test.
+The public builder and private input supplied in the conversation remain the recovery inputs.
+Fresh-boot the printed CUE and load an in-game save. A save state can retain old loaded graphics.
 
-Use the pinned builder and private input supplied in the translation conversation.
-Keep v27. Fresh-boot the new CUE printed by the builder and load an in-game save.
-Check both Status and Diary, available item descriptions, birthday spacing and prior English.
-Save/load prompts, practice instructions and unique story dialogue remain outside this batch.
+Next builder: BOOT_NOTICE_V29.md. Practical-exam instruction graphics, other save/load prompts
+and unique story dialogue remain outside v28.

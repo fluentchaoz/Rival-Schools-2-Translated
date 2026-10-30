@@ -17,28 +17,21 @@ bonus material and credits are part of the intended scope.
 
 ## Current state
 
-**Latest Windows-built candidate: v26.** BIN SHA-256:
-`1a1f3ec2f5ab6abf4730748fd68df9e30cc8db55e43bc85308593986932a1e45`.
+**Latest Windows-built candidate: v28.** Both Windows tests and final verification
+passed; the user reports that Status and Diary menus work in DuckStation.
+See [v28 details](STATUS_DIARY_V28.md) and validation/status-diary-v28-windows.json.
+Keep v27 as its fallback. Not every item description or birthday variant is native-tested.
 
-The actual Windows build translated 4,822 date/narration coordinates and retained
-14 custom payloads. Keep v25 as its fallback. The user continued through Ran's
-English scene and reached the April21 map; the new date/narration message was
-skipped, so that native check remains pending.
+**v29 startup notice is ready for Windows/native testing.** See
+[the v29 directions](BOOT_NOTICE_V29.md). It translates the two startup messages
+using existing English glyphs. No additional private translation ZIP is needed.
+Keep v28; practical-exam instruction graphics are still under investigation.
 
 The project is moving to corpus-based batches instead of discovering each page
 during a playthrough. The original-disc structural scan verified **78 School Life
 text images, 62,639 message coordinates and 18,807 exact glyph/control patterns**.
 Coordinates include repeats, variants and potentially unreferenced content.
 These counts are not an English completion percentage.
-
-**v27 daily map, help and new-name defaults is the next batch.**
-See [v27 directions](DAILY_MAP_V27.md) and the validation summary for test status.
-The generic public builder uses actual v26 plus the private
-`JG2-Daily-Map-v27-Inputs.zip` supplied in the conversation. It targets 21 shared
-help patterns across 78 banks, six labels in 11 map atlases, and English defaults
-for new enrollment. Existing saved names stay unchanged. Unique story dialogue
-and save/load prompts remain outside this batch. Actual v27 Windows output and
-native playtesting are still required; keep v26.
 
 ## Existing translation and recovery work
 
