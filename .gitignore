@@ -78,3 +78,7 @@ JG2-Stat-Probe-v18-*.zip.partial
 JG2-Daily-Map-v27-Inputs*.zip
 /shared_daily_dates_v26.json
 JG2-Shared-Dates-v26-Inputs*.zip
+
+# Private Status/Diary runtime translation packet.
+/status_diary_v28.json
+JG2-Status-Diary-v28-Inputs*.zip
