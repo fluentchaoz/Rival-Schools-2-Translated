@@ -1,5 +1,27 @@
 # Project Handoff — Read This First
 
+## v24 native field-trip opening reached; location/suffix gaps — 2026-10-29
+
+User screenshots show Taiyo April16 field-trip dialogue in English at entries348,
+352 (Hinata) and366 (Ran); BASEBALL HUD remains English. This establishes the
+visited opening only, not completion of the field trip or its choices/title-card checks.
+Working candidate actual v24 SHA c21d3d0a6ffdfc3d4a666251f450edbc5b68f16b90716101143d2c69e2415e4f.
+
+Remaining Japanese shown:
+- School Gate `校門前` in the field-trip departure background.
+- Plaza `広場` in the amusement-park background.
+- Hinata's inserted name `Oクン` and Ran's `O君`: both are the kun honorific,
+  coming through preserved native name controls, not part of the enrolled O.
+
+Next fix should sweep remaining location strips/copies and inspect the shared
+name insertion producer for honorifics. Preserve enrolled name, relationship
+selection, speaker style and other name behavior. Do not blindly remove controls
+or overwrite shared glyphs. The prior name-width guard only bounded inserted
+text; it did not prove English suffix rendering. Source-bound runtime suffix
+localization or supported per-message insertion adaptation needs verification.
+Do not claim v25 exists yet.
+
+
 ## Actual v24 Windows build passed — 2026-10-29
 
 User's actual v24 build passed one Rust test (zero failures,213.44 seconds) and
