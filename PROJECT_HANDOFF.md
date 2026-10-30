@@ -1,5 +1,14 @@
 # Project Handoff — Read This First
 
+## v25 locations and English name insertions candidate ready — 2026-10-29
+
+Read LOCATIONS_NAMES_V25.md and use build_locations_names_english_v25.ps1 against actual v24 c21d3d0a6ffdfc3d4a666251f450edbc5b68f16b90716101143d2c69e2415e4f. It makes a fresh candidate. Keep v24.
+
+Four renderer-owned honorific messages (selector2 entries5–8: kanji kun, katakana kun, san, chan) become valid empty end-terminated insertions in25 MGG event banks and their five loaded bundles. Relationship controls and enrolled names are preserved; natural English addresses use the name alone. Known location strip fingerprints are matched across48 MGBG archives; existing English strips are preserved and unmatched labels remain outside scope.
+
+The direct Rust full original-disc fixture passed in886.39 seconds:100 honorific entries,394 location copies across43 archives,28886 changed raw sectors. Readback, sector ownership, native EDC/ECC and unchanged input identities passed. Representative School Gate/Plaza/park labels were visually reviewed and empty insertion payloads read back. Nimbus Sans substituted for Arial; only QA master identity changed. This fixture lacks prior English layers, so production counts will differ and actual v24 compression profiles still require the Windows build. Source restored exactly. Static wrapper/source checks pass; PowerShell runtime/native v25 tests remain pending. See validation/locations-names-v25.json. Allow several minutes for the broader compression sweep.
+
+
 ## v24 native field-trip opening reached; location/suffix gaps — 2026-10-29
 
 User screenshots show Taiyo April16 field-trip dialogue in English at entries348,
