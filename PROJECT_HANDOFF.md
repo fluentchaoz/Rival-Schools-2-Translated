@@ -1,5 +1,50 @@
 # Project Handoff — Read This First
 
+## v27 daily map, help and new-name defaults — 2026-10-30
+
+Next builder: build_daily_map_english_v27.ps1; read DAILY_MAP_V27.md.
+Requires actual v26 master
+1a1f3ec2f5ab6abf4730748fd68df9e30cc8db55e43bc85308593986932a1e45
+and private JG2-Daily-Map-v27-Inputs.zip (daily_map_v27.json member hash
+ e131e16c003551b765c69336cfecb7877bc7ca1c1f9a132ca97a25be47f46c63).
+The packet is not embedded in public source. Keep it with private recovery inputs.
+
+Scope:21 daily/map help patterns at1,638 source coordinates across78 banks;
+6 destination labels in11 matching map atlases; English empty-field defaults for
+new enrollment. Existing changed help is retained byte-for-byte and reported.
+The source-map atlas and native consumer were established; these labels are
+separate from the v25 location strips. Other pixels/palettes/cursor/bubbles and
+frames are preserved. Full destination names are in help; narrow sprites use
+CLASS / FIELD / ROOF / GYM / INFIRMARY / CLUB BLDG.
+
+User clarified that the default name was simply accepted expecting English.
+Source enrollment defaults are Japanese. New defaults:SEIGI / MAKOTO / MAKO,
+within native6/6/4 capacities. Only the owned default string/pointer region is
+changed; native copier, entrypoint and keyboard identities remain unchanged.
+Existing saved Makoto is preserved; this does not rename or migrate old saves.
+No restart is needed to test the current route's map/help.
+
+Validation: both direct Rust tests passed (0 failures, 335.44s). The original-disc
+fixture covered78 banks/1,638 help coordinates and11 map atlases/66 rectangles,
+with fixed-slot compression, exact record/pointer readback, ownership and EDC/ECC
+checks. All21 help previews and11 map strips were visually inspected. The bounded
+native copier check passed all3 defaults, termination and neighbor canaries;
+it is not a console test. Five offline wrapper checks passed; PowerShell was not
+locally executed. Upstream source was restored exactly.
+Fixture SHA-256:b191187378a647635b7c8dc62787ff9ffd0f10167b521cb808cc25e1d8d04e69
+This fixture used the original as QA master and Nimbus Sans instead of Arial;
+it is not the production v27 image. Actual Windows/native checks remain pending.
+
+Validation status is recorded in validation/daily-map-v27.json. Actual Windows
+v27 output/hash and native gameplay remain pending. Keep v26 and its v25 fallback.
+Fresh-boot the new CUE with an in-game save; check all6 map destinations/help,
+daily action help, earlier English and unchanged saved name. Separately test new
+enrollment defaults without replacing the current save when convenient.
+Unique story, remaining status/diary surfaces and save/load prompts are outside
+this batch. Save prompts need positional numeric-insertion consumer checks.
+Continue the whole-disc roadmap with coherent batches, not page-by-page reports.
+
+
 ## Actual v26 Windows build passed — 2026-10-30
 
 User's v26 passed both Rust tests (2 passed,0 failed,93.82 seconds) and final

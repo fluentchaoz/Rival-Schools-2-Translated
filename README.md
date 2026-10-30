@@ -17,14 +17,13 @@ bonus material and credits are part of the intended scope.
 
 ## Current state
 
-**Latest Windows-built candidate: v25.** BIN SHA-256:
-`5f31d90f089f520d6824add5c5368e10be2607955ad3b9e5c24b73b9aa010453`.
+**Latest Windows-built candidate: v26.** BIN SHA-256:
+`1a1f3ec2f5ab6abf4730748fd68df9e30cc8db55e43bc85308593986932a1e45`.
 
-The user reports progressing through Ran's field-trip invitation/ride to April21
-on the ongoing Taiyo/baseball playthrough. The April21 daily narration is the next
-known untranslated boundary. Individual v25 location/suffix checks and all route
-branches have not been separately certified. Keep v24 as fallback.
-See [v25 directions](LOCATIONS_NAMES_V25.md).
+The actual Windows build translated 4,822 date/narration coordinates and retained
+14 custom payloads. Keep v25 as its fallback. The user continued through Ran's
+English scene and reached the April21 map; the new date/narration message was
+skipped, so that native check remains pending.
 
 The project is moving to corpus-based batches instead of discovering each page
 during a playthrough. The original-disc structural scan verified **78 School Life
@@ -32,14 +31,14 @@ text images, 62,639 message coordinates and 18,807 exact glyph/control patterns*
 Coordinates include repeats, variants and potentially unreferenced content.
 These counts are not an English completion percentage.
 
-**v26 shared dates and daily narration is ready for Windows building.**
-See [v26 directions](SHARED_DATES_V26.md). The generic public builder loads the
-private `JG2-Shared-Dates-v26-Inputs.zip` supplied in the conversation.
-It covers 46 date/narration patterns at 4,836 original coordinates across all78
-School Life text images, preserving existing custom prose. The full original-disc
-fixture, mixed custom-payload regression, bitmap previews and offline wrapper
-checks passed. Actual Windows v25 build and native v26 tests remain pending.
-Keep v25; no actual v26 output hash is recorded yet.
+**v27 daily map, help and new-name defaults is the next batch.**
+See [v27 directions](DAILY_MAP_V27.md) and the validation summary for test status.
+The generic public builder uses actual v26 plus the private
+`JG2-Daily-Map-v27-Inputs.zip` supplied in the conversation. It targets 21 shared
+help patterns across 78 banks, six labels in 11 map atlases, and English defaults
+for new enrollment. Existing saved names stay unchanged. Unique story dialogue
+and save/load prompts remain outside this batch. Actual v27 Windows output and
+native playtesting are still required; keep v26.
 
 ## Existing translation and recovery work
 

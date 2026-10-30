@@ -47,7 +47,7 @@
     {
       "id": "B02",
       "name": "Shared daily actions, help, status, diary and common choices",
-      "status": "Native travel-map gap identified; source/consumer inventory and full interface batch pending",
+      "status": "v27 fixture, custom-payload preservation, copier and visual checks passed; Windows/native pending",
       "reported_destinations": [
         "Rooftop",
         "Gym",
@@ -56,7 +56,14 @@
         "Infirmary",
         "Field"
       ],
-      "player_name_question": "Enrolled family/given/nickname values and HUD selection not established for this run; do not transliterate or overwrite player data without verification"
+      "player_name_question": "Default accepted expecting English; new enrollment defaults localized, existing saved names preserved",
+      "planned_candidate": "v27",
+      "source_patterns": 21,
+      "source_coordinates": 1638,
+      "runtime_images": 78,
+      "map_atlases": 11,
+      "map_label_rectangles": 66,
+      "remaining_scope": "Unique story; remaining status/diary interface; fixed-position save/load prompts"
     },
     {
       "id": "B03",
@@ -85,13 +92,14 @@
     "Code and public metadata go to GitHub; private original/asset/codebook/font/save inputs require separate backup.",
     "Never replace a previously reviewed English override silently."
   ],
-  "private_checkpoint": "JG2-Shared-Dates-v26-Inputs.zip",
+  "private_checkpoint": "JG2-Daily-Map-v27-Inputs.zip",
   "next_candidate": {
-    "version": "v26",
-    "status": "actual Windows build passed; native testing pending",
-    "instructions": "SHARED_DATES_V26.md",
-    "required_private_input": "JG2-Shared-Dates-v26-Inputs.zip",
-    "actual_output_sha256": "1a1f3ec2f5ab6abf4730748fd68df9e30cc8db55e43bc85308593986932a1e45"
+    "version": "v27",
+    "status": "ready for actual Windows build and native testing",
+    "instructions": "DAILY_MAP_V27.md",
+    "required_private_input": "JG2-Daily-Map-v27-Inputs.zip",
+    "required_master_sha256": "1a1f3ec2f5ab6abf4730748fd68df9e30cc8db55e43bc85308593986932a1e45",
+    "actual_output_sha256": null
   },
   "foundation_checkpoint": "JG2-Mainline-Foundation-Batch01.zip"
 }

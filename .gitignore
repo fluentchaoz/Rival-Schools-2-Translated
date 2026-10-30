@@ -72,3 +72,9 @@ JG2-Stat-Probe-v18-*.zip.partial
 /translations/shared_daily_dates_batch01.json
 /validation/disc-translation-inventory.json
 /validation/mainline-foundation.json
+
+# Private runtime inputs supplied outside public GitHub.
+/daily_map_v27.json
+JG2-Daily-Map-v27-Inputs*.zip
+/shared_daily_dates_v26.json
+JG2-Shared-Dates-v26-Inputs*.zip
