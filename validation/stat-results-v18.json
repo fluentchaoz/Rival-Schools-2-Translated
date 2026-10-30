@@ -1,0 +1,168 @@
+{
+  "arena_capacity_bytes": 102368,
+  "arena_used_bytes": 31372,
+  "compressed_bytes": 206858,
+  "entry_end_inclusive": 51,
+  "entry_start": 34,
+  "glyph_end_exclusive": 1000,
+  "glyph_start": 964,
+  "installed_glyph_cells": 36,
+  "kind": "Justice Gakuen 2 MGK04 stat results English v18",
+  "label_layout": [
+    {
+      "arrow_width": 48,
+      "arrow_x": 88,
+      "glyph_codes": [
+        965,
+        966,
+        967,
+        968
+      ],
+      "label_gap": 16,
+      "label_ink_right_exclusive": 72,
+      "result_gap": 24,
+      "result_x": 160,
+      "row_right": 380,
+      "stat": "ATK"
+    },
+    {
+      "arrow_width": 48,
+      "arrow_x": 88,
+      "glyph_codes": [
+        969,
+        970,
+        971,
+        972
+      ],
+      "label_gap": 16,
+      "label_ink_right_exclusive": 72,
+      "result_gap": 24,
+      "result_x": 160,
+      "row_right": 380,
+      "stat": "DEF"
+    },
+    {
+      "arrow_width": 48,
+      "arrow_x": 68,
+      "glyph_codes": [
+        973,
+        974,
+        975
+      ],
+      "label_gap": 16,
+      "label_ink_right_exclusive": 52,
+      "result_gap": 24,
+      "result_x": 140,
+      "row_right": 360,
+      "stat": "STAM"
+    },
+    {
+      "arrow_width": 48,
+      "arrow_x": 68,
+      "glyph_codes": [
+        976,
+        977,
+        978
+      ],
+      "label_gap": 16,
+      "label_ink_right_exclusive": 52,
+      "result_gap": 24,
+      "result_x": 140,
+      "row_right": 360,
+      "stat": "GUTS"
+    },
+    {
+      "arrow_width": 48,
+      "arrow_x": 108,
+      "glyph_codes": [
+        979,
+        980,
+        981,
+        982,
+        983
+      ],
+      "label_gap": 16,
+      "label_ink_right_exclusive": 92,
+      "result_gap": 24,
+      "result_x": 180,
+      "row_right": 400,
+      "stat": "POT"
+    },
+    {
+      "arrow_width": 48,
+      "arrow_x": 108,
+      "glyph_codes": [
+        984,
+        985,
+        986,
+        987,
+        988
+      ],
+      "label_gap": 16,
+      "label_ink_right_exclusive": 92,
+      "result_gap": 24,
+      "result_x": 180,
+      "row_right": 400,
+      "stat": "SPEED"
+    },
+    {
+      "arrow_width": 48,
+      "arrow_x": 88,
+      "glyph_codes": [
+        989,
+        990,
+        991,
+        992
+      ],
+      "label_gap": 16,
+      "label_ink_right_exclusive": 72,
+      "result_gap": 24,
+      "result_x": 160,
+      "row_right": 380,
+      "stat": "PUNCH"
+    },
+    {
+      "arrow_width": 48,
+      "arrow_x": 88,
+      "glyph_codes": [
+        993,
+        994,
+        995,
+        996
+      ],
+      "label_gap": 16,
+      "label_ink_right_exclusive": 72,
+      "result_gap": 24,
+      "result_x": 160,
+      "row_right": 380,
+      "stat": "KICK"
+    },
+    {
+      "arrow_width": 48,
+      "arrow_x": 68,
+      "glyph_codes": [
+        997,
+        998,
+        999
+      ],
+      "label_gap": 16,
+      "label_ink_right_exclusive": 52,
+      "result_gap": 24,
+      "result_x": 140,
+      "row_right": 360,
+      "stat": "INT"
+    }
+  ],
+  "master_record_sha256": "460f998df47eab3a4e82425afc352badca543a66f4dbc7a82e2056657cf1c70d",
+  "mgame_and_arrows_unchanged": true,
+  "other_messages_preserved": true,
+  "patched_decoded_sha256": "3f41042b4a9258cebbfeaa3efacd95db7ba85aa9a84348c6df3cbd3a25e9375e",
+  "patched_record_sha256": "91ca0e81829fb578d41797854718590e0f05e29b1325b6a1675e9df3a4584fa0",
+  "quiz_100_entries_preserved": true,
+  "record_bytes": 207226,
+  "record_path": "DAT2/MGK04.BIZ",
+  "script_and_later_preserved": true,
+  "selector": 2,
+  "source_record_sha256": "0558890edf197093859d9e4d38a123592f0f793d33c47c13b70e9bbad94a3e30",
+  "translated_entries": 18
+}

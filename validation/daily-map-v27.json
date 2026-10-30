@@ -1,0 +1,76 @@
+{
+  "kind": "Daily map, help and name defaults English v27 validation",
+  "required_production_master": "1a1f3ec2f5ab6abf4730748fd68df9e30cc8db55e43bc85308593986932a1e45",
+  "private_packet_sha256": "e131e16c003551b765c69336cfecb7877bc7ca1c1f9a132ca97a25be47f46c63",
+  "fixture": {
+    "master": "verified original disc, not actual v26",
+    "font": "Nimbus Sans Regular substituted for Windows Arial",
+    "font_sha256": "7c25be4d78155523080ab85b10277150657ff7dabbcad7037bdd536c9b6d0d08",
+    "output_sha256": "b191187378a647635b7c8dc62787ff9ffd0f10167b521cb808cc25e1d8d04e69",
+    "runtime_images": 78,
+    "patterns": 21,
+    "translated_coordinates": 1638,
+    "custom_coordinates_preserved": 0,
+    "map_atlases": 11,
+    "map_label_rectangles": 66,
+    "changed_raw_sectors": 10828,
+    "rust_tests_passed": 2,
+    "failed": 0,
+    "seconds": 335.44,
+    "record_and_pointer_readback": true,
+    "fixed_compressed_slots": true,
+    "owned_sector_scope_and_edc_ecc": true,
+    "source_restored_exactly": true
+  },
+  "preservation_regression": {
+    "result": "passed in same Rust invocation",
+    "cases": "Custom current help retained byte-for-byte; 20 other source help slots translated; prior custom date retained byte-for-byte"
+  },
+  "default_copier_check": {
+    "method": "bounded MIPS subset executes unchanged source instructions against the candidate overlay; not console gameplay",
+    "fields": [
+      {
+        "field": 0,
+        "name": "SEIGI",
+        "instructions": 47,
+        "capacity": 6,
+        "termination_and_neighbor_canaries": "passed"
+      },
+      {
+        "field": 1,
+        "name": "MAKOTO",
+        "instructions": 48,
+        "capacity": 6,
+        "termination_and_neighbor_canaries": "passed"
+      },
+      {
+        "field": 2,
+        "name": "MAKO",
+        "instructions": 42,
+        "capacity": 4,
+        "termination_and_neighbor_canaries": "passed"
+      }
+    ],
+    "entrypoint_and_other_overlay_bytes_preserved": true,
+    "saved_names_migrated": false
+  },
+  "visual_review": {
+    "help_previews": 21,
+    "map_strips": 11,
+    "result": "inspected; no clipping, native 20-cell/four-row help bounds; map label cells fit",
+    "preview_palette": "neutral white help preview; live palette controls preserved"
+  },
+  "offline_wrapper_regressions": {
+    "passed": 5,
+    "failed": 0,
+    "powershell_executed": false
+  },
+  "production_windows_build": "pending",
+  "native_gameplay": "pending",
+  "limits": [
+    "Original-disc fixture lacks prior English layers; actual v26 compression and preservation counts require Windows run.",
+    "Existing saved names remain as saved. English defaults apply only when enrollment supplies empty fields.",
+    "Unique story, remaining status/diary surfaces and fixed-position save/load prompts remain outside this batch.",
+    "Private packet and detailed QA remain outside public GitHub."
+  ]
+}

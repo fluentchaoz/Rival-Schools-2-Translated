@@ -1,0 +1,2810 @@
+{
+  "changed_sector_count": 28886,
+  "event_banks": 25,
+  "font_sha256": "7c25be4d78155523080ab85b10277150657ff7dabbcad7037bdd536c9b6d0d08",
+  "graphics": [
+    {
+      "path": "DAT2/MGBGC00.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLASSROOM": 3,
+          "FIELD": 2,
+          "GYM": 2,
+          "SCHOOL GATE": 1,
+          "SUMO ROOM": 1
+        },
+        "members": [
+          {
+            "compressed_bytes": 292872,
+            "fixed_slot": 293204,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 284680,
+            "fixed_slot": 285964,
+            "member": 1
+          },
+          {
+            "compressed_bytes": 276486,
+            "fixed_slot": 277252,
+            "member": 2
+          },
+          {
+            "compressed_bytes": 288780,
+            "fixed_slot": 290154,
+            "member": 3
+          },
+          {
+            "compressed_bytes": 272412,
+            "fixed_slot": 273870,
+            "member": 4
+          },
+          {
+            "compressed_bytes": 268304,
+            "fixed_slot": 268318,
+            "member": 5
+          },
+          {
+            "compressed_bytes": 294932,
+            "fixed_slot": 296748,
+            "member": 6
+          },
+          {
+            "compressed_bytes": 278544,
+            "fixed_slot": 279248,
+            "member": 7
+          },
+          {
+            "compressed_bytes": 276510,
+            "fixed_slot": 278378,
+            "member": 8
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGE03.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLASSROOM": 2,
+          "FIELD": 1,
+          "GYM": 1,
+          "NEIGHBORHOOD": 1,
+          "ROOFTOP": 9,
+          "SCHOOL GATE": 5,
+          "WALKWAY": 1
+        },
+        "members": [
+          {
+            "compressed_bytes": 219156,
+            "fixed_slot": 220926,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 188422,
+            "fixed_slot": 188964,
+            "member": 1
+          },
+          {
+            "compressed_bytes": 268304,
+            "fixed_slot": 268650,
+            "member": 2
+          },
+          {
+            "compressed_bytes": 247834,
+            "fixed_slot": 249840,
+            "member": 3
+          },
+          {
+            "compressed_bytes": 251930,
+            "fixed_slot": 252674,
+            "member": 4
+          },
+          {
+            "compressed_bytes": 196616,
+            "fixed_slot": 198102,
+            "member": 5
+          },
+          {
+            "compressed_bytes": 249874,
+            "fixed_slot": 250398,
+            "member": 6
+          },
+          {
+            "compressed_bytes": 253954,
+            "fixed_slot": 254950,
+            "member": 7
+          },
+          {
+            "compressed_bytes": 210964,
+            "fixed_slot": 211444,
+            "member": 8
+          },
+          {
+            "compressed_bytes": 253990,
+            "fixed_slot": 255108,
+            "member": 11
+          },
+          {
+            "compressed_bytes": 243730,
+            "fixed_slot": 245750,
+            "member": 12
+          },
+          {
+            "compressed_bytes": 223266,
+            "fixed_slot": 223654,
+            "member": 13
+          },
+          {
+            "compressed_bytes": 225312,
+            "fixed_slot": 226922,
+            "member": 14
+          },
+          {
+            "compressed_bytes": 213004,
+            "fixed_slot": 213118,
+            "member": 17
+          },
+          {
+            "compressed_bytes": 253974,
+            "fixed_slot": 254518,
+            "member": 19
+          },
+          {
+            "compressed_bytes": 135170,
+            "fixed_slot": 135186,
+            "member": 21
+          },
+          {
+            "compressed_bytes": 133132,
+            "fixed_slot": 133364,
+            "member": 22
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGF02.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLASSROOM": 2,
+          "FIELD": 2,
+          "GYM": 2,
+          "RIDE ENTRANCE": 1,
+          "SCHOOL GATE": 1,
+          "SUMO ROOM": 1
+        },
+        "members": [
+          {
+            "compressed_bytes": 280578,
+            "fixed_slot": 281368,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 327692,
+            "fixed_slot": 328314,
+            "member": 1
+          },
+          {
+            "compressed_bytes": 221214,
+            "fixed_slot": 222294,
+            "member": 2
+          },
+          {
+            "compressed_bytes": 266272,
+            "fixed_slot": 267682,
+            "member": 3
+          },
+          {
+            "compressed_bytes": 276500,
+            "fixed_slot": 278110,
+            "member": 4
+          },
+          {
+            "compressed_bytes": 213020,
+            "fixed_slot": 214210,
+            "member": 6
+          },
+          {
+            "compressed_bytes": 213006,
+            "fixed_slot": 213554,
+            "member": 7
+          },
+          {
+            "compressed_bytes": 157720,
+            "fixed_slot": 158402,
+            "member": 8
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGG04.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "ARCADE": 1,
+          "CLASSROOM": 4,
+          "CLUB BUILDING": 2,
+          "FIELD": 3,
+          "GYM": 4,
+          "NEIGHBORHOOD": 2,
+          "PLAZA": 5,
+          "POND": 2,
+          "POOLSIDE": 1,
+          "RIDE ENTRANCE": 3,
+          "ROOFTOP": 2,
+          "SCHOOL GATE": 14,
+          "SUMO ROOM": 1,
+          "WALKWAY": 6
+        },
+        "members": [
+          {
+            "compressed_bytes": 284704,
+            "fixed_slot": 285900,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 229406,
+            "fixed_slot": 229682,
+            "member": 1
+          },
+          {
+            "compressed_bytes": 188446,
+            "fixed_slot": 188712,
+            "member": 2
+          },
+          {
+            "compressed_bytes": 272396,
+            "fixed_slot": 273482,
+            "member": 3
+          },
+          {
+            "compressed_bytes": 235548,
+            "fixed_slot": 236616,
+            "member": 4
+          },
+          {
+            "compressed_bytes": 106502,
+            "fixed_slot": 107418,
+            "member": 5
+          },
+          {
+            "compressed_bytes": 102416,
+            "fixed_slot": 103710,
+            "member": 6
+          },
+          {
+            "compressed_bytes": 92182,
+            "fixed_slot": 92956,
+            "member": 7
+          },
+          {
+            "compressed_bytes": 104464,
+            "fixed_slot": 105676,
+            "member": 8
+          },
+          {
+            "compressed_bytes": 98338,
+            "fixed_slot": 99922,
+            "member": 9
+          },
+          {
+            "compressed_bytes": 71682,
+            "fixed_slot": 73604,
+            "member": 10
+          },
+          {
+            "compressed_bytes": 110610,
+            "fixed_slot": 112428,
+            "member": 11
+          },
+          {
+            "compressed_bytes": 94228,
+            "fixed_slot": 95042,
+            "member": 12
+          },
+          {
+            "compressed_bytes": 81950,
+            "fixed_slot": 82808,
+            "member": 13
+          },
+          {
+            "compressed_bytes": 303134,
+            "fixed_slot": 304304,
+            "member": 14
+          },
+          {
+            "compressed_bytes": 190498,
+            "fixed_slot": 191550,
+            "member": 15
+          },
+          {
+            "compressed_bytes": 262158,
+            "fixed_slot": 263474,
+            "member": 16
+          },
+          {
+            "compressed_bytes": 241668,
+            "fixed_slot": 242628,
+            "member": 17
+          },
+          {
+            "compressed_bytes": 231452,
+            "fixed_slot": 232464,
+            "member": 18
+          },
+          {
+            "compressed_bytes": 229400,
+            "fixed_slot": 229402,
+            "member": 19
+          },
+          {
+            "compressed_bytes": 190486,
+            "fixed_slot": 191178,
+            "member": 20
+          },
+          {
+            "compressed_bytes": 288778,
+            "fixed_slot": 289724,
+            "member": 21
+          },
+          {
+            "compressed_bytes": 272410,
+            "fixed_slot": 272706,
+            "member": 22
+          },
+          {
+            "compressed_bytes": 239650,
+            "fixed_slot": 241454,
+            "member": 23
+          },
+          {
+            "compressed_bytes": 188446,
+            "fixed_slot": 188712,
+            "member": 24
+          },
+          {
+            "compressed_bytes": 292888,
+            "fixed_slot": 293342,
+            "member": 25
+          },
+          {
+            "compressed_bytes": 292898,
+            "fixed_slot": 294320,
+            "member": 26
+          },
+          {
+            "compressed_bytes": 225292,
+            "fixed_slot": 225394,
+            "member": 27
+          },
+          {
+            "compressed_bytes": 188446,
+            "fixed_slot": 188712,
+            "member": 28
+          },
+          {
+            "compressed_bytes": 309276,
+            "fixed_slot": 310422,
+            "member": 29
+          },
+          {
+            "compressed_bytes": 303108,
+            "fixed_slot": 304902,
+            "member": 30
+          },
+          {
+            "compressed_bytes": 217098,
+            "fixed_slot": 218342,
+            "member": 31
+          },
+          {
+            "compressed_bytes": 188446,
+            "fixed_slot": 188712,
+            "member": 32
+          },
+          {
+            "compressed_bytes": 299042,
+            "fixed_slot": 299956,
+            "member": 33
+          },
+          {
+            "compressed_bytes": 321538,
+            "fixed_slot": 323498,
+            "member": 34
+          },
+          {
+            "compressed_bytes": 178208,
+            "fixed_slot": 179794,
+            "member": 35
+          },
+          {
+            "compressed_bytes": 188446,
+            "fixed_slot": 188712,
+            "member": 36
+          },
+          {
+            "compressed_bytes": 301082,
+            "fixed_slot": 303010,
+            "member": 37
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGG06.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLASSROOM": 1,
+          "SCHOOL GATE": 5
+        },
+        "members": [
+          {
+            "compressed_bytes": 253970,
+            "fixed_slot": 254112,
+            "member": 13
+          },
+          {
+            "compressed_bytes": 247810,
+            "fixed_slot": 248338,
+            "member": 20
+          },
+          {
+            "compressed_bytes": 296988,
+            "fixed_slot": 297820,
+            "member": 23
+          },
+          {
+            "compressed_bytes": 299028,
+            "fixed_slot": 299986,
+            "member": 24
+          },
+          {
+            "compressed_bytes": 243744,
+            "fixed_slot": 244988,
+            "member": 25
+          },
+          {
+            "compressed_bytes": 264212,
+            "fixed_slot": 265534,
+            "member": 26
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGG08.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "SCHOOL GATE": 5
+        },
+        "members": [
+          {
+            "compressed_bytes": 247816,
+            "fixed_slot": 248964,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 264226,
+            "fixed_slot": 265034,
+            "member": 16
+          },
+          {
+            "compressed_bytes": 251930,
+            "fixed_slot": 252030,
+            "member": 17
+          },
+          {
+            "compressed_bytes": 284706,
+            "fixed_slot": 284944,
+            "member": 18
+          },
+          {
+            "compressed_bytes": 204806,
+            "fixed_slot": 204810,
+            "member": 19
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGG09.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "GYM": 20,
+          "SCHOOL GATE": 19
+        },
+        "members": [
+          {
+            "compressed_bytes": 45058,
+            "fixed_slot": 45416,
+            "member": 9
+          },
+          {
+            "compressed_bytes": 262148,
+            "fixed_slot": 262282,
+            "member": 10
+          },
+          {
+            "compressed_bytes": 200710,
+            "fixed_slot": 201998,
+            "member": 11
+          },
+          {
+            "compressed_bytes": 221218,
+            "fixed_slot": 222046,
+            "member": 12
+          },
+          {
+            "compressed_bytes": 264222,
+            "fixed_slot": 265262,
+            "member": 13
+          },
+          {
+            "compressed_bytes": 219138,
+            "fixed_slot": 220930,
+            "member": 14
+          },
+          {
+            "compressed_bytes": 223264,
+            "fixed_slot": 223498,
+            "member": 15
+          },
+          {
+            "compressed_bytes": 215058,
+            "fixed_slot": 215382,
+            "member": 16
+          },
+          {
+            "compressed_bytes": 229406,
+            "fixed_slot": 229792,
+            "member": 17
+          },
+          {
+            "compressed_bytes": 143394,
+            "fixed_slot": 144988,
+            "member": 18
+          },
+          {
+            "compressed_bytes": 208904,
+            "fixed_slot": 209998,
+            "member": 19
+          },
+          {
+            "compressed_bytes": 247834,
+            "fixed_slot": 249094,
+            "member": 20
+          },
+          {
+            "compressed_bytes": 190480,
+            "fixed_slot": 192168,
+            "member": 21
+          },
+          {
+            "compressed_bytes": 202784,
+            "fixed_slot": 203412,
+            "member": 22
+          },
+          {
+            "compressed_bytes": 147466,
+            "fixed_slot": 147764,
+            "member": 23
+          },
+          {
+            "compressed_bytes": 208904,
+            "fixed_slot": 209760,
+            "member": 24
+          },
+          {
+            "compressed_bytes": 159774,
+            "fixed_slot": 159930,
+            "member": 25
+          },
+          {
+            "compressed_bytes": 202784,
+            "fixed_slot": 203518,
+            "member": 26
+          },
+          {
+            "compressed_bytes": 194564,
+            "fixed_slot": 196426,
+            "member": 27
+          },
+          {
+            "compressed_bytes": 233502,
+            "fixed_slot": 234534,
+            "member": 28
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGK01.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLASSROOM": 3,
+          "CLUB BUILDING": 1,
+          "FIELD": 2,
+          "GYM": 2,
+          "NEIGHBORHOOD": 4,
+          "SUMO ROOM": 1
+        },
+        "members": [
+          {
+            "compressed_bytes": 182302,
+            "fixed_slot": 183620,
+            "member": 3
+          },
+          {
+            "compressed_bytes": 139292,
+            "fixed_slot": 139674,
+            "member": 4
+          },
+          {
+            "compressed_bytes": 169994,
+            "fixed_slot": 171664,
+            "member": 9
+          },
+          {
+            "compressed_bytes": 215050,
+            "fixed_slot": 216194,
+            "member": 12
+          },
+          {
+            "compressed_bytes": 153632,
+            "fixed_slot": 154280,
+            "member": 21
+          },
+          {
+            "compressed_bytes": 106502,
+            "fixed_slot": 107418,
+            "member": 22
+          },
+          {
+            "compressed_bytes": 102416,
+            "fixed_slot": 103710,
+            "member": 23
+          },
+          {
+            "compressed_bytes": 92182,
+            "fixed_slot": 92956,
+            "member": 24
+          },
+          {
+            "compressed_bytes": 104464,
+            "fixed_slot": 105676,
+            "member": 25
+          },
+          {
+            "compressed_bytes": 98338,
+            "fixed_slot": 99922,
+            "member": 26
+          },
+          {
+            "compressed_bytes": 71682,
+            "fixed_slot": 73604,
+            "member": 27
+          },
+          {
+            "compressed_bytes": 110610,
+            "fixed_slot": 112428,
+            "member": 28
+          },
+          {
+            "compressed_bytes": 94228,
+            "fixed_slot": 95042,
+            "member": 29
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGK02.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLASSROOM": 9,
+          "CLUB BUILDING": 8,
+          "FIELD": 6,
+          "GYM": 3,
+          "ROOFTOP": 3,
+          "SCHOOL GATE": 1,
+          "SUMO ROOM": 3,
+          "WALKWAY": 3
+        },
+        "members": [
+          {
+            "compressed_bytes": 133122,
+            "fixed_slot": 133838,
+            "member": 1
+          },
+          {
+            "compressed_bytes": 151560,
+            "fixed_slot": 153238,
+            "member": 4
+          },
+          {
+            "compressed_bytes": 110598,
+            "fixed_slot": 111066,
+            "member": 5
+          },
+          {
+            "compressed_bytes": 139272,
+            "fixed_slot": 139438,
+            "member": 8
+          },
+          {
+            "compressed_bytes": 167970,
+            "fixed_slot": 168394,
+            "member": 10
+          },
+          {
+            "compressed_bytes": 141314,
+            "fixed_slot": 141534,
+            "member": 11
+          },
+          {
+            "compressed_bytes": 151558,
+            "fixed_slot": 152962,
+            "member": 12
+          },
+          {
+            "compressed_bytes": 116738,
+            "fixed_slot": 118482,
+            "member": 16
+          },
+          {
+            "compressed_bytes": 206850,
+            "fixed_slot": 207704,
+            "member": 20
+          },
+          {
+            "compressed_bytes": 153604,
+            "fixed_slot": 155068,
+            "member": 21
+          },
+          {
+            "compressed_bytes": 204802,
+            "fixed_slot": 204804,
+            "member": 24
+          },
+          {
+            "compressed_bytes": 176136,
+            "fixed_slot": 177192,
+            "member": 25
+          },
+          {
+            "compressed_bytes": 47114,
+            "fixed_slot": 47472,
+            "member": 26
+          },
+          {
+            "compressed_bytes": 157708,
+            "fixed_slot": 158160,
+            "member": 28
+          },
+          {
+            "compressed_bytes": 157702,
+            "fixed_slot": 158212,
+            "member": 29
+          },
+          {
+            "compressed_bytes": 208898,
+            "fixed_slot": 209206,
+            "member": 32
+          },
+          {
+            "compressed_bytes": 213012,
+            "fixed_slot": 213352,
+            "member": 33
+          },
+          {
+            "compressed_bytes": 200710,
+            "fixed_slot": 201908,
+            "member": 34
+          },
+          {
+            "compressed_bytes": 196630,
+            "fixed_slot": 197732,
+            "member": 35
+          },
+          {
+            "compressed_bytes": 141322,
+            "fixed_slot": 141614,
+            "member": 38
+          },
+          {
+            "compressed_bytes": 143362,
+            "fixed_slot": 143696,
+            "member": 39
+          },
+          {
+            "compressed_bytes": 143372,
+            "fixed_slot": 143622,
+            "member": 42
+          },
+          {
+            "compressed_bytes": 137218,
+            "fixed_slot": 137388,
+            "member": 43
+          },
+          {
+            "compressed_bytes": 145438,
+            "fixed_slot": 147350,
+            "member": 44
+          },
+          {
+            "compressed_bytes": 149506,
+            "fixed_slot": 151496,
+            "member": 45
+          },
+          {
+            "compressed_bytes": 81950,
+            "fixed_slot": 83206,
+            "member": 46
+          },
+          {
+            "compressed_bytes": 81950,
+            "fixed_slot": 83206,
+            "member": 47
+          },
+          {
+            "compressed_bytes": 192524,
+            "fixed_slot": 194182,
+            "member": 50
+          },
+          {
+            "compressed_bytes": 188448,
+            "fixed_slot": 190034,
+            "member": 51
+          },
+          {
+            "compressed_bytes": 122904,
+            "fixed_slot": 123990,
+            "member": 56
+          },
+          {
+            "compressed_bytes": 126992,
+            "fixed_slot": 128136,
+            "member": 57
+          },
+          {
+            "compressed_bytes": 153604,
+            "fixed_slot": 155068,
+            "member": 58
+          },
+          {
+            "compressed_bytes": 157700,
+            "fixed_slot": 159214,
+            "member": 59
+          },
+          {
+            "compressed_bytes": 198682,
+            "fixed_slot": 199038,
+            "member": 64
+          },
+          {
+            "compressed_bytes": 198682,
+            "fixed_slot": 199124,
+            "member": 65
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGK03.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLASSROOM": 3,
+          "CLUB BUILDING": 2,
+          "FIELD": 5,
+          "GYM": 1,
+          "ROOFTOP": 21,
+          "SCHOOL GATE": 20,
+          "SUMO ROOM": 1,
+          "WALKWAY": 1
+        },
+        "members": [
+          {
+            "compressed_bytes": 196622,
+            "fixed_slot": 196632,
+            "member": 1
+          },
+          {
+            "compressed_bytes": 180234,
+            "fixed_slot": 181374,
+            "member": 2
+          },
+          {
+            "compressed_bytes": 155656,
+            "fixed_slot": 157018,
+            "member": 3
+          },
+          {
+            "compressed_bytes": 251928,
+            "fixed_slot": 252632,
+            "member": 5
+          },
+          {
+            "compressed_bytes": 249874,
+            "fixed_slot": 251768,
+            "member": 6
+          },
+          {
+            "compressed_bytes": 268290,
+            "fixed_slot": 269714,
+            "member": 7
+          },
+          {
+            "compressed_bytes": 264222,
+            "fixed_slot": 265842,
+            "member": 8
+          },
+          {
+            "compressed_bytes": 251906,
+            "fixed_slot": 251906,
+            "member": 9
+          },
+          {
+            "compressed_bytes": 288772,
+            "fixed_slot": 289146,
+            "member": 10
+          },
+          {
+            "compressed_bytes": 276508,
+            "fixed_slot": 277118,
+            "member": 11
+          },
+          {
+            "compressed_bytes": 262174,
+            "fixed_slot": 264036,
+            "member": 12
+          },
+          {
+            "compressed_bytes": 288778,
+            "fixed_slot": 289084,
+            "member": 13
+          },
+          {
+            "compressed_bytes": 190484,
+            "fixed_slot": 190756,
+            "member": 14
+          },
+          {
+            "compressed_bytes": 206856,
+            "fixed_slot": 207222,
+            "member": 15
+          },
+          {
+            "compressed_bytes": 290822,
+            "fixed_slot": 292540,
+            "member": 16
+          },
+          {
+            "compressed_bytes": 253980,
+            "fixed_slot": 254448,
+            "member": 17
+          },
+          {
+            "compressed_bytes": 282656,
+            "fixed_slot": 283376,
+            "member": 18
+          },
+          {
+            "compressed_bytes": 204824,
+            "fixed_slot": 206708,
+            "member": 19
+          },
+          {
+            "compressed_bytes": 174092,
+            "fixed_slot": 175524,
+            "member": 20
+          },
+          {
+            "compressed_bytes": 223248,
+            "fixed_slot": 224682,
+            "member": 21
+          },
+          {
+            "compressed_bytes": 163846,
+            "fixed_slot": 165638,
+            "member": 23
+          },
+          {
+            "compressed_bytes": 169994,
+            "fixed_slot": 171662,
+            "member": 24
+          },
+          {
+            "compressed_bytes": 235552,
+            "fixed_slot": 236178,
+            "member": 25
+          },
+          {
+            "compressed_bytes": 170002,
+            "fixed_slot": 171852,
+            "member": 26
+          },
+          {
+            "compressed_bytes": 94240,
+            "fixed_slot": 94908,
+            "member": 27
+          },
+          {
+            "compressed_bytes": 86028,
+            "fixed_slot": 86696,
+            "member": 28
+          },
+          {
+            "compressed_bytes": 301066,
+            "fixed_slot": 302408,
+            "member": 32
+          },
+          {
+            "compressed_bytes": 178194,
+            "fixed_slot": 179350,
+            "member": 33
+          },
+          {
+            "compressed_bytes": 159750,
+            "fixed_slot": 161248,
+            "member": 34
+          },
+          {
+            "compressed_bytes": 170014,
+            "fixed_slot": 171850,
+            "member": 35
+          },
+          {
+            "compressed_bytes": 172060,
+            "fixed_slot": 173124,
+            "member": 36
+          },
+          {
+            "compressed_bytes": 163874,
+            "fixed_slot": 165698,
+            "member": 37
+          },
+          {
+            "compressed_bytes": 178198,
+            "fixed_slot": 178848,
+            "member": 38
+          },
+          {
+            "compressed_bytes": 172034,
+            "fixed_slot": 173248,
+            "member": 39
+          },
+          {
+            "compressed_bytes": 178188,
+            "fixed_slot": 178678,
+            "member": 40
+          },
+          {
+            "compressed_bytes": 184324,
+            "fixed_slot": 184578,
+            "member": 41
+          },
+          {
+            "compressed_bytes": 163872,
+            "fixed_slot": 164150,
+            "member": 42
+          },
+          {
+            "compressed_bytes": 172052,
+            "fixed_slot": 172198,
+            "member": 43
+          },
+          {
+            "compressed_bytes": 196616,
+            "fixed_slot": 197054,
+            "member": 44
+          },
+          {
+            "compressed_bytes": 180246,
+            "fixed_slot": 180682,
+            "member": 45
+          },
+          {
+            "compressed_bytes": 170014,
+            "fixed_slot": 170254,
+            "member": 46
+          },
+          {
+            "compressed_bytes": 169994,
+            "fixed_slot": 171646,
+            "member": 47
+          },
+          {
+            "compressed_bytes": 198660,
+            "fixed_slot": 200464,
+            "member": 48
+          },
+          {
+            "compressed_bytes": 159778,
+            "fixed_slot": 159840,
+            "member": 49
+          },
+          {
+            "compressed_bytes": 165890,
+            "fixed_slot": 167764,
+            "member": 50
+          },
+          {
+            "compressed_bytes": 178190,
+            "fixed_slot": 178382,
+            "member": 51
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGK04.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLASSROOM": 1,
+          "SCHOOL GATE": 1
+        },
+        "members": [
+          {
+            "compressed_bytes": 112670,
+            "fixed_slot": 112778,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 172054,
+            "fixed_slot": 173606,
+            "member": 1
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGK05.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLASSROOM": 2
+        },
+        "members": [
+          {
+            "compressed_bytes": 176152,
+            "fixed_slot": 177878,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 196642,
+            "fixed_slot": 198452,
+            "member": 2
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGK07.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLASSROOM": 3,
+          "FIELD": 3
+        },
+        "members": [
+          {
+            "compressed_bytes": 274446,
+            "fixed_slot": 275994,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 198660,
+            "fixed_slot": 199294,
+            "member": 1
+          },
+          {
+            "compressed_bytes": 198660,
+            "fixed_slot": 199294,
+            "member": 2
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGK09.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLASSROOM": 3,
+          "CLUB BUILDING": 2,
+          "FIELD": 2,
+          "GYM": 2,
+          "SUMO ROOM": 1
+        },
+        "members": [
+          {
+            "compressed_bytes": 153632,
+            "fixed_slot": 154280,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 106502,
+            "fixed_slot": 107418,
+            "member": 1
+          },
+          {
+            "compressed_bytes": 102416,
+            "fixed_slot": 103710,
+            "member": 2
+          },
+          {
+            "compressed_bytes": 92182,
+            "fixed_slot": 92956,
+            "member": 3
+          },
+          {
+            "compressed_bytes": 104464,
+            "fixed_slot": 105676,
+            "member": 4
+          },
+          {
+            "compressed_bytes": 98338,
+            "fixed_slot": 99922,
+            "member": 5
+          },
+          {
+            "compressed_bytes": 71682,
+            "fixed_slot": 73604,
+            "member": 6
+          },
+          {
+            "compressed_bytes": 110610,
+            "fixed_slot": 112428,
+            "member": 7
+          },
+          {
+            "compressed_bytes": 94228,
+            "fixed_slot": 95042,
+            "member": 8
+          },
+          {
+            "compressed_bytes": 110612,
+            "fixed_slot": 111002,
+            "member": 9
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGK10.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLASSROOM": 2
+        },
+        "members": [
+          {
+            "compressed_bytes": 176146,
+            "fixed_slot": 176546,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 196642,
+            "fixed_slot": 198452,
+            "member": 2
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGK12.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "FIELD": 3
+        },
+        "members": [
+          {
+            "compressed_bytes": 176130,
+            "fixed_slot": 177854,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 73754,
+            "fixed_slot": 75038,
+            "member": 1
+          },
+          {
+            "compressed_bytes": 102416,
+            "fixed_slot": 103284,
+            "member": 2
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGM01.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLASSROOM": 3,
+          "CLUB BUILDING": 3,
+          "FIELD": 3,
+          "GYM": 1,
+          "POOLSIDE": 1,
+          "ROOFTOP": 1,
+          "WALKWAY": 2
+        },
+        "members": [
+          {
+            "compressed_bytes": 219152,
+            "fixed_slot": 219304,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 274462,
+            "fixed_slot": 275756,
+            "member": 2
+          },
+          {
+            "compressed_bytes": 200716,
+            "fixed_slot": 201198,
+            "member": 3
+          },
+          {
+            "compressed_bytes": 131078,
+            "fixed_slot": 132708,
+            "member": 4
+          },
+          {
+            "compressed_bytes": 122884,
+            "fixed_slot": 124662,
+            "member": 5
+          },
+          {
+            "compressed_bytes": 127004,
+            "fixed_slot": 128046,
+            "member": 6
+          },
+          {
+            "compressed_bytes": 241680,
+            "fixed_slot": 243016,
+            "member": 9
+          },
+          {
+            "compressed_bytes": 170008,
+            "fixed_slot": 171710,
+            "member": 10
+          },
+          {
+            "compressed_bytes": 219140,
+            "fixed_slot": 219192,
+            "member": 11
+          },
+          {
+            "compressed_bytes": 106498,
+            "fixed_slot": 108384,
+            "member": 15
+          },
+          {
+            "compressed_bytes": 145428,
+            "fixed_slot": 146698,
+            "member": 16
+          },
+          {
+            "compressed_bytes": 143390,
+            "fixed_slot": 145078,
+            "member": 17
+          },
+          {
+            "compressed_bytes": 163862,
+            "fixed_slot": 165818,
+            "member": 18
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGM02.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "ARCADE": 1,
+          "CLASSROOM": 4,
+          "CLUB BUILDING": 3,
+          "FIELD": 3,
+          "GYM": 3,
+          "ROOFTOP": 2
+        },
+        "members": [
+          {
+            "compressed_bytes": 262160,
+            "fixed_slot": 263502,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 253956,
+            "fixed_slot": 255422,
+            "member": 1
+          },
+          {
+            "compressed_bytes": 227336,
+            "fixed_slot": 228730,
+            "member": 2
+          },
+          {
+            "compressed_bytes": 151580,
+            "fixed_slot": 151994,
+            "member": 3
+          },
+          {
+            "compressed_bytes": 217098,
+            "fixed_slot": 218222,
+            "member": 4
+          },
+          {
+            "compressed_bytes": 172048,
+            "fixed_slot": 173282,
+            "member": 5
+          },
+          {
+            "compressed_bytes": 241666,
+            "fixed_slot": 241784,
+            "member": 6
+          },
+          {
+            "compressed_bytes": 161796,
+            "fixed_slot": 162042,
+            "member": 7
+          },
+          {
+            "compressed_bytes": 147486,
+            "fixed_slot": 147970,
+            "member": 8
+          },
+          {
+            "compressed_bytes": 239618,
+            "fixed_slot": 239902,
+            "member": 9
+          },
+          {
+            "compressed_bytes": 137232,
+            "fixed_slot": 138546,
+            "member": 10
+          },
+          {
+            "compressed_bytes": 141346,
+            "fixed_slot": 141640,
+            "member": 11
+          },
+          {
+            "compressed_bytes": 137234,
+            "fixed_slot": 137322,
+            "member": 15
+          },
+          {
+            "compressed_bytes": 196642,
+            "fixed_slot": 196822,
+            "member": 16
+          },
+          {
+            "compressed_bytes": 129032,
+            "fixed_slot": 129314,
+            "member": 17
+          },
+          {
+            "compressed_bytes": 163862,
+            "fixed_slot": 165818,
+            "member": 18
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGM04.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLASSROOM": 2,
+          "CLUB BUILDING": 1,
+          "FIELD": 1,
+          "GYM": 1
+        },
+        "members": [
+          {
+            "compressed_bytes": 213020,
+            "fixed_slot": 214290,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 196634,
+            "fixed_slot": 198380,
+            "member": 1
+          },
+          {
+            "compressed_bytes": 249874,
+            "fixed_slot": 250340,
+            "member": 3
+          },
+          {
+            "compressed_bytes": 272392,
+            "fixed_slot": 272494,
+            "member": 5
+          },
+          {
+            "compressed_bytes": 163862,
+            "fixed_slot": 165818,
+            "member": 6
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGM05.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLASSROOM": 2,
+          "CLUB BUILDING": 1,
+          "FIELD": 1,
+          "GYM": 1,
+          "ROOFTOP": 1
+        },
+        "members": [
+          {
+            "compressed_bytes": 272388,
+            "fixed_slot": 273372,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 194590,
+            "fixed_slot": 195598,
+            "member": 1
+          },
+          {
+            "compressed_bytes": 233506,
+            "fixed_slot": 234862,
+            "member": 2
+          },
+          {
+            "compressed_bytes": 227344,
+            "fixed_slot": 228238,
+            "member": 3
+          },
+          {
+            "compressed_bytes": 235526,
+            "fixed_slot": 235964,
+            "member": 4
+          },
+          {
+            "compressed_bytes": 163862,
+            "fixed_slot": 165818,
+            "member": 5
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGM06.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLASSROOM": 2,
+          "CLUB BUILDING": 1,
+          "FIELD": 1
+        },
+        "members": [
+          {
+            "compressed_bytes": 247836,
+            "fixed_slot": 249434,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 229406,
+            "fixed_slot": 229628,
+            "member": 1
+          },
+          {
+            "compressed_bytes": 233488,
+            "fixed_slot": 234846,
+            "member": 4
+          },
+          {
+            "compressed_bytes": 163862,
+            "fixed_slot": 165818,
+            "member": 5
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGM07.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLASSROOM": 1,
+          "CLUB BUILDING": 1,
+          "GYM": 1,
+          "ROOFTOP": 1
+        },
+        "members": [
+          {
+            "compressed_bytes": 208906,
+            "fixed_slot": 209624,
+            "member": 1
+          },
+          {
+            "compressed_bytes": 120844,
+            "fixed_slot": 121900,
+            "member": 2
+          },
+          {
+            "compressed_bytes": 178204,
+            "fixed_slot": 180174,
+            "member": 4
+          },
+          {
+            "compressed_bytes": 163862,
+            "fixed_slot": 165818,
+            "member": 5
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGM08.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLASSROOM": 1,
+          "CLUB BUILDING": 1,
+          "FIELD": 1,
+          "GYM": 1,
+          "ROOFTOP": 1
+        },
+        "members": [
+          {
+            "compressed_bytes": 200712,
+            "fixed_slot": 201060,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 92168,
+            "fixed_slot": 93840,
+            "member": 1
+          },
+          {
+            "compressed_bytes": 190486,
+            "fixed_slot": 191202,
+            "member": 2
+          },
+          {
+            "compressed_bytes": 245782,
+            "fixed_slot": 246654,
+            "member": 4
+          },
+          {
+            "compressed_bytes": 163862,
+            "fixed_slot": 165818,
+            "member": 5
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGM09.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLASSROOM": 3,
+          "FIELD": 2,
+          "ROOFTOP": 1,
+          "WALKWAY": 1
+        },
+        "members": [
+          {
+            "compressed_bytes": 200718,
+            "fixed_slot": 201296,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 262150,
+            "fixed_slot": 263390,
+            "member": 1
+          },
+          {
+            "compressed_bytes": 223252,
+            "fixed_slot": 223424,
+            "member": 2
+          },
+          {
+            "compressed_bytes": 200714,
+            "fixed_slot": 202342,
+            "member": 3
+          },
+          {
+            "compressed_bytes": 169992,
+            "fixed_slot": 170534,
+            "member": 4
+          },
+          {
+            "compressed_bytes": 301078,
+            "fixed_slot": 302204,
+            "member": 6
+          },
+          {
+            "compressed_bytes": 163862,
+            "fixed_slot": 165818,
+            "member": 11
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGM10.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLASSROOM": 3,
+          "CLUB BUILDING": 2,
+          "FIELD": 2,
+          "GYM": 2,
+          "WALKWAY": 1
+        },
+        "members": [
+          {
+            "compressed_bytes": 237600,
+            "fixed_slot": 238942,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 172050,
+            "fixed_slot": 172892,
+            "member": 1
+          },
+          {
+            "compressed_bytes": 184338,
+            "fixed_slot": 184860,
+            "member": 2
+          },
+          {
+            "compressed_bytes": 153620,
+            "fixed_slot": 154194,
+            "member": 3
+          },
+          {
+            "compressed_bytes": 219138,
+            "fixed_slot": 219146,
+            "member": 4
+          },
+          {
+            "compressed_bytes": 145434,
+            "fixed_slot": 147120,
+            "member": 5
+          },
+          {
+            "compressed_bytes": 186398,
+            "fixed_slot": 187044,
+            "member": 8
+          },
+          {
+            "compressed_bytes": 229396,
+            "fixed_slot": 230038,
+            "member": 9
+          },
+          {
+            "compressed_bytes": 163862,
+            "fixed_slot": 165818,
+            "member": 10
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGM11.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLASSROOM": 3,
+          "CLUB BUILDING": 2,
+          "FIELD": 2,
+          "GYM": 3,
+          "ROOFTOP": 2
+        },
+        "members": [
+          {
+            "compressed_bytes": 133154,
+            "fixed_slot": 135124,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 155662,
+            "fixed_slot": 157190,
+            "member": 1
+          },
+          {
+            "compressed_bytes": 221200,
+            "fixed_slot": 221972,
+            "member": 2
+          },
+          {
+            "compressed_bytes": 172048,
+            "fixed_slot": 172696,
+            "member": 3
+          },
+          {
+            "compressed_bytes": 153606,
+            "fixed_slot": 153920,
+            "member": 4
+          },
+          {
+            "compressed_bytes": 149526,
+            "fixed_slot": 149976,
+            "member": 5
+          },
+          {
+            "compressed_bytes": 190486,
+            "fixed_slot": 190628,
+            "member": 6
+          },
+          {
+            "compressed_bytes": 172052,
+            "fixed_slot": 173354,
+            "member": 7
+          },
+          {
+            "compressed_bytes": 167962,
+            "fixed_slot": 168294,
+            "member": 8
+          },
+          {
+            "compressed_bytes": 159776,
+            "fixed_slot": 160034,
+            "member": 9
+          },
+          {
+            "compressed_bytes": 163862,
+            "fixed_slot": 165818,
+            "member": 10
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGM12.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLASSROOM": 5,
+          "CLUB BUILDING": 3,
+          "GYM": 3,
+          "ROOFTOP": 2
+        },
+        "members": [
+          {
+            "compressed_bytes": 264206,
+            "fixed_slot": 264934,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 116740,
+            "fixed_slot": 117672,
+            "member": 1
+          },
+          {
+            "compressed_bytes": 219140,
+            "fixed_slot": 219940,
+            "member": 2
+          },
+          {
+            "compressed_bytes": 241686,
+            "fixed_slot": 241778,
+            "member": 3
+          },
+          {
+            "compressed_bytes": 137222,
+            "fixed_slot": 138244,
+            "member": 5
+          },
+          {
+            "compressed_bytes": 194590,
+            "fixed_slot": 195378,
+            "member": 6
+          },
+          {
+            "compressed_bytes": 153620,
+            "fixed_slot": 153748,
+            "member": 7
+          },
+          {
+            "compressed_bytes": 172048,
+            "fixed_slot": 173280,
+            "member": 8
+          },
+          {
+            "compressed_bytes": 253960,
+            "fixed_slot": 254586,
+            "member": 9
+          },
+          {
+            "compressed_bytes": 237574,
+            "fixed_slot": 238452,
+            "member": 12
+          },
+          {
+            "compressed_bytes": 192526,
+            "fixed_slot": 194332,
+            "member": 13
+          },
+          {
+            "compressed_bytes": 163864,
+            "fixed_slot": 165784,
+            "member": 14
+          },
+          {
+            "compressed_bytes": 163862,
+            "fixed_slot": 165818,
+            "member": 15
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGT00.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "ROOFTOP": 1,
+          "SCHOOL GATE": 1
+        },
+        "members": [
+          {
+            "compressed_bytes": 174110,
+            "fixed_slot": 175230,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 311324,
+            "fixed_slot": 311846,
+            "member": 2
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGT02.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "ROOFTOP": 1,
+          "SCHOOL GATE": 1
+        },
+        "members": [
+          {
+            "compressed_bytes": 176138,
+            "fixed_slot": 176582,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 194578,
+            "fixed_slot": 195528,
+            "member": 2
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGT03.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "SCHOOL GATE": 2
+        },
+        "members": [
+          {
+            "compressed_bytes": 290824,
+            "fixed_slot": 292762,
+            "member": 1
+          },
+          {
+            "compressed_bytes": 272410,
+            "fixed_slot": 273408,
+            "member": 2
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGT04.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "GYM": 2,
+          "ROOFTOP": 2
+        },
+        "members": [
+          {
+            "compressed_bytes": 180234,
+            "fixed_slot": 180242,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 229400,
+            "fixed_slot": 229956,
+            "member": 1
+          },
+          {
+            "compressed_bytes": 235528,
+            "fixed_slot": 236084,
+            "member": 2
+          },
+          {
+            "compressed_bytes": 241692,
+            "fixed_slot": 242384,
+            "member": 4
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGT05.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLUB BUILDING": 1,
+          "FIELD": 1,
+          "SCHOOL GATE": 1
+        },
+        "members": [
+          {
+            "compressed_bytes": 215060,
+            "fixed_slot": 215286,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 307210,
+            "fixed_slot": 308598,
+            "member": 1
+          },
+          {
+            "compressed_bytes": 266270,
+            "fixed_slot": 266934,
+            "member": 2
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGT06.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "SCHOOL GATE": 2
+        },
+        "members": [
+          {
+            "compressed_bytes": 237578,
+            "fixed_slot": 238658,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 161810,
+            "fixed_slot": 162422,
+            "member": 2
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGT07.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "SCHOOL GATE": 1
+        },
+        "members": [
+          {
+            "compressed_bytes": 190488,
+            "fixed_slot": 191134,
+            "member": 2
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGT08.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLASSROOM": 1,
+          "SCHOOL GATE": 1
+        },
+        "members": [
+          {
+            "compressed_bytes": 213018,
+            "fixed_slot": 214890,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 190492,
+            "fixed_slot": 192230,
+            "member": 1
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGT09.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLASSROOM": 1
+        },
+        "members": [
+          {
+            "compressed_bytes": 225292,
+            "fixed_slot": 226466,
+            "member": 0
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGT0B.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLASSROOM": 3
+        },
+        "members": [
+          {
+            "compressed_bytes": 196626,
+            "fixed_slot": 197330,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 243728,
+            "fixed_slot": 244620,
+            "member": 1
+          },
+          {
+            "compressed_bytes": 200706,
+            "fixed_slot": 201546,
+            "member": 2
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGT0C.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "SCHOOL GATE": 1
+        },
+        "members": [
+          {
+            "compressed_bytes": 192518,
+            "fixed_slot": 193130,
+            "member": 1
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGT0D.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "SCHOOL GATE": 1
+        },
+        "members": [
+          {
+            "compressed_bytes": 227344,
+            "fixed_slot": 227494,
+            "member": 1
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGT0F.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "ROOFTOP": 1
+        },
+        "members": [
+          {
+            "compressed_bytes": 260116,
+            "fixed_slot": 260498,
+            "member": 0
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGT10.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "POOLSIDE": 1,
+          "SUMO ROOM": 1,
+          "WALKWAY": 1
+        },
+        "members": [
+          {
+            "compressed_bytes": 266248,
+            "fixed_slot": 266626,
+            "member": 1
+          },
+          {
+            "compressed_bytes": 286754,
+            "fixed_slot": 287652,
+            "member": 2
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGT12.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "NEIGHBORHOOD": 1,
+          "SCHOOL GATE": 1
+        },
+        "members": [
+          {
+            "compressed_bytes": 239622,
+            "fixed_slot": 241484,
+            "member": 1
+          }
+        ]
+      }
+    },
+    {
+      "path": "DAT2/MGBGT13.BZZ",
+      "report": {
+        "all_other_pixels_palettes_and_headers_preserved": true,
+        "copies": {
+          "CLASSROOM": 1,
+          "FIELD": 1
+        },
+        "members": [
+          {
+            "compressed_bytes": 178180,
+            "fixed_slot": 178430,
+            "member": 0
+          },
+          {
+            "compressed_bytes": 270346,
+            "fixed_slot": 272330,
+            "member": 2
+          }
+        ]
+      }
+    }
+  ],
+  "honorific_entries": 100,
+  "name_selection_and_enrolled_names_preserved": true,
+  "output_sha256": "beef8433ca45995834598186738eb45edd4b4890b5d897e025db43a132bcc727",
+  "text": [
+    {
+      "path": "DAT2/MGG04T.BIZ",
+      "report": {
+        "aliases": 479,
+        "arena_used": 65028,
+        "compressed_bytes": 225312,
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "fixed_slot": 225706,
+        "honorific_entries": 4,
+        "name_buffers_relationship_controls_fonts_scripts_preserved": true,
+        "replacement": "empty end-terminated insertion",
+        "selector": 2
+      }
+    },
+    {
+      "path": "DAT2/MGG04O.BIZ",
+      "report": {
+        "aliases": 495,
+        "arena_used": 65584,
+        "compressed_bytes": 223242,
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "fixed_slot": 223532,
+        "honorific_entries": 4,
+        "name_buffers_relationship_controls_fonts_scripts_preserved": true,
+        "replacement": "empty end-terminated insertion",
+        "selector": 2
+      }
+    },
+    {
+      "path": "DAT2/MGG04P.BIZ",
+      "report": {
+        "aliases": 485,
+        "arena_used": 66348,
+        "compressed_bytes": 227364,
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "fixed_slot": 227842,
+        "honorific_entries": 4,
+        "name_buffers_relationship_controls_fonts_scripts_preserved": true,
+        "replacement": "empty end-terminated insertion",
+        "selector": 2
+      }
+    },
+    {
+      "path": "DAT2/MGG04G.BIZ",
+      "report": {
+        "aliases": 73,
+        "arena_used": 53912,
+        "compressed_bytes": 221198,
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "fixed_slot": 221700,
+        "honorific_entries": 4,
+        "name_buffers_relationship_controls_fonts_scripts_preserved": true,
+        "replacement": "empty end-terminated insertion",
+        "selector": 2
+      }
+    },
+    {
+      "path": "DAT2/MGG04J.BIZ",
+      "report": {
+        "aliases": 470,
+        "arena_used": 65312,
+        "compressed_bytes": 225294,
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "fixed_slot": 225766,
+        "honorific_entries": 4,
+        "name_buffers_relationship_controls_fonts_scripts_preserved": true,
+        "replacement": "empty end-terminated insertion",
+        "selector": 2
+      }
+    },
+    {
+      "path": "DAT2/MGG06T.BIZ",
+      "report": {
+        "aliases": 99,
+        "arena_used": 24820,
+        "compressed_bytes": 204810,
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "fixed_slot": 205172,
+        "honorific_entries": 4,
+        "name_buffers_relationship_controls_fonts_scripts_preserved": true,
+        "replacement": "empty end-terminated insertion",
+        "selector": 2
+      }
+    },
+    {
+      "path": "DAT2/MGG06O.BIZ",
+      "report": {
+        "aliases": 92,
+        "arena_used": 23880,
+        "compressed_bytes": 202762,
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "fixed_slot": 203256,
+        "honorific_entries": 4,
+        "name_buffers_relationship_controls_fonts_scripts_preserved": true,
+        "replacement": "empty end-terminated insertion",
+        "selector": 2
+      }
+    },
+    {
+      "path": "DAT2/MGG06P.BIZ",
+      "report": {
+        "aliases": 104,
+        "arena_used": 24696,
+        "compressed_bytes": 204810,
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "fixed_slot": 205200,
+        "honorific_entries": 4,
+        "name_buffers_relationship_controls_fonts_scripts_preserved": true,
+        "replacement": "empty end-terminated insertion",
+        "selector": 2
+      }
+    },
+    {
+      "path": "DAT2/MGG06G.BIZ",
+      "report": {
+        "aliases": 63,
+        "arena_used": 21192,
+        "compressed_bytes": 202762,
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "fixed_slot": 203072,
+        "honorific_entries": 4,
+        "name_buffers_relationship_controls_fonts_scripts_preserved": true,
+        "replacement": "empty end-terminated insertion",
+        "selector": 2
+      }
+    },
+    {
+      "path": "DAT2/MGG06J.BIZ",
+      "report": {
+        "aliases": 135,
+        "arena_used": 25092,
+        "compressed_bytes": 204810,
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "fixed_slot": 205090,
+        "honorific_entries": 4,
+        "name_buffers_relationship_controls_fonts_scripts_preserved": true,
+        "replacement": "empty end-terminated insertion",
+        "selector": 2
+      }
+    },
+    {
+      "path": "DAT2/MGG08T.BIZ",
+      "report": {
+        "aliases": 439,
+        "arena_used": 63748,
+        "compressed_bytes": 217130,
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "fixed_slot": 217624,
+        "honorific_entries": 4,
+        "name_buffers_relationship_controls_fonts_scripts_preserved": true,
+        "replacement": "empty end-terminated insertion",
+        "selector": 2
+      }
+    },
+    {
+      "path": "DAT2/MGG08O.BIZ",
+      "report": {
+        "aliases": 442,
+        "arena_used": 64076,
+        "compressed_bytes": 217098,
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "fixed_slot": 217658,
+        "honorific_entries": 4,
+        "name_buffers_relationship_controls_fonts_scripts_preserved": true,
+        "replacement": "empty end-terminated insertion",
+        "selector": 2
+      }
+    },
+    {
+      "path": "DAT2/MGG08P.BIZ",
+      "report": {
+        "aliases": 440,
+        "arena_used": 63812,
+        "compressed_bytes": 217132,
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "fixed_slot": 217582,
+        "honorific_entries": 4,
+        "name_buffers_relationship_controls_fonts_scripts_preserved": true,
+        "replacement": "empty end-terminated insertion",
+        "selector": 2
+      }
+    },
+    {
+      "path": "DAT2/MGG08G.BIZ",
+      "report": {
+        "aliases": 98,
+        "arena_used": 45900,
+        "compressed_bytes": 215058,
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "fixed_slot": 215438,
+        "honorific_entries": 4,
+        "name_buffers_relationship_controls_fonts_scripts_preserved": true,
+        "replacement": "empty end-terminated insertion",
+        "selector": 2
+      }
+    },
+    {
+      "path": "DAT2/MGG08J.BIZ",
+      "report": {
+        "aliases": 442,
+        "arena_used": 63696,
+        "compressed_bytes": 219146,
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "fixed_slot": 219654,
+        "honorific_entries": 4,
+        "name_buffers_relationship_controls_fonts_scripts_preserved": true,
+        "replacement": "empty end-terminated insertion",
+        "selector": 2
+      }
+    },
+    {
+      "path": "DAT2/MGG09T.BIZ",
+      "report": {
+        "aliases": 497,
+        "arena_used": 61756,
+        "compressed_bytes": 221194,
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "fixed_slot": 221600,
+        "honorific_entries": 4,
+        "name_buffers_relationship_controls_fonts_scripts_preserved": true,
+        "replacement": "empty end-terminated insertion",
+        "selector": 2
+      }
+    },
+    {
+      "path": "DAT2/MGG09O.BIZ",
+      "report": {
+        "aliases": 502,
+        "arena_used": 61488,
+        "compressed_bytes": 223260,
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "fixed_slot": 223672,
+        "honorific_entries": 4,
+        "name_buffers_relationship_controls_fonts_scripts_preserved": true,
+        "replacement": "empty end-terminated insertion",
+        "selector": 2
+      }
+    },
+    {
+      "path": "DAT2/MGG09P.BIZ",
+      "report": {
+        "aliases": 505,
+        "arena_used": 61380,
+        "compressed_bytes": 223242,
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "fixed_slot": 223670,
+        "honorific_entries": 4,
+        "name_buffers_relationship_controls_fonts_scripts_preserved": true,
+        "replacement": "empty end-terminated insertion",
+        "selector": 2
+      }
+    },
+    {
+      "path": "DAT2/MGG09G.BIZ",
+      "report": {
+        "aliases": 120,
+        "arena_used": 46900,
+        "compressed_bytes": 217098,
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "fixed_slot": 217694,
+        "honorific_entries": 4,
+        "name_buffers_relationship_controls_fonts_scripts_preserved": true,
+        "replacement": "empty end-terminated insertion",
+        "selector": 2
+      }
+    },
+    {
+      "path": "DAT2/MGG09J.BIZ",
+      "report": {
+        "aliases": 505,
+        "arena_used": 61464,
+        "compressed_bytes": 223242,
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "fixed_slot": 223670,
+        "honorific_entries": 4,
+        "name_buffers_relationship_controls_fonts_scripts_preserved": true,
+        "replacement": "empty end-terminated insertion",
+        "selector": 2
+      }
+    },
+    {
+      "path": "DAT2/MGG11T.BIZ",
+      "report": {
+        "aliases": 94,
+        "arena_used": 32116,
+        "compressed_bytes": 206866,
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "fixed_slot": 207300,
+        "honorific_entries": 4,
+        "name_buffers_relationship_controls_fonts_scripts_preserved": true,
+        "replacement": "empty end-terminated insertion",
+        "selector": 2
+      }
+    },
+    {
+      "path": "DAT2/MGG11O.BIZ",
+      "report": {
+        "aliases": 88,
+        "arena_used": 30036,
+        "compressed_bytes": 204810,
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "fixed_slot": 205284,
+        "honorific_entries": 4,
+        "name_buffers_relationship_controls_fonts_scripts_preserved": true,
+        "replacement": "empty end-terminated insertion",
+        "selector": 2
+      }
+    },
+    {
+      "path": "DAT2/MGG11P.BIZ",
+      "report": {
+        "aliases": 89,
+        "arena_used": 29024,
+        "compressed_bytes": 204822,
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "fixed_slot": 205110,
+        "honorific_entries": 4,
+        "name_buffers_relationship_controls_fonts_scripts_preserved": true,
+        "replacement": "empty end-terminated insertion",
+        "selector": 2
+      }
+    },
+    {
+      "path": "DAT2/MGG11G.BIZ",
+      "report": {
+        "aliases": 19,
+        "arena_used": 24792,
+        "compressed_bytes": 204810,
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "fixed_slot": 205136,
+        "honorific_entries": 4,
+        "name_buffers_relationship_controls_fonts_scripts_preserved": true,
+        "replacement": "empty end-terminated insertion",
+        "selector": 2
+      }
+    },
+    {
+      "path": "DAT2/MGG11J.BIZ",
+      "report": {
+        "aliases": 95,
+        "arena_used": 29228,
+        "compressed_bytes": 208906,
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "fixed_slot": 209248,
+        "honorific_entries": 4,
+        "name_buffers_relationship_controls_fonts_scripts_preserved": true,
+        "replacement": "empty end-terminated insertion",
+        "selector": 2
+      }
+    }
+  ],
+  "validation_context": {
+    "kind": "Verified original-disc full fixture; prior English layers absent",
+    "actual_windows_candidate": false,
+    "native_tested": false,
+    "font": "Nimbus Sans Regular",
+    "qa_master_hash_substituted_only": true,
+    "production_v24_guard_retained": true,
+    "tests_passed": 1,
+    "tests_failed": 0,
+    "runtime_seconds": 886.39,
+    "record_readback_sector_scope_edc_ecc_and_input_identity_passed": true,
+    "representative_location_labels_visually_reviewed": true,
+    "empty_honorific_native_pointer_readback_passed": true,
+    "source_restored_exactly": true,
+    "powershell_runtime_tested": false,
+    "static_wrapper_source_consistency_passed": true
+  },
+  "location_copy_total": 394,
+  "location_copy_counts": {
+    "CLASSROOM": 73,
+    "FIELD": 47,
+    "GYM": 55,
+    "SCHOOL GATE": 84,
+    "SUMO ROOM": 10,
+    "NEIGHBORHOOD": 8,
+    "ROOFTOP": 51,
+    "WALKWAY": 16,
+    "RIDE ENTRANCE": 4,
+    "ARCADE": 2,
+    "CLUB BUILDING": 34,
+    "PLAZA": 5,
+    "POND": 2,
+    "POOLSIDE": 3
+  }
+}

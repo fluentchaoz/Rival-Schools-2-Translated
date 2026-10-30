@@ -52,3 +52,33 @@ Thumbs.db
 
 # PowerShell editor backups
 *.ps1~
+
+# Local source-bound translation packets include extracted Japanese game text.
+/mgk04-selector6-english-v1.json
+/mgk10-bank6-english-v1.json
+
+# Recovery bundles contain private, source-bound workspace inputs.
+JG2-Recovery-Kit*/
+JG2-Recovery-Kit*.zip
+__pycache__/
+
+# Private stat-result exports contain extracted game records.
+JG2-Stat-Probe-v18-*/
+JG2-Stat-Probe-v18-*.zip
+JG2-Stat-Probe-v18-*.zip.partial
+
+# Private mainline source inventory and English draft checkpoint (public upload withheld).
+/private-mainline/
+/translations/shared_daily_dates_batch01.json
+/validation/disc-translation-inventory.json
+/validation/mainline-foundation.json
+
+# Private runtime inputs supplied outside public GitHub.
+/daily_map_v27.json
+JG2-Daily-Map-v27-Inputs*.zip
+/shared_daily_dates_v26.json
+JG2-Shared-Dates-v26-Inputs*.zip
+
+# Private Status/Diary runtime translation packet.
+/status_diary_v28.json
+JG2-Status-Diary-v28-Inputs*.zip

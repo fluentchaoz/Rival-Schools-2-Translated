@@ -1,0 +1,48 @@
+{
+  "kind": "Shared dates English v26 candidate validation",
+  "required_production_master": "5f31d90f089f520d6824add5c5368e10be2607955ad3b9e5c24b73b9aa010453",
+  "private_packet_sha256": "714f77e8112daed6585e5912a5e312b8093229bbd13ad1cce9fdafb521cebfa6",
+  "fixture": {
+    "master": "verified original disc, not actual v25",
+    "font": "Nimbus Sans Regular substituted for Windows Arial",
+    "font_sha256": "7c25be4d78155523080ab85b10277150657ff7dabbcad7037bdd536c9b6d0d08",
+    "output_sha256": "4c02ebabd9e569fe96f5ada6bb38ab206c777d4ff1f27a5ca3a7cc56c827201a",
+    "runtime_images": 78,
+    "patterns": 46,
+    "translated_coordinates": 4836,
+    "custom_coordinates_preserved": 0,
+    "changed_raw_sectors": 10761,
+    "rust_tests_passed": 1,
+    "failed": 0,
+    "seconds": 131.08,
+    "record_and_pointer_readback": true,
+    "fixed_compressed_slots": true,
+    "owned_sector_scope_and_edc_ecc": true,
+    "source_restored_exactly": true
+  },
+  "preservation_regression": {
+    "passed": 1,
+    "failed": 0,
+    "seconds": 3.26,
+    "cases": "Mixed original-source messages, a slash-only date patch and an existing custom glyph/payload; custom payload retained byte-for-byte, remaining 61 date slots translated",
+    "source_restored_exactly": true
+  },
+  "visual_review": {
+    "previews": 46,
+    "native_glyph_cells": "all inspected; 20-cell four-row bounds; no clipping",
+    "runtime_date_placeholders": "MM/DD replaces live digits in preview; date style controls unchanged in candidate"
+  },
+  "offline_wrapper_regressions": {
+    "passed": 5,
+    "failed": 0,
+    "powershell_executed": false
+  },
+  "production_windows_build": "pending",
+  "native_gameplay": "pending",
+  "limits": [
+    "Original-disc fixture does not contain prior English layers. Production current-v25 compression and preservation counts must pass the Windows run.",
+    "The mixed-content regression tests custom-payload retention but is not a reconstruction of the whole actual v25 master.",
+    "The private packet remains outside public GitHub.",
+    "Unrelated unique story dialogue is outside the shared date/narration batch."
+  ]
+}

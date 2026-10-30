@@ -1,0 +1,203 @@
+{
+  "changed_sector_count": 1516,
+  "earlier_layers_preserved": true,
+  "font_sha256": "76d04c18ea243f426b7de1f3ad208e927008f961dc5945e5aad352d0dfde8ee8",
+  "graphics": {
+    "copies": [
+      5,
+      6,
+      3
+    ],
+    "members": [
+      {
+        "compressed_bytes": 284706,
+        "fixed_slot": 285900,
+        "member": 0
+      },
+      {
+        "compressed_bytes": 229406,
+        "fixed_slot": 229682,
+        "member": 1
+      },
+      {
+        "compressed_bytes": 110610,
+        "fixed_slot": 112428,
+        "member": 11
+      },
+      {
+        "compressed_bytes": 272392,
+        "fixed_slot": 272706,
+        "member": 22
+      },
+      {
+        "compressed_bytes": 292898,
+        "fixed_slot": 293342,
+        "member": 25
+      },
+      {
+        "compressed_bytes": 292894,
+        "fixed_slot": 294320,
+        "member": 26
+      },
+      {
+        "compressed_bytes": 225292,
+        "fixed_slot": 225394,
+        "member": 27
+      },
+      {
+        "compressed_bytes": 309276,
+        "fixed_slot": 310422,
+        "member": 29
+      },
+      {
+        "compressed_bytes": 303118,
+        "fixed_slot": 304902,
+        "member": 30
+      },
+      {
+        "compressed_bytes": 299042,
+        "fixed_slot": 299956,
+        "member": 33
+      },
+      {
+        "compressed_bytes": 321546,
+        "fixed_slot": 323498,
+        "member": 34
+      },
+      {
+        "compressed_bytes": 301082,
+        "fixed_slot": 303010,
+        "member": 37
+      }
+    ],
+    "other_tim_images_preserved": true,
+    "palettes_preserved": true
+  },
+  "kind": "Taiyo entrance ceremony English v21",
+  "master_sha256": "0fce6eda2082d91af5a963c73fbf80a7935b1ebd5446dff5d01e548370fabe8e",
+  "other_schools_dialogue_preserved": true,
+  "output_sha256": "d48c2aa387a766dc02d3b875e7d78fbcafab1c415c2b1bfda19b0cd413170a74",
+  "source_sha256": "0fce6eda2082d91af5a963c73fbf80a7935b1ebd5446dff5d01e548370fabe8e",
+  "text": {
+    "arena_capacity": 102368,
+    "arena_used": 100908,
+    "compressed_bytes": 225290,
+    "fixed_slot": 225706,
+    "glyph_codes": {
+      " ": 892,
+      "!": 893,
+      "'": 894,
+      "(": 895,
+      ")": 896,
+      ",": 897,
+      "-": 898,
+      ".": 899,
+      "/": 900,
+      "?": 901,
+      "A": 902,
+      "B": 903,
+      "C": 904,
+      "D": 905,
+      "E": 906,
+      "F": 907,
+      "G": 908,
+      "H": 909,
+      "I": 910,
+      "J": 911,
+      "K": 912,
+      "L": 913,
+      "M": 914,
+      "N": 915,
+      "O": 916,
+      "P": 917,
+      "Q": 918,
+      "R": 919,
+      "S": 920,
+      "T": 921,
+      "U": 922,
+      "V": 923,
+      "W": 924,
+      "Y": 925,
+      "Z": 926
+    },
+    "glyph_count": 35,
+    "glyph_start": 892,
+    "other_messages_unchanged": true,
+    "patched_sha256": "6115db2978692aa199129639fc0cf807ca5e14d6a614f546a64b87bfb8c27a55",
+    "protected_controls_preserved": true,
+    "script_unchanged": true,
+    "source_sha256": "61ec57bdb4e7df253f46bb7c5c053abe866e38b033311c06b01c36f950c440d3",
+    "translated_date_entries": 4,
+    "translated_dialogue_entries": 114
+  },
+  "validation_context": {
+    "kind": "full original-disc fixture with only expected master hash substituted in a QA copy",
+    "font": "Liberation Sans Regular",
+    "font_matches_windows_arial": false,
+    "production_master_sha256": "bf79b70fb5d806669fbf48917c634920e1934ff63d82072b9a0a48ab63238fec",
+    "fixture_master_sha256": "0fce6eda2082d91af5a963c73fbf80a7935b1ebd5446dff5d01e548370fabe8e",
+    "full_wrapper_exit_code": 0,
+    "rust_test_passed": true,
+    "final_wrapper_checks_passed": true,
+    "fixture_output_is_actual_v21_windows": false,
+    "fixture_has_earlier_english_layers": false,
+    "all_changed_sectors_inside_three_owned_records": true,
+    "record_readback_and_edc_ecc_passed": true,
+    "input_hashes_preserved": true,
+    "exact_source_restored": true,
+    "wrapper_tests_passed": 8,
+    "visual_preview_checked": true,
+    "actual_v21_windows_built": false,
+    "native_tested": false
+  },
+  "actual_windows_build": {
+    "evidence": "user-supplied complete production build log",
+    "date": "2026-10-28",
+    "rust_test_passed": true,
+    "final_wrapper_checks_passed": true,
+    "output_sha256": "f4a470836cded402c5ec5df041f0023693099761f1a25cd1045690d8bae005f0",
+    "cue": "C:\\Users\\Fluent\\JG2-Recovery-v1\\candidates\\entrance-ceremony-v21-b7a5cc0526a848acbfc2038e1f80067a\\build\\justice-gakuen2-entrance-ceremony-v21.cue",
+    "master_sha256": "bf79b70fb5d806669fbf48917c634920e1934ff63d82072b9a0a48ab63238fec",
+    "font_sha256": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+    "patched_text_record_sha256": "0373879a09b285164f8ac7e4424cfdb8bf466fe09e2b7e40c985563d7de93ed1",
+    "changed_raw_sectors": 1516,
+    "dialogue_compressed_bytes": 225290,
+    "dialogue_fixed_slot": 225706,
+    "arena_used": 100908,
+    "arena_capacity": 102368,
+    "translated_dialogue_entries": 114,
+    "translated_date_entries": 4,
+    "graphics_copies": {
+      "title": 5,
+      "school_gate": 6,
+      "gym": 3
+    },
+    "native_tested": true,
+    "native_validation_scope": "partial: reported ceremony/apology route through entry55; teasing/other player variant not established"
+  },
+  "native_playtest": {
+    "date": "2026-10-28",
+    "evidence": "user report and four supplied gameplay screenshots",
+    "apology_route_reported_english": true,
+    "directly_visible_english_entries": [
+      3,
+      45,
+      55
+    ],
+    "first_remaining_japanese_dialogue_entry": 57,
+    "remaining_location_labels": [
+      {
+        "source": "渡り廊下",
+        "english": "Covered Walkway"
+      },
+      {
+        "source": "プールサイド",
+        "english": "Poolside"
+      }
+    ],
+    "teasing_branch_confirmed": false,
+    "other_player_variant_confirmed": false,
+    "name_insertion_visible": "yellow O or 0 matches HUD name area; intended enrolled name unknown",
+    "name_correctness_confirmed": false
+  }
+}

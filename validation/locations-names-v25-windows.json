@@ -1,0 +1,26 @@
+{
+  "kind": "Actual Windows v25 build console evidence",
+  "source": "User-supplied console log",
+  "input_v24_sha256": "c21d3d0a6ffdfc3d4a666251f450edbc5b68f16b90716101143d2c69e2415e4f",
+  "output_sha256": "5f31d90f089f520d6824add5c5368e10be2607955ad3b9e5c24b73b9aa010453",
+  "changed_raw_sectors": 23126,
+  "rust_test": {
+    "passed": 1,
+    "failed": 0,
+    "seconds": 496.09
+  },
+  "honorific_insertion_strings": 100,
+  "event_banks": 25,
+  "cue": "C:\\Users\\Fluent\\JG2-Recovery-v1\\candidates\\locations-names-v25-8ef409d5d481430d84ba83b3b08c64a1\\build\\justice-gakuen2-locations-names-v25.cue",
+  "report": "C:\\Users\\Fluent\\JG2-Recovery-v1\\candidates\\locations-names-v25-8ef409d5d481430d84ba83b3b08c64a1\\build\\locations-names-v25-report.json",
+  "final_powershell_verification": "passed",
+  "native_gameplay": "pending",
+  "detailed_report_attached": false,
+  "location_counts": "Not present in supplied console summary; do not substitute original-disc fixture counts",
+  "notes": [
+    "Compiler unused-import/dead-code warnings did not prevent successful build.",
+    "Enrolled names and relationship-based name selection reported preserved.",
+    "Matching locations translated; existing English strips preserved.",
+    "Keep v24 until native v25 validation."
+  ]
+}

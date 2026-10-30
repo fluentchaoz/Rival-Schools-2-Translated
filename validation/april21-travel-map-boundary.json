@@ -1,0 +1,22 @@
+{
+  "kind": "Native screenshots: Ran scene and April21 travel map",
+  "source": "User report and two attached screenshots after receiving v26 build",
+  "observed": {
+    "first": "April16, English Ran dialogue, English baseball/status HUD; player-name area reads Makoto in katakana",
+    "second": "April21 school travel map with Japanese location labels and selected Classroom help"
+  },
+  "name_status": "Enrolled family/given/nickname values and HUD selection not established for this run; do not transliterate or overwrite player data without verification",
+  "map_scope": [
+    "Rooftop",
+    "Gym",
+    "Club Building",
+    "Classroom",
+    "Infirmary",
+    "Field"
+  ],
+  "next_batch": "Shared travel maps, destination labels, hover/help text and related daily interfaces; inventory all school variants, not only this frame",
+  "v26_date_narration_validation": "Not established: user skipped the prior text; screenshots do not show the new daily narration/date message",
+  "restart_required_for_identification": false,
+  "source_bank_coordinates": "not yet verified",
+  "new_patch": "not built"
+}

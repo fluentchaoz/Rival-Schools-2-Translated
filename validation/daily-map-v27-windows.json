@@ -1,0 +1,21 @@
+{
+  "kind": "Actual v27 Windows build evidence from user console",
+  "date": "2026-10-30",
+  "output_sha256": "3f5b7630fd3115804c892e75c37213fbfff148b28ed657d0424ecba0614dc34e",
+  "master_sha256": "1a1f3ec2f5ab6abf4730748fd68df9e30cc8db55e43bc85308593986932a1e45",
+  "translated_coordinates": 1631,
+  "custom_coordinates_preserved": 7,
+  "changed_raw_sectors": 5776,
+  "runtime_images": 78,
+  "source_patterns": 21,
+  "map_atlases": 11,
+  "map_labels": 66,
+  "tests_passed": 2,
+  "tests_failed": 0,
+  "seconds": 97.31,
+  "final_powershell_verification": "passed",
+  "cue": "C:\\Users\\Fluent\\JG2-Recovery-v1\\candidates\\daily-map-v27-6a785800303b41728eb938abf8538be4\\build\\justice-gakuen2-daily-map-v27.cue",
+  "native_evidence": "Diary screenshot confirms English BACKUP / SAVE OR LOAD DATA help. Status and Diary menu graphics remain Japanese. Six map destination checks and new enrollment defaults not independently confirmed.",
+  "detailed_report_attached": false,
+  "fallback": "v26"
+}

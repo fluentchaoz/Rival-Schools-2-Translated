@@ -1,0 +1,178 @@
+# Windows recovery validation — 2026-10-25
+
+The user supplied the completed Windows PowerShell transcript for:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\rebuild_quiz_from_original.ps1 -StopAtV16
+```
+
+All 22 stages completed. The 22 `Verified saved build SHA-256` values were
+compared programmatically, in order, with the saved recovery plan; all matched.
+The transcript ends with `V16 RESTORED`, and contains no `RECOVERY STOPPED`.
+
+The reported final BIN SHA-256 is:
+
+`67ad4b9d628d0141493a42b456dfd8ce7631d3e9fdd7b2d387ceb84362127a51`
+
+This is the historical translated v16 hash. The check validates exact image
+reproduction based on the supplied transcript, not an independent read of the
+user's Windows filesystem. No post-recovery gameplay or v17h build was included.
+
+Observed build environment:
+
+- Rust 1.98.0, x86_64-pc-windows-msvc.
+- Pinned upstream `98ca12ddf082d6e2367b2963f76edf5a09242deb`.
+- Original BIN verified as
+  `0fce6eda2082d91af5a963c73fbf80a7935b1ebd5446dff5d01e548370fabe8e`.
+- Installed Arial used by the saved builders.
+- Compiler warnings and PowerShell stderr wrapper entries did not stop the run.
+
+The original recovery kit and plan must remain unchanged when using `-Resume`.
+A subsequent resume run built the separate v17h candidate, recorded below.
+The subsequent user playthrough is recorded below. See
+[RESUME_QUIZ.md](../RESUME_QUIZ.md) for the remaining regression checklist.
+
+## Verified stage outputs
+
+| Stage | Builder | BIN SHA-256 |
+| --- | --- | --- |
+| 1 | `run_batsu_playable_scene1_prototype_v7.ps1` | `d9b1a57313e3714980f4c618aeffb975bb00286bdcdcab1a4a9a0fb24ab850f2` |
+| 2 | `run_quick_translate_mode_select_v4.ps1` | `a8f2c7d4ebc025376a36ba84930dee75e6044632e04677ba1eff8cf6d70f0564` |
+| 3 | `run_translate_school_life_start_menu_v3.ps1` | `fb47236ead2e2052f22c92148613f3de942ed32818ff98236391e742aa85133a` |
+| 4 | `run_road_to_batsu_mgk04_opening_v5.ps1` | `09165121e7141830c8c3027ca2de8c08e82cd624627092d4efde2b8d5fcd453b` |
+| 5 | `run_road_to_batsu_status_hud.ps1` | `167524792e2b3abbb497335637ed3efb75df3e035a173b8cbf0de450c5c22365` |
+| 6 | `run_road_to_batsu_welcome_reflow_v2.ps1` | `75fce33f40e105d7e58026830d92ec1758230996f8a46dbe79b8ba76f166436d` |
+| 7 | `run_road_to_batsu_blue_title.ps1` | `ad068a54820b62bd246538e49776291512b88cab6447127fdd93ee6d4392dec4` |
+| 8 | `build_opening_school_gate_v4_fit.ps1` | `a2e1587b828d5508a5dc99e4e64020d0a16fb4a8d0a569d3e8ddffccff0d98d1` |
+| 9 | `build_dynamic_english_date_pretty_v2.ps1` | `6479176dc1788f64deb933d1a08569c87e677f5d1ba0f3e001567158dc80c91d` |
+| 10 | `build_mgk04_full_tutorial_v3.ps1` | `30cdcc7cdbc1a21818b65272ac50e7baebc245f0505c83d03dfb2c00db713ac4` |
+| 11 | `build_name_entry_ui_english_v5.ps1` | `2fe51561d025cc2ffdface62d1a7e7222a40937bb3b5a97ebc019f8338d43977` |
+| 12 | `build_name_entry_default_az_v6.ps1` | `e3808a7bef6c6529e45b29963895a6e45a26dd7c30b031be928fcdb4fa98a09f` |
+| 13 | `build_name_entry_nickname_default_az_v7.ps1` | `c9eb6cc1c15eb3b65f1aa9e02cee102fbb1bc502483e88950175139720ca48f5` |
+| 14 | `build_name_entry_school_choices_english_v8.ps1` | `07b4dda156ab0eac7f149f66f7bcb9727a8e74fad4faa2d19d77cee362504d84` |
+| 15 | `build_mgk04_welcome_hybrid_palette_v9b.ps1` | `403fe83463e714d2621fd404d1556a31021ff2332c5bb9ea5b3d6a59af330371` |
+| 16 | `build_name_entry_sex_choices_english_v10.ps1` | `16667311e8d4561cc0d5600c59717539d4c07ccd569700c5d2ed6966a557d2d2` |
+| 17 | `build_name_entry_best_subject_english_v11.ps1` | `c282ecaf026a2c09aac8c63307853cd811f313a581904d4ac932828c86071ca0` |
+| 18 | `build_name_entry_favorite_words_english_v12.ps1` | `bcc411d59f5f6a45f6aa8e0c20869ef1d4c4e3f22705f17fc66630b45a7da74b` |
+| 19 | `build_enrollment_completion_sweep_v13.ps1` | `5010cd27250d4a78651f4e481cb8cb648806fbc3e174f83e219e0c48ecb959f2` |
+| 20 | `build_face_customization_sweep_v14.ps1` | `e88b4bdc6faf4aaebb35709efbe5324bb875a2272ec9a3d40b8285ac25041d67` |
+| 21 | `build_mgk10_quiz_english_v15b.ps1` | `4c43c6a02e15bd5d470a649ab17b9ff4905c0c8b63ad77e91ea57afcb38e42c5` |
+| 22 | `build_live_mgk04_quiz_english_v16.ps1` | `67ad4b9d628d0141493a42b456dfd8ce7631d3e9fdd7b2d387ceb84362127a51` |
+
+## Actual v17h Windows candidate — 2026-10-25
+
+The subsequent user-supplied resume output reports a successful build from the
+exact restored v16 image. The build test passed (1 passed, 0 failed) and the
+wrapper completed final-output verification, ending with `V17H CANDIDATE`.
+
+- Output BIN SHA-256: `2ff4d83cca04a22a217883ac9c29b3e2fa9c5c4796d9661db3f95d9acd92149a`.
+- Patched MGBGK04 SHA-256: `f418235d0a1d714ae1d63e88d254ffe42d034db9e3eb54e64892f261b92c5277`.
+- Changed raw sectors: 26.
+- Changed indexed pixels: 35,761.
+- Member 2 compressed size: 86,044 / 86,620 bytes; 576 bytes spare.
+- Current CUE: `C:\Users\Fluent\JG2-Recovery-v1\project\upstream\work\english-quiz-fixed-ui-v17h-e380163248384b70a99130d1193c7368\build\justice-gakuen2-quiz-fixed-ui-v17h.cue`.
+
+Reported palette indices:
+
+| Graphic | Clear | Fill | Outline |
+| --- | --- | --- | --- |
+| CORRECT! | 0 | 1 | None reported |
+| WRONG! | 0 | 2 | None reported |
+| QUESTION | 0 | 14 | 11 |
+| EXAM OVER | 0 | 1 | 15 |
+
+This build evidence comes from the supplied Windows output, not direct access
+to the user's filesystem. The subsequent live report is recorded below.
+
+## User playthrough to post-quiz stat results — 2026-10-25
+
+After the v17h build, the user reported that it worked and that they reached
+the classroom stat-result screen before encountering Japanese. Their screenshot
+shows the English date and `ATK / DEF / STAM / GUTS / POT / INT` HUD with the
+untranslated intelligence-decrease message and native down-arrow.
+
+This supports successful live progression through the visited quiz route to
+that result screen. It does not independently establish every QUESTION,
+correct/wrong, EXAM OVER, timer, and School Gate check or all other routes.
+Continue from v17h while retaining v16 as the recovery fallback.
+
+The standalone read-only probe subsequently completed on the user's Windows PC.
+Its 0.85 MiB private ZIP was received, and all eight extracted records matched
+their manifest hashes. The v18 stat-message record patch and a complete disc
+fixture now pass. The subsequent actual Windows v18 build is recorded below.
+See [STAT_RESULTS_V18.md](../STAT_RESULTS_V18.md). The original recovery kit and
+its hash-bound plan were not modified for this continuation.
+
+
+## Actual v18 Windows candidate — 2026-10-26
+
+The user supplied a successful production run of `build_stat_results_english_v18.ps1`.
+The build test passed (1 passed, 0 failed), and final-output verification completed.
+
+- Output BIN SHA-256: `d720ea2ae3c2c1c52981b0536642b836ec8e2151c6e94b658abdd1a49e094068`.
+- Translated stat messages: 18 (nine increases and nine decreases).
+- Changed raw sectors: 71, confined to MGK04.
+- Compressed MGK04: 206,858 / 207,226 bytes.
+- Current CUE: `C:\Users\Fluent\JG2-Recovery-v1\candidates\stat-results-v18-9cca1bc3a5df467c9c476262aa44900e\build\justice-gakuen2-stat-results-v18.cue`.
+
+The next screenshot shows a Japanese classroom location banner before the quiz,
+not a stat-result message. Native validation of v18's result text remains pending.
+The separate v19 banner patch continues from the exact v18 hash above; see
+[CLASSROOM_LABEL_V19.md](../CLASSROOM_LABEL_V19.md). This transcript establishes
+the user's build result; it is not a direct read of their Windows filesystem.
+
+## Actual v19 Windows candidate and v20 continuation
+
+The user supplied a successful v19 build: one Rust test passed, final checks
+passed, and output SHA-256 was
+`0b378dd421323c6248307013ef185270ea581964d34cd7ab52826eb8b6e412f2`.
+It changed 66 sectors; the classroom member occupied 172,054 / 173,606 bytes.
+This updates the earlier build-pending checkpoint without changing the kit.
+
+The next screenshot shows English CORRECT! with a separate Japanese rating
+popup. It does not independently establish the loaded disc identity or validate
+the classroom banner/stat-result text. Continue with
+[RATING_POPUP_V20.md](../RATING_POPUP_V20.md) from exact v19, retaining all baselines.
+
+## v20 Windows build and April 8 playthrough — 2026-10-28
+
+The production v20 build passed: SHA-256
+`bf79b70fb5d806669fbf48917c634920e1934ff63d82072b9a0a48ab63238fec`,
+13 changed sectors and 86,044 / 86,620 compressed bytes. The user completed
+the quiz and supplied screenshots of the April 8 ceremony card and school
+exterior. Continue with [ENTRANCE_CEREMONY_V21.md](../ENTRANCE_CEREMONY_V21.md).
+The original recovery kit, hash-bound plan, private translation packets, and
+state were not changed for this continuation.
+
+## Actual v21 Windows build passed — 2026-10-28
+
+The user's production v21 run passed one Rust test (0 failures) and every final
+PowerShell output check. Actual BIN SHA-256:
+`f4a470836cded402c5ec5df041f0023693099761f1a25cd1045690d8bae005f0`.
+Changed raw sectors: 1,516. Dialogue compression: 225,290 / 225,706 bytes.
+114 dialogue entries and four dynamic date messages were installed, along with
+five title-card copies, six School Gate copies, and three Gym copies.
+
+CUE to test:
+
+```text
+C:\Users\Fluent\JG2-Recovery-v1\candidates\entrance-ceremony-v21-b7a5cc0526a848acbfc2038e1f80067a\build\justice-gakuen2-entrance-ceremony-v21.cue
+```
+
+Next: boot this CUE fresh, replay the quiz, and check the April 8 title/date,
+Taiyo ceremony dialogue, player-name insertion, both apology/teasing branches,
+Ran's introduction, and transition toward club orientation. Keep v20 until
+that native check passes. The Windows build is verified from the supplied log;
+no v21 gameplay evidence has yet been received. Later club events and other
+schools' ceremony dialogue remain untranslated.
+
+
+## v21 visited route and v22 continuation — 2026-10-28
+
+The user's v21 apology-route playtest reached the untranslated pool conversation
+at selector 0/1 entry 57. The yellow O was probably the enrolled name. The v22
+candidate continues the pool/club/tutorial sequence and adds shared action-menu
+labels, Taiyo help text, and matching location labels. Read
+[POOL_CLUB_V22.md](../POOL_CLUB_V22.md). The original recovery kit/plan/state is
+unchanged. New source, English packet, assembly and inspection tools are committed;
+private exports, fixture images, and rendered game pixels stay out of GitHub.

@@ -1,0 +1,253 @@
+[CmdletBinding()]
+param(
+    [string]$RecoveryRoot = "",
+    [string]$MasterBin = "",
+    [string]$SourceBin = "",
+    [string]$UpstreamRoot = "",
+    [string]$WorkRoot = "",
+    [string]$FontPath = "",
+    [switch]$CheckOnly
+)
+$ErrorActionPreference = "Stop"
+Set-StrictMode -Version Latest
+function FullPath([string]$Path) { return $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($Path) }
+function Hash([string]$Path) { return (Get-FileHash -LiteralPath $Path -Algorithm SHA256).Hash.ToLowerInvariant() }
+function Assert-FreeSpace([string]$OutputPath, [long]$DiscBytes, [string]$TargetPath) {
+    $Budgets = @{}
+    foreach ($Need in @(@{Path=$OutputPath;Bytes=$DiscBytes+32MB},@{Path=$TargetPath;Bytes=4GB})) {
+        $Root = [IO.Path]::GetPathRoot((FullPath $Need.Path))
+        if (-not $Budgets.ContainsKey($Root)) { $Budgets[$Root] = [long]0 }
+        $Budgets[$Root] += [long]$Need.Bytes
+    }
+    foreach ($Root in $Budgets.Keys) {
+        $Drive = [IO.DriveInfo]::new($Root)
+        $Available = [long]$Drive.AvailableFreeSpace
+        Write-Host ("Drive {0}: {1:N2} GiB free; {2:N2} GiB required." -f $Root, ($Available/1GB), ($Budgets[$Root]/1GB))
+        if ($Available -lt $Budgets[$Root]) { throw "Not enough free space. Choose -WorkRoot / CARGO_TARGET_DIR on a roomier drive. No game or source file has been changed." }
+    }
+}
+if (-not $RecoveryRoot) { $RecoveryRoot = Join-Path $env:USERPROFILE "JG2-Recovery-v1" }
+$RecoveryRoot = FullPath $RecoveryRoot
+if (-not $UpstreamRoot) { $UpstreamRoot = Join-Path $RecoveryRoot "project/upstream" }
+$UpstreamRoot = FullPath $UpstreamRoot
+if (-not $SourceBin) { $SourceBin = Join-Path $UpstreamRoot "roms/Shiritsu Justice Gakuen - Nekketsu Seishun Nikki 2 (Japan).bin" }
+if (-not $MasterBin) {
+    $CandidateRoot = Join-Path $RecoveryRoot "candidates"
+    if (Test-Path -LiteralPath $CandidateRoot -PathType Container) {
+        $Folders = @(Get-ChildItem -LiteralPath $CandidateRoot -Directory -Filter "field-trip-dates-v24-*" | Sort-Object LastWriteTimeUtc -Descending)
+        foreach ($Folder in $Folders) {
+            $Candidate = Join-Path $Folder.FullName "build/justice-gakuen2-field-trip-dates-v24.bin"
+            if ((Test-Path -LiteralPath $Candidate -PathType Leaf) -and (Hash $Candidate) -eq "c21d3d0a6ffdfc3d4a666251f450edbc5b68f16b90716101143d2c69e2415e4f") {
+                $MasterBin = $Candidate
+                break
+            }
+        }
+    }
+    if (-not $MasterBin) { throw "No verified v24 candidate found. Pass -MasterBin with the v24 BIN from your successful build." }
+}
+if (-not $FontPath) { $FontPath = "C:\Windows\Fonts\arial.ttf" }
+$FontPath = FullPath $FontPath
+if (-not $WorkRoot) { $WorkRoot = Join-Path $RecoveryRoot ("candidates/locations-names-v25-" + [Guid]::NewGuid().ToString("N")) }
+$SourceBin = FullPath $SourceBin
+$MasterBin = FullPath $MasterBin
+$WorkRoot = FullPath $WorkRoot
+$RustPath = Join-Path $UpstreamRoot "src/dialogue_audit/name_entry_input_tests.rs"
+$ExpectedMasterHash = "c21d3d0a6ffdfc3d4a666251f450edbc5b68f16b90716101143d2c69e2415e4f"
+$ExpectedSourceHash = "0fce6eda2082d91af5a963c73fbf80a7935b1ebd5446dff5d01e548370fabe8e"
+$ExpectedDiscBytes = [long]663216960
+$BuildDir = Join-Path $WorkRoot "build"
+$Backup = Join-Path $WorkRoot "name_entry_input_tests.pre-v25.rs.bak"
+$LogPath = Join-Path $WorkRoot "build-v25.log"
+Write-Host "Justice Gakuen English Project - LOCATIONS AND NAME INSERTIONS ENGLISH v25" -ForegroundColor Cyan
+foreach ($Path in @($RustPath,$SourceBin,$MasterBin,$FontPath,(Join-Path $UpstreamRoot "Cargo.toml"))) {
+    if (-not (Test-Path -LiteralPath $Path -PathType Leaf)) { throw "Missing required file: $Path" }
+}
+if ((Hash $MasterBin) -ne $ExpectedMasterHash) { throw "v24 master hash mismatch. No files changed." }
+if ((Hash $SourceBin) -ne $ExpectedSourceHash) { throw "Original source hash mismatch. No files changed." }
+foreach ($Path in @($MasterBin,$SourceBin)) {
+    if ((Get-Item -LiteralPath $Path).Length -ne $ExpectedDiscBytes) { throw "Disc length mismatch: $Path" }
+}
+if (Test-Path -LiteralPath $WorkRoot) { throw "Output already exists: $WorkRoot. Use a new -WorkRoot; existing work is never replaced." }
+if ($null -eq (Get-Command cargo -ErrorAction SilentlyContinue)) { throw "Cargo is not on PATH. Use the terminal where recovery succeeded." }
+$OriginalFontHash = Hash $FontPath
+$OriginalRust = [IO.File]::ReadAllBytes($RustPath)
+$OriginalRustHash = Hash $RustPath
+if ([IO.File]::ReadAllText($RustPath).Contains("ENGLISH_PROJECT_LOCATIONS_NAMES_V25")) {
+    throw "A previous v25 source injection remains. Restore name_entry_input_tests.pre-v25.rs.bak from that run's candidate folder before retrying."
+}
+$TargetPath = if ($env:CARGO_TARGET_DIR) { FullPath $env:CARGO_TARGET_DIR } else { Join-Path $UpstreamRoot "target" }
+Assert-FreeSpace $WorkRoot $ExpectedDiscBytes $TargetPath
+Write-Host ("v24 input: " + $MasterBin)
+Write-Host "Verified original and v24 images, font, source availability, output ownership, and free space." -ForegroundColor Green
+if ($CheckOnly) { Write-Host "Preflight passed. No files changed." -ForegroundColor Green; return }
+$Rust = @'
+// ENGLISH_PROJECT_CLUB_JOIN_V25
+mod english_locations_names_v25 {
+ use anyhow::{Context,Result,ensure};
+ use std::{fs,path::{Path,PathBuf},collections::{BTreeMap,BTreeSet},io::BufWriter};
+ use serde_json::{json,Value};
+ use super::super::{atlas,tokens};
+ use crate::{pipeline::{sha256_bytes,sha256_file},compression::decompress,disc::rebuild,tim::{Cell,read_indexed_cell_in_prefix,write_indexed_cell_in_prefix,read_4bpp_palette_words_in_prefix,read_8bpp_palette_words_in_prefix,write_8bpp_indexed_cell_in_prefix}};
+ const MASTER_HASH:&str="c21d3d0a6ffdfc3d4a666251f450edbc5b68f16b90716101143d2c69e2415e4f";
+ const SOURCE_HASH:&str="0fce6eda2082d91af5a963c73fbf80a7935b1ebd5446dff5d01e548370fabe8e";
+ const TEXT_HASH:&str="6cda90f63dce4639ab489d5ac69b9448e095f5fc0ceb6b4443bcb7c52ee3276e";
+ const PACKET:&str=r###"PACKET_REPLACE"###;
+ const DIALOGUE:&str="DAT2/MGG04T.BIZ";
+ const BUNDLE:&str="DAT2/MGG04.BZZ";
+ const GRAPHICS:&str="DAT2/MGBGG04.BZZ";
+ const HEADER:&str="DAT2/MGCOCK.TIZ";
+ const MGAME:&str="DAT1/MGAME.BIN";
+ const ARENA:usize=0x31000;
+ const LIMIT:usize=0x4a000;
+ type Banks=Vec<(usize,Vec<Vec<u8>>)>;
+ fn words(b:&[u8])->Vec<u16>{b.chunks_exact(2).map(|p|u16::from_le_bytes([p[0],p[1]])).collect()}
+ fn bytes(mut w:Vec<u16>)->Vec<u8>{if w.len()%2!=0{w.push(0);}w.into_iter().flat_map(u16::to_le_bytes).collect()}
+ fn u32_at(b:&[u8],at:usize)->Result<u32>{Ok(u32::from_le_bytes(b.get(at..at+4).context("truncated u32")?.try_into()?))}
+ fn controls(b:&[u8],fixed:usize,slots:usize)->Result<Vec<(u16,Vec<u16>)>>{
+  Ok(tokens::tokenize_dialogue_message(&words(b),fixed,slots)?.tokens.into_iter().filter(|t|!matches!(t.kind,tokens::DialogueTokenKind::FixedGlyph|tokens::DialogueTokenKind::RuntimeExtensionGlyph|tokens::DialogueTokenKind::LineBreak|tokens::DialogueTokenKind::SkippedCode)).map(|t|(t.code,t.arguments)).collect())
+ }
+ // Native messages are pointer-indexed, end-terminated streams. This reader
+ // accepts shared payloads while retaining exact 4-byte storage alignment.
+ fn pointer_banks(d:&[u8])->Result<Banks>{
+  ensure!(d.len()==0x51800,"decoded extent changed");let mut result=Vec::new();
+  for sel in 0..8{let table=u32_at(d,ARENA+sel*4)?;if table==0{continue;}let table=table.checked_sub(0x800d0000).context("bad table pointer")? as usize;ensure!((ARENA+32..LIMIT).contains(&table)&&table%4==0,"table outside arena");let mut messages=Vec::new();let mut at=table;
+   loop{ensure!(at+4<=LIMIT,"unterminated table");let p=u32_at(d,at)?;at+=4;if p==u32::MAX{break;}let p=p.checked_sub(0x800d0000).context("bad message pointer")? as usize;ensure!((ARENA+32..LIMIT).contains(&p)&&p%4==0,"message outside arena");let mut end=p;
+    loop{ensure!(end+2<=LIMIT,"unterminated message");let code=u16::from_le_bytes(d[end..end+2].try_into()?);end+=2;if code==0x3001{break;}if code==0x3002||code==0x3003||(0x2003..=0x2009).contains(&code){ensure!(end+2<=LIMIT,"missing argument");end+=2;}}
+    let aligned=(end+3)&!3;ensure!(aligned<=LIMIT&&d[end..aligned].iter().all(|b|*b==0),"invalid alignment padding");messages.push(d[p..aligned].to_vec());
+   }result.push((sel,messages));
+  }Ok(result)
+ }
+ fn compact(d:&mut[u8],banks:&Banks)->Result<(usize,usize)>{
+  d[ARENA..LIMIT].fill(0);let mut cursor=ARENA+32;let mut pool=BTreeMap::<Vec<u8>,usize>::new();let mut aliases=0;
+  for(sel,messages)in banks{let mut ptrs=Vec::new();for m in messages{ensure!(!m.is_empty()&&m.len()%4==0,"unaligned message");let p=if let Some(p)=pool.get(m){aliases+=1;*p}else{ensure!(cursor+m.len()<=LIMIT,"message arena overflow");let p=cursor;d[p..p+m.len()].copy_from_slice(m);cursor+=m.len();pool.insert(m.clone(),p);p};ptrs.push(p);}
+   let table=cursor;for p in ptrs{ensure!(cursor+4<=LIMIT,"pointer arena overflow");d[cursor..cursor+4].copy_from_slice(&(0x800d0000+p as u32).to_le_bytes());cursor+=4;}ensure!(cursor+4<=LIMIT,"table terminator overflow");d[cursor..cursor+4].copy_from_slice(&u32::MAX.to_le_bytes());cursor+=4;d[ARENA+sel*4..ARENA+sel*4+4].copy_from_slice(&(0x800d0000+table as u32).to_le_bytes());
+  }
+  ensure!(pointer_banks(d)?==*banks,"shared message readback differs");Ok((cursor-(ARENA+32),aliases))
+ }
+ fn assert_pointer_consumer(mgame:&[u8],source:&[u8])->Result<()>{
+  super::super::script_message_contract::validate_compact_message_opcode_contract(mgame)?;
+  for(off,expected)in [(0xd630,0x96460000u32),(0xd634,0x24023001),(0xd638,0x30c3ffff),(0xd63c,0x106200d2),(0xd640,0x26520002),(0xd974,0x96460000),(0xd978,0x24023001),(0xd97c,0x30c3ffff),(0xd980,0x1462ff35),(0xd984,0x26520002)]{ensure!(u32_at(mgame,off)?==expected&&u32_at(source,off)?==expected,"native end-terminated reader changed");}
+  ensure!(mgame[0xd5d0..0xda00]==source[0xd5d0..0xda00],"native message traversal differs");Ok(())
+ }
+ fn ink(font:&fontdue::Font,text:&str,size:f32)->Result<(usize,usize,Vec<(usize,usize)>)>{
+  let mut pts=Vec::new();let mut cursor=0f32;
+  for c in text.chars(){let(m,p)=font.rasterize(c,size);if c!=' '{ensure!(p.iter().any(|v|*v>=96),"font lacks {c}");}
+   for y in 0..m.height {for x in 0..m.width {if p[y*m.width+x]>=96{pts.push((cursor.round() as i32+m.xmin+x as i32,-m.ymin-m.height as i32+y as i32));}}}cursor+=m.advance_width;
+  }
+  if pts.is_empty(){return Ok((0,0,vec![]));}
+  let minx=pts.iter().map(|p|p.0).min().unwrap();let miny=pts.iter().map(|p|p.1).min().unwrap();
+  let w=(pts.iter().map(|p|p.0).max().unwrap()-minx+1) as usize;let h=(pts.iter().map(|p|p.1).max().unwrap()-miny+1) as usize;
+  Ok((w,h,pts.into_iter().map(|(x,y)|((x-minx) as usize,(y-miny) as usize)).collect()))
+ }
+ fn encode_target(text:&str,source:&[u8],codes:&BTreeMap<char,u16>,at:&atlas::ParsedDialogueAtlas)->Result<Vec<u8>>{
+  let mut protected=controls(source,at.fixed_cell_count,at.addressable_slot_count)?;ensure!(protected.pop()==Some((0x3001,vec![])),"source terminator changed");let mut w=Vec::new();let mut rest=text;let mut next=0;let mut lines=1;let mut columns=0;
+  while !rest.is_empty(){if rest.starts_with('{'){let end=rest.find('}').context("unclosed control placeholder")?;let id=rest[1..end].parse::<usize>()?;ensure!(id==next&&id<protected.len(),"control placeholder order/count");let(code,args)=&protected[id];w.push(*code);w.extend(args);if (0x2000..=0x2009).contains(code){columns+=6;}next+=1;rest=&rest[end+1..];
+   }else{let c=rest.chars().next().unwrap();rest=&rest[c.len_utf8()..];if c=='\n'{ensure!(columns<=20,"line wider than 20 cells");lines+=1;columns=0;w.push(0x3000);}else{ensure!(c.is_ascii(),"non-ASCII translation");w.push(*codes.get(&c).with_context(||format!("missing ASCII glyph {c}"))?);columns+=1;}}
+  }
+  ensure!(next==protected.len(),"missing protected control placeholder");ensure!(columns<=20&&lines<=4,"translation exceeds native window");w.push(0x3001);let result=bytes(w);ensure!(controls(&result,at.fixed_cell_count,at.addressable_slot_count)?==controls(source,at.fixed_cell_count,at.addressable_slot_count)?,"protected controls changed");Ok(result)
+ }
+ fn chars_of(text:&str,set:&mut BTreeSet<char>)->Result<()>{let mut rest=text;while !rest.is_empty(){if rest.starts_with('{'){let end=rest.find('}').context("unclosed placeholder")?;rest=&rest[end+1..];}else{let c=rest.chars().next().unwrap();rest=&rest[c.len_utf8()..];if c!='\n'{ensure!(c.is_ascii(),"non-ASCII");set.insert(c);}}}Ok(())}
+ fn patch_text(current:&[u8],font:&fontdue::Font)->Result<(Vec<u8>,Vec<u8>,Value)>{
+  ensure!(sha256_bytes(current)==TEXT_HASH,"v22 Taiyo text identity changed");let before=decompress(current,true)?;let at=atlas::parse_dialogue_atlas(&before)?;let banks=pointer_banks(&before)?;let mut wanted=banks.clone();
+  let packet:Value=serde_json::from_str(PACKET)?;let entries=packet["entries"].as_array().context("entries")?;ensure!(entries.len()==215,"translation population");let mut translations=BTreeMap::new();for sel in [0usize,1]{for e in entries{let i=e["index"].as_u64().context("index")? as usize;ensure!((348..=562).contains(&i),"entry outside scope");let key=format!("{sel}:{i}");let text=packet["overrides"][&key].as_str().or_else(||e["text"].as_str()).context("text")?.to_owned();ensure!(translations.insert((sel,i),text).is_none(),"duplicate coordinate");}}
+  ensure!(translations.len()==430,"target count");
+  let mut codes=" !'(),-./?ABCDEFGHIJKLMNOPQRSTUVWYZ".chars().enumerate().map(|(i,c)|(c,892+i as u16)).collect::<BTreeMap<_,_>>();codes.extend([(':',927),('>',928),('X',929)]);ensure!(codes.len()==38&&codes[&'X']==929,"v22 glyph mapping");
+  for(&c,&code)in &codes{let p=at.pixel_data_offset+code as usize*200;ensure!(p+200<=ARENA,"existing glyph outside atlas");ensure!(before[p..p+200].iter().any(|b|*b!=0)||c==' ',"v21 ASCII glyph missing");}
+  let mut chars=BTreeSet::new();for text in translations.values(){chars_of(text,&mut chars)?;}let mut first=at.fixed_cell_count;let mut used=BTreeSet::new();for(_,ms)in &banks{for m in ms{for t in tokens::tokenize_dialogue_message(&words(m),at.fixed_cell_count,at.addressable_slot_count)?.tokens{if matches!(t.kind,tokens::DialogueTokenKind::FixedGlyph|tokens::DialogueTokenKind::RuntimeExtensionGlyph){used.insert(t.code as usize);}}}}
+  for i in 0..at.addressable_slot_count{if used.contains(&i)||before[at.pixel_data_offset+i*200..at.pixel_data_offset+(i+1)*200].iter().any(|b|*b!=0){first=first.max(i+1);}}
+  let mut after=before.clone();let mut next=first;for c in chars{if codes.contains_key(&c){continue;}ensure!(next<at.addressable_slot_count,"new glyph capacity");let(w,h,pts)=ink(font,&c.to_string(),14.0)?;ensure!(w<=18&&h<=18,"glyph bounds");let mut pix=vec![0u8;400];let dx=(20-w)/2;let dy=(20-h)/2;for &(x,y)in &pts{for yy in (y+dy).saturating_sub(1)..=(y+dy+1).min(19){for xx in (x+dx).saturating_sub(1)..=(x+dx+1).min(19){pix[yy*20+xx]=4;}}}for(x,y)in pts{pix[(y+dy)*20+x+dx]=14;}let p=at.pixel_data_offset+next*200;ensure!(after[p..p+200].iter().all(|b|*b==0),"glyph slot used");for(i,pair)in pix.chunks_exact(2).enumerate(){after[p+i]=pair[0]|pair[1]<<4;}codes.insert(c,next as u16);next+=1;}
+  for(&(sel,i),text)in &translations{let ms=&mut wanted.iter_mut().find(|(s,_)|*s==sel).context("selector")?.1;let old=ms.get(i).context("message")?;
+   ms[i]=encode_target(text,old,&codes,&at).with_context(||format!("selector {sel} entry {i}"))?;
+  }
+  let naive=wanted.iter().map(|(_,ms)|ms.iter().map(Vec::len).sum::<usize>()+(ms.len()+1)*4).sum::<usize>();let(used_bytes,aliases)=compact(&mut after,&wanted)?;ensure!(aliases>0,"no shared payloads");
+  let parsed=pointer_banks(&after)?;ensure!(parsed==wanted,"compacted readback");for((sel,ms),(_,original))in parsed.iter().zip(&banks){for(i,m)in ms.iter().enumerate(){tokens::tokenize_dialogue_message(&words(m),at.fixed_cell_count,at.addressable_slot_count)?;if !translations.contains_key(&(*sel,i)){ensure!(m==&original[i],"earlier or unrelated message changed");}}}
+  let lo=at.pixel_data_offset+first*200;let hi=at.pixel_data_offset+next*200;ensure!(before.iter().zip(&after).enumerate().all(|(i,(a,b))|a==b||(lo..hi).contains(&i)||(ARENA..LIMIT).contains(&i)),"text change outside ownership");
+  let profile=crate::paged_compression::source_paged_compression_profile(current)?;let mut stored=crate::paged_compression::compress_page_safe_image_in_slot(&after,profile,current.len())?;let length=stored.len();ensure!(decompress(&stored,false)?==after,"text compression roundtrip");stored.resize(current.len(),0);ensure!(decompress(&stored,true)?==after,"padded text roundtrip");
+  let report=json!({"translated_story_entries":430,"new_glyph_start":first,"new_glyph_count":next-first,"glyph_codes":codes,"arena_used_bytes":used_bytes,"arena_capacity_bytes":LIMIT-ARENA-32,"unshared_arena_bytes":naive,"shared_message_references":aliases,"deduplicated_bytes":naive-used_bytes,"compressed_bytes":length,"fixed_slot":current.len(),"input_sha256":TEXT_HASH,"patched_sha256":sha256_bytes(&stored),"earlier_and_untargeted_payloads_preserved":true,"scripts_preserved":true,"protected_controls_preserved":true,"native_pointer_readback_verified":true});Ok((stored,after,report))
+ }
+ fn canvas(font:&fontdue::Font,text:&str,width:usize,height:usize,fill:u8,outline:u8)->Result<Vec<u8>>{
+  for size in [16.0f32,15.0,14.0,13.0,12.0,11.0,10.0,9.0]{let(w,h,pts)=ink(font,text,size)?;if w+2>width||h+2>height{continue;}let dx=(width-w)/2;let dy=(height-h)/2;let mut pix=vec![0u8;width*height];for &(x,y)in &pts{for yy in y+dy-1..=y+dy+1{for xx in x+dx-1..=x+dx+1{pix[yy*width+xx]=outline;}}}for(x,y)in pts{pix[(y+dy)*width+x+dx]=fill;}return Ok(pix);}anyhow::bail!("{text} does not fit")
+ }
+ fn rgba_png(path:&Path,pix:&[u8],w:usize,h:usize,pal:&[u16])->Result<()>{let mut rgba=Vec::new();for &i in pix{let p=pal[i as usize];for s in [0,5,10]{rgba.push((((p>>s)&31)*255/31)as u8);}rgba.push(if i==0{0}else{255});}let mut e=png::Encoder::new(BufWriter::new(fs::File::create(path)?),w as u32,h as u32);e.set_color(png::ColorType::Rgba);e.set_depth(png::BitDepth::Eight);e.write_header()?.write_image_data(&rgba)?;Ok(())}
+ fn nearest(pal:&[u16],rgb:[i32;3])->u8{(0..pal.len()).min_by_key(|&i|[0,5,10].iter().enumerate().map(|(c,s)|(((pal[i]>>s)&31)as i32*255/31-rgb[c]).pow(2)).sum::<i32>()).unwrap()as u8}
+
+ const BACKGROUNDS:&[&str]=&["DAT2/MGBGC00.BZZ", "DAT2/MGBGE03.BZZ", "DAT2/MGBGF02.BZZ", "DAT2/MGBGG04.BZZ", "DAT2/MGBGG06.BZZ", "DAT2/MGBGG08.BZZ", "DAT2/MGBGG09.BZZ", "DAT2/MGBGG11.BZZ", "DAT2/MGBGK01.BZZ", "DAT2/MGBGK02.BZZ", "DAT2/MGBGK03.BZZ", "DAT2/MGBGK04.BZZ", "DAT2/MGBGK05.BZZ", "DAT2/MGBGK07.BZZ", "DAT2/MGBGK08.BZZ", "DAT2/MGBGK09.BZZ", "DAT2/MGBGK10.BZZ", "DAT2/MGBGK12.BZZ", "DAT2/MGBGM01.BZZ", "DAT2/MGBGM02.BZZ", "DAT2/MGBGM04.BZZ", "DAT2/MGBGM05.BZZ", "DAT2/MGBGM06.BZZ", "DAT2/MGBGM07.BZZ", "DAT2/MGBGM08.BZZ", "DAT2/MGBGM09.BZZ", "DAT2/MGBGM10.BZZ", "DAT2/MGBGM11.BZZ", "DAT2/MGBGM12.BZZ", "DAT2/MGBGT00.BZZ", "DAT2/MGBGT01.BZZ", "DAT2/MGBGT02.BZZ", "DAT2/MGBGT03.BZZ", "DAT2/MGBGT04.BZZ", "DAT2/MGBGT05.BZZ", "DAT2/MGBGT06.BZZ", "DAT2/MGBGT07.BZZ", "DAT2/MGBGT08.BZZ", "DAT2/MGBGT09.BZZ", "DAT2/MGBGT0A.BZZ", "DAT2/MGBGT0B.BZZ", "DAT2/MGBGT0C.BZZ", "DAT2/MGBGT0D.BZZ", "DAT2/MGBGT0F.BZZ", "DAT2/MGBGT10.BZZ", "DAT2/MGBGT11.BZZ", "DAT2/MGBGT12.BZZ", "DAT2/MGBGT13.BZZ"];
+
+ fn suffixes(current:&[u8],original:&[u8])->Result<(Vec<u8>,Value)>{let before=decompress(current,true)?;let source=decompress(original,true)?;let src=pointer_banks(&source)?;let mut bs=pointer_banks(&before)?;let old=bs.clone();let ms=&mut bs.iter_mut().find(|(s,_)|*s==2).context("runtime insertion bank missing")?.1;let originals=&src.iter().find(|(s,_)|*s==2).context("original insertion bank missing")?.1;
+ for i in 5..=8{ensure!(ms[i]==originals[i],"honorific source already changed at {i}");let w=words(&ms[i]);ensure!(w.iter().any(|c|*c!=0&&*c!=0x3001)&&w.contains(&0x3001),"honorific source empty");ms[i]=bytes(vec![0x3001]);}let mut after=before.clone();let(used,aliases)=compact(&mut after,&bs)?;for((sel,ms),(_,prior))in bs.iter().zip(&old){for(i,m)in ms.iter().enumerate(){if *sel!=2||!(5..=8).contains(&i){ensure!(m==&prior[i],"unrelated payload changed");}}}ensure!(after[..ARENA]==before[..ARENA]&&after[LIMIT..]==before[LIMIT..],"font/scripts changed");let profile=crate::paged_compression::source_paged_compression_profile(current)?;let mut stored=crate::paged_compression::compress_page_safe_image_in_slot(&after,profile,current.len())?;let length=stored.len();stored.resize(current.len(),0);ensure!(decompress(&stored,true)?==after,"suffix compressed readback");Ok((stored,json!({"honorific_entries":4,"selector":2,"entries":[5,6,7,8],"replacement":"empty end-terminated insertion","compressed_bytes":length,"fixed_slot":current.len(),"arena_used":used,"aliases":aliases,"name_buffers_relationship_controls_fonts_scripts_preserved":true}))) }
+ fn patterns(source:&[u8])->Result<Vec<(String,Vec<u8>)>>{let slots=crate::tzz::parse_tzz(source)?;let specs=[(0,0x1c000,"SCHOOL GATE"),(1,0,"GYM"),(2,0,"WALKWAY"),(3,0,"POOLSIDE"),(3,0xf800,"CLUB BUILDING"),(4,0,"CLUB BUILDING"),(5,0,"FIELD"),(6,0,"GYM"),(7,0,"FIELD"),(8,0,"SUMO ROOM"),(9,0,"CLASSROOM"),(10,0,"CLASSROOM"),(11,0,"GYM"),(12,0,"CLASSROOM"),(13,0,"CLASSROOM"),(14,0x1c000,"SCHOOL GATE"),(14,0x2b800,"SCHOOL GATE"),(15,0,"PLAZA"),(16,0,"PLAZA"),(16,0xf800,"RIDE ENTRANCE"),(16,0x1f000,"POND"),(17,0,"PLAZA"),(18,0,"RIDE ENTRANCE"),(19,0,"PLAZA"),(20,0,"ARCADE"),(21,0,"PLAZA"),(21,0xf800,"RIDE ENTRANCE"),(21,0x1f000,"POND"),(26,0x1c000,"NEIGHBORHOOD"),(30,0x1c000,"NEIGHBORHOOD"),(31,0xf800,"ROOFTOP"),(35,0,"ROOFTOP")];let mut result=Vec::new();for(member,off,label)in specs{let d=decompress(&source[slots[member].compressed_range()],true)?;let pix=crate::tim::read_8bpp_indexed_cell_in_prefix(&d,off,Cell{x:0,y:220,width:128,height:24})?;if let Some((name,_))=result.iter().find(|(_,p)|*p==pix){ensure!(*name==label,"ambiguous location pixels");}else{result.push((label.to_string(),pix));}}Ok(result)}
+ fn locations(current:&[u8],source:&[u8],patterns:&[(String,Vec<u8>)],font:&fontdue::Font)->Result<(Vec<u8>,Value)>{let slots=crate::tzz::parse_tzz(current)?;ensure!(slots==crate::tzz::parse_tzz(source)?,"background table changed");let mut archive=current.to_vec();let mut counts=BTreeMap::<String,usize>::new();let mut reports=Vec::new();for slot in &slots{let original=decompress(&source[slot.compressed_range()],true)?;let stored=&current[slot.compressed_range()];let before=decompress(stored,true)?;let mut after=before.clone();let mut allowed=Vec::new();for tim in crate::embedded_tim::detect_embedded_tim_images(&original){if tim.bits_per_pixel!=8||tim.pixel_width!=256||tim.pixel_height!=244{continue;}let cell=Cell{x:0,y:220,width:128,height:24};let old=crate::tim::read_8bpp_indexed_cell_in_prefix(&original,tim.offset,cell)?;let Some((name,_))=patterns.iter().find(|(_,p)|*p==old)else{continue;};let now=crate::tim::read_8bpp_indexed_cell_in_prefix(&before,tim.offset,cell)?;if now!=old{continue;}let pal=read_8bpp_palette_words_in_prefix(&before,tim.offset,0)?;ensure!(pal==read_8bpp_palette_words_in_prefix(&original,tim.offset,0)?,"location palette changed");let text=canvas(font,name,76,22,nearest(&pal,[255,255,255]),nearest(&pal,[25,25,25]))?;let mut pix=vec![0u8;128*24];for y in 0..22{pix[(y+1)*128+4..(y+1)*128+80].copy_from_slice(&text[y*76..y*76+76]);}allowed.extend(crate::tim::write_8bpp_indexed_cell_in_prefix(&mut after,tim.offset,cell,&pix)?);*counts.entry(name.clone()).or_default()+=1;}if after==before{continue;}ensure!(before.iter().zip(&after).enumerate().all(|(i,(a,b))|a==b||allowed.iter().any(|r|i>=r[0]&&i<r[1])),"change outside location strips");let profile=crate::paged_compression::source_paged_compression_profile(stored)?;let prefix=before.iter().zip(&after).take_while(|(a,b)|a==b).count()&!1;let(encoded,_)=crate::paged_compression::compress_on_source_final_page_with_preserved_prefix(&after,stored,profile,prefix)?;ensure!(encoded.len()<=slot.compressed_size,"location compression exceeds slot {}",slot.index);let length=encoded.len();let mut padded=encoded;padded.resize(slot.compressed_size,0);ensure!(decompress(&padded,true)?==after,"location compression readback");archive[slot.compressed_range()].copy_from_slice(&padded);reports.push(json!({"member":slot.index,"compressed_bytes":length,"fixed_slot":slot.compressed_size}));}Ok((archive,json!({"copies":counts,"members":reports,"all_other_pixels_palettes_and_headers_preserved":true}))) }
+ fn run()->Result<()>{let master=PathBuf::from(std::env::var("JG2_V25_MASTER")?);let source=PathBuf::from(std::env::var("JG2_V25_SOURCE")?);let out=PathBuf::from(std::env::var("JG2_V25_OUTPUT")?);ensure!(sha256_file(&master)?==MASTER_HASH&&sha256_file(&source)?==SOURCE_HASH,"disc identity mismatch");ensure!(!out.exists(),"output exists");fs::create_dir_all(&out)?;let fontbytes=fs::read(std::env::var("JG2_V25_FONT")?)?;let font=fontdue::Font::from_bytes(fontbytes.clone(),fontdue::FontSettings::default()).unwrap();assert_pointer_consumer(&rebuild::read_record(&master,MGAME)?.1,&rebuild::read_record(&source,MGAME)?.1)?;let pats=patterns(&rebuild::read_record(&source,"DAT2/MGBGG04.BZZ")?.1)?;let mut replacements=BTreeMap::<String,Vec<u8>>::new();let mut text_reports=Vec::new();for month in ["04","06","08","09","11"]{let bp=format!("DAT2/MGG{month}.BZZ");let mut bundle=rebuild::read_record(&master,&bp)?.1;let slots=crate::tzz::parse_tzz(&bundle)?;ensure!(slots.len()==5,"school bundle geometry");for(school,slot)in ["T","O","P","G","J"].into_iter().zip(slots){let path=format!("DAT2/MGG{month}{school}.BIZ");eprintln!("Localizing name insertions: {path}");let current=rebuild::read_record(&master,&path)?.1;ensure!(bundle[slot.compressed_range()]==current,"school bundle binding");let(data,report)=suffixes(&current,&rebuild::read_record(&source,&path)?.1)?;bundle[slot.compressed_range()].copy_from_slice(&data);replacements.insert(path.clone(),data);text_reports.push(json!({"path":path,"report":report}));}replacements.insert(bp,bundle);}
+ let mut graphics=Vec::new();for path in BACKGROUNDS{eprintln!("Checking locations: {path}");let current=rebuild::read_record(&master,path)?.1;let(data,report)=locations(&current,&rebuild::read_record(&source,path)?.1,&pats,&font)?;if data!=current{replacements.insert((*path).into(),data);graphics.push(json!({"path":path,"report":report}));}}
+ let bin=out.join("justice-gakuen2-locations-names-v25.bin");let repl=replacements.iter().map(|(p,d)|rebuild::FixedRecordReplacement{path:p,data:d}).collect::<Vec<_>>();let replaced=rebuild::copy_and_replace_records(&master,&bin,&repl)?;for r in &repl{ensure!(rebuild::read_record(&bin,r.path)?.1==r.data,"record readback failed");}let allowed=replaced.iter().flat_map(|r|r.target_lbas.iter().copied()).collect::<BTreeSet<_>>();let(changed,hash)=rebuild::compare_and_hash_images(&master,&bin)?;ensure!(!changed.is_empty()&&changed.iter().all(|l|allowed.contains(l)),"sector scope");let mut track=crate::disc::RawTrack::open(&bin)?;for l in &changed{ensure!(crate::disc::mode2::verify(&track.raw_sector(*l)?),"sector checksum");}ensure!(sha256_file(&master)?==MASTER_HASH&&sha256_file(&source)?==SOURCE_HASH,"input changed");let cue=bin.with_extension("cue");fs::write(&cue,"FILE \"justice-gakuen2-locations-names-v25.bin\" BINARY\r\n  TRACK 01 MODE2/2352\r\n    INDEX 01 00:00:00\r\n")?;let report=json!({"output_sha256":hash,"cue":cue,"changed_sector_count":changed.len(),"font_sha256":sha256_bytes(&fontbytes),"honorific_entries":100,"event_banks":25,"name_selection_and_enrolled_names_preserved":true,"text":text_reports,"graphics":graphics});fs::write(out.join("locations-names-v25-report.json"),serde_json::to_vec_pretty(&report)?)?;Ok(())}
+ #[test] fn english_project_locations_names_v25()->Result<()>{std::thread::Builder::new().stack_size(64*1024*1024).spawn(run)?.join().unwrap()}
+}
+
+'@
+$SavedEnvironment = @{}
+foreach ($Name in @("CARGO_HOME","CARGO_TARGET_DIR","RUSTUP_TOOLCHAIN","JG2_V25_MASTER","JG2_V25_SOURCE","JG2_V25_OUTPUT","JG2_V25_FONT")) {
+    $SavedEnvironment[$Name] = [Environment]::GetEnvironmentVariable($Name,"Process")
+}
+[IO.Directory]::CreateDirectory($WorkRoot) | Out-Null
+$BackupStream = [IO.File]::Open($Backup,[IO.FileMode]::CreateNew,[IO.FileAccess]::Write,[IO.FileShare]::None)
+try { $BackupStream.Write($OriginalRust,0,$OriginalRust.Length) } finally { $BackupStream.Dispose() }
+if ((Hash $Backup) -ne $OriginalRustHash) { throw "Source backup verification failed; source was not edited." }
+Write-Host ("Exact source backup: " + $Backup)
+$Utf8 = [Text.UTF8Encoding]::new($false)
+$Append = $Utf8.GetBytes("`n" + $Rust + "`n")
+$Injected = New-Object byte[] ($OriginalRust.Length + $Append.Length)
+[Array]::Copy($OriginalRust,0,$Injected,0,$OriginalRust.Length)
+[Array]::Copy($Append,0,$Injected,$OriginalRust.Length,$Append.Length)
+try {
+    if (-not $env:CARGO_HOME -and (Test-Path -LiteralPath (Join-Path $RecoveryRoot "cargo-cache") -PathType Container)) {
+        $env:CARGO_HOME = Join-Path $RecoveryRoot "cargo-cache"
+    }
+    $env:CARGO_TARGET_DIR = $TargetPath
+    $env:RUSTUP_TOOLCHAIN = "1.98.0"
+    $env:JG2_V25_MASTER = $MasterBin
+    $env:JG2_V25_SOURCE = $SourceBin
+    $env:JG2_V25_OUTPUT = $BuildDir
+    $env:JG2_V25_FONT = $FontPath
+    [IO.File]::WriteAllBytes($RustPath,$Injected)
+    Write-Host "Building the pool/club dialogue, daily menu, and location labels..." -ForegroundColor Cyan
+    Push-Location $UpstreamRoot
+    try {
+        $SavedPreference = $ErrorActionPreference
+        try {
+            $ErrorActionPreference = "Continue"
+            & cargo test --locked --lib english_project_locations_names_v25 -- --nocapture 2>&1 | Tee-Object -FilePath $LogPath | ForEach-Object { Write-Host $_ }
+            $CargoExit = $LASTEXITCODE
+        } finally { $ErrorActionPreference = $SavedPreference }
+        if ($CargoExit -ne 0) { throw "v25 build failed with exit code $CargoExit. Keep $LogPath for diagnosis." }
+    } finally { Pop-Location }
+} finally {
+    try {
+        [IO.File]::WriteAllBytes($RustPath,$OriginalRust)
+        if ((Hash $RustPath) -ne $OriginalRustHash) { throw "Source restoration failed. The exact backup is $Backup" }
+    } finally {
+        foreach ($Name in $SavedEnvironment.Keys) { [Environment]::SetEnvironmentVariable($Name,$SavedEnvironment[$Name],"Process") }
+    }
+}
+$ReportPath = Join-Path $BuildDir "locations-names-v25-report.json"
+$OutputBin = Join-Path $BuildDir "justice-gakuen2-locations-names-v25.bin"
+$OutputCue = [IO.Path]::ChangeExtension($OutputBin,".cue")
+$Preview = Join-Path $BuildDir "club-baseball-palette4-v25.png"
+foreach ($Path in @($ReportPath,$OutputBin,$OutputCue)) {
+    if (-not (Test-Path -LiteralPath $Path -PathType Leaf)) { throw "Build did not produce required output: $Path" }
+}
+$Report = Get-Content -LiteralPath $ReportPath -Raw | ConvertFrom-Json
+if ($Report.honorific_entries -ne 100 -or $Report.event_banks -ne 25 -or -not $Report.name_selection_and_enrolled_names_preserved) { throw "Final report scope verification failed." }
+if ((Get-Item -LiteralPath $OutputBin).Length -ne $ExpectedDiscBytes -or (Hash $OutputBin) -ne $Report.output_sha256) { throw "Final output length/hash differs from the build report." }
+if ((Hash $FontPath) -ne $OriginalFontHash -or $Report.font_sha256 -ne $OriginalFontHash) { throw "Font identity changed during the build." }
+if ((Hash $MasterBin) -ne $ExpectedMasterHash -or (Hash $SourceBin) -ne $ExpectedSourceHash) { throw "An input image changed during the build." }
+Write-Host ""
+Write-Host "LOCATIONS AND NAME INSERTIONS ENGLISH v25 CANDIDATE BUILT" -ForegroundColor Green
+Write-Host ("Output BIN SHA-256: " + $Report.output_sha256)
+Write-Host ("Changed raw sectors: " + $Report.changed_sector_count)
+Write-Host "100 honorific insertion strings localized across 25 event banks."
+Write-Host "Enrolled names and relationship-based name selection preserved."
+Write-Host "Matching location labels translated; existing English strips preserved."
+Write-Host ("CUE TO TEST: " + $OutputCue) -ForegroundColor Yellow
+Write-Host ("REPORT: " + $ReportPath)
+Write-Host "Keep v24. Boot the new CUE fresh and check School Gate, Plaza, and Hinata/Ran addressing your name."
+Write-Host "Unmatched location graphics and other scene banks may still contain Japanese."

@@ -1,0 +1,76 @@
+{
+  "changed_indexed_pixels": 3176,
+  "classroom_and_school_gate_preserved": true,
+  "clear_index": 0,
+  "compressed_bytes": 86044,
+  "english_text": "RATING UP",
+  "fill_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "fixed_compressed_slot": 86620,
+  "font_px": 18.0,
+  "font_sha256": "76d04c18ea243f426b7de1f3ad208e927008f961dc5945e5aad352d0dfde8ee8",
+  "ink_bounds": [
+    666,
+    85,
+    766,
+    115
+  ],
+  "input_archive_sha256": "6f800a5e4c9d6c723a5dd18e3cf5205b6650622bfc8b8f374da680119696fc89",
+  "input_member_sha256": "43c6bdd2a2f3af4735dcd56a32a0de124db7f60dcd978ee7e48008eac85201a2",
+  "kind": "Justice Gakuen 2 rating popup English v20",
+  "member_index": 2,
+  "native_compression_contract_preserved": true,
+  "outline_index": 13,
+  "palettes_and_other_quiz_pixels_preserved": true,
+  "patched_archive_sha256": "127e977ddf8b0f3c9f837a799c8718fe0f8700f6b29fee665f8438beaf7ff5f0",
+  "patched_label_sha256": "878967a7f7c1065b1724df8b34aa238fddc62656cc60adb9e0935bab86460e36",
+  "patched_member_decoded_sha256": "1ddb255cd8dadcb04b810df0fbff3599923c4140262dcbd0a766e32e36e94ef9",
+  "record_path": "DAT2/MGBGK04.BZZ",
+  "source_archive_sha256": "c45932c3ae22706250f3db1c000d9f8911a475083bd74e485c6daebbb3167558",
+  "source_label_sha256": "b5b7325fb915bbafe780bb3c18b0e1716fb5701ff3e01cad8c95ae866d418795",
+  "tim_offset": 57344,
+  "vertical_scale": 2,
+  "validation_context": {
+    "record_fixture": "original archive with reconstructed v17h member2 and opaque preservation sentinels in members0/1",
+    "font": "Liberation Sans Regular",
+    "font_matches_windows_arial": false,
+    "wrapper_tests_passed": 8,
+    "full_disc_fixture_passed": true,
+    "fixture_changed_raw_sectors": 13,
+    "fixture_output_sha256": "6f55823bef78cd8ae9ac3d2577c9795d3ab0e11dcc3aad902c88a94266acd01f",
+    "full_disc_fixture": "verified original disc plus reconstructed v17h member2; sentinel members0/1; unchanged original MGK04 text",
+    "temporary_fixture_substitutions": [
+      "expected master image hash",
+      "expected MGK04 text record hash"
+    ],
+    "production_guards_unchanged": true,
+    "exact_source_restoration_passed": true,
+    "actual_windows_v20_built": false,
+    "native_tested": false
+  },
+  "actual_windows_build": {
+    "passed": true,
+    "output_sha256": "bf79b70fb5d806669fbf48917c634920e1934ff63d82072b9a0a48ab63238fec",
+    "changed_raw_sectors": 13,
+    "compressed_bytes": 86044,
+    "fixed_slot": 86620,
+    "font_px": 18
+  },
+  "user_playthrough": {
+    "completed_quiz": true,
+    "reached_april_8_ceremony": true,
+    "all_quiz_branches_enumerated": false
+  }
+}
