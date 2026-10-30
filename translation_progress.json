@@ -3,11 +3,12 @@
   "scope": "SLPS-02120 whole disc; School Life first",
   "roadmap": "TRANSLATION_ROADMAP.md",
   "current_candidate": {
-    "version": "v25",
-    "sha256": "5f31d90f089f520d6824add5c5368e10be2607955ad3b9e5c24b73b9aa010453",
-    "windows_build": "passed",
-    "native_evidence": "User reports Ran invitation/ride through April21; individual location and suffix checks not separately confirmed",
-    "fallback": "v24"
+    "version": "v26",
+    "sha256": "1a1f3ec2f5ab6abf4730748fd68df9e30cc8db55e43bc85308593986932a1e45",
+    "cue": "C:\\Users\\Fluent\\JG2-Recovery-v1\\candidates\\shared-dates-v26-2134c53e3efb491dab5a7c41617964e8\\build\\justice-gakuen2-shared-dates-v26.cue",
+    "windows_build": "passed; 2 tests, 0 failures, 93.82s; final verification passed",
+    "native_evidence": "pending",
+    "fallback": "v25"
   },
   "overall_translation_percentage": null,
   "percentage_reason": "Original-source inventory measured; current English build coverage and reachable surface denominator not fully audited",
@@ -34,12 +35,14 @@
       "drafted_patterns": 46,
       "source_read_patterns": 46,
       "renderer_fitted_patterns": 46,
-      "current_english_conflicts_reconciled": false,
-      "build": "original-disc fixture passed; actual Windows v25 build pending",
+      "current_english_conflicts_reconciled": true,
+      "build": "actual Windows v25-to-v26 build passed",
       "native_test": "pending",
-      "next": "Download private v26 input ZIP, run standalone builder against actual v25, fresh-boot candidate and check April21 / seasonal / prior-event text",
+      "next": "Fresh-boot v26 and check April21, seasonal/exam notice and prior English event; native evidence pending",
       "packet_storage": "private JG2-Shared-Dates-v26-Inputs.zip",
-      "conflict_handling": "Runtime classifier implemented and mixed-content regression passed; actual v25 accounting pending"
+      "conflict_handling": "Actual run retained 14 custom payloads; 4822 other coordinates translated. Individual retained identities not supplied in console.",
+      "translated_coordinates": 4822,
+      "custom_coordinates_preserved": 14
     },
     {
       "id": "B02",
@@ -76,11 +79,10 @@
   "private_checkpoint": "JG2-Shared-Dates-v26-Inputs.zip",
   "next_candidate": {
     "version": "v26",
-    "status": "ready for actual Windows build",
-    "builder": "build_shared_dates_english_v26.ps1",
+    "status": "actual Windows build passed; native testing pending",
     "instructions": "SHARED_DATES_V26.md",
     "required_private_input": "JG2-Shared-Dates-v26-Inputs.zip",
-    "actual_output_sha256": null
+    "actual_output_sha256": "1a1f3ec2f5ab6abf4730748fd68df9e30cc8db55e43bc85308593986932a1e45"
   },
   "foundation_checkpoint": "JG2-Mainline-Foundation-Batch01.zip"
 }

@@ -1,5 +1,31 @@
 # Project Handoff — Read This First
 
+## Actual v26 Windows build passed — 2026-10-30
+
+User's v26 passed both Rust tests (2 passed,0 failed,93.82 seconds) and final
+PowerShell verification against actual v25. Output BIN SHA-256:
+`1a1f3ec2f5ab6abf4730748fd68df9e30cc8db55e43bc85308593986932a1e45`.
+Translated coordinates:4,822. Existing custom payloads retained:14.
+All4,836 source coordinates accounted for across78 banks/46 source patterns.
+Changed raw sectors:8,551. Compiler warnings did not prevent success.
+The detailed report was not attached; the identities of the14 retained payloads
+are not individually established by this console summary.
+
+Actual CUE:
+
+```text
+C:\Users\Fluent\JG2-Recovery-v1\candidates\shared-dates-v26-2134c53e3efb491dab5a7c41617964e8\build\justice-gakuen2-shared-dates-v26.cue
+```
+
+Keep v25. Fresh-boot the new CUE, use an in-game save and check April21 daily
+narration/date, a seasonal/exam notice and an earlier translated event.
+Native v26 gameplay remains pending. This is the shared date/narration batch;
+unique subsequent story dialogue is still outside scope. Continue the whole-disc
+roadmap with shared daily interfaces and complete story/event packages.
+Actual console evidence: validation/shared-dates-v26-windows.json. The local
+original-disc fixture hash remains separate and must not be used as production.
+
+
 ## v26 shared dates and daily narration ready for Windows build — 2026-10-30
 
 Run build_shared_dates_english_v26.ps1 against actual v25
