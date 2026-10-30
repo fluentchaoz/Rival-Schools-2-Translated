@@ -1,5 +1,26 @@
 # Translation state — 2026-10-28
 
+## Native route reaches April 21; after-school text/date gap — 2026-10-29
+
+After receiving the actual v25 CUE, the user reports accepting Ran's invitation,
+visiting what they believe was the Ferris wheel, then reaching the attached
+April 21 classroom screen. The screenshot shows HUD 4/21 WED and English BASEBALL,
+but a Japanese in-dialogue date and ordinary after-school narration.
+This establishes progression to April21 on the reported route. It does not
+separately establish v25 School Gate/Plaza or suffix rendering, all field-trip
+branches, or which exact ride occurred. Loaded disc identity is not independently
+visible in the screenshot; actual built v25 remains
+5f31d90f089f520d6824add5c5368e10be2607955ad3b9e5c24b73b9aa010453.
+
+Next scope: trace the ordinary April after-school scene's active bank and entry,
+translate the surrounding daily-school sequence and choices, and inventory its
+date-message format alongside other ordinary scene banks. The v24 date sweep
+covered 25 MGG event banks; it was not a complete ordinary-scene date sweep.
+Do not assume this screenshot's text bank or coordinates until verified against
+source/runtime data. Do not change the already-English HUD date. Preserve v25
+and its predecessor. No v26 builder or output has been produced yet.
+
+
 ## Actual v25 Windows build passed — 2026-10-29
 
 The user's production v25 passed its Rust test (1 passed, 0 failed, 496.09 seconds)
