@@ -1,5 +1,24 @@
 # Translation state — 2026-10-28
 
+## Ran/April21 screenshots identify travel map and player-name question — 2026-10-30
+
+User supplied April16 English Ran dialogue and April21 travel map screenshots
+after receiving the v26 build. The map still has Japanese destination labels and
+selected Classroom help. Target the entire travel-map/daily-interface system and
+school variants next, including Rooftop, Gym, Club Building, Classroom, Infirmary
+and Field labels. These are separate from v25's background location strips.
+Source bank/graphic coordinates are not yet verified. No v27 is built.
+
+Top-left HUD name reads Makoto in katakana instead of earlier O. This could be an
+enrolled/default family/given/nickname value; actual name-field inputs and HUD
+selection must be established. Do not blindly transliterate player data, assume
+name corruption or treat this proper name as untranslated dialogue.
+
+User skipped the prior April21 message, so these screenshots do not validate
+v26's new date/narration. No replay is needed merely to identify the map system;
+retain the actual v26 and v25 fallback. See validation/april21-travel-map-boundary.json.
+
+
 ## Actual v26 Windows build passed — 2026-10-30
 
 User's v26 passed both Rust tests (2 passed,0 failed,93.82 seconds) and final
