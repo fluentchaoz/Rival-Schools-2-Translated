@@ -91,6 +91,15 @@ Running list of Japanese text and other issues reported during testing from reco
 - Next: continue collecting issues one at a time on v33. Boot/title confirmation does not validate the exam, replay alignment or all practice routes.
 - Evidence and directions: BOOT_HOTFIX_V33.md; validation/boot-hotfix-v33.json.
 
+## 010 — Practice menu BACK label clipped
+
+- Reported: 2026-11-06, current v33 playtest.
+- Reproduction: Diary → Minigame Practice → Fiery Sprint; third menu option BACK.
+- Evidence: user screenshot image(20261106-214702).png; right edge of the final K is visibly clipped.
+- Status: OPEN — collect with the next batch; no build yet.
+- Next investigation: check the label texture cell and sampled width, add safe right padding or adjust lettering fit, and audit the equivalent BACK labels across all six practice options. Only Sprint is confirmed affected by this screenshot.
+- The screenshot also confirms the Sprint landing screen title and instruction panel display in English; this does not validate its rules page or other practice routes.
+
 ## Playtest scope
 
 This screenshot establishes the mode-select label issue. It does not establish whether the v29 startup notice was displayed or passed its native test. Continue the playthrough and append subsequent findings in order.
