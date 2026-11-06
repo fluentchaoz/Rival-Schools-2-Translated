@@ -17,7 +17,13 @@ bonus material and credits are part of the intended scope.
 
 ## Current state
 
-**Latest offline-built candidate: v30 practice interfaces.** All six practice
+**Latest offline-built candidate: v31.** Current Points and the shared replay
+prompts are English; the full FIERY SPRINT label and all v30 practice work are
+retained. Updater paths from v29 and v30 passed exact-hash checks. Native testing
+is pending. See [the v31 directions](MENU_FIXES_V31.md).
+
+
+**Previous candidate: v30 practice interfaces.** All six practice
 landing screens and seven rules pages are translated, shared menu labels are
 updated, and FIERY SPRINT fits its native selection strip. The recovered-v29
 sector updater reproduced the exact candidate hash. **Native testing is pending.**

@@ -10,9 +10,11 @@ Running list of Japanese text and other issues reported during testing from reco
 - Visible Japanese: `現在のポイント`.
 - Meaning / proposed English: `CURRENT POINTS` (subject to graphic fit).
 - Evidence: user-provided mode-select screenshot. Main description and SCHOOL LIFE 2 title are already English; this points label remains Japanese.
-- Status: OPEN — observed, not fixed.
+- Status: IMPLEMENTED IN v31 CANDIDATE — native validation pending; see MENU_FIXES_V31.md.
 - Follow-up confirmation (2026-11-06): user supplied another mode-select screenshot circling the same red label after the v30 practice batch was delivered. It is the existing issue #001, not a new issue. Exact running disc version is not established by the screenshot. This surface was outside v30's practice-interface scope.
 - Next investigation: identify the label's source graphic and all shared consumers before patching; preserve the points value and menu behavior.
+
+- v31 scope: source-bound 80×24 label cell replaced with CURRENT / POINTS; dynamic score remains untouched.
 
 ## 002 — Fiery Sprint practice screen remains Japanese
 
@@ -33,9 +35,11 @@ Running list of Japanese text and other issues reported during testing from reco
 - Visible label: `FIERY SPRIN`.
 - Intended English: `FIERY SPRINT`.
 - The lower help text already displays `FIERY SPRINT` in full. The selected label is missing only the final T; whether the graphic itself omits it or the draw region clips it is not established.
-- Status: IMPLEMENTED IN v30 CANDIDATE — native validation pending.
+- Status: IMPLEMENTED IN v30, RETAINED IN v31 — native validation pending.
 - v30 candidate: full wording fitted within the native 144-pixel consumed strip; awaiting in-game confirmation.
 - Fix target: fit the complete title cleanly within its menu row, then verify selected and unselected rendering. Use the spelling `FIERY`; “Firey” in the user report is not the spelling shown in the screenshot.
+
+- v31 retention: MGCOCK.TIZ and all 13 v30 practice archives compare exactly equal to v30.
 
 ## 004 — Sprint post-game replay prompt remains Japanese
 
@@ -44,9 +48,11 @@ Running list of Japanese text and other issues reported during testing from reco
 - Visible Japanese: `もう一回する？`, `はい`, `いいえ`.
 - Proposed English: `PLAY AGAIN?`, `YES`, `NO`.
 - Evidence: user-provided Sprint result screenshot showing `1P LOSE`, race times and the Japanese replay dialog.
-- Status: OPEN — observed, not fixed.
+- Status: IMPLEMENTED IN v31 CANDIDATE — native validation pending; see MENU_FIXES_V31.md.
 - Confirmed scope: Sprint replay prompt. The other five minigames may share this surface, but that is not yet verified.
 - Next investigation: audit replay/retry/quit prompts across all six minigames, identify shared graphics and native consumers, and preserve selection logic, timing values and score data. The v30 practice landing/rules work does not establish gameplay-result localization.
+
+- v31 scope: all three source-bound physical replay panels are patched (Sprint, Dance and shared ball games). Native replay/choice checks remain pending for all six games.
 
 ## Playtest scope
 

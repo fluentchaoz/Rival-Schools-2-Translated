@@ -1,0 +1,381 @@
+{
+  "kind": "Menu fixes v31",
+  "master_sha256": "c9fdc6a749084fdf972b4debb36dda6b77cb44e0b34f4161d27573130dc44815",
+  "output_sha256": "f9a3d199c9f535188258203b3a4ddea159755fe35b52e88a8c0c273871b7e7f2",
+  "disc_bytes": 663216960,
+  "font_sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895",
+  "records": [
+    {
+      "path": "DAT2/MENU.BIZ",
+      "input_stored_sha256": "47b73374d061f3a5aa5073cf8b89246402c9e9ea384c722e44fca3edbccfa480",
+      "output_stored_sha256": "12807ea4e94abbd3adac23cda89f5cdf2dcf520dc2f63505d1bde92bdd1acbc8",
+      "input_decoded_sha256": "bb4ad025f09b3d90c1434d4ed8798fb7bf35410fa9fc32bd07f7eede2cf07dec",
+      "output_decoded_sha256": "e991a701b8606fd81e1984af058e0cf80ee1f9c0486681b508443f357a096c5a",
+      "claim": {
+        "kind": "current-points",
+        "tim_offset": "0x22800",
+        "rectangles": [
+          [
+            544,
+            224,
+            80,
+            24
+          ]
+        ],
+        "source_pixel_sha256": "bb0dce86052763cb08fae5d6a7f1632614bc69dfdcf75447a6811d29f6b80094",
+        "labels": [
+          {
+            "text": "CURRENT",
+            "cell": [
+              544,
+              224,
+              80,
+              12
+            ],
+            "ink_pixels": 110
+          },
+          {
+            "text": "POINTS",
+            "cell": [
+              544,
+              236,
+              80,
+              12
+            ],
+            "ink_pixels": 85
+          }
+        ]
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 382986,
+          "max_match": 23,
+          "max_block": 38,
+          "max_page": 2280,
+          "crossing_blocks": 0,
+          "decoded_bytes": 653312
+        },
+        "rebuilt": {
+          "stream_bytes": 382986,
+          "max_match": 23,
+          "max_block": 38,
+          "max_page": 2264,
+          "crossing_blocks": 0,
+          "decoded_bytes": 653312
+        }
+      }
+    },
+    {
+      "path": "DAT2/SPRINT.BIZ",
+      "input_stored_sha256": "ef71b8eca77eda653f782f3da5961661a9a5fc07740cf341db3f3da8d765f856",
+      "output_stored_sha256": "9a0557185df53c0acfbe0fccfe3d46844106942652fef4e589168fdb19a9e077",
+      "input_decoded_sha256": "7b929500bb4d86036abb4a5ddcd91d26d77eb3712ec9713d65dbe399fd44d852",
+      "output_decoded_sha256": "37e7d616c90e9bff0cf8b39b96bed73af0831aa2da4f8533f2745146b83d21e2",
+      "claim": {
+        "kind": "replay",
+        "tim_offset": "0x0",
+        "rectangles": [
+          [
+            10,
+            76,
+            94,
+            22
+          ],
+          [
+            18,
+            98,
+            35,
+            22
+          ],
+          [
+            58,
+            98,
+            44,
+            22
+          ]
+        ],
+        "panel": [
+          0,
+          68,
+          112,
+          60
+        ],
+        "source_pixel_sha256": "7ae1bb2199d815702e762e260595ca421b0d0f78d68623a79fe718cc7ff96061",
+        "frame_unchanged": true,
+        "question_answer_palette_ramps_preserved": true,
+        "labels": [
+          {
+            "text": "PLAY AGAIN?",
+            "cell": [
+              10,
+              8,
+              94,
+              22
+            ],
+            "ink_pixels": 313
+          },
+          {
+            "text": "YES",
+            "cell": [
+              18,
+              30,
+              35,
+              22
+            ],
+            "ink_pixels": 96
+          },
+          {
+            "text": "NO",
+            "cell": [
+              58,
+              30,
+              44,
+              22
+            ],
+            "ink_pixels": 87
+          }
+        ]
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 33658,
+          "max_match": 698,
+          "max_block": 813,
+          "max_page": 2152,
+          "crossing_blocks": 16,
+          "decoded_bytes": 66336
+        },
+        "rebuilt": {
+          "stream_bytes": 32778,
+          "max_match": 250,
+          "max_block": 250,
+          "max_page": 2136,
+          "crossing_blocks": 0,
+          "decoded_bytes": 66336
+        }
+      }
+    },
+    {
+      "path": "DAT2/DANCE.BIZ",
+      "input_stored_sha256": "c9f7101db87397e5ced246c569dc188d2cde38ce568fa632603325b67d5b72e0",
+      "output_stored_sha256": "3529c43389c77f29154afd0d97af4803b9e43f4ee436fc7375c41d5ee6e12510",
+      "input_decoded_sha256": "1b1df6508437e6e6155a766ca4e0dbdfb221324aabadef3694dc8ce2945df70e",
+      "output_decoded_sha256": "9f9ee4a4a3c222ad78ec1d790c634d8e7277f7e475e9d40483b69f099396d09d",
+      "claim": {
+        "kind": "replay",
+        "tim_offset": "0x0",
+        "rectangles": [
+          [
+            266,
+            90,
+            94,
+            22
+          ],
+          [
+            274,
+            112,
+            35,
+            22
+          ],
+          [
+            314,
+            112,
+            44,
+            22
+          ]
+        ],
+        "panel": [
+          256,
+          82,
+          112,
+          60
+        ],
+        "source_pixel_sha256": "90c447bfc7d27aec2bdb7e55b9b4035a2c660e5c69c94ff9f5444913ef4af3d2",
+        "frame_unchanged": true,
+        "question_answer_palette_ramps_preserved": true,
+        "labels": [
+          {
+            "text": "PLAY AGAIN?",
+            "cell": [
+              10,
+              8,
+              94,
+              22
+            ],
+            "ink_pixels": 313
+          },
+          {
+            "text": "YES",
+            "cell": [
+              18,
+              30,
+              35,
+              22
+            ],
+            "ink_pixels": 96
+          },
+          {
+            "text": "NO",
+            "cell": [
+              58,
+              30,
+              44,
+              22
+            ],
+            "ink_pixels": 87
+          }
+        ]
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 51526,
+          "max_match": 1078,
+          "max_block": 1093,
+          "max_page": 2210,
+          "crossing_blocks": 22,
+          "decoded_bytes": 100384
+        },
+        "rebuilt": {
+          "stream_bytes": 51210,
+          "max_match": 1078,
+          "max_block": 1093,
+          "max_page": 2194,
+          "crossing_blocks": 0,
+          "decoded_bytes": 100384
+        }
+      }
+    },
+    {
+      "path": "DAT2/CEFT5.BIZ",
+      "input_stored_sha256": "bd2c33fcdffb05ee673c71707310b93f80beae8eaaeda9c45d3cc1cb62778bb8",
+      "output_stored_sha256": "5f02b3374e7747abe2bfd0e832cbb8b8b66490fd9eb2e2944f25ec4c9000597e",
+      "input_decoded_sha256": "3c0824d7cb3a0815ef00df43f1be3c36b629edb3b1a37c26d703ac1847fe9a44",
+      "output_decoded_sha256": "a1a0692366c9184173ca345f03b27d1589789eba3a1172b1356fde71578ed419",
+      "claim": {
+        "kind": "replay",
+        "tim_offset": "0x10800",
+        "rectangles": [
+          [
+            666,
+            188,
+            94,
+            22
+          ],
+          [
+            674,
+            210,
+            35,
+            22
+          ],
+          [
+            714,
+            210,
+            44,
+            22
+          ]
+        ],
+        "panel": [
+          656,
+          180,
+          112,
+          60
+        ],
+        "source_pixel_sha256": "7ae1bb2199d815702e762e260595ca421b0d0f78d68623a79fe718cc7ff96061",
+        "frame_unchanged": true,
+        "question_answer_palette_ramps_preserved": true,
+        "labels": [
+          {
+            "text": "PLAY AGAIN?",
+            "cell": [
+              10,
+              8,
+              94,
+              22
+            ],
+            "ink_pixels": 313
+          },
+          {
+            "text": "YES",
+            "cell": [
+              18,
+              30,
+              35,
+              22
+            ],
+            "ink_pixels": 96
+          },
+          {
+            "text": "NO",
+            "cell": [
+              58,
+              30,
+              44,
+              22
+            ],
+            "ink_pixels": 87
+          }
+        ]
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 90864,
+          "max_match": 918,
+          "max_block": 918,
+          "max_page": 2410,
+          "crossing_blocks": 42,
+          "decoded_bytes": 169984
+        },
+        "rebuilt": {
+          "stream_bytes": 90122,
+          "max_match": 102,
+          "max_block": 439,
+          "max_page": 2394,
+          "crossing_blocks": 0,
+          "decoded_bytes": 169984
+        }
+      }
+    }
+  ],
+  "retry_panels": 3,
+  "minigames_covered": 6,
+  "changed_sector_count": 145,
+  "earlier_v30_records_unchanged": true,
+  "sprint_strip_sha256": "a014b6ec7cb0614fda096a130a8f9989705d527c24a40258e21a1b2680c2fc78",
+  "sprint_native_width": 144,
+  "decoded_lettering_ownership_and_palettes_preserved": true,
+  "all_943_untargeted_records_unchanged": true,
+  "whole_image_sector_ownership_and_edc_ecc_passed": true,
+  "native_gameplay": "pending",
+  "title_screen_changed": false,
+  "regression_tests": {
+    "passed": 6,
+    "failed": 0
+  },
+  "updater_roundtrips": {
+    "from_v29": "exact output hash reproduced",
+    "from_v30": "exact output hash reproduced"
+  },
+  "updater_inputs": [
+    {
+      "version": "v29",
+      "master_sha256": "f4f974c40220dd82925d4b17d6a31b3f95218a6017783666851204ea3040c67f",
+      "patch_file": "from-v29.patch",
+      "patch_sha256": "19adef5f3414f39e863df1b09a5be5626c0c5686f12b1e91a4ffa4c22cef290b",
+      "changed_sector_count": 2606
+    },
+    {
+      "version": "v30",
+      "master_sha256": "c9fdc6a749084fdf972b4debb36dda6b77cb44e0b34f4161d27573130dc44815",
+      "patch_file": "from-v30.patch",
+      "patch_sha256": "29cc2a5bbac180469b2dfad6ed40cdfb5ad8d6edd794c63048c33c3766d5da7b",
+      "changed_sector_count": 145
+    }
+  ],
+  "powershell_wrapper_execution": "not executed here; Python apply paths verified",
+  "source_contracts": {
+    "upstream_commit": "98ca12ddf082d6e2367b2963f76edf5a09242deb",
+    "points": "src/mode_select/assets.rs CURRENT_POINTS_CELL; src/mode_select/source.rs ATLAS_TIM_OFFSET",
+    "replay": "src/mode_descendant_graphics/gorin_retry.rs SPECS, cells, palettes and writable rectangles",
+    "sprint": "src/diary_header/menu_consumer.rs MINIGAME_DESCRIPTORS"
+  }
+}

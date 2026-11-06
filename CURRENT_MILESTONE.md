@@ -1,5 +1,23 @@
 # Translation state — 2026-10-30
 
+## Menu fixes v31 candidate — 2026-11-06
+
+Latest offline candidate: v31, built from exact v30. Includes CURRENT POINTS on
+MODE SELECT, PLAY AGAIN / YES / NO in the three shared replay panels covering
+six minigames, and the full FIERY SPRINT label retained from v30. The v30
+practice landing/rules batch is retained. No title-screen logo change.
+
+BIN SHA-256:
+`f9a3d199c9f535188258203b3a4ddea159755fe35b52e88a8c0c273871b7e7f2`.
+Read MENU_FIXES_V31.md and validation/menu-fixes-v31.json. Six tests and the disc
+preservation/integrity checks passed; private updater paths from both v29 and
+v30 reproduced this output exactly. Native testing remains pending. PowerShell
+was not executed here; both equivalent Python apply paths were executed.
+
+Next: fresh-boot v31; check points, full Sprint label and replay prompts/choices
+for all six games. Retain previous discs and memory cards. Existing v30 menu/rule
+checks and later gameplay/selector translation remain on the running checklist.
+
 ## Practice interfaces v30 candidate — 2026-11-06
 
 All six Diary minigame practice landing screens and seven rules pages have been
