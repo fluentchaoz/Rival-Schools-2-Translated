@@ -1,6 +1,6 @@
-# v29 playtest checklist
+# Translation playtest checklist — v29 onward
 
-Running list of Japanese text and other issues reported while playing the recovered v29 candidate. Record observations separately from implemented fixes and native validation.
+Running list of Japanese text and other issues reported during testing from recovered v29 onward. Record observations separately from implemented fixes and native validation.
 
 ## 001 — School Life 2 mode-select points label
 
@@ -35,6 +35,17 @@ Running list of Japanese text and other issues reported while playing the recove
 - Status: IMPLEMENTED IN v30 CANDIDATE — native validation pending.
 - v30 candidate: full wording fitted within the native 144-pixel consumed strip; awaiting in-game confirmation.
 - Fix target: fit the complete title cleanly within its menu row, then verify selected and unselected rendering. Use the spelling `FIERY`; “Firey” in the user report is not the spelling shown in the screenshot.
+
+## 004 — Sprint post-game replay prompt remains Japanese
+
+- Reported: 2026-11-06, after the v30 candidate was supplied; exact running image version not independently established by this screenshot.
+- Reproduction: finish a Fiery Sprint practice race; the replay dialog appears over the result screen.
+- Visible Japanese: `もう一回する？`, `はい`, `いいえ`.
+- Proposed English: `PLAY AGAIN?`, `YES`, `NO`.
+- Evidence: user-provided Sprint result screenshot showing `1P LOSE`, race times and the Japanese replay dialog.
+- Status: OPEN — observed, not fixed.
+- Confirmed scope: Sprint replay prompt. The other five minigames may share this surface, but that is not yet verified.
+- Next investigation: audit replay/retry/quit prompts across all six minigames, identify shared graphics and native consumers, and preserve selection logic, timing values and score data. The v30 practice landing/rules work does not establish gameplay-result localization.
 
 ## Playtest scope
 
