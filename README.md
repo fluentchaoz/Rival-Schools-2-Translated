@@ -17,7 +17,14 @@ bonus material and credits are part of the intended scope.
 
 ## Current state
 
-**Latest recovered candidate: v29.** Its recovered BIN is 663,216,960 bytes, with
+**Latest offline-built candidate: v30 practice interfaces.** All six practice
+landing screens and seven rules pages are translated, shared menu labels are
+updated, and FIERY SPRINT fits its native selection strip. The recovered-v29
+sector updater reproduced the exact candidate hash. **Native testing is pending.**
+See [practice audit and directions](PRACTICE_V30.md); keep v29.
+
+
+**Recovered baseline: v29.** Its recovered BIN is 663,216,960 bytes, with
 SHA-256 `f4f974c40220dd82925d4b17d6a31b3f95218a6017783666851204ea3040c67f`.
 Archive extraction, CUE identity and all four startup-notice string slots passed
 read-only checks. See [recovery verification](validation/boot-notice-v29-recovered.json).

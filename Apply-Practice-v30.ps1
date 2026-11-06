@@ -1,0 +1,68 @@
+[CmdletBinding()]
+param([string]$MasterBin = "", [string]$OutputRoot = "")
+$ErrorActionPreference = "Stop"
+Set-StrictMode -Version Latest
+$Packet = $PSScriptRoot
+$ExpectedMaster = "f4f974c40220dd82925d4b17d6a31b3f95218a6017783666851204ea3040c67f"
+function FileHash([string]$Path) { (Get-FileHash -LiteralPath $Path -Algorithm SHA256).Hash.ToLowerInvariant() }
+if (-not $MasterBin) {
+    foreach ($Folder in @($Packet, (Split-Path -Parent $Packet), (Join-Path $env:USERPROFILE "Downloads"))) {
+        $Candidate = Join-Path $Folder "justice-gakuen2-boot-notice-v29.bin"
+        if (Test-Path -LiteralPath $Candidate -PathType Leaf) { $MasterBin = $Candidate; break }
+    }
+}
+if (-not $MasterBin) { throw 'Put this extracted updater beside justice-gakuen2-boot-notice-v29.bin, or pass -MasterBin with its full path. Extract the v29 RAR first.' }
+$MasterBin = (Resolve-Path -LiteralPath $MasterBin).Path
+if ((Get-Item -LiteralPath $MasterBin).Length -ne 663216960 -or (FileHash $MasterBin) -ne $ExpectedMaster) { throw "This is not the exact recovered v29 BIN. No output created." }
+$Manifest = Get-Content -LiteralPath (Join-Path $Packet "manifest.json") -Raw | ConvertFrom-Json
+$PatchPath = Join-Path $Packet "practice-v30.patch"
+if ($Manifest.master_sha256 -ne $ExpectedMaster -or (FileHash $PatchPath) -ne $Manifest.patch_sha256) { throw "Patch identity mismatch. No output created." }
+# Validate the whole patch before copying the source image.
+$Patch = [IO.File]::OpenRead($PatchPath)
+try {
+    $Reader = [IO.BinaryReader]::new($Patch)
+    if ([Text.Encoding]::ASCII.GetString($Reader.ReadBytes(8)) -ne "JG2V30`0`0") { throw "Invalid patch header" }
+    $Count = $Reader.ReadUInt32()
+    if ($Count -ne $Manifest.changed_sector_count -or $Patch.Length -ne (12 + [long]$Count * 2356)) { throw "Invalid patch length/count" }
+    [long]$Last = -1
+    for ($i = 0; $i -lt $Count; $i++) {
+        [long]$Lba = $Reader.ReadUInt32()
+        if ($Lba -le $Last -or ($Lba + 1) * 2352 -gt 663216960) { throw "Invalid sector index" }
+        [void]$Patch.Seek(2352, [IO.SeekOrigin]::Current)
+        $Last = $Lba
+    }
+} finally { $Patch.Dispose() }
+if (-not $OutputRoot) { $OutputRoot = Join-Path $Packet "practice-v30" }
+$OutputRoot = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($OutputRoot)
+if (Test-Path -LiteralPath $OutputRoot) { throw "Output folder already exists: $OutputRoot. Choose a new -OutputRoot; existing work will not be overwritten." }
+$Drive = [IO.DriveInfo]::new([IO.Path]::GetPathRoot($OutputRoot))
+if ($Drive.AvailableFreeSpace -lt 700MB) { throw "At least 700 MB of free space is required." }
+[void][IO.Directory]::CreateDirectory($OutputRoot)
+$OutputBin = Join-Path $OutputRoot "justice-gakuen2-practice-v30.bin"
+Write-Host "Creating v30. The v29 input remains unchanged..." -ForegroundColor Cyan
+$Source = [IO.File]::OpenRead($MasterBin)
+try {
+    $Output = [IO.File]::Open($OutputBin, [IO.FileMode]::CreateNew, [IO.FileAccess]::Write)
+    try { $Source.CopyTo($Output) } finally { $Output.Dispose() }
+} finally { $Source.Dispose() }
+$Patch = [IO.File]::OpenRead($PatchPath)
+$Output = [IO.File]::Open($OutputBin, [IO.FileMode]::Open, [IO.FileAccess]::Write)
+try {
+    $Reader = [IO.BinaryReader]::new($Patch)
+    [void]$Patch.Seek(12, [IO.SeekOrigin]::Begin)
+    for ($i = 0; $i -lt $Count; $i++) {
+        [long]$Lba = $Reader.ReadUInt32()
+        $Sector = $Reader.ReadBytes(2352)
+        if ($Sector.Length -ne 2352) { throw "Truncated patch" }
+        [void]$Output.Seek($Lba * 2352, [IO.SeekOrigin]::Begin)
+        $Output.Write($Sector, 0, 2352)
+    }
+} finally { $Output.Dispose(); $Patch.Dispose() }
+if ((Get-Item -LiteralPath $OutputBin).Length -ne 663216960 -or (FileHash $OutputBin) -ne $Manifest.output_sha256) { throw "Final verification failed. Do not boot this output." }
+$Cue = Join-Path $OutputRoot "justice-gakuen2-practice-v30.cue"
+$CueText = "FILE `"justice-gakuen2-practice-v30.bin`" BINARY`r`n  TRACK 01 MODE2/2352`r`n    INDEX 01 00:00:00`r`n"
+[IO.File]::WriteAllText($Cue, $CueText, [Text.UTF8Encoding]::new($false))
+Write-Host "V30 VERIFIED" -ForegroundColor Green
+Write-Host ("SHA256: " + $Manifest.output_sha256)
+Write-Host ("CUE TO BOOT: " + $Cue) -ForegroundColor Yellow
+Write-Host "Fresh-boot this CUE, then load an in-game save. Keep v29 and your existing memory cards."

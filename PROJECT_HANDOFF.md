@@ -1,5 +1,24 @@
 # Project Handoff — Read This First
 
+## Practice interfaces v30 candidate — 2026-11-06
+
+All six Diary minigame practice landing screens and seven rules pages have been
+audited and translated in a candidate built from recovered v29. Shared labels
+are patched in all 13 identical MINITTL atlases. FIERY SPRINT now fits the native
+144-pixel Diary strip. Candidate BIN SHA-256:
+`c9fdc6a749084fdf972b4debb36dda6b77cb44e0b34f4161d27573130dc44815`.
+
+Read PRACTICE_V30.md and validation/practice-v30.json. Five regression tests,
+fixed-slot/profile checks, record readback, changed-sector ownership/EDC/ECC and
+a private updater roundtrip passed. Native gameplay is pending; keep v29.
+The PowerShell updater was not executed here; its equivalent Python path was.
+
+Next: fresh-boot v30 and check all six landing/rules routes (two pages for PK),
+back navigation, record values, the full Sprint label and earlier English.
+Then launch each game to identify remaining gameplay/selector Japanese; the
+opening CURRENT POINTS issue remains open. V29_PLAYTEST_CHECKLIST.md tracks
+reported findings and distinguishes implementation from native validation.
+
 ## Recovered v29 verified — 2026-11-06
 
 This section supersedes the older build-pending instructions below. The recovered

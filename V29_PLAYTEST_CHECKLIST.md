@@ -21,7 +21,7 @@ Running list of Japanese text and other issues reported while playing the recove
 - Observed untranslated surfaces: large title, practice stamp, coach speech bubble, START / RULES AND CONTROLS / BACK menu, and current-best-record caption.
 - Suggested menu English: `1P START`, `RULES & CONTROLS`, `BACK`; practice stamp: `PRACTICE`; record caption: `CURRENT BEST`.
 - Coach speech meaning: approving the choice to practice and telling the player to practice thoroughly to avoid failing in the real event. Final English wording and fit remain to be authored.
-- Status: OPEN — observed, not fixed.
+- Status: IMPLEMENTED IN v30 CANDIDATE — native validation pending; see PRACTICE_V30.md.
 - Follow-up scope: audit all six minigame practice landing screens and their rules/control pages as one interface batch. Only the Fiery Sprint landing screen is confirmed by these screenshots; other minigames and deeper rules/gameplay screens remain unchecked.
 - Preserve minigame behavior, controls, best-record values and save data. Do not conflate this practice landing screen with the separately tracked practical-exam instruction artwork.
 
@@ -32,7 +32,8 @@ Running list of Japanese text and other issues reported while playing the recove
 - Visible label: `FIERY SPRIN`.
 - Intended English: `FIERY SPRINT`.
 - The lower help text already displays `FIERY SPRINT` in full. The selected label is missing only the final T; whether the graphic itself omits it or the draw region clips it is not established.
-- Status: OPEN — observed, not fixed.
+- Status: IMPLEMENTED IN v30 CANDIDATE — native validation pending.
+- v30 candidate: full wording fitted within the native 144-pixel consumed strip; awaiting in-game confirmation.
 - Fix target: fit the complete title cleanly within its menu row, then verify selected and unselected rendering. Use the spelling `FIERY`; “Firey” in the user report is not the spelling shown in the screenshot.
 
 ## Playtest scope
