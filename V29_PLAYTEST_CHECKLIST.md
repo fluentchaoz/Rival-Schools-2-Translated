@@ -10,13 +10,13 @@ Running list of Japanese text and other issues reported during testing from reco
 - Visible Japanese: `現在のポイント`.
 - Meaning / proposed English: `CURRENT POINTS` (subject to graphic fit).
 - Evidence: user-provided mode-select screenshot. Main description and SCHOOL LIFE 2 title are already English; this points label remains Japanese.
-- Status: v31 NATIVE CROP DEFECT OBSERVED; corrected in v32 candidate, pending native retest.
+- Status: OPEN — v33 native screenshot confirms the entire English label fits, but CURRENT POINTS is cramped and hard to read. Improve lettering legibility in the next batch.
 - Follow-up confirmation (2026-11-06): user supplied another mode-select screenshot circling the same red label after the v30 practice batch was delivered. It is the existing issue #001, not a new issue. Exact running disc version is not established by the screenshot. This surface was outside v30's practice-interface scope.
 - Next investigation: identify the label's source graphic and all shared consumers before patching; preserve the points value and menu behavior.
 
 - v31 scope: source-bound 80×24 label cell replaced with CURRENT / POINTS; dynamic score remains untouched.
 
-- Latest native report: English CURRENT / POINTS appears, but the bottom line is clipped. v32 uses a single line confined to the upper 16 texture rows.
+- Native progression: v31 CURRENT / POINTS had bottom clipping; v32/v33 single-line label fits the visible area. Ryan reports v33 label is hard to read; the attached screenshot confirms dense outlined lettering. Next revision should use simpler pixel lettering with clear spacing and verify at native resolution. Keep collecting reports before building the next batch.
 
 ## 002 — Fiery Sprint practice screen remains Japanese
 
@@ -59,7 +59,7 @@ Running list of Japanese text and other issues reported during testing from reco
 ## 005 — Install supplied English title screen
 
 - User now explicitly requests installing the supplied English mockup. Earlier v31 intentionally retained the original title.
-- Status: IMPLEMENTED IN v32 CANDIDATE — native boot test pending.
+- Status: CONFIRMED IN v33 — Ryan reports successful launch and English title screen on 2026-11-06.
 - Supplied title art installed in TITLE.BIZ; original audio, palette, footer copyright pixels and runtime PRESS START are preserved. Small MODE SELECT logo remains a separate asset.
 
 ## 006 — First-term Practice Exam instruction card remains Japanese
@@ -85,10 +85,10 @@ Running list of Japanese text and other issues reported during testing from reco
 ## 009 — v32 freezes after no-memory-card screen (boot blocker)
 
 - Native report: user says v32 freezes immediately after the no-memory-card notice.
-- Status: v32 WITHDRAWN; v33 catalog hotfix candidate awaiting fresh-boot confirmation.
+- Status: RESOLVED IN v33 — Ryan confirms launch and working English title screen on 2026-11-06; supplied screenshot also shows mode select. v32 remains withdrawn.
 - Diagnosis: TITLE.BIZ begins 00007042 after recompression, but its executable CD locator still expects 00087042. This mismatch was missed by decoded-image/checksum tests.
 - Repair: one catalog data byte at SLPS_021.20 + 0x770DD corrected; all v32 graphics/translations remain unchanged. Audit of 876 matched native locator entries: v32 one mismatch, v33 zero.
-- Priority: confirm v33 reaches the English title and mode select before continuing translation playtests. Keep v31 as the earlier booting fallback.
+- Next: continue collecting issues one at a time on v33. Boot/title confirmation does not validate the exam, replay alignment or all practice routes.
 - Evidence and directions: BOOT_HOTFIX_V33.md; validation/boot-hotfix-v33.json.
 
 ## Playtest scope

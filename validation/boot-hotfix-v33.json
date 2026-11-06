@@ -44,5 +44,7 @@
   "primary_contract_sources": [
     "mcpads/justice-gakuen2-kr-patch@98ca12ddf082d6e2367b2963f76edf5a09242deb:src/native_disc_resource.rs",
     "same upstream:src/mode_descendant_graphics/record_compositor.rs"
-  ]
+  ],
+  "native_gameplay": "PARTIAL PASS: Ryan confirms v33 launches and English title works; mode-select screenshot supplied 2026-11-06. Other routes remain unconfirmed.",
+  "native_followup": "CURRENT POINTS fully visible but hard to read; issue #001 remains open for legibility."
 }

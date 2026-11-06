@@ -1,5 +1,10 @@
 # Translation state — 2026-10-30
 
+## v33 native boot/title confirmed; collecting next batch — 2026-11-06
+
+Ryan confirms v33 launches and the English title screen works. The supplied mode-select screenshot confirms CURRENT POINTS now fits, but its dense outlined lettering is difficult to read. Issue #001 remains open for legibility; boot blocker #009 is resolved. Continue collecting issues one at a time before preparing another build. Exam/replay/all-route tests remain unconfirmed.
+
+
 ## v32 native boot failure; v33 boot hotfix candidate — 2026-11-06
 
 Ryan reports v32 freezes after the no-memory-card screen. **v32 is withdrawn.**

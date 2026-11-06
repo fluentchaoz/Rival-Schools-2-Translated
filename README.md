@@ -1,5 +1,10 @@
 # Rival Schools 2 Translated
 
+## v33 native boot/title confirmed; collecting next batch — 2026-11-06
+
+Ryan confirms v33 launches and the English title screen works. The supplied mode-select screenshot confirms CURRENT POINTS now fits, but its dense outlined lettering is difficult to read. Issue #001 remains open for legibility; boot blocker #009 is resolved. Continue collecting issues one at a time before preparing another build. Exam/replay/all-route tests remain unconfirmed.
+
+
 English fan translation of **Shiritsu Justice Gakuen — Nekketsu Seishun Nikki 2**
 for Japanese PlayStation, `SLPS-02120`.
 
