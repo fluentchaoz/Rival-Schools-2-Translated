@@ -1,5 +1,41 @@
 # Translation state — 2026-10-30
 
+## Repo reconciliation and next test — 2026-11-06
+
+The earlier `main` (v8 school-choice milestone, 2026-10-24) was stale. Work from the
+`codex/resume-english-quiz` branch (v9 through v29, draft PR #1) is now merged here.
+Treat this file and `PROJECT_HANDOFF.md` as the single source of truth for any
+assistant (Claude or ChatGPT/Codex). The older v5/v8 notes are historical.
+
+Status by evidence level:
+
+- **Windows-built and user-confirmed in play:** through v28. v26, v27 and v28 passed
+  their Rust tests and final verification; the user confirmed Status and Diary menus
+  work in DuckStation (v28). Latest hash on record: v27 `3f5b7630...dc34e`; the v28
+  output SHA is not recorded in the repo (see validation/status-diary-v28-windows.json).
+- **Built-ready, native result NOT recorded:** v29 (startup notices `NO FILE` /
+  `LOAD SKIPPED`). Run `build_boot_notice_english_v29.ps1` on the actual v28 master,
+  fresh-boot the printed CUE, and test the notice without altering memory-card data.
+  Record the output SHA-256 and result in `validation/`.
+- **Unverified:** v26 April 21 narration (the message was skipped in play), individual
+  item descriptions, all birthday variants, and the 58 retained custom item entries.
+
+### Next testing / work, in order
+
+1. Build and boot v29 on Windows; record hash and result. Keep v28 as fallback.
+2. Practical-exam instruction cards (TESTMJ members 30-32): needs a DuckStation save
+   state frozen on the instruction bubble to learn the runtime tile layout. Keep the
+   state private; do not commit it.
+3. Remaining save/load prompts (check positional numeric-insertion consumers first).
+4. Re-check v26 April 21 daily narration/date and a seasonal/exam notice in play.
+5. Then continue the whole-disc roadmap: unique Taiyo story dialogue, then the other
+   four schools, then non-School-Life modes (see `TRANSLATION_ROADMAP.md`).
+
+Private inputs (`JG2-*-Inputs.zip`, recovery kit, rebuilt BIN/CUE) are intentionally not
+in Git and live on the user's Windows machine under `C:\Users\Fluent\JG2-Recovery-v1`.
+Never commit ROM images, rebuilt discs or extracted game assets.
+
+
 ## Actual v27 Windows build passed; Status/Diary next — 2026-10-30
 
 User console confirms both tests and final verification passed (97.31s).
