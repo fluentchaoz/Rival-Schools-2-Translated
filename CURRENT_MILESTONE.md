@@ -1,5 +1,37 @@
 # Translation state — 2026-10-30
 
+## Recovered v29 verified — 2026-11-06
+
+This section supersedes the older build-pending instructions below. The recovered
+`justice-gakuen2-boot-notice-v29.rar` extracted successfully to a 663,216,960-byte
+BIN. Its SHA-256 is:
+
+`f4f974c40220dd82925d4b17d6a31b3f95218a6017783666851204ea3040c67f`
+
+The attached CUE references that exact filename and matches the builder's CUE.
+Read-only inspection found all 947 ISO file records and confirmed the expected
+`NO FILE` and `LOAD SKIPPED` strings in both `DAT1/NEWOPT.BIN` and the resident
+`SLPS_021.20` executable (all four length-prefixed slots). Three v29 wrapper
+regression checks also passed. Exact artifact/record hashes and limitations are
+in `validation/boot-notice-v29-recovered.json`.
+
+**Latest recovered candidate: v29. Latest user-confirmed gameplay: v28.** The
+recovered v29 has not been independently rebuilt or tested in DuckStation here;
+its original Windows build report/log was not supplied. Do not claim a native
+v29 pass or an independently verified v28-to-v29 sector comparison.
+
+The actual v28 fallback SHA is already recorded in
+`validation/status-diary-v28-windows.json`:
+`47ed14e1936a0072be400dcdd41296be264ab8bdc1ddcff0e4e7be3bfdc4902b`.
+The older reconciliation note incorrectly said this hash was missing.
+
+Resume by fresh-booting the recovered v29 CUE and testing the startup notice
+without changing memory-card data. Record that result; retain v28. No rebuild is
+needed merely to try the recovered candidate. Rebuilding still requires the
+actual v28, original disc and pinned upstream described in the v29 directions.
+Then continue the practical-exam instruction investigation and whole-disc roadmap.
+Git contains the builders and handoff through v29, not the disc or private inputs.
+
 ## Repo reconciliation and next test — 2026-11-06
 
 The earlier `main` (v8 school-choice milestone, 2026-10-24) was stale. Work from the

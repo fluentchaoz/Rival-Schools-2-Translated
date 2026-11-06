@@ -1,6 +1,13 @@
 # Boot notice English v29
 
-Ready for actual Windows build and native test on v28. No additional translation ZIP or font is needed.
+A finished v29 image was recovered and inspected on 2026-11-06. Its BIN SHA-256 is
+`f4f974c40220dd82925d4b17d6a31b3f95218a6017783666851204ea3040c67f`.
+Archive extraction, CUE identity and all four notice slots passed; see
+`validation/boot-notice-v29-recovered.json`. Fresh-boot that CUE for the pending
+native test. The original Windows build report/log was not recovered.
+
+The instructions below describe rebuilding from actual v28 if necessary.
+No additional translation ZIP or font is needed.
 
 The two messages become NO FILE and LOAD SKIPPED. Their shared Records copies are updated too.
 Only four bounded string slots change in the resident executable and Records overlay. The game uses
@@ -14,8 +21,8 @@ backup; restores source and environment in finally; and prints the actual new CU
 Keep v28 and fresh-boot the new CUE. Test the notice without changing or deleting memory-card data.
 
 Two original-disc fixture tests passed, including custom-target rejection and unrelated-byte
-preservation. Three offline wrapper checks passed. Native gameplay and the actual Windows build
-remain pending. Validation: validation/boot-notice-v29.json.
+preservation. Three offline wrapper checks passed. Native gameplay remains pending. A finished image is now recovered, but the actual
+Windows build log/report remains unavailable. Validation: validation/boot-notice-v29.json.
 
 The user reports v28 Status and Diary menus work. Actual v28 Windows evidence is recorded in
 validation/status-diary-v28-windows.json. The 58 retained custom item entries have not been individually

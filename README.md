@@ -17,12 +17,18 @@ bonus material and credits are part of the intended scope.
 
 ## Current state
 
-**Latest Windows-built candidate: v28.** Both Windows tests and final verification
+**Latest recovered candidate: v29.** Its recovered BIN is 663,216,960 bytes, with
+SHA-256 `f4f974c40220dd82925d4b17d6a31b3f95218a6017783666851204ea3040c67f`.
+Archive extraction, CUE identity and all four startup-notice string slots passed
+read-only checks. See [recovery verification](validation/boot-notice-v29-recovered.json).
+The original build log/report was not supplied; v29 native gameplay is pending.
+
+**Latest user-confirmed gameplay: v28.** Both Windows tests and final verification
 passed; the user reports that Status and Diary menus work in DuckStation.
 See [v28 details](STATUS_DIARY_V28.md) and validation/status-diary-v28-windows.json.
 Keep v27 as its fallback. Not every item description or birthday variant is native-tested.
 
-**v29 startup notice is ready for Windows/native testing.** See
+**Fresh-boot the recovered v29 CUE to test its startup notice.** See
 [the v29 directions](BOOT_NOTICE_V29.md). It translates the two startup messages
 using existing English glyphs. No additional private translation ZIP is needed.
 Keep v28; practical-exam instruction graphics are still under investigation.

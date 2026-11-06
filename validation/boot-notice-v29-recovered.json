@@ -1,0 +1,69 @@
+{
+  "kind": "Recovered v29 artifact verification",
+  "verified_on": "2026-11-06",
+  "archive": {
+    "filename": "justice-gakuen2-boot-notice-v29.rar",
+    "bytes": 273639551,
+    "sha256": "56ed71335849ae3ee0e4e9be8cd69ecbed1e24cc2529e0166e99dff49131db80",
+    "extraction": "passed using libarchive; one BIN member, no build report or source files"
+  },
+  "bin": {
+    "filename": "justice-gakuen2-boot-notice-v29.bin",
+    "bytes": 663216960,
+    "sha256": "f4f974c40220dd82925d4b17d6a31b3f95218a6017783666851204ea3040c67f",
+    "raw_sector_bytes": 2352,
+    "iso_file_records": 947
+  },
+  "cue": {
+    "filename": "justice-gakuen2-boot-notice-v29.cue",
+    "bytes": 97,
+    "sha256": "30782e8fdd748b3b05e3fc98459819f6f3a2c116d812c7847ec3baf21c1ef4c6",
+    "bin_reference": "justice-gakuen2-boot-notice-v29.bin",
+    "track": "01 MODE2/2352",
+    "index": "01 00:00:00",
+    "matches_builder_cue": true
+  },
+  "notice_slots": [
+    {
+      "record": "DAT1/NEWOPT.BIN",
+      "offset": "0x6a4",
+      "message": "NO FILE",
+      "length": 7
+    },
+    {
+      "record": "DAT1/NEWOPT.BIN",
+      "offset": "0xaa0",
+      "message": "LOAD SKIPPED",
+      "length": 12
+    },
+    {
+      "record": "SLPS_021.20",
+      "offset": "0x80894",
+      "message": "NO FILE",
+      "length": 7
+    },
+    {
+      "record": "SLPS_021.20",
+      "offset": "0x80c90",
+      "message": "LOAD SKIPPED",
+      "length": 12
+    }
+  ],
+  "record_sha256": {
+    "DAT1/NEWOPT.BIN": "df6a79afe1631b60a1cd7771e5879017b9c4c19376ecc3bb858d1d3e338b7ea1",
+    "SLPS_021.20": "00270fb533ee92a8c16b8b37fa81e0e3899ee075f1e32153c78bbfcdbedd2227"
+  },
+  "glyph_mapping_source": "mcpads/justice-gakuen2-kr-patch@98ca12ddf082d6e2367b2963f76edf5a09242deb:src/text.rs::common_menu_ascii_glyph_code",
+  "wrapper_regressions": {
+    "passed": 3,
+    "failed": 0,
+    "command": "python tools/test_boot_notice_v29_wrapper.py"
+  },
+  "native_gameplay": "pending; no fresh-boot gameplay result supplied for recovered v29",
+  "build_provenance": "Recovered finished image. Original Windows build log and boot-notice-v29-report.json were not supplied. Not independently rebuilt in this verification.",
+  "limitations": [
+    "Full v28-to-v29 preservation/sector comparison cannot be repeated without actual v28 input.",
+    "Notice checks validate four length-prefixed strings using pinned resident glyph mapping, not the whole game.",
+    "Private recovery inputs, original disc, and saves remain separate prerequisites; Git alone is not a full recovery kit."
+  ]
+}
