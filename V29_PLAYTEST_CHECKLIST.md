@@ -109,6 +109,15 @@ Running list of Japanese text and other issues reported during testing from reco
 - Status: OPEN — collect for next batch; separate from #010 BACK clipping.
 - Next investigation: identify the popup source, audit all five label cells, native texture sampling widths and text scales, and check shared consumers across six practice routes. Restore full readable labels and translate speed markers within their available space. Only this Sprint popup is confirmed affected so far.
 
+## 012 — Practice Exam in-fight announcements and HUD remain Japanese
+
+- Reported: 2026-11-06, current v33 playtest; screenshot image(20261106-215036).png.
+- Reproduction: Diary → Practice Exam → first-term fight/task; Japanese appears intermittently during the fight.
+- Confirmed visible Japanese: central 開始 (START), and lower-left 科目1 (Subject 1 / Task 1) beside the already-English FIRST TERM EXAM.
+- Status: OPEN — include in the next batch audit. The v32/v33 first-term intro-card translation did not cover these in-fight graphics.
+- Next investigation: locate the announcement and HUD texture sources, inventory related timed prompts and result/feedback graphics, and verify all relevant shared consumers. Preserve timer and task behavior; other unseen prompts are audit targets, not confirmed defects.
+- Screenshot alone does not confirm the first-term introduction is translated or that replay alignment is correct.
+
 ## Playtest scope
 
 This screenshot establishes the mode-select label issue. It does not establish whether the v29 startup notice was displayed or passed its native test. Continue the playthrough and append subsequent findings in order.
