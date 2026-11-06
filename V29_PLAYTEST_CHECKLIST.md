@@ -118,6 +118,15 @@ Running list of Japanese text and other issues reported during testing from reco
 - Next investigation: locate the announcement and HUD texture sources, inventory related timed prompts and result/feedback graphics, and verify all relevant shared consumers. Preserve timer and task behavior; other unseen prompts are audit targets, not confirmed defects.
 - Screenshot alone does not confirm the first-term introduction is translated or that replay alignment is correct.
 
+## v34 batch implementation status — native retest pending
+
+- #001: replaces squeezed outlined Current Points text with an unsqueezed 5×7 bitmap in the verified upper 16 source rows, using a solid native dark/red ink index.
+- #010: BACK fits within a conservative 40×20 area, leaving the old 48-pixel cell tail clear; needs native confirmation.
+- #011: actual Sprint popup descriptors bind HYO 20×20, SHOMA 40×20 at x=200, BATSU 40×20, HOME RUN 80×20 and GAN 20×20. Corrected all 13 shared atlases; speed disks show F (fast) and S (slow). Other games' equivalent screens need native checks.
+- #008: WIN lettering replaced within the original 56×24 cell in Sprint and the matching shared ball-game graphic; 1P and replay panel unchanged.
+- #012: both shared CEFT4/CEFT6 providers have English vertical START/FINISH and two native glyph cells spelling TASK. Timer digits, colon, portraits and palette tables remain unchanged. Other unseen exam prompts remain possible follow-up work.
+- v34 remains a candidate until tested. Earlier replay-answer alignment (#007), exam intro (#006) and all-route gameplay checks are still unconfirmed.
+
 ## Playtest scope
 
 This screenshot establishes the mode-select label issue. It does not establish whether the v29 startup notice was displayed or passed its native test. Continue the playthrough and append subsequent findings in order.

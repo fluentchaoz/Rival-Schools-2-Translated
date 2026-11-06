@@ -1,0 +1,2061 @@
+{
+  "kind": "Practice layout and exam HUD v34",
+  "master_sha256": "1efd2f0231f9eaaa941830406450e705063d141fe23caa88f2bfe08dfeff03a9",
+  "output_sha256": "2ed4e3233c01b0f1eccf804bffdce6ed6c1f268ce71cf94109c839e86894734a",
+  "disc_bytes": 663216960,
+  "records": [
+    {
+      "path": "DAT2/MINITTL0.BIZ",
+      "input_sha256": "1ea121438780edf97e77b8fb70048cf7319ac1d81d2d1e645f47fc43d8d3e96f",
+      "output_sha256": "4d9dfb37d16b09ba9913c142099663ccc93f84a9aeaf296915e310cb352ae224",
+      "claim": {
+        "tim_offset": "0x0",
+        "rectangles": [
+          [
+            160,
+            192,
+            80,
+            24
+          ],
+          [
+            144,
+            96,
+            48,
+            24
+          ],
+          [
+            160,
+            168,
+            96,
+            24
+          ],
+          [
+            192,
+            216,
+            24,
+            24
+          ],
+          [
+            216,
+            216,
+            24,
+            24
+          ],
+          [
+            208,
+            0,
+            20,
+            20
+          ],
+          [
+            232,
+            0,
+            20,
+            20
+          ]
+        ],
+        "labels": [
+          {
+            "text": "BACK",
+            "source": [
+              144,
+              96
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "HOME RUN",
+            "source": [
+              160,
+              168
+            ],
+            "native_size": [
+              80,
+              20
+            ]
+          },
+          {
+            "text": "BATSU",
+            "source": [
+              160,
+              192
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "SHOMA",
+            "source": [
+              200,
+              192
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "HYO",
+            "source": [
+              192,
+              216
+            ],
+            "native_size": [
+              20,
+              20
+            ]
+          },
+          {
+            "text": "GAN",
+            "source": [
+              216,
+              216
+            ],
+            "native_size": [
+              20,
+              20
+            ]
+          }
+        ],
+        "speed_markers": "F=fast, S=slow; original disks retained"
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 241674,
+          "max_match": 193,
+          "max_block": 496,
+          "max_page": 2325,
+          "crossing_blocks": 0,
+          "decoded_bytes": 348160
+        },
+        "rebuilt": {
+          "stream_bytes": 241670,
+          "max_match": 144,
+          "max_block": 472,
+          "max_page": 2309,
+          "crossing_blocks": 0,
+          "decoded_bytes": 348160
+        }
+      }
+    },
+    {
+      "path": "DAT2/MINITTL1.BIZ",
+      "input_sha256": "86807ab6662338dd2211718e282c62f0b92b7828d2ab1bbf2f2a6fbd648e6993",
+      "output_sha256": "4ee3f3bc78c6df9706ec5c05706b72ce5a8ea875db44ba092fd559b144ce092e",
+      "claim": {
+        "tim_offset": "0x0",
+        "rectangles": [
+          [
+            160,
+            192,
+            80,
+            24
+          ],
+          [
+            144,
+            96,
+            48,
+            24
+          ],
+          [
+            160,
+            168,
+            96,
+            24
+          ],
+          [
+            192,
+            216,
+            24,
+            24
+          ],
+          [
+            216,
+            216,
+            24,
+            24
+          ],
+          [
+            208,
+            0,
+            20,
+            20
+          ],
+          [
+            232,
+            0,
+            20,
+            20
+          ]
+        ],
+        "labels": [
+          {
+            "text": "BACK",
+            "source": [
+              144,
+              96
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "HOME RUN",
+            "source": [
+              160,
+              168
+            ],
+            "native_size": [
+              80,
+              20
+            ]
+          },
+          {
+            "text": "BATSU",
+            "source": [
+              160,
+              192
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "SHOMA",
+            "source": [
+              200,
+              192
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "HYO",
+            "source": [
+              192,
+              216
+            ],
+            "native_size": [
+              20,
+              20
+            ]
+          },
+          {
+            "text": "GAN",
+            "source": [
+              216,
+              216
+            ],
+            "native_size": [
+              20,
+              20
+            ]
+          }
+        ],
+        "speed_markers": "F=fast, S=slow; original disks retained"
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 342026,
+          "max_match": 250,
+          "max_block": 673,
+          "max_page": 2742,
+          "crossing_blocks": 0,
+          "decoded_bytes": 595968
+        },
+        "rebuilt": {
+          "stream_bytes": 342026,
+          "max_match": 245,
+          "max_block": 639,
+          "max_page": 2726,
+          "crossing_blocks": 0,
+          "decoded_bytes": 595968
+        }
+      }
+    },
+    {
+      "path": "DAT2/MINITTL2.BIZ",
+      "input_sha256": "68cd445ac2c017cbca45788564df66e8e8138b75b8bf8c6507cc673e76e115e8",
+      "output_sha256": "dcf67c8506af4be991fe1ebb1a67d176da3f2c1155afbffcb3f31864a227b5ef",
+      "claim": {
+        "tim_offset": "0x0",
+        "rectangles": [
+          [
+            160,
+            192,
+            80,
+            24
+          ],
+          [
+            144,
+            96,
+            48,
+            24
+          ],
+          [
+            160,
+            168,
+            96,
+            24
+          ],
+          [
+            192,
+            216,
+            24,
+            24
+          ],
+          [
+            216,
+            216,
+            24,
+            24
+          ],
+          [
+            208,
+            0,
+            20,
+            20
+          ],
+          [
+            232,
+            0,
+            20,
+            20
+          ]
+        ],
+        "labels": [
+          {
+            "text": "BACK",
+            "source": [
+              144,
+              96
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "HOME RUN",
+            "source": [
+              160,
+              168
+            ],
+            "native_size": [
+              80,
+              20
+            ]
+          },
+          {
+            "text": "BATSU",
+            "source": [
+              160,
+              192
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "SHOMA",
+            "source": [
+              200,
+              192
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "HYO",
+            "source": [
+              192,
+              216
+            ],
+            "native_size": [
+              20,
+              20
+            ]
+          },
+          {
+            "text": "GAN",
+            "source": [
+              216,
+              216
+            ],
+            "native_size": [
+              20,
+              20
+            ]
+          }
+        ],
+        "speed_markers": "F=fast, S=slow; original disks retained"
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 446474,
+          "max_match": 246,
+          "max_block": 624,
+          "max_page": 2777,
+          "crossing_blocks": 0,
+          "decoded_bytes": 843776
+        },
+        "rebuilt": {
+          "stream_bytes": 446478,
+          "max_match": 246,
+          "max_block": 623,
+          "max_page": 2761,
+          "crossing_blocks": 0,
+          "decoded_bytes": 843776
+        }
+      }
+    },
+    {
+      "path": "DAT2/MINITTL3.BIZ",
+      "input_sha256": "e2499c762ff0c1fcf01012ed6ea8bc458f68b9379d0efd471fd374f27d387a8c",
+      "output_sha256": "18e479bd7d223ad4431839a88929645a1481635337a3e52efc2c14af764a88d5",
+      "claim": {
+        "tim_offset": "0x0",
+        "rectangles": [
+          [
+            160,
+            192,
+            80,
+            24
+          ],
+          [
+            144,
+            96,
+            48,
+            24
+          ],
+          [
+            160,
+            168,
+            96,
+            24
+          ],
+          [
+            192,
+            216,
+            24,
+            24
+          ],
+          [
+            216,
+            216,
+            24,
+            24
+          ],
+          [
+            208,
+            0,
+            20,
+            20
+          ],
+          [
+            232,
+            0,
+            20,
+            20
+          ]
+        ],
+        "labels": [
+          {
+            "text": "BACK",
+            "source": [
+              144,
+              96
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "HOME RUN",
+            "source": [
+              160,
+              168
+            ],
+            "native_size": [
+              80,
+              20
+            ]
+          },
+          {
+            "text": "BATSU",
+            "source": [
+              160,
+              192
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "SHOMA",
+            "source": [
+              200,
+              192
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "HYO",
+            "source": [
+              192,
+              216
+            ],
+            "native_size": [
+              20,
+              20
+            ]
+          },
+          {
+            "text": "GAN",
+            "source": [
+              216,
+              216
+            ],
+            "native_size": [
+              20,
+              20
+            ]
+          }
+        ],
+        "speed_markers": "F=fast, S=slow; original disks retained"
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 413706,
+          "max_match": 159,
+          "max_block": 496,
+          "max_page": 2406,
+          "crossing_blocks": 0,
+          "decoded_bytes": 595968
+        },
+        "rebuilt": {
+          "stream_bytes": 413706,
+          "max_match": 159,
+          "max_block": 496,
+          "max_page": 2390,
+          "crossing_blocks": 0,
+          "decoded_bytes": 595968
+        }
+      }
+    },
+    {
+      "path": "DAT2/MINITTL4.BIZ",
+      "input_sha256": "fe8a9407e1d56084e04adb6522fbd99155907599e89ab7f139d0a979845987c9",
+      "output_sha256": "f98e80afc5d5ab3feaaacc770a769c1b3e9020c69eb509dde8ebc1c01ce6d73d",
+      "claim": {
+        "tim_offset": "0x0",
+        "rectangles": [
+          [
+            160,
+            192,
+            80,
+            24
+          ],
+          [
+            144,
+            96,
+            48,
+            24
+          ],
+          [
+            160,
+            168,
+            96,
+            24
+          ],
+          [
+            192,
+            216,
+            24,
+            24
+          ],
+          [
+            216,
+            216,
+            24,
+            24
+          ],
+          [
+            208,
+            0,
+            20,
+            20
+          ],
+          [
+            232,
+            0,
+            20,
+            20
+          ]
+        ],
+        "labels": [
+          {
+            "text": "BACK",
+            "source": [
+              144,
+              96
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "HOME RUN",
+            "source": [
+              160,
+              168
+            ],
+            "native_size": [
+              80,
+              20
+            ]
+          },
+          {
+            "text": "BATSU",
+            "source": [
+              160,
+              192
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "SHOMA",
+            "source": [
+              200,
+              192
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "HYO",
+            "source": [
+              192,
+              216
+            ],
+            "native_size": [
+              20,
+              20
+            ]
+          },
+          {
+            "text": "GAN",
+            "source": [
+              216,
+              216
+            ],
+            "native_size": [
+              20,
+              20
+            ]
+          }
+        ],
+        "speed_markers": "F=fast, S=slow; original disks retained"
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 356362,
+          "max_match": 751,
+          "max_block": 938,
+          "max_page": 2763,
+          "crossing_blocks": 0,
+          "decoded_bytes": 595968
+        },
+        "rebuilt": {
+          "stream_bytes": 356362,
+          "max_match": 751,
+          "max_block": 938,
+          "max_page": 2747,
+          "crossing_blocks": 0,
+          "decoded_bytes": 595968
+        }
+      }
+    },
+    {
+      "path": "DAT2/MINITTL5.BIZ",
+      "input_sha256": "10d0c46899c26896d83684ecc96fd82106b15028aaba963997c305fabb71dd1b",
+      "output_sha256": "2a4490e9aee83098818cc648533ba5490c108e0962a0a3433473ad234bc38c9b",
+      "claim": {
+        "tim_offset": "0x0",
+        "rectangles": [
+          [
+            160,
+            192,
+            80,
+            24
+          ],
+          [
+            144,
+            96,
+            48,
+            24
+          ],
+          [
+            160,
+            168,
+            96,
+            24
+          ],
+          [
+            192,
+            216,
+            24,
+            24
+          ],
+          [
+            216,
+            216,
+            24,
+            24
+          ],
+          [
+            208,
+            0,
+            20,
+            20
+          ],
+          [
+            232,
+            0,
+            20,
+            20
+          ]
+        ],
+        "labels": [
+          {
+            "text": "BACK",
+            "source": [
+              144,
+              96
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "HOME RUN",
+            "source": [
+              160,
+              168
+            ],
+            "native_size": [
+              80,
+              20
+            ]
+          },
+          {
+            "text": "BATSU",
+            "source": [
+              160,
+              192
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "SHOMA",
+            "source": [
+              200,
+              192
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "HYO",
+            "source": [
+              192,
+              216
+            ],
+            "native_size": [
+              20,
+              20
+            ]
+          },
+          {
+            "text": "GAN",
+            "source": [
+              216,
+              216
+            ],
+            "native_size": [
+              20,
+              20
+            ]
+          }
+        ],
+        "speed_markers": "F=fast, S=slow; original disks retained"
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 354314,
+          "max_match": 751,
+          "max_block": 775,
+          "max_page": 2432,
+          "crossing_blocks": 0,
+          "decoded_bytes": 595968
+        },
+        "rebuilt": {
+          "stream_bytes": 354314,
+          "max_match": 751,
+          "max_block": 775,
+          "max_page": 2416,
+          "crossing_blocks": 0,
+          "decoded_bytes": 595968
+        }
+      }
+    },
+    {
+      "path": "DAT2/MINITTL6.BIZ",
+      "input_sha256": "708569f083f5661681bde7608663db51ad7c30d1c70b1e68a9344a49345f17a9",
+      "output_sha256": "015f53261507429f806b1cb232cfedfe804b5b84a3b6b3aa21cf77e7ef85ffe0",
+      "claim": {
+        "tim_offset": "0x0",
+        "rectangles": [
+          [
+            160,
+            192,
+            80,
+            24
+          ],
+          [
+            144,
+            96,
+            48,
+            24
+          ],
+          [
+            160,
+            168,
+            96,
+            24
+          ],
+          [
+            192,
+            216,
+            24,
+            24
+          ],
+          [
+            216,
+            216,
+            24,
+            24
+          ],
+          [
+            208,
+            0,
+            20,
+            20
+          ],
+          [
+            232,
+            0,
+            20,
+            20
+          ]
+        ],
+        "labels": [
+          {
+            "text": "BACK",
+            "source": [
+              144,
+              96
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "HOME RUN",
+            "source": [
+              160,
+              168
+            ],
+            "native_size": [
+              80,
+              20
+            ]
+          },
+          {
+            "text": "BATSU",
+            "source": [
+              160,
+              192
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "SHOMA",
+            "source": [
+              200,
+              192
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "HYO",
+            "source": [
+              192,
+              216
+            ],
+            "native_size": [
+              20,
+              20
+            ]
+          },
+          {
+            "text": "GAN",
+            "source": [
+              216,
+              216
+            ],
+            "native_size": [
+              20,
+              20
+            ]
+          }
+        ],
+        "speed_markers": "F=fast, S=slow; original disks retained"
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 489478,
+          "max_match": 751,
+          "max_block": 948,
+          "max_page": 2863,
+          "crossing_blocks": 0,
+          "decoded_bytes": 843776
+        },
+        "rebuilt": {
+          "stream_bytes": 489482,
+          "max_match": 751,
+          "max_block": 948,
+          "max_page": 2847,
+          "crossing_blocks": 0,
+          "decoded_bytes": 843776
+        }
+      }
+    },
+    {
+      "path": "DAT2/MINITTL7.BIZ",
+      "input_sha256": "46becf52353e500e2684018ee5186fec74629c88c643927b65229a66bad06213",
+      "output_sha256": "ae21c19ed20daa12ada6f60c864129e1c1bd49992a903b2ae59c54d53a90df20",
+      "claim": {
+        "tim_offset": "0x0",
+        "rectangles": [
+          [
+            160,
+            192,
+            80,
+            24
+          ],
+          [
+            144,
+            96,
+            48,
+            24
+          ],
+          [
+            160,
+            168,
+            96,
+            24
+          ],
+          [
+            192,
+            216,
+            24,
+            24
+          ],
+          [
+            216,
+            216,
+            24,
+            24
+          ],
+          [
+            208,
+            0,
+            20,
+            20
+          ],
+          [
+            232,
+            0,
+            20,
+            20
+          ]
+        ],
+        "labels": [
+          {
+            "text": "BACK",
+            "source": [
+              144,
+              96
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "HOME RUN",
+            "source": [
+              160,
+              168
+            ],
+            "native_size": [
+              80,
+              20
+            ]
+          },
+          {
+            "text": "BATSU",
+            "source": [
+              160,
+              192
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "SHOMA",
+            "source": [
+              200,
+              192
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "HYO",
+            "source": [
+              192,
+              216
+            ],
+            "native_size": [
+              20,
+              20
+            ]
+          },
+          {
+            "text": "GAN",
+            "source": [
+              216,
+              216
+            ],
+            "native_size": [
+              20,
+              20
+            ]
+          }
+        ],
+        "speed_markers": "F=fast, S=slow; original disks retained"
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 395274,
+          "max_match": 247,
+          "max_block": 544,
+          "max_page": 2366,
+          "crossing_blocks": 0,
+          "decoded_bytes": 595968
+        },
+        "rebuilt": {
+          "stream_bytes": 395274,
+          "max_match": 245,
+          "max_block": 544,
+          "max_page": 2350,
+          "crossing_blocks": 0,
+          "decoded_bytes": 595968
+        }
+      }
+    },
+    {
+      "path": "DAT2/MINITTL8.BIZ",
+      "input_sha256": "cfe9844fa64970985fa41a8e9e46630ecad261b287fdadb89c1fd32c8fcdc106",
+      "output_sha256": "98b33c4de7ffc4c303c9ca0a79215caed9859c688f87dd04e42458b060280438",
+      "claim": {
+        "tim_offset": "0x0",
+        "rectangles": [
+          [
+            160,
+            192,
+            80,
+            24
+          ],
+          [
+            144,
+            96,
+            48,
+            24
+          ],
+          [
+            160,
+            168,
+            96,
+            24
+          ],
+          [
+            192,
+            216,
+            24,
+            24
+          ],
+          [
+            216,
+            216,
+            24,
+            24
+          ],
+          [
+            208,
+            0,
+            20,
+            20
+          ],
+          [
+            232,
+            0,
+            20,
+            20
+          ]
+        ],
+        "labels": [
+          {
+            "text": "BACK",
+            "source": [
+              144,
+              96
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "HOME RUN",
+            "source": [
+              160,
+              168
+            ],
+            "native_size": [
+              80,
+              20
+            ]
+          },
+          {
+            "text": "BATSU",
+            "source": [
+              160,
+              192
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "SHOMA",
+            "source": [
+              200,
+              192
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "HYO",
+            "source": [
+              192,
+              216
+            ],
+            "native_size": [
+              20,
+              20
+            ]
+          },
+          {
+            "text": "GAN",
+            "source": [
+              216,
+              216
+            ],
+            "native_size": [
+              20,
+              20
+            ]
+          }
+        ],
+        "speed_markers": "F=fast, S=slow; original disks retained"
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 339978,
+          "max_match": 393,
+          "max_block": 667,
+          "max_page": 2592,
+          "crossing_blocks": 0,
+          "decoded_bytes": 595968
+        },
+        "rebuilt": {
+          "stream_bytes": 339978,
+          "max_match": 393,
+          "max_block": 667,
+          "max_page": 2576,
+          "crossing_blocks": 0,
+          "decoded_bytes": 595968
+        }
+      }
+    },
+    {
+      "path": "DAT2/MINITTL9.BIZ",
+      "input_sha256": "64561f993a973ada35a8905111d08857e87e2adff78236f761ec787fb1b29202",
+      "output_sha256": "6e69befee72a8dffbbfc847c9cbfc9a743096ea9317c500fd75a6e554dd6ab49",
+      "claim": {
+        "tim_offset": "0x0",
+        "rectangles": [
+          [
+            160,
+            192,
+            80,
+            24
+          ],
+          [
+            144,
+            96,
+            48,
+            24
+          ],
+          [
+            160,
+            168,
+            96,
+            24
+          ],
+          [
+            192,
+            216,
+            24,
+            24
+          ],
+          [
+            216,
+            216,
+            24,
+            24
+          ],
+          [
+            208,
+            0,
+            20,
+            20
+          ],
+          [
+            232,
+            0,
+            20,
+            20
+          ]
+        ],
+        "labels": [
+          {
+            "text": "BACK",
+            "source": [
+              144,
+              96
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "HOME RUN",
+            "source": [
+              160,
+              168
+            ],
+            "native_size": [
+              80,
+              20
+            ]
+          },
+          {
+            "text": "BATSU",
+            "source": [
+              160,
+              192
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "SHOMA",
+            "source": [
+              200,
+              192
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "HYO",
+            "source": [
+              192,
+              216
+            ],
+            "native_size": [
+              20,
+              20
+            ]
+          },
+          {
+            "text": "GAN",
+            "source": [
+              216,
+              216
+            ],
+            "native_size": [
+              20,
+              20
+            ]
+          }
+        ],
+        "speed_markers": "F=fast, S=slow; original disks retained"
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 366602,
+          "max_match": 1063,
+          "max_block": 1103,
+          "max_page": 2687,
+          "crossing_blocks": 0,
+          "decoded_bytes": 632832
+        },
+        "rebuilt": {
+          "stream_bytes": 366602,
+          "max_match": 1063,
+          "max_block": 1103,
+          "max_page": 2671,
+          "crossing_blocks": 0,
+          "decoded_bytes": 632832
+        }
+      }
+    },
+    {
+      "path": "DAT2/MINITTLA.BIZ",
+      "input_sha256": "a8e71e54098483c574d034dd9905742044a131ce9bf4495c50b47d57a98e515a",
+      "output_sha256": "78202ec8c38e137d0cbaa59516a04ef5f34ef8f71facfa6ee5bc3aaf403e727e",
+      "claim": {
+        "tim_offset": "0x0",
+        "rectangles": [
+          [
+            160,
+            192,
+            80,
+            24
+          ],
+          [
+            144,
+            96,
+            48,
+            24
+          ],
+          [
+            160,
+            168,
+            96,
+            24
+          ],
+          [
+            192,
+            216,
+            24,
+            24
+          ],
+          [
+            216,
+            216,
+            24,
+            24
+          ],
+          [
+            208,
+            0,
+            20,
+            20
+          ],
+          [
+            232,
+            0,
+            20,
+            20
+          ]
+        ],
+        "labels": [
+          {
+            "text": "BACK",
+            "source": [
+              144,
+              96
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "HOME RUN",
+            "source": [
+              160,
+              168
+            ],
+            "native_size": [
+              80,
+              20
+            ]
+          },
+          {
+            "text": "BATSU",
+            "source": [
+              160,
+              192
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "SHOMA",
+            "source": [
+              200,
+              192
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "HYO",
+            "source": [
+              192,
+              216
+            ],
+            "native_size": [
+              20,
+              20
+            ]
+          },
+          {
+            "text": "GAN",
+            "source": [
+              216,
+              216
+            ],
+            "native_size": [
+              20,
+              20
+            ]
+          }
+        ],
+        "speed_markers": "F=fast, S=slow; original disks retained"
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 407562,
+          "max_match": 1058,
+          "max_block": 1073,
+          "max_page": 2378,
+          "crossing_blocks": 0,
+          "decoded_bytes": 632832
+        },
+        "rebuilt": {
+          "stream_bytes": 407562,
+          "max_match": 1058,
+          "max_block": 1073,
+          "max_page": 2362,
+          "crossing_blocks": 0,
+          "decoded_bytes": 632832
+        }
+      }
+    },
+    {
+      "path": "DAT2/MINITTLB.BIZ",
+      "input_sha256": "83c12781b7b3f0cbb44e1089b91619dc5c9147cdfa3756c795e466947658403e",
+      "output_sha256": "a9661608c0bae556e8d5dc88be56b54b82f682e490aa831a5753780ce50c08a0",
+      "claim": {
+        "tim_offset": "0x0",
+        "rectangles": [
+          [
+            160,
+            192,
+            80,
+            24
+          ],
+          [
+            144,
+            96,
+            48,
+            24
+          ],
+          [
+            160,
+            168,
+            96,
+            24
+          ],
+          [
+            192,
+            216,
+            24,
+            24
+          ],
+          [
+            216,
+            216,
+            24,
+            24
+          ],
+          [
+            208,
+            0,
+            20,
+            20
+          ],
+          [
+            232,
+            0,
+            20,
+            20
+          ]
+        ],
+        "labels": [
+          {
+            "text": "BACK",
+            "source": [
+              144,
+              96
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "HOME RUN",
+            "source": [
+              160,
+              168
+            ],
+            "native_size": [
+              80,
+              20
+            ]
+          },
+          {
+            "text": "BATSU",
+            "source": [
+              160,
+              192
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "SHOMA",
+            "source": [
+              200,
+              192
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "HYO",
+            "source": [
+              192,
+              216
+            ],
+            "native_size": [
+              20,
+              20
+            ]
+          },
+          {
+            "text": "GAN",
+            "source": [
+              216,
+              216
+            ],
+            "native_size": [
+              20,
+              20
+            ]
+          }
+        ],
+        "speed_markers": "F=fast, S=slow; original disks retained"
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 393226,
+          "max_match": 1071,
+          "max_block": 1103,
+          "max_page": 3000,
+          "crossing_blocks": 0,
+          "decoded_bytes": 632832
+        },
+        "rebuilt": {
+          "stream_bytes": 393226,
+          "max_match": 1071,
+          "max_block": 1103,
+          "max_page": 2984,
+          "crossing_blocks": 0,
+          "decoded_bytes": 632832
+        }
+      }
+    },
+    {
+      "path": "DAT2/MINITTLC.BIZ",
+      "input_sha256": "5185906782cd6e2f85997d03ea463aff9c064bc1adeb87ff881df29c23974a28",
+      "output_sha256": "2f83af5dada264da5821192b6d37c48c758a58f3158dc614a3e18c154c799896",
+      "claim": {
+        "tim_offset": "0x0",
+        "rectangles": [
+          [
+            160,
+            192,
+            80,
+            24
+          ],
+          [
+            144,
+            96,
+            48,
+            24
+          ],
+          [
+            160,
+            168,
+            96,
+            24
+          ],
+          [
+            192,
+            216,
+            24,
+            24
+          ],
+          [
+            216,
+            216,
+            24,
+            24
+          ],
+          [
+            208,
+            0,
+            20,
+            20
+          ],
+          [
+            232,
+            0,
+            20,
+            20
+          ]
+        ],
+        "labels": [
+          {
+            "text": "BACK",
+            "source": [
+              144,
+              96
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "HOME RUN",
+            "source": [
+              160,
+              168
+            ],
+            "native_size": [
+              80,
+              20
+            ]
+          },
+          {
+            "text": "BATSU",
+            "source": [
+              160,
+              192
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "SHOMA",
+            "source": [
+              200,
+              192
+            ],
+            "native_size": [
+              40,
+              20
+            ]
+          },
+          {
+            "text": "HYO",
+            "source": [
+              192,
+              216
+            ],
+            "native_size": [
+              20,
+              20
+            ]
+          },
+          {
+            "text": "GAN",
+            "source": [
+              216,
+              216
+            ],
+            "native_size": [
+              20,
+              20
+            ]
+          }
+        ],
+        "speed_markers": "F=fast, S=slow; original disks retained"
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 407562,
+          "max_match": 1058,
+          "max_block": 1073,
+          "max_page": 2395,
+          "crossing_blocks": 0,
+          "decoded_bytes": 632832
+        },
+        "rebuilt": {
+          "stream_bytes": 407562,
+          "max_match": 1058,
+          "max_block": 1073,
+          "max_page": 2379,
+          "crossing_blocks": 0,
+          "decoded_bytes": 632832
+        }
+      }
+    },
+    {
+      "path": "DAT2/MENU.BIZ",
+      "input_sha256": "0d2281ce098be63725eedd8ba8a0ed6489575683cbd55cde0430fa3d71007854",
+      "output_sha256": "f62f6f23f4518871cfab825d563fff8f23e6815ae3ac321a2802213399191463",
+      "claim": {
+        "tim_offset": "0x22800",
+        "rectangles": [
+          [
+            544,
+            224,
+            80,
+            24
+          ]
+        ],
+        "text": "CURRENT POINTS",
+        "style": "unsqueezed 5x7 bitmap, two rows per pixel, solid dark native index 1",
+        "native_safe_height": 16
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 382986,
+          "max_match": 23,
+          "max_block": 38,
+          "max_page": 2248,
+          "crossing_blocks": 0,
+          "decoded_bytes": 653312
+        },
+        "rebuilt": {
+          "stream_bytes": 382986,
+          "max_match": 23,
+          "max_block": 38,
+          "max_page": 2232,
+          "crossing_blocks": 0,
+          "decoded_bytes": 653312
+        }
+      }
+    },
+    {
+      "path": "DAT2/SPRINT.BIZ",
+      "input_sha256": "8984cee4abd54f72dd3c4733663b1d2e4418944c222d2998373ca195c58aba06",
+      "output_sha256": "7a2c1dca9c8efd6df2197d9e4a324ba6f7bc9ebf6bec1e2fbba2fdc59eb96696",
+      "claim": {
+        "tim_offset": "0x0",
+        "rectangles": [
+          [
+            104,
+            128,
+            56,
+            24
+          ]
+        ],
+        "text": "WIN",
+        "native_palette": 19
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 32832,
+          "max_match": 235,
+          "max_block": 250,
+          "max_page": 2120,
+          "crossing_blocks": 0,
+          "decoded_bytes": 66336
+        },
+        "rebuilt": {
+          "stream_bytes": 32818,
+          "max_match": 235,
+          "max_block": 250,
+          "max_page": 2104,
+          "crossing_blocks": 0,
+          "decoded_bytes": 66336
+        }
+      }
+    },
+    {
+      "path": "DAT2/CEFT5.BIZ",
+      "input_sha256": "acaa3a62a91f67c00cff0f934279234b5943b3cfd69b08175b04dafefbf63e04",
+      "output_sha256": "84397a82d7764f2a144be3c7eb05da9c2f4d5106fad662dac677734296f2bc78",
+      "claim": {
+        "tim_offset": "0x10800",
+        "rectangles": [
+          [
+            592,
+            232,
+            56,
+            24
+          ]
+        ],
+        "text": "WIN",
+        "native_palette": 47
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 90126,
+          "max_match": 102,
+          "max_block": 409,
+          "max_page": 2378,
+          "crossing_blocks": 0,
+          "decoded_bytes": 169984
+        },
+        "rebuilt": {
+          "stream_bytes": 90122,
+          "max_match": 82,
+          "max_block": 336,
+          "max_page": 2362,
+          "crossing_blocks": 0,
+          "decoded_bytes": 169984
+        }
+      }
+    },
+    {
+      "path": "DAT2/CEFT4.BIZ",
+      "input_sha256": "8eb1840c2080c9c4c01439d3491ae3d8a42f2876dabc33216dc0e21a729a55b0",
+      "output_sha256": "eebf04657bdeb8da1ec8a4d34226227ea33f99ef9bcf2090d072e25c7d93951e",
+      "claim": {
+        "tim_offset": "0x10800",
+        "rectangles": [
+          [
+            256,
+            0,
+            80,
+            96
+          ],
+          [
+            336,
+            0,
+            80,
+            96
+          ],
+          [
+            184,
+            96,
+            24,
+            16
+          ],
+          [
+            184,
+            112,
+            24,
+            16
+          ]
+        ],
+        "texts": [
+          "START",
+          "FINISH",
+          "TASK"
+        ],
+        "prefix_glyph_width": 16,
+        "native_digits_colon_and_palettes_preserved": true
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 78520,
+          "max_match": 1073,
+          "max_block": 1088,
+          "max_page": 2575,
+          "crossing_blocks": 37,
+          "decoded_bytes": 143360
+        },
+        "rebuilt": {
+          "stream_bytes": 77834,
+          "max_match": 1073,
+          "max_block": 1088,
+          "max_page": 2559,
+          "crossing_blocks": 0,
+          "decoded_bytes": 143360
+        }
+      }
+    },
+    {
+      "path": "DAT2/CEFT6.BIZ",
+      "input_sha256": "59025859588d2a9cb667402a4001bc8aac48a7a02aa05ad28a3cc4ad49791a86",
+      "output_sha256": "3b8e9cd8b6958dc4d22b63cfc20980561f09f9b1a9a0ecf005fb0c4487a10f31",
+      "claim": {
+        "tim_offset": "0x10800",
+        "rectangles": [
+          [
+            256,
+            0,
+            80,
+            96
+          ],
+          [
+            336,
+            0,
+            80,
+            96
+          ],
+          [
+            184,
+            96,
+            24,
+            16
+          ],
+          [
+            184,
+            112,
+            24,
+            16
+          ]
+        ],
+        "texts": [
+          "START",
+          "FINISH",
+          "TASK"
+        ],
+        "prefix_glyph_width": 16,
+        "native_digits_colon_and_palettes_preserved": true
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 78496,
+          "max_match": 1073,
+          "max_block": 1088,
+          "max_page": 2576,
+          "crossing_blocks": 37,
+          "decoded_bytes": 143360
+        },
+        "rebuilt": {
+          "stream_bytes": 77834,
+          "max_match": 1073,
+          "max_block": 1088,
+          "max_page": 2560,
+          "crossing_blocks": 0,
+          "decoded_bytes": 143360
+        }
+      }
+    }
+  ],
+  "catalog_rebindings": [],
+  "catalog_audit": {
+    "bound_entries": 876,
+    "mismatches": []
+  },
+  "changed_sector_count": 2104,
+  "untargeted_records_preserved": 929,
+  "title_and_exam_intro_and_replay_panels_unchanged": true,
+  "whole_image_sector_ownership_and_checksums_passed": true,
+  "native_gameplay": "pending",
+  "integration_tests": {
+    "passed": 6,
+    "failed": 0,
+    "fixture": "exact v33 and rebuilt v34",
+    "command": "JG2_V33_BIN=<v33> JG2_V34_BIN=<v34> python -m unittest discover -s tests -p test_practice_layout_v34.py -v"
+  },
+  "python_updater_roundtrip": "PASS: final v34 hash reproduced from exact v33",
+  "powershell_wrapper": "reviewed; not executed on Linux",
+  "font_sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+}

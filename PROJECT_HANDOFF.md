@@ -1,5 +1,10 @@
 # Project Handoff — Read This First
 
+## v34 practice layout / exam HUD candidate — 2026-11-06
+
+Current native baseline: Ryan confirmed v33 boot, English title and mode select. v34 addresses issues #001 (points legibility), #008 (Sprint/shared ball-game WIN), #010 (BACK clipping), #011 (practice popup labels/speed markers) and #012 (exam START/FINISH/TASK graphics). Output BIN SHA-256: `2ed4e3233c01b0f1eccf804bffdce6ed6c1f268ce71cf94109c839e86894734a`. Six integration tests, 876 catalog matches, all 929 untargeted records and a Python updater roundtrip passed. Native v34 validation is pending. Read PRACTICE_LAYOUT_V34.md and validation/practice-layout-v34.json. Apply the new updater to exact v33; keep v33 as the boot-tested fallback. Do not close checklist issues until Ryan checks their corresponding screens.
+
+
 ## v33 native boot/title confirmed; collecting next batch — 2026-11-06
 
 Ryan confirms v33 launches and the English title screen works. The supplied mode-select screenshot confirms CURRENT POINTS now fits, but its dense outlined lettering is difficult to read. Issue #001 remains open for legibility; boot blocker #009 is resolved. Continue collecting issues one at a time before preparing another build. Exam/replay/all-route tests remain unconfirmed.
