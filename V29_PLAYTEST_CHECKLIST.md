@@ -100,6 +100,15 @@ Running list of Japanese text and other issues reported during testing from reco
 - Next investigation: check the label texture cell and sampled width, add safe right padding or adjust lettering fit, and audit the equivalent BACK labels across all six practice options. Only Sprint is confirmed affected by this screenshot.
 - The screenshot also confirms the Sprint landing screen title and instruction panel display in English; this does not validate its rules page or other practice routes.
 
+## 011 — Sprint practice popup: multiple clipped labels and Japanese speed markers
+
+- Reported: 2026-11-06, current v33 playtest; screenshot image(20261106-214811).png.
+- Location: black, white-bordered popup over Fiery Sprint practice landing screen, showing five vertically arranged purple labels, a blue selection band and a vertical arrow.
+- Evidence: multiple English labels are visibly truncated; examples include HOME RU and BATSU S fragments. Exact intended full strings and popup purpose require source verification rather than inference from clipped text.
+- Remaining Japanese: left-side speed markers 速 (fast) and 遅 (slow).
+- Status: OPEN — collect for next batch; separate from #010 BACK clipping.
+- Next investigation: identify the popup source, audit all five label cells, native texture sampling widths and text scales, and check shared consumers across six practice routes. Restore full readable labels and translate speed markers within their available space. Only this Sprint popup is confirmed affected so far.
+
 ## Playtest scope
 
 This screenshot establishes the mode-select label issue. It does not establish whether the v29 startup notice was displayed or passed its native test. Continue the playthrough and append subsequent findings in order.
