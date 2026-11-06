@@ -4,6 +4,7 @@ from pathlib import Path
 import numpy as np
 from PIL import Image,ImageDraw,ImageFont
 from practice_disc_v30 import Disc,decode,compress,sha,file_sha,regenerate
+from native_resource_catalog import require_catalog
 from build_practice_v30 import tim,rgb_image,rgb_palette,replace_pixels,quantize
 from build_menu_fixes_v31 import RETRIES,RECTS,stamp,assert_owned
 MASTER='f9a3d199c9f535188258203b3a4ddea159755fe35b52e88a8c0c273871b7e7f2'
@@ -112,6 +113,8 @@ def build(a):
    if name!='DAT2/TITLE.BIZ':assert_owned(before,after,claim)
    encoded,profile=compress(after,stored,a.accelerator);preview=rgb_image(tim(after,int(claim['tim_offset'],16)),palette);x,y,w,h=box;preview.crop((x,y,x+w,y+h)).save(a.output/'previews'/(name.split('/')[-1]+'.png'))
   replacements[name]=encoded;reports.append(dict(path=name,input_sha256=sha(stored),output_sha256=sha(encoded),claim=claim,compression=profile));print(name,'ready',flush=True)
+ # Gate reproduction of the withdrawn v32: old image/CRC checks missed loader signatures.
+ require_catalog(source,replacements)
  target=a.output/'justice-gakuen2-title-exam-v32.bin';shutil.copyfile(a.master,target);changed={}
  with target.open('r+b')as f:
   for name,new in replacements.items():

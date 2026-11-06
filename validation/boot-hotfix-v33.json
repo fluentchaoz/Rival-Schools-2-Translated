@@ -1,0 +1,48 @@
+{
+  "kind": "v33 title-loader catalog hotfix",
+  "input_sha256": "4cfa22fde28be1d805b141fe67f0bbe0f9cbcf999d6f015abd858e4b8dc8654b",
+  "output_sha256": "1efd2f0231f9eaaa941830406450e705063d141fe23caa88f2bfe08dfeff03a9",
+  "changed_iso_record": "SLPS_021.20",
+  "changed_payload_bytes": 1,
+  "payload_byte_offset": "0x770dd",
+  "catalog_entry_offset": "0x770d4",
+  "catalog_signature_offset": "0x770dc",
+  "old_signature": "00087042",
+  "new_signature": "00007042",
+  "title_lba": 158593,
+  "title_size": 179992,
+  "changed_raw_sectors": [
+    263688
+  ],
+  "all_946_other_records_unchanged": true,
+  "title_graphics_and_all_v32_translations_unchanged": true,
+  "sector_edc_ecc_passed": true,
+  "native_boot_test": "pending",
+  "prior_v32_native_result": "User reports freeze after no-memory-card screen",
+  "catalog_before": {
+    "bound_entries": 876,
+    "mismatches": [
+      {
+        "path": "DAT2/TITLE.BIZ",
+        "catalog_offset": 487636,
+        "signature_offset": 487644,
+        "expected": "00087042",
+        "actual": "00007042"
+      }
+    ]
+  },
+  "catalog_after": {
+    "bound_entries": 876,
+    "mismatches": []
+  },
+  "regression_tests": {
+    "passed": 6,
+    "failed": 0
+  },
+  "updater_roundtrip": "Python updater recreated exact v33 SHA-256",
+  "powershell_execution": "reviewed, not executed here",
+  "primary_contract_sources": [
+    "mcpads/justice-gakuen2-kr-patch@98ca12ddf082d6e2367b2963f76edf5a09242deb:src/native_disc_resource.rs",
+    "same upstream:src/mode_descendant_graphics/record_compositor.rs"
+  ]
+}

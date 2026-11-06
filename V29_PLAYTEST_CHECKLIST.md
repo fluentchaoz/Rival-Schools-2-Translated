@@ -82,6 +82,15 @@ Running list of Japanese text and other issues reported during testing from reco
 - Status: OPEN — recorded separately from replay alignment; not patched in v32.
 - Audit win/result announcements across minigames before choosing the next coherent gameplay graphics batch.
 
+## 009 — v32 freezes after no-memory-card screen (boot blocker)
+
+- Native report: user says v32 freezes immediately after the no-memory-card notice.
+- Status: v32 WITHDRAWN; v33 catalog hotfix candidate awaiting fresh-boot confirmation.
+- Diagnosis: TITLE.BIZ begins 00007042 after recompression, but its executable CD locator still expects 00087042. This mismatch was missed by decoded-image/checksum tests.
+- Repair: one catalog data byte at SLPS_021.20 + 0x770DD corrected; all v32 graphics/translations remain unchanged. Audit of 876 matched native locator entries: v32 one mismatch, v33 zero.
+- Priority: confirm v33 reaches the English title and mode select before continuing translation playtests. Keep v31 as the earlier booting fallback.
+- Evidence and directions: BOOT_HOTFIX_V33.md; validation/boot-hotfix-v33.json.
+
 ## Playtest scope
 
 This screenshot establishes the mode-select label issue. It does not establish whether the v29 startup notice was displayed or passed its native test. Continue the playthrough and append subsequent findings in order.

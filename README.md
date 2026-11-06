@@ -17,7 +17,13 @@ bonus material and credits are part of the intended scope.
 
 ## Current state
 
-**Latest offline-built candidate: v32.** Installs the supplied English title art,
+**v32 is withdrawn after a reported native boot freeze. Latest candidate: v33
+boot hotfix.** A one-byte title-resource catalog correction preserves all v32
+work. Catalog/sector checks and six tests pass; native boot is pending.
+See [boot hotfix directions](BOOT_HOTFIX_V33.md). Keep v31 as fallback.
+
+
+**Withdrawn build: v32.** Installs the supplied English title art,
 repairs points/replay native layout defects, and translates the reported
 first-term Practice Exam card. Earlier practice translations are retained.
 Seven tests and all three updater paths passed; native testing is pending.

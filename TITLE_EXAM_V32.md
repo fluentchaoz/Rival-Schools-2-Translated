@@ -1,5 +1,8 @@
 # Title, exam and native layout corrections v32
 
+**WITHDRAWN — native freeze reported after the memory-card notice. Use the v33
+boot hotfix candidate described in BOOT_HOTFIX_V33.md; native boot remains pending.**
+
 This candidate addresses Ryan's four reports after the v31 playtest:
 
 1. Install the supplied Rival Schools / Hot-Blooded Youth Diary 2 title image.

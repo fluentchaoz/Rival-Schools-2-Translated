@@ -1,5 +1,26 @@
 # Project Handoff — Read This First
 
+## v32 native boot failure; v33 boot hotfix candidate — 2026-11-06
+
+Ryan reports v32 freezes after the no-memory-card screen. **v32 is withdrawn.**
+The title's recompressed first four bytes disagree with its native executable CD
+locator. v33 changes one catalog data byte to bind that locator to the actual
+title resource. All v32 artwork/translations and all other 946 records remain
+byte-for-byte intact. v31 is the earlier booting fallback.
+
+v33 BIN SHA-256:
+`1efd2f0231f9eaaa941830406450e705063d141fe23caa88f2bfe08dfeff03a9`.
+Read BOOT_HOTFIX_V33.md and validation/boot-hotfix-v33.json. The native-catalog
+audit finds one mismatch in v32 and zero in v33 across 876 matched entries.
+Six regressions, one-sector integrity/scope checks and updater roundtrip pass.
+**Native v33 boot is pending.** The PowerShell wrapper was not executed here.
+
+Next action: apply the small hotfix to exact v32, fresh-boot the v33 CUE, and
+verify it reaches the English title/mode select beyond the memory-card notice.
+Do not promote it as native-tested or continue new translation batches until
+that boot check is confirmed. Failed v32 reproduction is now gated by the
+native catalog validator before a BIN is written.
+
 ## Title/exam/native-layout v32 candidate — 2026-11-06
 
 v31 native screenshots show English replay text and points, but revealed a

@@ -677,7 +677,7 @@
   ],
   "changed_sector_count": 308,
   "all_941_untargeted_iso_records_unchanged": true,
-  "native_gameplay": "pending",
+  "native_gameplay": "FAILED: user reports freeze after no-memory-card screen",
   "checksums_and_sector_ownership_passed": true,
   "exam_scope": "First-term introduction member 30 only; other 32 members retained",
   "title_scope": "Supplied artwork installed above row 400; original audio, palette, copyright and runtime prompt preserved",
@@ -735,5 +735,7 @@
     "source_reconstruction_visually_matches_reported_five_lines": true,
     "approximate_pixel_correlation": 0.7973,
     "caveat": "Image correspondence validates reported source layout, not native execution of translated candidate"
-  }
+  },
+  "release_status": "withdrawn",
+  "boot_defect": "TITLE.BIZ compressed prefix changed without updating the native CD locator signature; see validation/boot-hotfix-v33.json"
 }
