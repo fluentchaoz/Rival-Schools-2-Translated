@@ -11,6 +11,7 @@ Running list of Japanese text and other issues reported during testing from reco
 - Meaning / proposed English: `CURRENT POINTS` (subject to graphic fit).
 - Evidence: user-provided mode-select screenshot. Main description and SCHOOL LIFE 2 title are already English; this points label remains Japanese.
 - Status: OPEN — observed, not fixed.
+- Follow-up confirmation (2026-11-06): user supplied another mode-select screenshot circling the same red label after the v30 practice batch was delivered. It is the existing issue #001, not a new issue. Exact running disc version is not established by the screenshot. This surface was outside v30's practice-interface scope.
 - Next investigation: identify the label's source graphic and all shared consumers before patching; preserve the points value and menu behavior.
 
 ## 002 — Fiery Sprint practice screen remains Japanese
