@@ -1,0 +1,739 @@
+{
+  "kind": "Title/exam/layout v32",
+  "master_sha256": "f9a3d199c9f535188258203b3a4ddea159755fe35b52e88a8c0c273871b7e7f2",
+  "output_sha256": "4cfa22fde28be1d805b141fe67f0bbe0f9cbcf999d6f015abd858e4b8dc8654b",
+  "disc_bytes": 663216960,
+  "title_image_sha256": "f504baae3a64a5b2470fa328e78caaaf936b2d8a197580d2065f37a11a4c3f3a",
+  "font_sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895",
+  "records": [
+    {
+      "path": "DAT2/MENU.BIZ",
+      "input_sha256": "12807ea4e94abbd3adac23cda89f5cdf2dcf520dc2f63505d1bde92bdd1acbc8",
+      "output_sha256": "0d2281ce098be63725eedd8ba8a0ed6489575683cbd55cde0430fa3d71007854",
+      "claim": {
+        "kind": "points-single-line",
+        "tim_offset": "0x22800",
+        "rectangles": [
+          [
+            544,
+            224,
+            80,
+            24
+          ]
+        ],
+        "safe_native_rows": 16,
+        "text": "CURRENT POINTS"
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 382986,
+          "max_match": 23,
+          "max_block": 38,
+          "max_page": 2264,
+          "crossing_blocks": 0,
+          "decoded_bytes": 653312
+        },
+        "rebuilt": {
+          "stream_bytes": 382986,
+          "max_match": 23,
+          "max_block": 38,
+          "max_page": 2248,
+          "crossing_blocks": 0,
+          "decoded_bytes": 653312
+        }
+      }
+    },
+    {
+      "path": "DAT2/SPRINT.BIZ",
+      "input_sha256": "9a0557185df53c0acfbe0fccfe3d46844106942652fef4e589168fdb19a9e077",
+      "output_sha256": "8984cee4abd54f72dd3c4733663b1d2e4418944c222d2998373ca195c58aba06",
+      "claim": {
+        "kind": "replay-native-alignment",
+        "tim_offset": "0x0",
+        "rectangles": [
+          [
+            18,
+            98,
+            35,
+            22
+          ],
+          [
+            58,
+            98,
+            44,
+            22
+          ]
+        ],
+        "panel": [
+          0,
+          68,
+          112,
+          60
+        ],
+        "answers": [
+          {
+            "text": "YES",
+            "shift": [
+              -1,
+              2
+            ],
+            "ink_center": [
+              33.5,
+              42.0
+            ]
+          },
+          {
+            "text": "NO",
+            "shift": [
+              -3,
+              2
+            ],
+            "ink_center": [
+              76.5,
+              42.0
+            ]
+          }
+        ]
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 32778,
+          "max_match": 250,
+          "max_block": 250,
+          "max_page": 2136,
+          "crossing_blocks": 0,
+          "decoded_bytes": 66336
+        },
+        "rebuilt": {
+          "stream_bytes": 32832,
+          "max_match": 235,
+          "max_block": 250,
+          "max_page": 2120,
+          "crossing_blocks": 0,
+          "decoded_bytes": 66336
+        }
+      }
+    },
+    {
+      "path": "DAT2/DANCE.BIZ",
+      "input_sha256": "3529c43389c77f29154afd0d97af4803b9e43f4ee436fc7375c41d5ee6e12510",
+      "output_sha256": "a4b367d5fc4f1799a8bed5c19be3e76b886b1dae85f38b180692c95eef3053ae",
+      "claim": {
+        "kind": "replay-native-alignment",
+        "tim_offset": "0x0",
+        "rectangles": [
+          [
+            274,
+            112,
+            35,
+            22
+          ],
+          [
+            314,
+            112,
+            44,
+            22
+          ]
+        ],
+        "panel": [
+          256,
+          82,
+          112,
+          60
+        ],
+        "answers": [
+          {
+            "text": "YES",
+            "shift": [
+              -1,
+              2
+            ],
+            "ink_center": [
+              33.5,
+              42.0
+            ]
+          },
+          {
+            "text": "NO",
+            "shift": [
+              -3,
+              2
+            ],
+            "ink_center": [
+              76.5,
+              42.0
+            ]
+          }
+        ]
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 51210,
+          "max_match": 1078,
+          "max_block": 1093,
+          "max_page": 2194,
+          "crossing_blocks": 0,
+          "decoded_bytes": 100384
+        },
+        "rebuilt": {
+          "stream_bytes": 51210,
+          "max_match": 1078,
+          "max_block": 1093,
+          "max_page": 2178,
+          "crossing_blocks": 0,
+          "decoded_bytes": 100384
+        }
+      }
+    },
+    {
+      "path": "DAT2/CEFT5.BIZ",
+      "input_sha256": "5f02b3374e7747abe2bfd0e832cbb8b8b66490fd9eb2e2944f25ec4c9000597e",
+      "output_sha256": "acaa3a62a91f67c00cff0f934279234b5943b3cfd69b08175b04dafefbf63e04",
+      "claim": {
+        "kind": "replay-native-alignment",
+        "tim_offset": "0x10800",
+        "rectangles": [
+          [
+            674,
+            210,
+            35,
+            22
+          ],
+          [
+            714,
+            210,
+            44,
+            22
+          ]
+        ],
+        "panel": [
+          656,
+          180,
+          112,
+          60
+        ],
+        "answers": [
+          {
+            "text": "YES",
+            "shift": [
+              -1,
+              2
+            ],
+            "ink_center": [
+              33.5,
+              42.0
+            ]
+          },
+          {
+            "text": "NO",
+            "shift": [
+              -3,
+              2
+            ],
+            "ink_center": [
+              76.5,
+              42.0
+            ]
+          }
+        ]
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 90122,
+          "max_match": 102,
+          "max_block": 439,
+          "max_page": 2394,
+          "crossing_blocks": 0,
+          "decoded_bytes": 169984
+        },
+        "rebuilt": {
+          "stream_bytes": 90126,
+          "max_match": 102,
+          "max_block": 409,
+          "max_page": 2378,
+          "crossing_blocks": 0,
+          "decoded_bytes": 169984
+        }
+      }
+    },
+    {
+      "path": "DAT2/TITLE.BIZ",
+      "input_sha256": "2c6c7e5947c268252e386ce069ab45a1642be1d2b17ebdda741005bc3bb205a6",
+      "output_sha256": "232bb81c951059e992f898bf17d6d785ac921a9339056b7d71c33ec0031be259",
+      "claim": {
+        "kind": "supplied-title-screen",
+        "tim_offset": "0x6000",
+        "rectangles": [
+          [
+            0,
+            0,
+            512,
+            400
+          ]
+        ],
+        "image_sha256": "f504baae3a64a5b2470fa328e78caaaf936b2d8a197580d2065f37a11a4c3f3a",
+        "original_audio_headers_palettes_and_lower_80_rows_preserved": true,
+        "runtime_start_prompt_unchanged": true
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 179992,
+          "max_match": 1014,
+          "max_block": 1035,
+          "max_page": 2297,
+          "crossing_blocks": 80,
+          "decoded_bytes": 272384
+        },
+        "rebuilt": {
+          "stream_bytes": 178186,
+          "max_match": 66,
+          "max_block": 320,
+          "max_page": 2281,
+          "crossing_blocks": 0,
+          "decoded_bytes": 272384
+        }
+      }
+    },
+    {
+      "path": "DAT2/TESTMJ.TIZ",
+      "input_sha256": "f8ac06959288769b3ae21b570c10a17188d7922a7430859c6e9ef9a330dc91aa",
+      "output_sha256": "e9145ec179c3264f768d65ada6c64358aa76556fe6f068b44b3859d6ca7054e0",
+      "claim": {
+        "kind": "first-term-exam",
+        "member_claim": {
+          "member": 30,
+          "source_tiles": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53
+          ],
+          "row_tile_counts": [
+            9,
+            7,
+            13,
+            9,
+            8
+          ],
+          "lines": [
+            "Dodge Hideo's energy waves",
+            "and touch Hideo!",
+            "Use sidesteps and dashes",
+            "to get past his shots.",
+            "Master those moves!"
+          ],
+          "source_layout_evidence": "Native screenshot: first-term instruction; source reconstruction visually matched all five lines",
+          "tim_offset": "0x0",
+          "rectangles": [
+            [
+              0,
+              16,
+              32,
+              16
+            ],
+            [
+              32,
+              16,
+              32,
+              16
+            ],
+            [
+              64,
+              16,
+              32,
+              16
+            ],
+            [
+              96,
+              16,
+              32,
+              16
+            ],
+            [
+              128,
+              16,
+              32,
+              16
+            ],
+            [
+              160,
+              16,
+              32,
+              16
+            ],
+            [
+              192,
+              16,
+              32,
+              16
+            ],
+            [
+              224,
+              16,
+              32,
+              16
+            ],
+            [
+              0,
+              32,
+              32,
+              16
+            ],
+            [
+              32,
+              32,
+              32,
+              16
+            ],
+            [
+              64,
+              32,
+              32,
+              16
+            ],
+            [
+              96,
+              32,
+              32,
+              16
+            ],
+            [
+              128,
+              32,
+              32,
+              16
+            ],
+            [
+              160,
+              32,
+              32,
+              16
+            ],
+            [
+              192,
+              32,
+              32,
+              16
+            ],
+            [
+              224,
+              32,
+              32,
+              16
+            ],
+            [
+              0,
+              48,
+              32,
+              16
+            ],
+            [
+              32,
+              48,
+              32,
+              16
+            ],
+            [
+              64,
+              48,
+              32,
+              16
+            ],
+            [
+              96,
+              48,
+              32,
+              16
+            ],
+            [
+              128,
+              48,
+              32,
+              16
+            ],
+            [
+              160,
+              48,
+              32,
+              16
+            ],
+            [
+              192,
+              48,
+              32,
+              16
+            ],
+            [
+              224,
+              48,
+              32,
+              16
+            ],
+            [
+              0,
+              64,
+              32,
+              16
+            ],
+            [
+              32,
+              64,
+              32,
+              16
+            ],
+            [
+              64,
+              64,
+              32,
+              16
+            ],
+            [
+              96,
+              64,
+              32,
+              16
+            ],
+            [
+              128,
+              64,
+              32,
+              16
+            ],
+            [
+              160,
+              64,
+              32,
+              16
+            ],
+            [
+              192,
+              64,
+              32,
+              16
+            ],
+            [
+              224,
+              64,
+              32,
+              16
+            ],
+            [
+              0,
+              80,
+              32,
+              16
+            ],
+            [
+              32,
+              80,
+              32,
+              16
+            ],
+            [
+              64,
+              80,
+              32,
+              16
+            ],
+            [
+              96,
+              80,
+              32,
+              16
+            ],
+            [
+              128,
+              80,
+              32,
+              16
+            ],
+            [
+              160,
+              80,
+              32,
+              16
+            ],
+            [
+              192,
+              80,
+              32,
+              16
+            ],
+            [
+              224,
+              80,
+              32,
+              16
+            ],
+            [
+              0,
+              96,
+              32,
+              16
+            ],
+            [
+              32,
+              96,
+              32,
+              16
+            ],
+            [
+              64,
+              96,
+              32,
+              16
+            ],
+            [
+              96,
+              96,
+              32,
+              16
+            ],
+            [
+              128,
+              96,
+              32,
+              16
+            ],
+            [
+              160,
+              96,
+              32,
+              16
+            ],
+            [
+              0,
+              0,
+              256,
+              16
+            ]
+          ],
+          "other_tiles_and_palette_preserved": true
+        },
+        "compression": {
+          "source": {
+            "stream_bytes": 18582,
+            "max_match": 1073,
+            "max_block": 1088,
+            "max_page": 2032,
+            "crossing_blocks": 9,
+            "decoded_bytes": 32832
+          },
+          "rebuilt": {
+            "stream_bytes": 18442,
+            "max_match": 994,
+            "max_block": 1013,
+            "max_page": 2016,
+            "crossing_blocks": 0,
+            "decoded_bytes": 32832
+          }
+        },
+        "member_table_and_other_32_members_unchanged": true
+      },
+      "compression": null
+    }
+  ],
+  "changed_sector_count": 308,
+  "all_941_untargeted_iso_records_unchanged": true,
+  "native_gameplay": "pending",
+  "checksums_and_sector_ownership_passed": true,
+  "exam_scope": "First-term introduction member 30 only; other 32 members retained",
+  "title_scope": "Supplied artwork installed above row 400; original audio, palette, copyright and runtime prompt preserved",
+  "regression_tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "updater_roundtrips": {
+    "v29": "exact output SHA reproduced",
+    "v30": "exact output SHA reproduced",
+    "v31": "exact output SHA reproduced"
+  },
+  "updater_inputs": [
+    {
+      "version": "v29",
+      "master_sha256": "f4f974c40220dd82925d4b17d6a31b3f95218a6017783666851204ea3040c67f",
+      "patch_file": "from-v29.patch",
+      "patch_sha256": "f9c54715c3cd2da61b169365561129f9a16fbbef0377e227d621fd9027497f39",
+      "changed_sector_count": 2779
+    },
+    {
+      "version": "v30",
+      "master_sha256": "c9fdc6a749084fdf972b4debb36dda6b77cb44e0b34f4161d27573130dc44815",
+      "patch_file": "from-v30.patch",
+      "patch_sha256": "983eacb0fb86f9d34ea9d95030d61f78b5e8f6bbec2573d467e1b9896df15dcb",
+      "changed_sector_count": 318
+    },
+    {
+      "version": "v31",
+      "master_sha256": "f9a3d199c9f535188258203b3a4ddea159755fe35b52e88a8c0c273871b7e7f2",
+      "patch_file": "from-v31.patch",
+      "patch_sha256": "af332044d6855a26b6394b79c853b72158460743dba0a56f26ddb6dc9c4aac68",
+      "changed_sector_count": 308
+    }
+  ],
+  "powershell_wrapper_execution": "reviewed, not executed here; all three Python apply paths passed",
+  "native_evidence_received": [
+    "Points label English but lower line clipped in the user screenshot",
+    "Sprint replay English but answer position above original cursor baseline",
+    "First-term practical instruction screenshot matches TESTMJ member 30",
+    "Title screen intentionally remained original in v31"
+  ],
+  "first_term_layout": {
+    "source_tile_range": [
+      8,
+      53
+    ],
+    "row_tile_counts": [
+      9,
+      7,
+      13,
+      9,
+      8
+    ],
+    "source_reconstruction_visually_matches_reported_five_lines": true,
+    "approximate_pixel_correlation": 0.7973,
+    "caveat": "Image correspondence validates reported source layout, not native execution of translated candidate"
+  }
+}

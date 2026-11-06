@@ -1,5 +1,25 @@
 # Project Handoff — Read This First
 
+## Title/exam/native-layout v32 candidate — 2026-11-06
+
+v31 native screenshots show English replay text and points, but revealed a
+points-label crop and answer/cursor misalignment. v32 corrects those, installs
+Ryan's supplied English title image, and translates the reported first-term
+Practice Exam introduction (TESTMJ member 30). Other 32 instruction members
+remain untouched. The earlier practice translations/full Sprint label remain.
+
+Output BIN SHA-256:
+`4cfa22fde28be1d805b141fe67f0bbe0f9cbcf999d6f015abd858e4b8dc8654b`.
+Read TITLE_EXAM_V32.md and validation/title-exam-v32.json. Seven regression tests,
+record/pixel ownership and disc integrity checks passed. Cumulative private
+updaters from v29/v30/v31 reproduced this hash. Native v32 testing is pending;
+PowerShell was not executed here, while the three Python apply paths were.
+
+Next: fresh-boot v32 and check title/PRESS START, single-line points, the first
+Practice Exam introduction and both replay choices. Continue the remaining
+exam cards and gameplay/selector text afterward; the Japanese Sprint win banner
+in the latest screenshot is now separately recorded on the checklist.
+
 ## Menu fixes v31 candidate — 2026-11-06
 
 Latest offline candidate: v31, built from exact v30. Includes CURRENT POINTS on

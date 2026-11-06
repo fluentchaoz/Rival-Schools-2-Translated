@@ -17,7 +17,14 @@ bonus material and credits are part of the intended scope.
 
 ## Current state
 
-**Latest offline-built candidate: v31.** Current Points and the shared replay
+**Latest offline-built candidate: v32.** Installs the supplied English title art,
+repairs points/replay native layout defects, and translates the reported
+first-term Practice Exam card. Earlier practice translations are retained.
+Seven tests and all three updater paths passed; native testing is pending.
+See [v32 details and directions](TITLE_EXAM_V32.md).
+
+
+**Previous candidate: v31.** Current Points and the shared replay
 prompts are English; the full FIERY SPRINT label and all v30 practice work are
 retained. Updater paths from v29 and v30 passed exact-hash checks. Native testing
 is pending. See [the v31 directions](MENU_FIXES_V31.md).

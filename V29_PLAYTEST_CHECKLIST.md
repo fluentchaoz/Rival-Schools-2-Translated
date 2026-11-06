@@ -10,11 +10,13 @@ Running list of Japanese text and other issues reported during testing from reco
 - Visible Japanese: `現在のポイント`.
 - Meaning / proposed English: `CURRENT POINTS` (subject to graphic fit).
 - Evidence: user-provided mode-select screenshot. Main description and SCHOOL LIFE 2 title are already English; this points label remains Japanese.
-- Status: IMPLEMENTED IN v31 CANDIDATE — native validation pending; see MENU_FIXES_V31.md.
+- Status: v31 NATIVE CROP DEFECT OBSERVED; corrected in v32 candidate, pending native retest.
 - Follow-up confirmation (2026-11-06): user supplied another mode-select screenshot circling the same red label after the v30 practice batch was delivered. It is the existing issue #001, not a new issue. Exact running disc version is not established by the screenshot. This surface was outside v30's practice-interface scope.
 - Next investigation: identify the label's source graphic and all shared consumers before patching; preserve the points value and menu behavior.
 
 - v31 scope: source-bound 80×24 label cell replaced with CURRENT / POINTS; dynamic score remains untouched.
+
+- Latest native report: English CURRENT / POINTS appears, but the bottom line is clipped. v32 uses a single line confined to the upper 16 texture rows.
 
 ## 002 — Fiery Sprint practice screen remains Japanese
 
@@ -48,11 +50,37 @@ Running list of Japanese text and other issues reported during testing from reco
 - Visible Japanese: `もう一回する？`, `はい`, `いいえ`.
 - Proposed English: `PLAY AGAIN?`, `YES`, `NO`.
 - Evidence: user-provided Sprint result screenshot showing `1P LOSE`, race times and the Japanese replay dialog.
-- Status: IMPLEMENTED IN v31 CANDIDATE — native validation pending; see MENU_FIXES_V31.md.
+- Status: English replay wording confirmed by the supplied Sprint result screenshot. Answer alignment defect is tracked as #007. Other-game native checks and both choice actions remain pending.
 - Confirmed scope: Sprint replay prompt. The other five minigames may share this surface, but that is not yet verified.
 - Next investigation: audit replay/retry/quit prompts across all six minigames, identify shared graphics and native consumers, and preserve selection logic, timing values and score data. The v30 practice landing/rules work does not establish gameplay-result localization.
 
 - v31 scope: all three source-bound physical replay panels are patched (Sprint, Dance and shared ball games). Native replay/choice checks remain pending for all six games.
+
+## 005 — Install supplied English title screen
+
+- User now explicitly requests installing the supplied English mockup. Earlier v31 intentionally retained the original title.
+- Status: IMPLEMENTED IN v32 CANDIDATE — native boot test pending.
+- Supplied title art installed in TITLE.BIZ; original audio, palette, footer copyright pixels and runtime PRESS START are preserved. Small MODE SELECT logo remains a separate asset.
+
+## 006 — First-term Practice Exam instruction card remains Japanese
+
+- Reproduction: Diary → Practice Exam; teacher in red introduces the first-term task involving Hideo's energy waves, sidesteps and dashes.
+- Source: TESTMJ.TIZ member 30; captured five-row presentation reconstructed from tiles 8..53 as 9/7/13/9/8.
+- Status: IMPLEMENTED IN v32 CANDIDATE — native test pending.
+- Scope: exact reported first-term intro and heading. Other 32 instruction members, including other terms/basic cards, remain separate work.
+
+## 007 — English replay answers misaligned with yellow selection box
+
+- Native screenshot confirms PLAY AGAIN / YES / NO, but YES is too high relative to the highlight.
+- Original Japanese centers: YES (33.5,42), NO (76.5,42), checked in all three shared panels.
+- Status: IMPLEMENTED IN v32 CANDIDATE — native retest pending.
+- v32 shifts YES left 1/down 2 and NO left 3/down 2 source pixels; question, frame, palette and selection code unchanged.
+
+## 008 — Sprint win announcement still Japanese
+
+- Latest supplied winning Sprint result screenshot shows Japanese lettering in the large result banner behind the English replay panel.
+- Status: OPEN — recorded separately from replay alignment; not patched in v32.
+- Audit win/result announcements across minigames before choosing the next coherent gameplay graphics batch.
 
 ## Playtest scope
 
