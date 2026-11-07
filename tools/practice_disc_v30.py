@@ -107,17 +107,24 @@ def compress(data,source,accelerator=None):
    if n<0:raise ValueError(f'encoder error {n}')
    return buf.raw[:n]
   return compress_python(data,sp['max_match'],sp['max_block'],prefix,sp['max_page'])
- result=encode(0)
+ prefix_used=0;result=encode(0)
  if len(result)>len(source):raise ValueError('compressed output exceeds original slot')
  if len(result)<=final:
   lo,hi=16,len(data)//2;found=None
   while lo<=hi:
    mid=(lo+hi)//2;c=encode(mid)
    if len(c)<=final:lo=mid+1
-   else:found=c;hi=mid-1
+   else:found=c;prefix_used=mid;hi=mid-1
   if found is None:raise ValueError('cannot retain original final input page')
   result=found
  rp=decode(result,True)
+ # A terminator at the final page boundary can straddle its two-word payload.
+ # Adjust literal-prefix scheduling; retain every original decoder bound.
+ if rp['crossing_blocks']:
+  for shift in range(1,65):
+   candidate=encode(prefix_used+shift);cp=decode(candidate,True)
+   if final<len(candidate)<=len(source) and not cp['crossing_blocks'] and cp['max_page']<=sp['max_page'] and cp['max_match']<=sp['max_match'] and cp['max_block']<=sp['max_block']:
+    result=candidate;rp=cp;break
  if not(final<len(result)<=len(source)):raise ValueError('source final page / slot mismatch')
  if rp['max_page']>sp['max_page'] or rp['crossing_blocks'] or rp['max_match']>sp['max_match'] or rp['max_block']>sp['max_block']:raise ValueError('decoder profile exceeded')
  if decode(result)[0]!=data:raise ValueError('compression readback mismatch')

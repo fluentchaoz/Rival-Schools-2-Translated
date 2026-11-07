@@ -1,0 +1,7 @@
+{
+  "input_sha256": "c25207ba7f18dd73e56f5569d3df7dcdf3d9f92cc605dbbf17692b28a6e9cf8c",
+  "output_sha256": "9885ee49e0404d43218b36e7b40b7308a9b7300274e6984f0aa3a260cdba95f1",
+  "matches_built_image": true,
+  "input_unchanged": true,
+  "powershell": "reviewed; not executed"
+}

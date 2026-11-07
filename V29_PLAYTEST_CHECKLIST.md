@@ -175,7 +175,7 @@ Running list of Japanese text and other issues reported during testing from reco
 - Location: PLAY / LOAD entry screen with a blue upper panel and character-photo collage.
 - Confirmed surfaces: large lower-right 熱血青春日記2 logo, with the existing NEKKETSU SEISYUN NIKKI romanized strip; small upper-right combined game logo also remains Japanese.
 - Proposed English: lower subtitle logo HOT-BLOODED YOUTH DIARY 2; small combined mark RIVAL SCHOOLS / HOT-BLOODED YOUTH DIARY 2, consistent with the supplied English title artwork. Final small-size composition requires readability review.
-- Status: OPEN — log and investigate in the next batch; do not generate artwork or build yet while collecting screenshots.
+- Status: IMPLEMENTED IN v36 CANDIDATE — native retest pending; see MENU_ART_V36.md.
 - Required work: locate the separate native logo texture assets and all shared consumers; inspect palette/transparency, sampled bounds and tile/sprite assembly; adapt approved English artwork to each actual footprint; reinsert without clipping or changing adjacent collage/menu graphics.
 - Audit repeated uses of the small combined logo, including MODE SELECT, rather than assuming the full title-screen replacement covers them.
 - Preserve PLAY/LOAD controls and existing English menu text. Native title/logo success elsewhere does not validate these distinct assets.
@@ -187,7 +187,7 @@ Running list of Japanese text and other issues reported during testing from reco
 - Evidence: screenshot image(20261107-022457).png; April 8 / MAKO status HUD, desk background and green lower menu panel.
 - Confirmed Japanese: どれをおこないますか？ (What would you like to do?), セーブ (Save), ロード (Load), メニューに戻る (Return to Menu).
 - Already English: CANCEL = X button hint; preserve this and the translated status HUD.
-- Status: OPEN — log only while collecting the batch.
+- Status: IMPLEMENTED IN v36 CANDIDATE — native retest pending; see MENU_ART_V36.md.
 - Next investigation: identify the menu string/graphic bank and native consumer, fit the prompt and all three choices, and audit the subsequent save/load slot lists, confirmations and memory-card messages for untranslated shared text.
 - Only this first Backup menu is confirmed by the screenshot; later dialogs are audit targets. Preserve selection, cancellation, existing saves and memory-card behavior. Do not perform save/load actions as part of logging.
 
@@ -197,7 +197,7 @@ Running list of Japanese text and other issues reported during testing from reco
 - Reproduction: Minigame Practice → Service Ace → gameplay (user called it surface ace).
 - Evidence: screenshot image(20261107-022637).png; user circles the upper center-right record caption.
 - Confirmed Japanese: 最高記録 (Best Record / High Score) above the upper-right score; 現在の記録 (Current Record / Current Score) inside the upper-left score panel.
-- Status: OPEN — log while collecting this batch.
+- Status: IMPLEMENTED IN v36 CANDIDATE — native retest pending; see MENU_ART_V36.md.
 - Next investigation: identify the shared ball-game HUD cells and native sampled widths for both captions, translate without clipping, and audit other minigames using these same captions.
 - Preserve current/best score values, P units, power/aim gauges and gameplay. LEFT / BALL are already English in this frame; that does not establish all other v35 surfaces passed native checks.
 
@@ -206,7 +206,7 @@ Running list of Japanese text and other issues reported during testing from reco
 - Reported: 2026-11-06, after a winning Practice Exam.
 - Evidence: screenshot image(20261107-022914).png shows English EXAM RESULTS / 1999 EXAM REPORT and an English result row over the original repeated Japanese background pattern.
 - Confirmed decorative Japanese includes 私立ジャスティス学園 (Shiritsu Justice Gakuen / Rival Schools branding) and 熱血青春日記2 (Hot-Blooded Youth Diary 2), repeated at different sizes, angles and colors around the report sheet and props.
-- Status: OPEN — user now specifically requests logging this previously retained decorative layer for the next batch. It was explicitly outside v35's UI-label scope.
+- Status: IMPLEMENTED IN v36 CANDIDATE — native retest pending; see MENU_ART_V36.md.
 - Next investigation: locate the baked backdrop texture and any shared variants, author a matching English typographic pattern using the approved title branding, preserve the report sheet/props and palette/STP behavior, and check cropping/tiling in native display.
 - Native observation for #013: English results heading, report title, table headers, FIRST TERM FINAL row, LEFT/TIME and X: BACK are visible in this frame; the attendance-register ROLL label is also English. This does not validate every result variant or either animated stamp.
 - User reports a win; do not infer stamp behavior or alter grade/record logic from this still image. Exact running BIN hash remains unverified.
@@ -230,3 +230,11 @@ Running list of Japanese text and other issues reported during testing from reco
 ## Playtest scope
 
 This screenshot establishes the mode-select label issue. It does not establish whether the v29 startup notice was displayed or passed its native test. Continue the playthrough and append subsequent findings in order.
+
+## v36 batch implementation status — native retest pending
+
+- #018: approved English art installed in eight source-bound logo cells across seven menu/selector records.
+- #019: entire shared Backup dialog bank translated in 78 providers; date digits and Cancel retained, 25 bundle members mirrored; save/load code and memory-card formats untouched.
+- #020: CURRENT / HI SCORE replace the two Service Ace captions; scores, units and gauges retained.
+- #021: both exam-results pattern variants use the generated English background under original foreground and dynamic UI.
+- Keep these issues open until Ryan tests the live screens. Do not infer success from static previews or offline checks.

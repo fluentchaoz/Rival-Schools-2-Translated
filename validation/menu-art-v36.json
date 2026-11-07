@@ -1,0 +1,19 @@
+{
+  "kind": "Menu art v36 integration validation",
+  "checks": [
+    "947 ISO extents and 876 native loader bindings",
+    "all untargeted records exactly preserved",
+    "eight logo cells: exact assets, neighboring atlas pixels and palettes preserved",
+    "Service Ace caption ownership, values and gauges preserved",
+    "2262 Backup translations and 78 date-unit alphabets; untargeted payloads/control rows preserved",
+    "all 78 compressed prefixes retained, original page/block/match bounds and final input pages preserved",
+    "25 bundled runtime mirrors match exactly; archive tables preserved",
+    "both exam backdrop variants: original report/props, result atlas and PASS/FAIL stamps preserved"
+  ],
+  "passed": 8,
+  "failed": 0,
+  "new_glyph_allocations": 0,
+  "output_sha256": "9885ee49e0404d43218b36e7b40b7308a9b7300274e6984f0aa3a260cdba95f1",
+  "native_gameplay": "pending",
+  "powershell_execution": "not executed; equivalent Python updater separately verified"
+}

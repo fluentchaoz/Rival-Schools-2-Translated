@@ -1,5 +1,11 @@
 # Translation state — 2026-10-30
 
+## v36 menu art / Backup candidate — 2026-11-06
+
+Issues #018–#021 are implemented: eight menu-logo cells, 29 Backup messages in each of 78 runtime banks (plus M/D date-unit labels and 25 bundled mirrors), Service Ace record captions and both exam backdrop variants. Uses exact v35; preserves original report sheets/props, live result data, stamps and earlier English. Read [MENU_ART_V36.md](MENU_ART_V36.md) and [validation/menu-art-v36.json](validation/menu-art-v36.json). Native boot and live-screen checks remain pending; keep v35 and fresh-boot the new CUE.
+
+Output BIN SHA-256: `9885ee49e0404d43218b36e7b40b7308a9b7300274e6984f0aa3a260cdba95f1`. All 876 loader bindings match, all 854 untargeted records remain exact, and all 3504 changed sectors passed ownership/EDC/ECC checks. The PowerShell wrapper is reviewed, not executed here; equivalent Python updater verification is recorded separately.
+
 ## v35 exam results / ball HUD / dance candidate — 2026-11-06
 
 Issues #013–#017 are implemented in the v35 candidate. It applies to exact v34 and adds exam results/stamps, Explosive Shot HUD lettering, Doki-Waku selector names/schools and four Japanese scrolling captions. Eight integration tests and an updater roundtrip pass; native v35 boot/gameplay remains pending. Read EXAM_DANCE_V35.md and validation/exam-dance-v35.json. Preserve v34 and test via fresh boot with an in-game save.
