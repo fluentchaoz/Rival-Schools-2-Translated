@@ -1,0 +1,1271 @@
+{
+  "kind": "Exam results, ball HUD and dance v35",
+  "master_sha256": "2ed4e3233c01b0f1eccf804bffdce6ed6c1f268ce71cf94109c839e86894734a",
+  "output_sha256": "c25207ba7f18dd73e56f5569d3df7dcdf3d9f92cc605dbbf17692b28a6e9cf8c",
+  "disc_bytes": 663216960,
+  "font_sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895",
+  "records": [
+    {
+      "path": "DAT2/CEFT5.BIZ",
+      "claims": [
+        {
+          "tim_offset": "0x10800",
+          "rectangles": [
+            [
+              216,
+              56,
+              40,
+              16
+            ],
+            [
+              136,
+              72,
+              40,
+              16
+            ],
+            [
+              240,
+              0,
+              16,
+              16
+            ],
+            [
+              6,
+              72,
+              48,
+              14
+            ],
+            [
+              104,
+              72,
+              24,
+              14
+            ]
+          ]
+        }
+      ],
+      "compression": {
+        "source": {
+          "stream_bytes": 90122,
+          "max_match": 82,
+          "max_block": 336,
+          "max_page": 2362,
+          "crossing_blocks": 0,
+          "decoded_bytes": 169984
+        },
+        "rebuilt": {
+          "stream_bytes": 90122,
+          "max_match": 82,
+          "max_block": 336,
+          "max_page": 2346,
+          "crossing_blocks": 0,
+          "decoded_bytes": 169984
+        }
+      },
+      "input_sha256": "84397a82d7764f2a144be3c7eb05da9c2f4d5106fad662dac677734296f2bc78",
+      "output_sha256": "1ae76291e193a2d68a0cb65dbd3957b5228f6694ec3937dc10d700e0f08f77e2"
+    },
+    {
+      "path": "DAT2/DANCE.BIZ",
+      "claims": [
+        {
+          "tim_offset": "0x0",
+          "rectangles": [
+            [
+              512,
+              0,
+              256,
+              24
+            ],
+            [
+              512,
+              24,
+              256,
+              24
+            ],
+            [
+              512,
+              48,
+              256,
+              24
+            ],
+            [
+              512,
+              72,
+              256,
+              24
+            ]
+          ]
+        }
+      ],
+      "compression": {
+        "source": {
+          "stream_bytes": 51210,
+          "max_match": 1078,
+          "max_block": 1093,
+          "max_page": 2178,
+          "crossing_blocks": 0,
+          "decoded_bytes": 100384
+        },
+        "rebuilt": {
+          "stream_bytes": 51210,
+          "max_match": 1078,
+          "max_block": 1093,
+          "max_page": 2162,
+          "crossing_blocks": 0,
+          "decoded_bytes": 100384
+        }
+      },
+      "input_sha256": "a4b367d5fc4f1799a8bed5c19be3e76b886b1dae85f38b180692c95eef3053ae",
+      "output_sha256": "1ec8734b831f86726aa31cf9cba3d869074921776a678169d10ff77c5ebb1f6f"
+    },
+    {
+      "path": "DAT2/MINITTL9.BIZ",
+      "claims": [
+        {
+          "tim_offset": "0x91800",
+          "rectangles": [
+            [
+              0,
+              0,
+              240,
+              100
+            ],
+            [
+              0,
+              100,
+              80,
+              20
+            ],
+            [
+              80,
+              100,
+              80,
+              20
+            ],
+            [
+              0,
+              120,
+              160,
+              20
+            ],
+            [
+              160,
+              120,
+              80,
+              20
+            ],
+            [
+              0,
+              140,
+              160,
+              20
+            ],
+            [
+              160,
+              140,
+              40,
+              20
+            ],
+            [
+              200,
+              140,
+              40,
+              20
+            ],
+            [
+              0,
+              160,
+              100,
+              20
+            ],
+            [
+              100,
+              160,
+              100,
+              20
+            ],
+            [
+              0,
+              200,
+              40,
+              20
+            ]
+          ]
+        }
+      ],
+      "compression": {
+        "source": {
+          "stream_bytes": 366602,
+          "max_match": 1063,
+          "max_block": 1103,
+          "max_page": 2671,
+          "crossing_blocks": 0,
+          "decoded_bytes": 632832
+        },
+        "rebuilt": {
+          "stream_bytes": 366602,
+          "max_match": 1063,
+          "max_block": 1103,
+          "max_page": 2655,
+          "crossing_blocks": 0,
+          "decoded_bytes": 632832
+        }
+      },
+      "input_sha256": "6e69befee72a8dffbbfc847c9cbfc9a743096ea9317c500fd75a6e554dd6ab49",
+      "output_sha256": "62bf2ef74cbce8ba99314362713fa82a71a4ab7bbbf7e1fc8273abe26475a663"
+    },
+    {
+      "path": "DAT2/MINITTLA.BIZ",
+      "claims": [
+        {
+          "tim_offset": "0x91800",
+          "rectangles": [
+            [
+              0,
+              0,
+              240,
+              100
+            ],
+            [
+              0,
+              100,
+              80,
+              20
+            ],
+            [
+              80,
+              100,
+              80,
+              20
+            ],
+            [
+              0,
+              120,
+              160,
+              20
+            ],
+            [
+              160,
+              120,
+              80,
+              20
+            ],
+            [
+              0,
+              140,
+              160,
+              20
+            ],
+            [
+              160,
+              140,
+              40,
+              20
+            ],
+            [
+              200,
+              140,
+              40,
+              20
+            ],
+            [
+              0,
+              160,
+              100,
+              20
+            ],
+            [
+              100,
+              160,
+              100,
+              20
+            ],
+            [
+              0,
+              200,
+              40,
+              20
+            ]
+          ]
+        }
+      ],
+      "compression": {
+        "source": {
+          "stream_bytes": 407562,
+          "max_match": 1058,
+          "max_block": 1073,
+          "max_page": 2362,
+          "crossing_blocks": 0,
+          "decoded_bytes": 632832
+        },
+        "rebuilt": {
+          "stream_bytes": 407562,
+          "max_match": 1058,
+          "max_block": 1073,
+          "max_page": 2346,
+          "crossing_blocks": 0,
+          "decoded_bytes": 632832
+        }
+      },
+      "input_sha256": "78202ec8c38e137d0cbaa59516a04ef5f34ef8f71facfa6ee5bc3aaf403e727e",
+      "output_sha256": "96d4d1c4ec3b5655c97f6ef908dd788d682537b0243a86e8353454d7bbf874a2"
+    },
+    {
+      "path": "DAT2/MINITTLB.BIZ",
+      "claims": [
+        {
+          "tim_offset": "0x91800",
+          "rectangles": [
+            [
+              0,
+              0,
+              240,
+              100
+            ],
+            [
+              0,
+              100,
+              80,
+              20
+            ],
+            [
+              80,
+              100,
+              80,
+              20
+            ],
+            [
+              0,
+              120,
+              160,
+              20
+            ],
+            [
+              160,
+              120,
+              80,
+              20
+            ],
+            [
+              0,
+              140,
+              160,
+              20
+            ],
+            [
+              160,
+              140,
+              40,
+              20
+            ],
+            [
+              200,
+              140,
+              40,
+              20
+            ],
+            [
+              0,
+              160,
+              100,
+              20
+            ],
+            [
+              100,
+              160,
+              100,
+              20
+            ],
+            [
+              0,
+              200,
+              40,
+              20
+            ]
+          ]
+        }
+      ],
+      "compression": {
+        "source": {
+          "stream_bytes": 393226,
+          "max_match": 1071,
+          "max_block": 1103,
+          "max_page": 2984,
+          "crossing_blocks": 0,
+          "decoded_bytes": 632832
+        },
+        "rebuilt": {
+          "stream_bytes": 393226,
+          "max_match": 1071,
+          "max_block": 1103,
+          "max_page": 2968,
+          "crossing_blocks": 0,
+          "decoded_bytes": 632832
+        }
+      },
+      "input_sha256": "a9661608c0bae556e8d5dc88be56b54b82f682e490aa831a5753780ce50c08a0",
+      "output_sha256": "3128856ce233132824c3cbdd6149158211b4878c715f04f8a9cb6b82adb0626e"
+    },
+    {
+      "path": "DAT2/MINITTLC.BIZ",
+      "claims": [
+        {
+          "tim_offset": "0x91800",
+          "rectangles": [
+            [
+              0,
+              0,
+              240,
+              100
+            ],
+            [
+              0,
+              100,
+              80,
+              20
+            ],
+            [
+              80,
+              100,
+              80,
+              20
+            ],
+            [
+              0,
+              120,
+              160,
+              20
+            ],
+            [
+              160,
+              120,
+              80,
+              20
+            ],
+            [
+              0,
+              140,
+              160,
+              20
+            ],
+            [
+              160,
+              140,
+              40,
+              20
+            ],
+            [
+              200,
+              140,
+              40,
+              20
+            ],
+            [
+              0,
+              160,
+              100,
+              20
+            ],
+            [
+              100,
+              160,
+              100,
+              20
+            ],
+            [
+              0,
+              200,
+              40,
+              20
+            ]
+          ]
+        }
+      ],
+      "compression": {
+        "source": {
+          "stream_bytes": 407562,
+          "max_match": 1058,
+          "max_block": 1073,
+          "max_page": 2379,
+          "crossing_blocks": 0,
+          "decoded_bytes": 632832
+        },
+        "rebuilt": {
+          "stream_bytes": 407562,
+          "max_match": 1058,
+          "max_block": 1073,
+          "max_page": 2363,
+          "crossing_blocks": 0,
+          "decoded_bytes": 632832
+        }
+      },
+      "input_sha256": "2f83af5dada264da5821192b6d37c48c758a58f3158dc614a3e18c154c799896",
+      "output_sha256": "80833f1d648300a6a25653c45156f243ef092c341b3898525fcac23f39cef2da"
+    },
+    {
+      "path": "DAT1/MGAME06.BIN",
+      "claim": {
+        "kind": "selector-descriptor-data",
+        "base": "0x2b0",
+        "owned_offsets": [
+          689,
+          690,
+          693,
+          694,
+          697,
+          698,
+          701,
+          702,
+          705,
+          706,
+          709,
+          710,
+          713,
+          714,
+          717,
+          718,
+          721,
+          722,
+          725,
+          726,
+          729,
+          730,
+          733,
+          734,
+          737,
+          738,
+          741,
+          742,
+          745,
+          746,
+          749,
+          750,
+          753,
+          754,
+          757,
+          758,
+          761,
+          762,
+          765,
+          766,
+          769,
+          770,
+          773,
+          774
+        ],
+        "renderer_code_and_character_order_preserved": true
+      }
+    },
+    {
+      "path": "DAT1/MGAME07.BIN",
+      "claim": {
+        "kind": "selector-descriptor-data",
+        "base": "0x280",
+        "owned_offsets": [
+          641,
+          642,
+          645,
+          646,
+          649,
+          650,
+          653,
+          654,
+          657,
+          658,
+          661,
+          662,
+          665,
+          666,
+          669,
+          670,
+          673,
+          674,
+          677,
+          678,
+          681,
+          682,
+          685,
+          686,
+          689,
+          690,
+          693,
+          694,
+          697,
+          698,
+          701,
+          702,
+          705,
+          706,
+          709,
+          710,
+          713,
+          714,
+          717,
+          718,
+          721,
+          722,
+          725,
+          726
+        ],
+        "renderer_code_and_character_order_preserved": true
+      }
+    },
+    {
+      "path": "DAT2/SIKEN20.BIZ",
+      "members": [
+        {
+          "member": 0,
+          "offset": 2048,
+          "size": 256672,
+          "claims": [
+            {
+              "tim_offset": "0x0",
+              "rectangles": [
+                [
+                  200,
+                  40,
+                  56,
+                  32
+                ],
+                [
+                  200,
+                  72,
+                  56,
+                  32
+                ],
+                [
+                  144,
+                  80,
+                  40,
+                  30
+                ]
+              ]
+            },
+            {
+              "tim_offset": "0x8800",
+              "rectangles": [
+                [
+                  99,
+                  109,
+                  310,
+                  34
+                ],
+                [
+                  79,
+                  151,
+                  110,
+                  25
+                ],
+                [
+                  207,
+                  151,
+                  161,
+                  25
+                ],
+                [
+                  381,
+                  151,
+                  53,
+                  25
+                ],
+                [
+                  79,
+                  245,
+                  110,
+                  29
+                ],
+                [
+                  207,
+                  245,
+                  161,
+                  29
+                ],
+                [
+                  385,
+                  245,
+                  47,
+                  29
+                ],
+                [
+                  76,
+                  280,
+                  120,
+                  27
+                ],
+                [
+                  76,
+                  312,
+                  120,
+                  27
+                ],
+                [
+                  76,
+                  345,
+                  120,
+                  27
+                ],
+                [
+                  201,
+                  282,
+                  39,
+                  13
+                ],
+                [
+                  201,
+                  295,
+                  39,
+                  14
+                ],
+                [
+                  297,
+                  315,
+                  29,
+                  28
+                ]
+              ]
+            },
+            {
+              "tim_offset": "0x45000",
+              "rectangles": [
+                [
+                  0,
+                  0,
+                  328,
+                  480
+                ]
+              ]
+            },
+            {
+              "tim_offset": "0x58800",
+              "rectangles": [
+                [
+                  0,
+                  0,
+                  344,
+                  480
+                ]
+              ]
+            }
+          ],
+          "compression": {
+            "source": {
+              "stream_bytes": 256672,
+              "max_match": 1083,
+              "max_block": 1098,
+              "max_page": 2445,
+              "crossing_blocks": 117,
+              "decoded_bytes": 446464
+            },
+            "rebuilt": {
+              "stream_bytes": 256010,
+              "max_match": 1083,
+              "max_block": 1098,
+              "max_page": 2429,
+              "crossing_blocks": 0,
+              "decoded_bytes": 446464
+            }
+          },
+          "input_sha256": "7269f49a96fca6db64388710c93de0d46558dc12fcaddb84091a0cdf93f61dbd",
+          "output_sha256": "46892de4480cb496031a4bf4d5109f1334a7b590d0ea5660371c4add41a3f9fb"
+        },
+        {
+          "member": 1,
+          "offset": 260096,
+          "size": 229210,
+          "claims": [
+            {
+              "tim_offset": "0x0",
+              "rectangles": [
+                [
+                  200,
+                  40,
+                  56,
+                  32
+                ],
+                [
+                  200,
+                  72,
+                  56,
+                  32
+                ],
+                [
+                  144,
+                  80,
+                  40,
+                  30
+                ]
+              ]
+            },
+            {
+              "tim_offset": "0x8800",
+              "rectangles": [
+                [
+                  169,
+                  31,
+                  170,
+                  36
+                ],
+                [
+                  99,
+                  109,
+                  310,
+                  34
+                ],
+                [
+                  79,
+                  151,
+                  110,
+                  25
+                ],
+                [
+                  207,
+                  151,
+                  161,
+                  25
+                ],
+                [
+                  381,
+                  151,
+                  53,
+                  25
+                ],
+                [
+                  342,
+                  410,
+                  89,
+                  23
+                ],
+                [
+                  224,
+                  294,
+                  45,
+                  34
+                ]
+              ]
+            },
+            {
+              "tim_offset": "0x45000",
+              "rectangles": [
+                [
+                  0,
+                  0,
+                  328,
+                  480
+                ]
+              ]
+            },
+            {
+              "tim_offset": "0x58800",
+              "rectangles": [
+                [
+                  0,
+                  0,
+                  344,
+                  480
+                ]
+              ]
+            }
+          ],
+          "compression": {
+            "source": {
+              "stream_bytes": 229210,
+              "max_match": 1083,
+              "max_block": 1098,
+              "max_page": 2484,
+              "crossing_blocks": 105,
+              "decoded_bytes": 446464
+            },
+            "rebuilt": {
+              "stream_bytes": 227338,
+              "max_match": 1083,
+              "max_block": 1098,
+              "max_page": 2468,
+              "crossing_blocks": 0,
+              "decoded_bytes": 446464
+            }
+          },
+          "input_sha256": "c110f5b16a754c48ff787ff12b02cb0625a37a2a3792ea4f2724f763028da0d1",
+          "output_sha256": "fc7bf6a83571fff4d34d27aebb1b30bf5fe2019f1bc90ab531a272990bc00cab"
+        }
+      ]
+    },
+    {
+      "path": "DAT2/SIKEN2.BIZ",
+      "claims": [
+        {
+          "tim_offset": "0x0",
+          "rectangles": [
+            [
+              200,
+              40,
+              56,
+              32
+            ],
+            [
+              200,
+              72,
+              56,
+              32
+            ],
+            [
+              144,
+              80,
+              40,
+              30
+            ]
+          ]
+        }
+      ],
+      "compression": {
+        "source": {
+          "stream_bytes": 254774,
+          "max_match": 1083,
+          "max_block": 1098,
+          "max_page": 2259,
+          "crossing_blocks": 119,
+          "decoded_bytes": 446464
+        },
+        "rebuilt": {
+          "stream_bytes": 253962,
+          "max_match": 543,
+          "max_block": 646,
+          "max_page": 2243,
+          "crossing_blocks": 0,
+          "decoded_bytes": 446464
+        }
+      },
+      "input_sha256": "358e087e9e5343e5e5093426135e008f050d8b05ffee361b6ffd200f664221bf",
+      "output_sha256": "1a830cca965da9a5c83ca7fc9628026cb9904c9fa0c0241bf3c7b02b459e7033"
+    },
+    {
+      "path": "DAT2/SIKEN1.BIZ",
+      "claims": [
+        {
+          "tim_offset": "0x3c800",
+          "rectangles": [
+            [
+              616,
+              64,
+              56,
+              32
+            ],
+            [
+              672,
+              64,
+              56,
+              32
+            ]
+          ]
+        }
+      ],
+      "compression": {
+        "source": {
+          "stream_bytes": 397730,
+          "max_match": 1055,
+          "max_block": 1070,
+          "max_page": 2412,
+          "crossing_blocks": 184,
+          "decoded_bytes": 595968
+        },
+        "rebuilt": {
+          "stream_bytes": 397322,
+          "max_match": 1055,
+          "max_block": 1070,
+          "max_page": 2396,
+          "crossing_blocks": 0,
+          "decoded_bytes": 595968
+        }
+      },
+      "input_sha256": "d1a7cb64c723ccc35d03671ae6fbf36a928b253403e9f97adf21a0092360d5da",
+      "output_sha256": "e010aa68dc4d3690c6753e495ed0ce7a9478caeaf93d8830cba0da7e4262dc80"
+    },
+    {
+      "path": "DAT2/SIKEN10.BIZ",
+      "claims": [
+        {
+          "tim_offset": "0x3c800",
+          "rectangles": [
+            [
+              616,
+              64,
+              56,
+              32
+            ],
+            [
+              672,
+              64,
+              56,
+              32
+            ]
+          ]
+        }
+      ],
+      "compression": {
+        "source": {
+          "stream_bytes": 368620,
+          "max_match": 1055,
+          "max_block": 1070,
+          "max_page": 2436,
+          "crossing_blocks": 168,
+          "decoded_bytes": 595968
+        },
+        "rebuilt": {
+          "stream_bytes": 366602,
+          "max_match": 1055,
+          "max_block": 1070,
+          "max_page": 2420,
+          "crossing_blocks": 0,
+          "decoded_bytes": 595968
+        }
+      },
+      "input_sha256": "b02cb79495588d944e090a88fb4f6a7be668bc317ce85899178056eab28fa54b",
+      "output_sha256": "b50f808c403cd28641b1eec10ed3475a1f3df0926fa2c56c149fa75eb9cc3856"
+    },
+    {
+      "path": "DAT2/SIKENKK.BIZ",
+      "members": [
+        {
+          "member": 30,
+          "offset": 63488,
+          "size": 1302,
+          "claims": [
+            {
+              "tim_offset": "0x0",
+              "rectangles": [
+                [
+                  0,
+                  0,
+                  124,
+                  28
+                ]
+              ]
+            }
+          ],
+          "compression": {
+            "source": {
+              "stream_bytes": 1302,
+              "max_match": 93,
+              "max_block": 109,
+              "max_page": 900,
+              "crossing_blocks": 0,
+              "decoded_bytes": 1800
+            },
+            "rebuilt": {
+              "stream_bytes": 1926,
+              "max_match": 1,
+              "max_block": 16,
+              "max_page": 900,
+              "crossing_blocks": 0,
+              "decoded_bytes": 1800
+            }
+          },
+          "input_sha256": "c46c9d3bfaf48ddebd772f4d7f1a174d1885a58f1bf3a7c6bf103b2852b6c044",
+          "output_sha256": "14d74b5ecf3aec13780f89f7b95a2b1641670e69228240f80cd7fbba11dd7cc7"
+        },
+        {
+          "member": 31,
+          "offset": 65536,
+          "size": 1324,
+          "claims": [
+            {
+              "tim_offset": "0x0",
+              "rectangles": [
+                [
+                  0,
+                  0,
+                  124,
+                  28
+                ]
+              ]
+            }
+          ],
+          "compression": {
+            "source": {
+              "stream_bytes": 1324,
+              "max_match": 94,
+              "max_block": 108,
+              "max_page": 900,
+              "crossing_blocks": 0,
+              "decoded_bytes": 1800
+            },
+            "rebuilt": {
+              "stream_bytes": 1926,
+              "max_match": 1,
+              "max_block": 16,
+              "max_page": 900,
+              "crossing_blocks": 0,
+              "decoded_bytes": 1800
+            }
+          },
+          "input_sha256": "8627d1a038b122800b2f89569247b910d567b94b7ff550e7ca22927f7c8de257",
+          "output_sha256": "8fa9c14072f753eb47d87259e5c9af4a568c4fc0e4398758a78e7f7125cc3583"
+        },
+        {
+          "member": 32,
+          "offset": 67584,
+          "size": 1140,
+          "claims": [
+            {
+              "tim_offset": "0x0",
+              "rectangles": [
+                [
+                  0,
+                  0,
+                  124,
+                  28
+                ]
+              ]
+            }
+          ],
+          "compression": {
+            "source": {
+              "stream_bytes": 1140,
+              "max_match": 94,
+              "max_block": 113,
+              "max_page": 900,
+              "crossing_blocks": 0,
+              "decoded_bytes": 1800
+            },
+            "rebuilt": {
+              "stream_bytes": 1926,
+              "max_match": 1,
+              "max_block": 16,
+              "max_page": 900,
+              "crossing_blocks": 0,
+              "decoded_bytes": 1800
+            }
+          },
+          "input_sha256": "4f0d64ebb2f9af13acf357284ccab4aca9c849edf98c6a79b1b747d1e063994c",
+          "output_sha256": "ccbb8b42c9ac2411a4d90c3bb2e1b6003fea3de9ba068a0990510c9a1d1deec3"
+        }
+      ]
+    }
+  ],
+  "selector_plan": [
+    [
+      0,
+      3
+    ],
+    [
+      9,
+      2
+    ],
+    [
+      12,
+      2
+    ],
+    [
+      14,
+      2
+    ],
+    [
+      16,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      18,
+      2
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      20,
+      2
+    ],
+    [
+      22,
+      2
+    ],
+    [
+      24,
+      2
+    ],
+    [
+      26,
+      2
+    ],
+    [
+      28,
+      2
+    ],
+    [
+      30,
+      2
+    ],
+    [
+      32,
+      2
+    ],
+    [
+      34,
+      2
+    ],
+    [
+      36,
+      2
+    ],
+    [
+      38,
+      2
+    ],
+    [
+      40,
+      2
+    ],
+    [
+      42,
+      2
+    ],
+    [
+      44,
+      2
+    ],
+    [
+      46,
+      2
+    ]
+  ],
+  "captions": [
+    [
+      "\u30d8\u30a4\uff01\u30d6\u30e9\u30b6\u30fc\uff01",
+      "Hey, brother!"
+    ],
+    [
+      "\u3055\u3042\u30b4\u30ad\u30b2\u30f3\u306a",
+      "Let's get groovy!"
+    ],
+    [
+      "Doki-Waku-Dance\u304c\u59cb\u307e\u308b\u305c\uff01",
+      "Doki-Waku Dance starts now!"
+    ],
+    [
+      "\u6e96\u5099\u306f\u3044\u3044\u304b\uff1f\u30d2\u30a2\u30a6\u30a3\u30fc\u30b4\u30fc\uff01",
+      "Ready? Here we go!"
+    ]
+  ],
+  "catalog_rebindings": [],
+  "catalog_audit": {
+    "bound_entries": 876,
+    "mismatches": []
+  },
+  "changed_sector_count": 1328,
+  "untargeted_records_preserved": 934,
+  "checksums_and_sector_ownership_passed": true,
+  "native_gameplay": "pending",
+  "scope_limits": "Decorative background school-name patterns retained; unseen exam/practice screens remain possible follow-up work.",
+  "integration_tests": {
+    "passed": 8,
+    "failed": 0,
+    "command": "JG2_V34_BIN=<v34> JG2_V35_BIN=<v35> python -m unittest discover -s tests -p test_exam_dance_v35.py -v"
+  },
+  "python_updater_roundtrip": "PASS: exact v35 hash reproduced from v34",
+  "powershell_wrapper": "reviewed; not executed on Linux",
+  "final_source_result_member_equivalence": "PASS: both patched members byte-exact after removal of unused compositor dependency"
+}

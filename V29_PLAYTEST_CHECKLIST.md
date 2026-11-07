@@ -125,7 +125,7 @@ Running list of Japanese text and other issues reported during testing from reco
 - Evidence: screenshot image(20261106-235951).png.
 - Confirmed Japanese UI: 試験結果 (Exam Results); 「９９年度試験」成績表 (1999 Exam Report Card); table headers 試験 / 記録 / 評価 (Exam / Record / Grade); 1学期末試験 (First-Term Final Exam); のこり beside TIME (Remaining); ×ボタン戻る (X Button: Back).
 - Other visible Japanese: 出席簿 on the book (Attendance Register), plus decorative background school/title lettering.
-- Status: OPEN — log only while Ryan sends issues one at a time. No new build requested for this report.
+- Status: IMPLEMENTED IN v35 CANDIDATE — native test pending; see EXAM_DANCE_V35.md.
 - Next batch investigation: identify the results-screen assets and native text consumers, audit exam/term variants and the return prompt, distinguish UI from decorative artwork, and preserve numerical records, grade and return behavior.
 - This result screenshot does not validate the earlier points/BACK/popup/WIN/exam-HUD changes.
 
@@ -133,7 +133,7 @@ Running list of Japanese text and other issues reported during testing from reco
 
 - Reported: 2026-11-06, immediately after the results screen tracked as #013.
 - Evidence: screenshot image(20261107-000222).png shows a large diagonal blue 不合格 stamp (FAIL / not passed) over the report card.
-- Status: OPEN — log only while collecting the next batch.
+- Status: IMPLEMENTED IN v35 CANDIDATE — native test pending; see EXAM_DANCE_V35.md.
 - Next investigation: locate the animated stamp artwork and its native sprite/tile assembly, translate FAIL within its display boundaries, and audit the corresponding 合格 (PASS) variant. Only the FAIL stamp is confirmed by this screenshot.
 - Preserve the stamp timing, scaling/rotation, color roles and actual pass/fail determination. This is a separate overlay from the results-screen labels in #013.
 
@@ -144,7 +144,7 @@ Running list of Japanese text and other issues reported during testing from reco
 - Evidence: screenshot image(20261107-000452).png.
 - User-highlighted surface: bottom-left あと 6 球 means 6 balls remaining. Translate the fixed remaining/ball labels while retaining the live ball count.
 - Additional confirmed Japanese in the same frame: top-left 芸術点 (Style Points), フレーム点 (Frame Points), and 点 beside the large score (points unit).
-- Status: OPEN — collect with the next batch, no new build yet.
+- Status: IMPLEMENTED IN v35 CANDIDATE — native test pending; see EXAM_DANCE_V35.md.
 - Next investigation: identify the HUD texture cells and native sampling widths, audit count/unit variants and shared minigame consumers, and fit complete English without clipping. Preserve scoring formulas, numerical values, remaining-ball countdown and aim gauges.
 
 ## 016 — Doki-Waku Dance player-selection popup remains Japanese
@@ -153,7 +153,7 @@ Running list of Japanese text and other issues reported during testing from reco
 - Reproduction: Minigame Practice → Doki-Waku Dance → Player Select.
 - Evidence: screenshot image(20261107-000727).png; PLAYER SELECT heading is already English.
 - Confirmed Japanese: プレイヤー (Player), 太陽学園男子 (Taiyo High Male), パートナー (Partner), バツ (Batsu), 決定 (Confirm).
-- Status: OPEN — collect for the next batch; no build yet.
+- Status: IMPLEMENTED IN v35 CANDIDATE — native test pending; see EXAM_DANCE_V35.md.
 - Next investigation: identify the fixed popup labels and dynamic school/gender/character-name consumers; audit other choices and shared selectors. Fit complete English within actual sampled cells, preserving arrows, highlight, selection order and confirmation behavior.
 - Only the pictured school/gender and partner are confirmed by this screenshot; other choices are audit targets.
 
@@ -164,7 +164,7 @@ Running list of Japanese text and other issues reported during testing from reco
 - Evidence: screenshot image(20261107-001028).png.
 - Confirmed Japanese: yellow caption ヘイ！ブラザー！ (Hey! Brother!) at left; another caption beginning さあゴキゲ… is partially off-screen at right. Do not infer its full wording from this frame.
 - Existing English captions are visible at the same time, including Hey! This game is Doki-Waku. The surface is mixed-language.
-- Status: OPEN — collect for next batch; separate from player-selector issue #016.
+- Status: IMPLEMENTED IN v35 CANDIDATE — native test pending; see EXAM_DANCE_V35.md.
 - Next investigation: inventory the complete scrolling-caption bank and native texture/sprite assembly, translate remaining Japanese, and verify all captions across their movement cycle. Preserve scroll timing, colors, dance controls, scoring and already-English text.
 - Off-screen fragments during scrolling are not by themselves evidence of unintended clipping.
 
@@ -176,6 +176,13 @@ Running list of Japanese text and other issues reported during testing from reco
 - #008: WIN lettering replaced within the original 56×24 cell in Sprint and the matching shared ball-game graphic; 1P and replay panel unchanged.
 - #012: both shared CEFT4/CEFT6 providers have English vertical START/FINISH and two native glyph cells spelling TASK. Timer digits, colon, portraits and palette tables remain unchanged. Other unseen exam prompts remain possible follow-up work.
 - v34 remains a candidate until tested. Earlier replay-answer alignment (#007), exam intro (#006) and all-route gameplay checks are still unconfirmed.
+
+## v35 batch implementation status — native retest pending
+
+- #013–#017 implemented within source-bound result, HUD, selector and caption assets; details in EXAM_DANCE_V35.md.
+- Large and small PASS/FAIL variants are included. Record values, grades, timing, ball countdown, selection order and previous English graphics are preserved.
+- Eight integration tests, 876 matched catalog signatures, 934 untouched records, changed-sector checksums/ownership and updater hash reproduction pass.
+- Native boot and all new screens remain to be confirmed. Decorative repeated school/title text in the exam backdrop is retained.
 
 ## Playtest scope
 

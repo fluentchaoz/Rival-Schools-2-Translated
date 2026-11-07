@@ -1,5 +1,12 @@
 # Translation state — 2026-10-30
 
+## v35 exam results / ball HUD / dance candidate — 2026-11-06
+
+Issues #013–#017 are implemented in the v35 candidate. It applies to exact v34 and adds exam results/stamps, Explosive Shot HUD lettering, Doki-Waku selector names/schools and four Japanese scrolling captions. Eight integration tests and an updater roundtrip pass; native v35 boot/gameplay remains pending. Read EXAM_DANCE_V35.md and validation/exam-dance-v35.json. Preserve v34 and test via fresh boot with an in-game save.
+
+Output BIN SHA-256: `c25207ba7f18dd73e56f5569d3df7dcdf3d9f92cc605dbbf17692b28a6e9cf8c`. All 876 catalog bindings match; all 934 untargeted records are exact. Decorative exam backdrop text remains original. Do not close issues until Ryan checks the relevant live screens.
+
+
 ## v34 practice layout / exam HUD candidate — 2026-11-06
 
 Current native baseline: Ryan confirmed v33 boot, English title and mode select. v34 addresses issues #001 (points legibility), #008 (Sprint/shared ball-game WIN), #010 (BACK clipping), #011 (practice popup labels/speed markers) and #012 (exam START/FINISH/TASK graphics). Output BIN SHA-256: `2ed4e3233c01b0f1eccf804bffdce6ed6c1f268ce71cf94109c839e86894734a`. Six integration tests, 876 catalog matches, all 929 untargeted records and a Python updater roundtrip passed. Native v34 validation is pending. Read PRACTICE_LAYOUT_V34.md and validation/practice-layout-v34.json. Apply the new updater to exact v33; keep v33 as the boot-tested fallback. Do not close checklist issues until Ryan checks their corresponding screens.
