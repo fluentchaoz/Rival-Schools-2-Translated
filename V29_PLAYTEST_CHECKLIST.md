@@ -201,6 +201,16 @@ Running list of Japanese text and other issues reported during testing from reco
 - Next investigation: identify the shared ball-game HUD cells and native sampled widths for both captions, translate without clipping, and audit other minigames using these same captions.
 - Preserve current/best score values, P units, power/aim gauges and gameplay. LEFT / BALL are already English in this frame; that does not establish all other v35 surfaces passed native checks.
 
+## 021 — Exam-results decorative backdrop remains Japanese
+
+- Reported: 2026-11-06, after a winning Practice Exam.
+- Evidence: screenshot image(20261107-022914).png shows English EXAM RESULTS / 1999 EXAM REPORT and an English result row over the original repeated Japanese background pattern.
+- Confirmed decorative Japanese includes 私立ジャスティス学園 (Shiritsu Justice Gakuen / Rival Schools branding) and 熱血青春日記2 (Hot-Blooded Youth Diary 2), repeated at different sizes, angles and colors around the report sheet and props.
+- Status: OPEN — user now specifically requests logging this previously retained decorative layer for the next batch. It was explicitly outside v35's UI-label scope.
+- Next investigation: locate the baked backdrop texture and any shared variants, author a matching English typographic pattern using the approved title branding, preserve the report sheet/props and palette/STP behavior, and check cropping/tiling in native display.
+- Native observation for #013: English results heading, report title, table headers, FIRST TERM FINAL row, LEFT/TIME and X: BACK are visible in this frame; the attendance-register ROLL label is also English. This does not validate every result variant or either animated stamp.
+- User reports a win; do not infer stamp behavior or alter grade/record logic from this still image. Exact running BIN hash remains unverified.
+
 ## v34 batch implementation status — native retest pending
 
 - #001: replaces squeezed outlined Current Points text with an unsqueezed 5×7 bitmap in the verified upper 16 source rows, using a solid native dark/red ink index.
