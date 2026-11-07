@@ -118,6 +118,17 @@ Running list of Japanese text and other issues reported during testing from reco
 - Next investigation: locate the announcement and HUD texture sources, inventory related timed prompts and result/feedback graphics, and verify all relevant shared consumers. Preserve timer and task behavior; other unseen prompts are audit targets, not confirmed defects.
 - Screenshot alone does not confirm the first-term introduction is translated or that replay alignment is correct.
 
+## 013 — Practice Exam results screen remains Japanese
+
+- Reported: 2026-11-06, after the v34 updater was supplied; v34 is the current playtest context, but the screenshot alone does not establish the running BIN hash.
+- Reproduction: finish a Practice Exam; the exam-results/report-card screen appears.
+- Evidence: screenshot image(20261106-235951).png.
+- Confirmed Japanese UI: 試験結果 (Exam Results); 「９９年度試験」成績表 (1999 Exam Report Card); table headers 試験 / 記録 / 評価 (Exam / Record / Grade); 1学期末試験 (First-Term Final Exam); のこり beside TIME (Remaining); ×ボタン戻る (X Button: Back).
+- Other visible Japanese: 出席簿 on the book (Attendance Register), plus decorative background school/title lettering.
+- Status: OPEN — log only while Ryan sends issues one at a time. No new build requested for this report.
+- Next batch investigation: identify the results-screen assets and native text consumers, audit exam/term variants and the return prompt, distinguish UI from decorative artwork, and preserve numerical records, grade and return behavior.
+- This result screenshot does not validate the earlier points/BACK/popup/WIN/exam-HUD changes.
+
 ## v34 batch implementation status — native retest pending
 
 - #001: replaces squeezed outlined Current Points text with an unsqueezed 5×7 bitmap in the verified upper 16 source rows, using a solid native dark/red ink index.
