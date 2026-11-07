@@ -291,3 +291,14 @@ This screenshot establishes the mode-select label issue. It does not establish w
 - #024: English lettering occupies source-empty OVER cells. Descriptor-only rebinding covers 11 consumers; player digits, original shared glyphs, action mappings and executable instructions retained. Check all six minigames live, including Doki-Waku's common path.
 - #025: 53 entries per player variant, MGM04 selectors 0/1 indices 67–119, translated with controls/choice rows intact. This covers the reviewed Edge/Daigo rooftop encounter; other rooftop events remain possible untranslated follow-ups. Sixteen Japanese ROOFTOP label copies in eleven archives replaced.
 - Ten integration checks and updater roundtrip pass. Native gameplay is pending; do not infer all-route translation completion from this batch.
+
+## 026 — Ran loading illustration and loading message contain Japanese
+
+- Reported: 2026-11-06, first item collected after v37 was supplied.
+- Evidence: image(20261107-043501).png (Library libfile_bae6724268848191b6f670769a74f103).
+- Visible: Ran Hibiki model-sheet illustration with several views, ponytail, goggles and blue vest; pale fabric-textured background.
+- Confirmed Japanese: large cyan bottom message ただいまロード中… (NOW LOADING...); small vertical handwritten note beside the right portrait. Japanese lettering is also visible on the illustrated red armband; inspect the native asset before settling its reading/translation.
+- Status: OPEN — log only while collecting the next batch.
+- Required work: identify the exact ALOAD32 member and its message variant; translate the loading message and review both the handwritten annotation and armband lettering. Preserve all character views, goggles, expressions, costume, textured background and native loading behavior. Distinguish baked illustration text from the separate message TIM so loading text is not duplicated.
+- This is a different card from the Kyosuke member changed in v37. Earlier loading-card coverage was explicitly limited to that approved illustration; audit other Japanese loading-message variants/shared consumers when locating this one.
+- Exact running BIN/hash and load route are unconfirmed. The still does not validate the rooftop or pause fixes.
