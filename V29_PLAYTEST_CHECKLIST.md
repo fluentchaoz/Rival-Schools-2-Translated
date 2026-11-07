@@ -245,7 +245,7 @@ This screenshot establishes the mode-select label issue. It does not establish w
 - Evidence: image(20261107-033634).png (Library libfile_21f31798a354819193e8f5bc4c2c0c80).
 - Location: one minigame practice loading screen; exact minigame not identified.
 - Visible: Kyosuke in a white coat, large black Japanese name calligraphy (鑑 恭介 / Kyosuke Kagami), textured pale-gold background and English NOW LOADING... near the bottom.
-- Status: OPEN — logged only; collecting screenshots before the next implementation batch.
+- Status: IMPLEMENTED IN v37 CANDIDATE — native retest pending; see PRACTICE_ROOF_V37.md.
 - Required work: locate the loading-card texture/provider and sampled bounds; replace the Japanese character-name lettering with English while preserving the character illustration, textured backdrop, existing NOW LOADING... and loading behavior. Audit sibling loading cards for equivalent Japanese names once the provider is found.
 - Exact running BIN/hash and whether this is the new v36 CUE are not confirmed by the screenshot. This frame does not establish that all four v36 fixes passed.
 
@@ -256,7 +256,7 @@ This screenshot establishes the mode-select label issue. It does not establish w
 - Evidence: image(20261107-033840).png (Library libfile_5ee7025b8af4819197304392be791f9b).
 - Confirmed Japanese: 根性 (Guts) on the upper-right and lower-left orange HUD strips, each beside a yellow 3 in this frame.
 - Proposed English: GUTS, consistent with the existing English stat label elsewhere in School Life.
-- Status: OPEN — log only while collecting this batch.
+- Status: IMPLEMENTED IN v37 CANDIDATE — native retest pending; see PRACTICE_ROOF_V37.md.
 - Required work: identify both caption consumers/shared texture cells and native sampled bounds; replace the Japanese caption without clipping or changing the orange strip, numeric counters, 1P/CPU round grid, aim/power panel, or gameplay logic. Audit other consumers of the same caption asset once identified.
 - The screenshot confirms two visible captions; it does not establish whether they share a texture cell. Exact running BIN/hash is not confirmed.
 
@@ -267,7 +267,7 @@ This screenshot establishes the mode-select label issue. It does not establish w
 - Evidence: image(20261107-033930).png (Library libfile_cd6c7caab9d881918b5c2172a3c548b6).
 - Confirmed Japanese: 1Pポーズ (1P PAUSE), つづける (CONTINUE / RESUME), 戻る (BACK / RETURN).
 - Proposed English: 1P PAUSE / RESUME / BACK. Confirm the destination of BACK during implementation; use wording appropriate to the actual destination and any subsequent confirmation.
-- Status: OPEN — log only while collecting this batch.
+- Status: IMPLEMENTED IN v37 CANDIDATE — native retest pending; see PRACTICE_ROOF_V37.md.
 - Required work: locate pause-panel heading/choice assets and actual sampled bounds; translate without clipping or moving the highlight/cursor. Audit Start/pause menus across all six minigame practices and any 2P variant/shared consumers. Preserve pause/resume, cancellation, return behavior and gameplay state.
 - Only PK Shootout is confirmed by this screenshot. Other minigames are audit targets, not confirmed occurrences. Existing Guts captions remain tracked separately as #023; the lower-left desktop overlay is not a game translation issue.
 - Exact running BIN/hash remains unconfirmed.
@@ -279,7 +279,15 @@ This screenshot establishes the mode-select label issue. It does not establish w
 - Evidence: image(20261107-034635).png (Library libfile_1160d7b78d3c8191bced512bfe76bfff).
 - Visible state: April 21 / WED, MAKO, DRAMA; rooftop background and lower dialogue box.
 - Confirmed Japanese: upper-right 屋上 (ROOFTOP); dialogue 「カーッ、ダメだ！ 全然かなわねえ！」 (roughly: “Argh, no good! I can't compete at all!”). Final wording should use surrounding scene context before implementation.
-- Status: OPEN — log only while collecting this batch.
+- Status: IMPLEMENTED IN v37 CANDIDATE — native retest pending; see PRACTICE_ROOF_V37.md.
 - Required work: identify the actual rooftop location-label asset/provider and dialogue coordinates; translate the scene's remaining pages and any choices after reviewing context. Audit route/school variants and shared rooftop labels without assuming that earlier location-label patches reached this provider. Preserve dialogue controls, names, event branching, date/club state and the existing English HUD.
 - Only this page is confirmed. Speaker identity, later pages/choices and exact school/route are not established by the screenshot. MAKO is the displayed player name and should not be assumed to identify the speaker.
 - Exact running BIN/hash remains unconfirmed; do not mark earlier location or dialogue coverage as globally complete.
+
+## v37 batch implementation status — native retest pending
+
+- #022: approved Kyosuke member 32 installed; separate loading message and other 49 cards retained. Remaining Japanese artwork in other loading cards is future work.
+- #023: GUTS lettering replaces the shared PK caption; values and strip borders retained.
+- #024: English lettering occupies source-empty OVER cells. Descriptor-only rebinding covers 11 consumers; player digits, original shared glyphs, action mappings and executable instructions retained. Check all six minigames live, including Doki-Waku's common path.
+- #025: 53 entries per player variant, MGM04 selectors 0/1 indices 67–119, translated with controls/choice rows intact. This covers the reviewed Edge/Daigo rooftop encounter; other rooftop events remain possible untranslated follow-ups. Sixteen Japanese ROOFTOP label copies in eleven archives replaced.
+- Ten integration checks and updater roundtrip pass. Native gameplay is pending; do not infer all-route translation completion from this batch.

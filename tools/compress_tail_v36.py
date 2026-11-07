@@ -9,9 +9,9 @@ def compress_tail(data,source,accelerator):
  first=next((i for i,(a,b)in enumerate(zip(old,data))if a!=b),None)
  if first is None:return source,dict(source=sp,rebuilt=sp,preserved_input_prefix_bytes=sp['stream_bytes'],preserved_decoded_prefix_bytes=len(data))
  # Locate complete native input pages and their decoded word positions.
- p=words=0;cut=start=0
+ p=words=cross=0;cut=start=prefix_cross=0
  while p<len(source):
-  control=struct.unpack_from('<H',source,p)[0];p+=2;done=False
+  block_start=p;control=struct.unpack_from('<H',source,p)[0];p+=2;done=False
   for _ in range(16):
    v=struct.unpack_from('<H',source,p)[0];p+=2
    if control&0x8000:
@@ -21,8 +21,9 @@ def compress_tail(data,source,accelerator):
     words+=n
    else:words+=1
    control=(control<<1)&65535
+  cross+=int(block_start//2048!=(p-1)//2048)
   if done:break
-  if p%2048==0 and words*2<=first:cut,start=p,words
+  if p%2048==0 and words*2<=first:cut,start,prefix_cross=p,words,cross
   if words*2>first:break
  if not cut:raise ValueError('no reusable source prefix')
  lib=ctypes.CDLL(str(Path(accelerator).resolve()));fn=lib.practice_compress_tail;fn.argtypes=[ctypes.c_void_p,ctypes.c_int,ctypes.c_void_p]+[ctypes.c_int]*6;fn.restype=ctypes.c_int
@@ -44,7 +45,7 @@ def compress_tail(data,source,accelerator):
  for shift in range(65):
   if shift:result=encode(prefix+shift)
   rp=decode(result,True)
-  if final<len(result)<=len(source) and not rp['crossing_blocks'] and all(rp[k]<=sp[k]for k in ('max_match','max_block','max_page')):break
+  if final<len(result)<=len(source) and rp['crossing_blocks']==prefix_cross and all(rp[k]<=sp[k]for k in ('max_match','max_block','max_page')):break
  else:raise ValueError('tail exceeds source slot/profile')
  if decode(result)[0]!=data:raise ValueError('tail readback')
- return result+bytes(len(source)-len(result)),dict(source=sp,rebuilt=rp,preserved_input_prefix_bytes=cut,preserved_decoded_prefix_bytes=start*2)
+ return result+bytes(len(source)-len(result)),dict(source=sp,rebuilt=rp,preserved_input_prefix_bytes=cut,preserved_decoded_prefix_bytes=start*2,preserved_prefix_crossing_blocks=prefix_cross)

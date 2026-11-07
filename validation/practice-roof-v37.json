@@ -1,0 +1,20 @@
+{
+  "kind": "Practice and rooftop v37 integration validation",
+  "passed": 10,
+  "failed": 0,
+  "checks": [
+    "947 ISO extents and 876 native catalog bindings preserved",
+    "all untargeted records, including v36 logos/Backup/exam backdrop, retained exactly",
+    "Guts: only caption lettering changes; number space, strip borders and all other HUD pixels retained",
+    "Pause font: only source-empty cells allocated; original Japanese/shared glyphs and palettes retained",
+    "11 pause consumers: descriptor-only changes, 1P/2P digit selection and executable instructions retained",
+    "Approved Kyosuke loading member installed; separate NOW LOADING sprite and 49 other members unchanged",
+    "16 rooftop label copies across 11 archives: owned text strips only; backgrounds and other members retained",
+    "106 rooftop coordinates (53 per variant): English readback, 20x4 bounds, name/timing controls and choice rows preserved",
+    "All other rooftop-provider payloads, every font pixel and all event script bytes retained",
+    "All rebuilt streams retain original source slot/final page and decoder bounds; no new page crossings"
+  ],
+  "output_sha256": "66e77edfbb41c7a20255407d5718ad54533f207026c23620c8121fcc38703ffc",
+  "native_gameplay": "pending",
+  "powershell_execution": "not executed; equivalent Python updater verification recorded separately"
+}

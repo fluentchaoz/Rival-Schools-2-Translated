@@ -1,0 +1,881 @@
+{
+  "path": "DAT2/MGM04.BIZ",
+  "source_decoded_sha256": "37d6eb8a5ce67a29677f25c5f5d6ddb938180d6ae7d376b7688337821b0abdf5",
+  "event": "Rooftop: Edge and Daigo sparring, entry through all reviewed exits",
+  "entries": [
+    {
+      "selector": 0,
+      "index": 67,
+      "source_payload_sha256": "249e7931ec30b45bbbb3f418d75fe438472b5e1ebede8d7e1d6050b79f09fde6",
+      "text": "ARGH, NO GOOD!\nI'M NO MATCH AT ALL!",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 68,
+      "source_payload_sha256": "bf5889a37a993c52b9971b473b1e3c56be247993f134c26c2db25e34c1787666",
+      "text": "ON THE ROOF, I HEAR\nEDGE'S VOICE. HE AND\nDAIGO SEEM TO BE\nDOING SOMETHING.",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 69,
+      "source_payload_sha256": "26656361c4d847c49c33d0a28ba8a56b599807450daa3980a36566e37d5a7a7b",
+      "text": "CALL OUT TO THEM\nLEAVE THEM ALONE",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 70,
+      "source_payload_sha256": "b25c41ee2652225613bc82d99e2ea4bbcd8ec39f171e8446eb60a92b1860a528",
+      "text": "BETTER LEAVE THEM.\nTHEY LOOK BUSY...\nWHERE SHOULD I\nGO NEXT?",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 71,
+      "source_payload_sha256": "cbe383b303f004f3160c55755b8d4f7dfb9b9014fe776941e995abe457d52606",
+      "text": "HI, DAIGO.\nEDGE, WHAT ARE YOU\nTWO DOING?",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 72,
+      "source_payload_sha256": "b920d3beb42c9241f3974e6d99d150a895f0d070b3cf9e2749745e10fdb3a49a",
+      "text": "JUST A LITTLE\nSPARRING...",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 73,
+      "source_payload_sha256": "f4a2c3e531f2a2722eb5cb16e89a2a7adf29028e1e8ea69ac778f7f7f802ef47",
+      "text": "YOU'VE GOT A LONG\nWAY TO GO, EDGE.\nYOUR KNIFEWORK IS\nSTILL IMMATURE.",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 74,
+      "source_payload_sha256": "2dc705b28f08b3f26a077219114b1851e6304078ca00ca84344ceefebbdf9bbc",
+      "text": "SO YOU'RE TRAINING\nWITH DAIGO.\nNO WONDER YOU COULD\nBARELY FIGHT BACK.",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 75,
+      "source_payload_sha256": "79aa7ef8a65ce197becf1ce72309fb3209145c6844e3ec798579dabb56c06a61",
+      "text": "THAT'S OUR BOSS.\nI CAN'T MATCH HIM.",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 76,
+      "source_payload_sha256": "2979f8ecf02315f3e72572b96739b32ad24321b44acc00c70e0eb4ca977db796",
+      "text": "YOU NEED SPIRIT,\nNOT JUST TECHNIQUE.\nMASTER YOUR KNIFE\nBEFORE FACING ME.",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 77,
+      "source_payload_sha256": "d865d2d057460c4108b2337b9c9975f35753dc52749a5bfd0b25075b6fe0da4f",
+      "text": "I SEE...\nTHEN YOU'LL NEVER\nBEAT DAIGO, EDGE.",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 78,
+      "source_payload_sha256": "17263b63d32830974d1fcad5b7c2350aca51b07cc0a56a0382d69c701f155682",
+      "text": "WHAT?!\nYOU WANNA FIGHT ME?",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 79,
+      "source_payload_sha256": "b95b19b6141d6bda8b53cf606f348ca447be2f6f41ceae0c6224993dea4e7b34",
+      "text": "NO, THAT'S NOT\nWHAT I MEANT...",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 80,
+      "source_payload_sha256": "c391eda3a481a31a393601a26f615815d89879ce1097351a7da7592d6322b20c",
+      "text": "I'M GONNA BE\nTHE NEXT BOSS.\nI CAN'T LET THIS\nSETBACK STOP ME!",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 81,
+      "source_payload_sha256": "ec55fa9dd4e3343115691e80b6331b9d1395c16e18241e99d8633f2cf32b2c81",
+      "text": "NEXT BOSS?\nAFTER DAIGO\nGRADUATES, THEN?",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 82,
+      "source_payload_sha256": "3b50ccfec002e793c55836c43369e35aee1d1ed091ff102184433fa4dc0e3c31",
+      "text": "WHO SAYS I HAVE TO\nWAIT THAT LONG?\nRIGHT, BOSS?",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 83,
+      "source_payload_sha256": "6efb976ec2acce9413c5cc663b1205df22f1e3f4322dafe958aa4be84d583854",
+      "text": "EDGE IS RIGHT.\nDEFEAT ME AND YOU\nCAN TAKE MY PLACE\nWHENEVER YOU LIKE.",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 84,
+      "source_payload_sha256": "8125e9939cd11ba7ab9490bda7a0e0e3d904f0f5c503c69715fb4f56a8a75748",
+      "text": "{0}, YOU TOO.\nCOME AT ME ANYTIME.\nEVEN RIGHT NOW.",
+      "controls": [
+        [
+          8196,
+          [
+            17
+          ]
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "index": 85,
+      "source_payload_sha256": "3983fa33d259d9a36c5da4f1f774e588707e5cf294ce7d709943a19104ea0b5f",
+      "text": "IF YOU WANNA FIGHT\nTHE BOSS, YOU GOTTA\nFIGHT ME FIRST.",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 86,
+      "source_payload_sha256": "1e98c493d4abb27a6539e832ff5f9d2dbcaa1d0de21ec3727725c1a840b198e6",
+      "text": "SPAR WITH DAIGO\nSPAR WITH EDGE\nDECLINE BOTH",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 87,
+      "source_payload_sha256": "4a3f2703e6498352d3a4141cc9b65a1a01e0ebd018f34e5bd4738ce65a2634c8",
+      "text": "ALL RIGHT, THEN.\nDAIGO, PLEASE\nSPAR WITH ME!",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 88,
+      "source_payload_sha256": "458103a0f9d21b99df86e229ad5ea19f8a8d1438b102debda51ced370f79dd69",
+      "text": "OH, YOU'LL TAKE\nME ON?\nYOU'VE GOT GUTS!",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 89,
+      "source_payload_sha256": "30022f82de8b2f79ea89f5a1a09874eef5a26638970a8ce288278a62de889fd7",
+      "text": "HEH, INDEED.\nI'LL REWARD YOUR\nCOURAGE. COME AT ME!",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 90,
+      "source_payload_sha256": "041036aefc69b4fe661e39bf800f1a754950b014857541b7f55776a762c12c46",
+      "text": "HAAH! TAKE THAT!\n{0}...\n{1}WHAM! THUD!",
+      "controls": [
+        [
+          12290,
+          [
+            15
+          ]
+        ],
+        [
+          12290,
+          [
+            255
+          ]
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "index": 91,
+      "source_payload_sha256": "9495d4e819262b51b81af07eecaf1140f9b68988e2305984cff1b8c44e89a208",
+      "text": "NO GOOD!\nI CAN'T LAND A HIT!",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 92,
+      "source_payload_sha256": "95b584ec84f715d87384c878854ef69c2097b3d5790f4263c8856fd4f1d9f991",
+      "text": "HAHAHA!\nYOU'RE EVEN WORSE\nTHAN ME! HOPELESS!",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 93,
+      "source_payload_sha256": "7cca6354ea8706a91938e7dac197ba78ded6b356b48a55ed6fa335c988239b0a",
+      "text": "HM... YOU DID WELL\nAT YOUR SKILL LEVEL.\nI'LL GIVE YOU THAT.",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 94,
+      "source_payload_sha256": "d051ee2fec2b2432a43a7ccdbd0fa6cf031f3420c61aca5b15744d3957a981d1",
+      "text": "NOW IT'S UP TO YOU.\nA YEAR OF SERIOUS\nTRAINING COULD EVEN\nLET YOU SURPASS ME.",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 95,
+      "source_payload_sha256": "9bc551626ddddcadc7ee4695d29aabc99cc33bbc55acf0aa54ef5be43ff04d4f",
+      "text": "TRAIN AT SCHOOL\nOR WITH YOUR CLUB.\nUSE IT ALL TO BETTER\nYOURSELF. GOOD LUCK!",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 96,
+      "source_payload_sha256": "0f096c7fa8fc6c9a8fd3ddac1970098d4f7abfd563a5977b7a511e22ad4402e2",
+      "text": "YES, DAIGO!\nI'LL DO MY BEST!",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 97,
+      "source_payload_sha256": "c418e6f56c7c0b89ac028068b4e937f136c58a60ecfe7ed3639eba0b9737ef37",
+      "text": "ALL RIGHT, THEN.\nLET ME SPAR WITH\nYOU FIRST, EDGE!",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 98,
+      "source_payload_sha256": "9e0738c66ed8b3a0a6f8d23b262831bdd2f8eac6319a32eb89c04b5bfb72e22d",
+      "text": "HAHAHA!\nTHE BOSS BEAT ME,\nBUT I WON'T LOSE\nTO YOU!",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 99,
+      "source_payload_sha256": "b67a81c019832d7dc4e67d204f7f5db3bb8cbc5d5feac59d2c4db3b9c35bb277",
+      "text": "ALL RIGHT!\nHERE I COME!",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 100,
+      "source_payload_sha256": "6c8be392ec307d7395c3dabd226b553beab477a83a385617ac1dd6c68da457b1",
+      "text": "{0}WHAM!{1} BAM!\n...\n{2}CRACK!{3} THUD!",
+      "controls": [
+        [
+          12290,
+          [
+            15
+          ]
+        ],
+        [
+          12290,
+          [
+            255
+          ]
+        ],
+        [
+          12290,
+          [
+            15
+          ]
+        ],
+        [
+          12290,
+          [
+            255
+          ]
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "index": 101,
+      "source_payload_sha256": "d7a17f7e59beeab827c692b5383ff672b1081f9c0da7d51b5e79b4ee955ee96e",
+      "text": "HUFF... HUFF...\nYOU'RE GOOD...{0}",
+      "controls": [
+        [
+          8195,
+          [
+            9
+          ]
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "index": 102,
+      "source_payload_sha256": "a27c42548b4a828369dd8c4421798f4b0f1807fbe5abb560f176d81e7f1edabd",
+      "text": "HUFF... HUFF...\nSO ARE YOU, EDGE...",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 103,
+      "source_payload_sha256": "cf49c80d114570a8f1abca2482617d830f30a332fcfccd0a8ed517782926494d",
+      "text": "OKAY, THAT'S ENOUGH.\nI'LL WATCH YOU BOTH\nTRAIN SOME MORE.\nYOU DID WELL.",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 104,
+      "source_payload_sha256": "f7ae86e59e54b6281ac4561099705c017111cf297261f7cee02f092bc2bc1dc3",
+      "text": "BOSS...\nI CAN STILL FIGHT!",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 105,
+      "source_payload_sha256": "f5f7e21a8bccbe8ab3c372ee49876641cc0e3d2412231b8f81d9ba45db3ed865",
+      "text": "YOU'RE EXHAUSTED.\nDON'T ACT TOUGH.",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 106,
+      "source_payload_sha256": "52048be37df94f517640f55b7214755f978b69d0d81ce0ea2fe70d6144179a0e",
+      "text": "THIS WAS SPARRING.\nIN OTHER WORDS...\nYOU BOTH STILL NEED\nTRAINING. GOT IT?",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 107,
+      "source_payload_sha256": "7abbce8c257a5fb30b1368996746c2978005975e473df8666f4356aa75f19364",
+      "text": "KEEP TRAINING HARD\nTHIS YEAR. YOU'LL\nGET STRONGER. THEN\nI'LL TAKE YOU ON.",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 108,
+      "source_payload_sha256": "0f096c7fa8fc6c9a8fd3ddac1970098d4f7abfd563a5977b7a511e22ad4402e2",
+      "text": "YES, DAIGO!\nI'LL DO MY BEST!",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 109,
+      "source_payload_sha256": "ccfb3705f140650170ee93d6838ac76f70f09c041b89231607235a4580919792",
+      "text": "HEH.{0}\nI WON'T LOSE TO YOU!",
+      "controls": [
+        [
+          8195,
+          [
+            9
+          ]
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "index": 110,
+      "source_payload_sha256": "1a00303850bb27ab7652e3f3f13e61fbecb8a60f62b886687b1aa4ddc9b46b48",
+      "text": "I COULDN'T DO THAT.\nFIGHTING YOU OR EDGE\nWOULD BE COWARDLY.",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 111,
+      "source_payload_sha256": "e3ec60df21e9da4ebc7ec115d78bbfd9e49a2e377cdb22591a91dc9d9f63bb6a",
+      "text": "{0}...\nI NEVER KNEW YOU\nWERE SUCH A COWARD.\nI'M DISAPPOINTED.",
+      "controls": [
+        [
+          8196,
+          [
+            17
+          ]
+        ]
+      ]
+    },
+    {
+      "selector": 0,
+      "index": 112,
+      "source_payload_sha256": "708da6c41ad46a6fcb01f0a25495b40d3a0d4989e8b8dd6f1caf414b78a637f7",
+      "text": "MAN, THIS IS ONLY\nSPARRING! WHAT ARE\nYOU SO SCARED OF?",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 113,
+      "source_payload_sha256": "e058c4bfcac09b59614fab947cfdede6c2cdd7714efc03f7910c5624882d6777",
+      "text": "NO, THAT'S...",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 114,
+      "source_payload_sha256": "7fa2a4a185d6fe7c1e7ed623b2a1b786de008e6303927c6a040c0c2b350258a7",
+      "text": "ENOUGH, EDGE.\nFIGHTING WHEN YOU'LL\nLOSE ISN'T COURAGE.\nRETREAT TAKES GUTS.",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 115,
+      "source_payload_sha256": "285e922516f24b4fd7cc9a1ea2191246bc797c295ab08a6b669cd580a2741868",
+      "text": "...I SEE.",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 116,
+      "source_payload_sha256": "9e97a93b1ace8be38470ddd8960a7f7e7922f80c766ada2a20283e8dfe56e4d9",
+      "text": "TRAIN HARD THIS\nYEAR. USE YOUR CLUB\nAND SCHOOL TRAINING\nTO IMPROVE YOURSELF.",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 117,
+      "source_payload_sha256": "8fb4a6be3619a20ba9aee40a9eb29ad43e9d6c8efdac71bac182d7a1eb941e72",
+      "text": "THEN WE'LL SEE\nWHETHER YOUR CHOICE\nWAS RIGHT.",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 118,
+      "source_payload_sha256": "c886542cbefbd402a269338dfcb3983322155dcff50c8bafed3b7c873dc2c92d",
+      "text": "Y-YES!\nI'LL DO MY BEST.",
+      "controls": []
+    },
+    {
+      "selector": 0,
+      "index": 119,
+      "source_payload_sha256": "b5c2c8189462440eb28f861defddad32f9bbb320fd5eb45182604f5bd3d5d07c",
+      "text": "HM...\nTHAT'S THE SPIRIT.",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 67,
+      "source_payload_sha256": "249e7931ec30b45bbbb3f418d75fe438472b5e1ebede8d7e1d6050b79f09fde6",
+      "text": "ARGH, NO GOOD!\nI'M NO MATCH AT ALL!",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 68,
+      "source_payload_sha256": "1120a7f6310156345277eaad56842641bb1b6fb528fad15758bae00fd4871f84",
+      "text": "ON THE ROOF, I HEAR\nEDGE'S VOICE. HE AND\nDAIGO SEEM TO BE\nDOING SOMETHING.",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 69,
+      "source_payload_sha256": "26656361c4d847c49c33d0a28ba8a56b599807450daa3980a36566e37d5a7a7b",
+      "text": "CALL OUT TO THEM\nLEAVE THEM ALONE",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 70,
+      "source_payload_sha256": "68a8caaacc3bdcf048da08d9a018c1dd68c29fe4bf9a280ad0ca27d7a380ea3c",
+      "text": "BETTER LEAVE THEM.\nTHEY LOOK BUSY...\nWHERE SHOULD I\nGO NEXT?",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 71,
+      "source_payload_sha256": "f69f0df5fdfafb3485b2ac8e6361342177726ca6f88419ae808d81c8f08ee3cb",
+      "text": "HI, DAIGO.\nEDGE, WHAT ARE YOU\nTWO DOING?",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 72,
+      "source_payload_sha256": "b920d3beb42c9241f3974e6d99d150a895f0d070b3cf9e2749745e10fdb3a49a",
+      "text": "JUST A LITTLE\nSPARRING...",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 73,
+      "source_payload_sha256": "f4a2c3e531f2a2722eb5cb16e89a2a7adf29028e1e8ea69ac778f7f7f802ef47",
+      "text": "YOU'VE GOT A LONG\nWAY TO GO, EDGE.\nYOUR KNIFEWORK IS\nSTILL IMMATURE.",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 74,
+      "source_payload_sha256": "c6d30aed5a008c323483cf1b40cc4e6b9ca9410dd7cbdfd9460a6f81c6389ec8",
+      "text": "SO YOU'RE TRAINING\nWITH DAIGO.\nNO WONDER YOU COULD\nBARELY FIGHT BACK.",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 75,
+      "source_payload_sha256": "79aa7ef8a65ce197becf1ce72309fb3209145c6844e3ec798579dabb56c06a61",
+      "text": "THAT'S OUR BOSS.\nI CAN'T MATCH HIM.",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 76,
+      "source_payload_sha256": "2979f8ecf02315f3e72572b96739b32ad24321b44acc00c70e0eb4ca977db796",
+      "text": "YOU NEED SPIRIT,\nNOT JUST TECHNIQUE.\nMASTER YOUR KNIFE\nBEFORE FACING ME.",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 77,
+      "source_payload_sha256": "ca62bf15d67042bdae424809410bb362c06234b5390cbdd3a4fb3c8a2b16f080",
+      "text": "I SEE...\nTHEN YOU'LL NEVER\nBEAT DAIGO, EDGE.",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 78,
+      "source_payload_sha256": "17263b63d32830974d1fcad5b7c2350aca51b07cc0a56a0382d69c701f155682",
+      "text": "WHAT?!\nYOU WANNA FIGHT ME?",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 79,
+      "source_payload_sha256": "184a8b653133b4964a1f39cff1ddac5e7ac358599490d44d13ccae4dd07fb9dc",
+      "text": "NO, THAT'S NOT\nWHAT I MEANT...",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 80,
+      "source_payload_sha256": "c391eda3a481a31a393601a26f615815d89879ce1097351a7da7592d6322b20c",
+      "text": "I'M GONNA BE\nTHE NEXT BOSS.\nI CAN'T LET THIS\nSETBACK STOP ME!",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 81,
+      "source_payload_sha256": "38fae0034d1e05521c36ec991d7ae59ec51743af697ccb65e7206cc145ff2fd2",
+      "text": "NEXT BOSS?\nAFTER DAIGO\nGRADUATES, THEN?",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 82,
+      "source_payload_sha256": "3b50ccfec002e793c55836c43369e35aee1d1ed091ff102184433fa4dc0e3c31",
+      "text": "WHO SAYS I HAVE TO\nWAIT THAT LONG?\nRIGHT, BOSS?",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 83,
+      "source_payload_sha256": "6efb976ec2acce9413c5cc663b1205df22f1e3f4322dafe958aa4be84d583854",
+      "text": "EDGE IS RIGHT.\nDEFEAT ME AND YOU\nCAN TAKE MY PLACE\nWHENEVER YOU LIKE.",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 84,
+      "source_payload_sha256": "8125e9939cd11ba7ab9490bda7a0e0e3d904f0f5c503c69715fb4f56a8a75748",
+      "text": "{0}, YOU TOO.\nCOME AT ME ANYTIME.\nEVEN RIGHT NOW.",
+      "controls": [
+        [
+          8196,
+          [
+            17
+          ]
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "index": 85,
+      "source_payload_sha256": "3983fa33d259d9a36c5da4f1f774e588707e5cf294ce7d709943a19104ea0b5f",
+      "text": "IF YOU WANNA FIGHT\nTHE BOSS, YOU GOTTA\nFIGHT ME FIRST.",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 86,
+      "source_payload_sha256": "1e98c493d4abb27a6539e832ff5f9d2dbcaa1d0de21ec3727725c1a840b198e6",
+      "text": "SPAR WITH DAIGO\nSPAR WITH EDGE\nDECLINE BOTH",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 87,
+      "source_payload_sha256": "4a3f2703e6498352d3a4141cc9b65a1a01e0ebd018f34e5bd4738ce65a2634c8",
+      "text": "ALL RIGHT, THEN.\nDAIGO, PLEASE\nSPAR WITH ME!",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 88,
+      "source_payload_sha256": "458103a0f9d21b99df86e229ad5ea19f8a8d1438b102debda51ced370f79dd69",
+      "text": "OH, YOU'LL TAKE\nME ON?\nYOU'VE GOT GUTS!",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 89,
+      "source_payload_sha256": "30022f82de8b2f79ea89f5a1a09874eef5a26638970a8ce288278a62de889fd7",
+      "text": "HEH, INDEED.\nI'LL REWARD YOUR\nCOURAGE. COME AT ME!",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 90,
+      "source_payload_sha256": "a168a957221047744614b9b958768f00108ef73f7903a3066c1474c097865366",
+      "text": "HAAH! TAKE THAT!\n{0}...\n{1}WHAM! THUD!",
+      "controls": [
+        [
+          12290,
+          [
+            15
+          ]
+        ],
+        [
+          12290,
+          [
+            255
+          ]
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "index": 91,
+      "source_payload_sha256": "d934a4f58e61a75169002fb022a37c2a9591bc6d81bbf3cb7d4053a5ba0b7200",
+      "text": "NO GOOD!\nI CAN'T LAND A HIT!",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 92,
+      "source_payload_sha256": "95b584ec84f715d87384c878854ef69c2097b3d5790f4263c8856fd4f1d9f991",
+      "text": "HAHAHA!\nYOU'RE EVEN WORSE\nTHAN ME! HOPELESS!",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 93,
+      "source_payload_sha256": "7cca6354ea8706a91938e7dac197ba78ded6b356b48a55ed6fa335c988239b0a",
+      "text": "HM... YOU DID WELL\nAT YOUR SKILL LEVEL.\nI'LL GIVE YOU THAT.",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 94,
+      "source_payload_sha256": "d051ee2fec2b2432a43a7ccdbd0fa6cf031f3420c61aca5b15744d3957a981d1",
+      "text": "NOW IT'S UP TO YOU.\nA YEAR OF SERIOUS\nTRAINING COULD EVEN\nLET YOU SURPASS ME.",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 95,
+      "source_payload_sha256": "9bc551626ddddcadc7ee4695d29aabc99cc33bbc55acf0aa54ef5be43ff04d4f",
+      "text": "TRAIN AT SCHOOL\nOR WITH YOUR CLUB.\nUSE IT ALL TO BETTER\nYOURSELF. GOOD LUCK!",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 96,
+      "source_payload_sha256": "d6a948454bbe961093bd9bbff08190edf7c2a9ce879fa7a63f5b2a5e5bb4cb71",
+      "text": "YES, DAIGO!\nI'LL DO MY BEST!",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 97,
+      "source_payload_sha256": "7a3022a8e67a4ff57e38c45ed7dc4af299c89c60344023fc63614ca1e5157f23",
+      "text": "ALL RIGHT, THEN.\nLET ME SPAR WITH\nYOU FIRST, EDGE!",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 98,
+      "source_payload_sha256": "9e0738c66ed8b3a0a6f8d23b262831bdd2f8eac6319a32eb89c04b5bfb72e22d",
+      "text": "HAHAHA!\nTHE BOSS BEAT ME,\nBUT I WON'T LOSE\nTO YOU!",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 99,
+      "source_payload_sha256": "7785a25c4770a6c29d5b30171a41b987f2b7700a4714deee9a6532b1f6f3b8ac",
+      "text": "ALL RIGHT!\nHERE I COME!",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 100,
+      "source_payload_sha256": "6c8be392ec307d7395c3dabd226b553beab477a83a385617ac1dd6c68da457b1",
+      "text": "{0}WHAM!{1} BAM!\n...\n{2}CRACK!{3} THUD!",
+      "controls": [
+        [
+          12290,
+          [
+            15
+          ]
+        ],
+        [
+          12290,
+          [
+            255
+          ]
+        ],
+        [
+          12290,
+          [
+            15
+          ]
+        ],
+        [
+          12290,
+          [
+            255
+          ]
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "index": 101,
+      "source_payload_sha256": "d7a17f7e59beeab827c692b5383ff672b1081f9c0da7d51b5e79b4ee955ee96e",
+      "text": "HUFF... HUFF...\nYOU'RE GOOD...{0}",
+      "controls": [
+        [
+          8195,
+          [
+            9
+          ]
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "index": 102,
+      "source_payload_sha256": "7f3b7db13d40f501e8ebe9756e4e67c5d1327c6299c41f8d1fa1a943a89aad30",
+      "text": "HUFF... HUFF...\nSO ARE YOU, EDGE...",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 103,
+      "source_payload_sha256": "cf49c80d114570a8f1abca2482617d830f30a332fcfccd0a8ed517782926494d",
+      "text": "OKAY, THAT'S ENOUGH.\nI'LL WATCH YOU BOTH\nTRAIN SOME MORE.\nYOU DID WELL.",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 104,
+      "source_payload_sha256": "f7ae86e59e54b6281ac4561099705c017111cf297261f7cee02f092bc2bc1dc3",
+      "text": "BOSS...\nI CAN STILL FIGHT!",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 105,
+      "source_payload_sha256": "f5f7e21a8bccbe8ab3c372ee49876641cc0e3d2412231b8f81d9ba45db3ed865",
+      "text": "YOU'RE EXHAUSTED.\nDON'T ACT TOUGH.",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 106,
+      "source_payload_sha256": "52048be37df94f517640f55b7214755f978b69d0d81ce0ea2fe70d6144179a0e",
+      "text": "THIS WAS SPARRING.\nIN OTHER WORDS...\nYOU BOTH STILL NEED\nTRAINING. GOT IT?",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 107,
+      "source_payload_sha256": "7abbce8c257a5fb30b1368996746c2978005975e473df8666f4356aa75f19364",
+      "text": "KEEP TRAINING HARD\nTHIS YEAR. YOU'LL\nGET STRONGER. THEN\nI'LL TAKE YOU ON.",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 108,
+      "source_payload_sha256": "d6a948454bbe961093bd9bbff08190edf7c2a9ce879fa7a63f5b2a5e5bb4cb71",
+      "text": "YES, DAIGO!\nI'LL DO MY BEST!",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 109,
+      "source_payload_sha256": "ccfb3705f140650170ee93d6838ac76f70f09c041b89231607235a4580919792",
+      "text": "HEH.{0}\nI WON'T LOSE TO YOU!",
+      "controls": [
+        [
+          8195,
+          [
+            9
+          ]
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "index": 110,
+      "source_payload_sha256": "d5e1f6efe11468fbaa828ecaaef85b33e934419a0053a74760879d5c00de4333",
+      "text": "I COULDN'T DO THAT.\nFIGHTING YOU OR EDGE\nWOULD BE COWARDLY.",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 111,
+      "source_payload_sha256": "e3ec60df21e9da4ebc7ec115d78bbfd9e49a2e377cdb22591a91dc9d9f63bb6a",
+      "text": "{0}...\nI NEVER KNEW YOU\nWERE SUCH A COWARD.\nI'M DISAPPOINTED.",
+      "controls": [
+        [
+          8196,
+          [
+            17
+          ]
+        ]
+      ]
+    },
+    {
+      "selector": 1,
+      "index": 112,
+      "source_payload_sha256": "708da6c41ad46a6fcb01f0a25495b40d3a0d4989e8b8dd6f1caf414b78a637f7",
+      "text": "MAN, THIS IS ONLY\nSPARRING! WHAT ARE\nYOU SO SCARED OF?",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 113,
+      "source_payload_sha256": "e058c4bfcac09b59614fab947cfdede6c2cdd7714efc03f7910c5624882d6777",
+      "text": "NO, THAT'S...",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 114,
+      "source_payload_sha256": "7fa2a4a185d6fe7c1e7ed623b2a1b786de008e6303927c6a040c0c2b350258a7",
+      "text": "ENOUGH, EDGE.\nFIGHTING WHEN YOU'LL\nLOSE ISN'T COURAGE.\nRETREAT TAKES GUTS.",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 115,
+      "source_payload_sha256": "d0ead9e2a0bde477b9977a6f9afb92bd7075d14a896ca57bc64463fca1e0a057",
+      "text": "...I SEE.",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 116,
+      "source_payload_sha256": "9e97a93b1ace8be38470ddd8960a7f7e7922f80c766ada2a20283e8dfe56e4d9",
+      "text": "TRAIN HARD THIS\nYEAR. USE YOUR CLUB\nAND SCHOOL TRAINING\nTO IMPROVE YOURSELF.",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 117,
+      "source_payload_sha256": "8fb4a6be3619a20ba9aee40a9eb29ad43e9d6c8efdac71bac182d7a1eb941e72",
+      "text": "THEN WE'LL SEE\nWHETHER YOUR CHOICE\nWAS RIGHT.",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 118,
+      "source_payload_sha256": "c886542cbefbd402a269338dfcb3983322155dcff50c8bafed3b7c873dc2c92d",
+      "text": "Y-YES!\nI'LL DO MY BEST.",
+      "controls": []
+    },
+    {
+      "selector": 1,
+      "index": 119,
+      "source_payload_sha256": "b5c2c8189462440eb28f861defddad32f9bbb320fd5eb45182604f5bd3d5d07c",
+      "text": "HM...\nTHAT'S THE SPIRIT.",
+      "controls": []
+    }
+  ]
+}

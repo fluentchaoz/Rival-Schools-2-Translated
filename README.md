@@ -1,5 +1,11 @@
 # Rival Schools 2 Translated
 
+## v37 practice / rooftop candidate — 2026-11-06
+
+Issues #022–#025 are implemented in a new candidate based on exact v36: approved Kyosuke loading card, PK Shootout GUTS, shared English pause menus and the reviewed Edge/Daigo rooftop encounter. Rooftop coverage is 53 entries in each player variant (106 coordinates), with choices/outcomes, plus 16 location-label copies in 11 archives. Other rooftop encounters and other loading illustrations remain follow-up work. Read [PRACTICE_ROOF_V37.md](PRACTICE_ROOF_V37.md), [integration validation](validation/practice-roof-v37.json) and [updater validation](validation/practice-roof-v37-updater.json).
+
+Output BIN SHA-256: `66e77edfbb41c7a20255407d5718ad54533f207026c23620c8121fcc38703ffc`. Ten integration checks pass; all 876 catalog signatures match, 921 untouched records remain exact, and all 1,483 changed sectors pass ownership/EDC/ECC checks. Native boot and live tests remain pending. Keep v36; fresh-boot the v37 CUE and use an in-game save. Check all six pause paths and the rooftop branches before closing the issues. PowerShell is reviewed, not executed here; the equivalent Python updater reproduces the exact BIN.
+
 ## v36 menu art / Backup candidate — 2026-11-06
 
 Issues #018–#021 are implemented: eight menu-logo cells, 29 Backup messages in each of 78 runtime banks (plus M/D date-unit labels and 25 bundled mirrors), Service Ace record captions and both exam backdrop variants. Uses exact v35; preserves original report sheets/props, live result data, stamps and earlier English. Read [MENU_ART_V36.md](MENU_ART_V36.md) and [validation/menu-art-v36.json](validation/menu-art-v36.json). Native boot and live-screen checks remain pending; keep v35 and fresh-boot the new CUE.
