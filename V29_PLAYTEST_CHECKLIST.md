@@ -168,6 +168,18 @@ Running list of Japanese text and other issues reported during testing from reco
 - Next investigation: inventory the complete scrolling-caption bank and native texture/sprite assembly, translate remaining Japanese, and verify all captions across their movement cycle. Preserve scroll timing, colors, dance controls, scoring and already-English text.
 - Off-screen fragments during scrolling are not by themselves evidence of unintended clipping.
 
+## 018 — School Life PLAY/LOAD screen title logos remain Japanese
+
+- Reported: 2026-11-06, start of the next screenshot-by-screenshot batch after v35 was supplied; exact running BIN hash not independently established.
+- Evidence: screenshot image(20261107-022137).png.
+- Location: PLAY / LOAD entry screen with a blue upper panel and character-photo collage.
+- Confirmed surfaces: large lower-right 熱血青春日記2 logo, with the existing NEKKETSU SEISYUN NIKKI romanized strip; small upper-right combined game logo also remains Japanese.
+- Proposed English: lower subtitle logo HOT-BLOODED YOUTH DIARY 2; small combined mark RIVAL SCHOOLS / HOT-BLOODED YOUTH DIARY 2, consistent with the supplied English title artwork. Final small-size composition requires readability review.
+- Status: OPEN — log and investigate in the next batch; do not generate artwork or build yet while collecting screenshots.
+- Required work: locate the separate native logo texture assets and all shared consumers; inspect palette/transparency, sampled bounds and tile/sprite assembly; adapt approved English artwork to each actual footprint; reinsert without clipping or changing adjacent collage/menu graphics.
+- Audit repeated uses of the small combined logo, including MODE SELECT, rather than assuming the full title-screen replacement covers them.
+- Preserve PLAY/LOAD controls and existing English menu text. Native title/logo success elsewhere does not validate these distinct assets.
+
 ## v34 batch implementation status — native retest pending
 
 - #001: replaces squeezed outlined Current Points text with an unsqueezed 5×7 bitmap in the verified upper 16 source rows, using a solid native dark/red ink index.
