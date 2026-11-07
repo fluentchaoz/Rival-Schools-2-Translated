@@ -147,6 +147,16 @@ Running list of Japanese text and other issues reported during testing from reco
 - Status: OPEN — collect with the next batch, no new build yet.
 - Next investigation: identify the HUD texture cells and native sampling widths, audit count/unit variants and shared minigame consumers, and fit complete English without clipping. Preserve scoring formulas, numerical values, remaining-ball countdown and aim gauges.
 
+## 016 — Doki-Waku Dance player-selection popup remains Japanese
+
+- Reported: 2026-11-06, current post-v34-release playtest; exact running BIN hash not independently established.
+- Reproduction: Minigame Practice → Doki-Waku Dance → Player Select.
+- Evidence: screenshot image(20261107-000727).png; PLAYER SELECT heading is already English.
+- Confirmed Japanese: プレイヤー (Player), 太陽学園男子 (Taiyo High Male), パートナー (Partner), バツ (Batsu), 決定 (Confirm).
+- Status: OPEN — collect for the next batch; no build yet.
+- Next investigation: identify the fixed popup labels and dynamic school/gender/character-name consumers; audit other choices and shared selectors. Fit complete English within actual sampled cells, preserving arrows, highlight, selection order and confirmation behavior.
+- Only the pictured school/gender and partner are confirmed by this screenshot; other choices are audit targets.
+
 ## v34 batch implementation status — native retest pending
 
 - #001: replaces squeezed outlined Current Points text with an unsqueezed 5×7 bitmap in the verified upper 16 source rows, using a solid native dark/red ink index.
