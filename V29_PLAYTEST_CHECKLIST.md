@@ -302,3 +302,15 @@ This screenshot establishes the mode-select label issue. It does not establish w
 - Required work: identify the exact ALOAD32 member and its message variant; translate the loading message and review both the handwritten annotation and armband lettering. Preserve all character views, goggles, expressions, costume, textured background and native loading behavior. Distinguish baked illustration text from the separate message TIM so loading text is not duplicated.
 - This is a different card from the Kyosuke member changed in v37. Earlier loading-card coverage was explicitly limited to that approved illustration; audit other Japanese loading-message variants/shared consumers when locating this one.
 - Exact running BIN/hash and load route are unconfirmed. The still does not validate the rooftop or pause fixes.
+
+## 027 — Class location visit opens untranslated Ran/Hinata conversation
+
+- Reported: 2026-11-06, second item collected after v37 was supplied.
+- Reproduction: School Life location selection → Class → classroom scene.
+- Evidence: image(20261107-044039).png (Library libfile_ce55f0bd58f48191a1e64ff068797cdf).
+- Visible state: April 21 / WED, MAKO, BAND; classroom background, English CLASSROOM location label and Ran's dialogue portrait.
+- Confirmed Japanese dialogue: 「ねえ、ひなた！ なんかいいネタ知らない？ ど～も最近不作なのよねぇ。」 Suggested contextual English: “Hey, Hinata! Got any good leads? I've been short on stories lately.” Here ネタ refers to news/reporting material; review the following dialogue before finalizing wording.
+- Status: OPEN — log only while collecting this batch.
+- Required work: identify this classroom encounter's actual dialogue bank/coordinates, inspect the surrounding Ran/Hinata conversation and its choices/branches, and translate as much of the verified encounter as possible. Preserve speaker portraits, name/control insertions, event branching and existing English CLASSROOM/HUD graphics.
+- Only this page is confirmed. Ran addresses Hinata; MAKO is the player name, not evidence that the addressed character or current speaker is the player. Later pages, choices and exact school/route remain unconfirmed.
+- Exact running BIN/hash is unconfirmed. This is a separate scene from #025's rooftop sparring encounter.
