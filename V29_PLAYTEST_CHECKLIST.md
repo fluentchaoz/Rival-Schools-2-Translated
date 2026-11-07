@@ -259,3 +259,15 @@ This screenshot establishes the mode-select label issue. It does not establish w
 - Status: OPEN — log only while collecting this batch.
 - Required work: identify both caption consumers/shared texture cells and native sampled bounds; replace the Japanese caption without clipping or changing the orange strip, numeric counters, 1P/CPU round grid, aim/power panel, or gameplay logic. Audit other consumers of the same caption asset once identified.
 - The screenshot confirms two visible captions; it does not establish whether they share a texture cell. Exact running BIN/hash is not confirmed.
+
+## 024 — Minigame Start/pause menu remains Japanese
+
+- Reported: 2026-11-06, third item in the current screenshot collection.
+- Reproduction confirmed: Minigame Practice → PK Shootout → press Start during gameplay.
+- Evidence: image(20261107-033930).png (Library libfile_cd6c7caab9d881918b5c2172a3c548b6).
+- Confirmed Japanese: 1Pポーズ (1P PAUSE), つづける (CONTINUE / RESUME), 戻る (BACK / RETURN).
+- Proposed English: 1P PAUSE / RESUME / BACK. Confirm the destination of BACK during implementation; use wording appropriate to the actual destination and any subsequent confirmation.
+- Status: OPEN — log only while collecting this batch.
+- Required work: locate pause-panel heading/choice assets and actual sampled bounds; translate without clipping or moving the highlight/cursor. Audit Start/pause menus across all six minigame practices and any 2P variant/shared consumers. Preserve pause/resume, cancellation, return behavior and gameplay state.
+- Only PK Shootout is confirmed by this screenshot. Other minigames are audit targets, not confirmed occurrences. Existing Guts captions remain tracked separately as #023; the lower-left desktop overlay is not a game translation issue.
+- Exact running BIN/hash remains unconfirmed.
