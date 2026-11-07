@@ -271,3 +271,15 @@ This screenshot establishes the mode-select label issue. It does not establish w
 - Required work: locate pause-panel heading/choice assets and actual sampled bounds; translate without clipping or moving the highlight/cursor. Audit Start/pause menus across all six minigame practices and any 2P variant/shared consumers. Preserve pause/resume, cancellation, return behavior and gameplay state.
 - Only PK Shootout is confirmed by this screenshot. Other minigames are audit targets, not confirmed occurrences. Existing Guts captions remain tracked separately as #023; the lower-left desktop overlay is not a game translation issue.
 - Exact running BIN/hash remains unconfirmed.
+
+## 025 — Rooftop visit has Japanese location label and dialogue
+
+- Reported: 2026-11-06, fourth item in the current screenshot collection.
+- Reproduction: reach the location-selection menu in School Life, choose Roof, then enter the rooftop scene.
+- Evidence: image(20261107-034635).png (Library libfile_1160d7b78d3c8191bced512bfe76bfff).
+- Visible state: April 21 / WED, MAKO, DRAMA; rooftop background and lower dialogue box.
+- Confirmed Japanese: upper-right 屋上 (ROOFTOP); dialogue 「カーッ、ダメだ！ 全然かなわねえ！」 (roughly: “Argh, no good! I can't compete at all!”). Final wording should use surrounding scene context before implementation.
+- Status: OPEN — log only while collecting this batch.
+- Required work: identify the actual rooftop location-label asset/provider and dialogue coordinates; translate the scene's remaining pages and any choices after reviewing context. Audit route/school variants and shared rooftop labels without assuming that earlier location-label patches reached this provider. Preserve dialogue controls, names, event branching, date/club state and the existing English HUD.
+- Only this page is confirmed. Speaker identity, later pages/choices and exact school/route are not established by the screenshot. MAKO is the displayed player name and should not be assumed to identify the speaker.
+- Exact running BIN/hash remains unconfirmed; do not mark earlier location or dialogue coverage as globally complete.
