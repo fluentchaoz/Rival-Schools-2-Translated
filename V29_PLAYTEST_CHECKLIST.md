@@ -129,6 +129,14 @@ Running list of Japanese text and other issues reported during testing from reco
 - Next batch investigation: identify the results-screen assets and native text consumers, audit exam/term variants and the return prompt, distinguish UI from decorative artwork, and preserve numerical records, grade and return behavior.
 - This result screenshot does not validate the earlier points/BACK/popup/WIN/exam-HUD changes.
 
+## 014 — Practice Exam animated result stamp remains Japanese
+
+- Reported: 2026-11-06, immediately after the results screen tracked as #013.
+- Evidence: screenshot image(20261107-000222).png shows a large diagonal blue 不合格 stamp (FAIL / not passed) over the report card.
+- Status: OPEN — log only while collecting the next batch.
+- Next investigation: locate the animated stamp artwork and its native sprite/tile assembly, translate FAIL within its display boundaries, and audit the corresponding 合格 (PASS) variant. Only the FAIL stamp is confirmed by this screenshot.
+- Preserve the stamp timing, scaling/rotation, color roles and actual pass/fail determination. This is a separate overlay from the results-screen labels in #013.
+
 ## v34 batch implementation status — native retest pending
 
 - #001: replaces squeezed outlined Current Points text with an unsqueezed 5×7 bitmap in the verified upper 16 source rows, using a solid native dark/red ink index.
