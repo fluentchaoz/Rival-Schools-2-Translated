@@ -191,6 +191,16 @@ Running list of Japanese text and other issues reported during testing from reco
 - Next investigation: identify the menu string/graphic bank and native consumer, fit the prompt and all three choices, and audit the subsequent save/load slot lists, confirmations and memory-card messages for untranslated shared text.
 - Only this first Backup menu is confirmed by the screenshot; later dialogs are audit targets. Preserve selection, cancellation, existing saves and memory-card behavior. Do not perform save/load actions as part of logging.
 
+## 020 — Service Ace current/best record HUD remains Japanese
+
+- Reported: 2026-11-06, next screenshot-by-screenshot batch after v35 was supplied; exact running BIN hash not independently established.
+- Reproduction: Minigame Practice → Service Ace → gameplay (user called it surface ace).
+- Evidence: screenshot image(20261107-022637).png; user circles the upper center-right record caption.
+- Confirmed Japanese: 最高記録 (Best Record / High Score) above the upper-right score; 現在の記録 (Current Record / Current Score) inside the upper-left score panel.
+- Status: OPEN — log while collecting this batch.
+- Next investigation: identify the shared ball-game HUD cells and native sampled widths for both captions, translate without clipping, and audit other minigames using these same captions.
+- Preserve current/best score values, P units, power/aim gauges and gameplay. LEFT / BALL are already English in this frame; that does not establish all other v35 surfaces passed native checks.
+
 ## v34 batch implementation status — native retest pending
 
 - #001: replaces squeezed outlined Current Points text with an unsqueezed 5×7 bitmap in the verified upper 16 source rows, using a solid native dark/red ink index.
