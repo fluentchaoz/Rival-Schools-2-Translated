@@ -137,6 +137,16 @@ Running list of Japanese text and other issues reported during testing from reco
 - Next investigation: locate the animated stamp artwork and its native sprite/tile assembly, translate FAIL within its display boundaries, and audit the corresponding 合格 (PASS) variant. Only the FAIL stamp is confirmed by this screenshot.
 - Preserve the stamp timing, scaling/rotation, color roles and actual pass/fail determination. This is a separate overlay from the results-screen labels in #013.
 
+## 015 — Explosive Shot gameplay HUD remains partly Japanese
+
+- Reported: 2026-11-06, during the current post-v34-release playtest; exact running BIN hash not established by the screenshot.
+- Reproduction: Minigame Training/Practice → Explosive Shot → gameplay.
+- Evidence: screenshot image(20261107-000452).png.
+- User-highlighted surface: bottom-left あと 6 球 means 6 balls remaining. Translate the fixed remaining/ball labels while retaining the live ball count.
+- Additional confirmed Japanese in the same frame: top-left 芸術点 (Style Points), フレーム点 (Frame Points), and 点 beside the large score (points unit).
+- Status: OPEN — collect with the next batch, no new build yet.
+- Next investigation: identify the HUD texture cells and native sampling widths, audit count/unit variants and shared minigame consumers, and fit complete English without clipping. Preserve scoring formulas, numerical values, remaining-ball countdown and aim gauges.
+
 ## v34 batch implementation status — native retest pending
 
 - #001: replaces squeezed outlined Current Points text with an unsqueezed 5×7 bitmap in the verified upper 16 source rows, using a solid native dark/red ink index.
