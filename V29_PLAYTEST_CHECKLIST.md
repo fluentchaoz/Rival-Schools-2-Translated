@@ -238,3 +238,13 @@ This screenshot establishes the mode-select label issue. It does not establish w
 - #020: CURRENT / HI SCORE replace the two Service Ace captions; scores, units and gauges retained.
 - #021: both exam-results pattern variants use the generated English background under original foreground and dynamic UI.
 - Keep these issues open until Ryan tests the live screens. Do not infer success from static previews or offline checks.
+
+## 022 — Minigame practice loading-screen character name remains Japanese
+
+- Reported: 2026-11-06, next screenshot collection after v36 was supplied.
+- Evidence: image(20261107-033634).png (Library libfile_21f31798a354819193e8f5bc4c2c0c80).
+- Location: one minigame practice loading screen; exact minigame not identified.
+- Visible: Kyosuke in a white coat, large black Japanese name calligraphy (鑑 恭介 / Kyosuke Kagami), textured pale-gold background and English NOW LOADING... near the bottom.
+- Status: OPEN — logged only; collecting screenshots before the next implementation batch.
+- Required work: locate the loading-card texture/provider and sampled bounds; replace the Japanese character-name lettering with English while preserving the character illustration, textured backdrop, existing NOW LOADING... and loading behavior. Audit sibling loading cards for equivalent Japanese names once the provider is found.
+- Exact running BIN/hash and whether this is the new v36 CUE are not confirmed by the screenshot. This frame does not establish that all four v36 fixes passed.
