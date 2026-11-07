@@ -248,3 +248,14 @@ This screenshot establishes the mode-select label issue. It does not establish w
 - Status: OPEN — logged only; collecting screenshots before the next implementation batch.
 - Required work: locate the loading-card texture/provider and sampled bounds; replace the Japanese character-name lettering with English while preserving the character illustration, textured backdrop, existing NOW LOADING... and loading behavior. Audit sibling loading cards for equivalent Japanese names once the provider is found.
 - Exact running BIN/hash and whether this is the new v36 CUE are not confirmed by the screenshot. This frame does not establish that all four v36 fixes passed.
+
+## 023 — PK Shootout Guts HUD labels remain Japanese
+
+- Reported: 2026-11-06, second item in the screenshot collection after v36 was supplied.
+- Reproduction: Minigame Practice → PK Shootout → gameplay.
+- Evidence: image(20261107-033840).png (Library libfile_5ee7025b8af4819197304392be791f9b).
+- Confirmed Japanese: 根性 (Guts) on the upper-right and lower-left orange HUD strips, each beside a yellow 3 in this frame.
+- Proposed English: GUTS, consistent with the existing English stat label elsewhere in School Life.
+- Status: OPEN — log only while collecting this batch.
+- Required work: identify both caption consumers/shared texture cells and native sampled bounds; replace the Japanese caption without clipping or changing the orange strip, numeric counters, 1P/CPU round grid, aim/power panel, or gameplay logic. Audit other consumers of the same caption asset once identified.
+- The screenshot confirms two visible captions; it does not establish whether they share a texture cell. Exact running BIN/hash is not confirmed.
