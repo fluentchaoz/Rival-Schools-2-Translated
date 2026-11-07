@@ -180,6 +180,17 @@ Running list of Japanese text and other issues reported during testing from reco
 - Audit repeated uses of the small combined logo, including MODE SELECT, rather than assuming the full title-screen replacement covers them.
 - Preserve PLAY/LOAD controls and existing English menu text. Native title/logo success elsewhere does not validate these distinct assets.
 
+## 019 — Diary Backup menu remains Japanese
+
+- Reported: 2026-11-06, next screenshot-by-screenshot batch after v35 was supplied; exact running BIN hash not independently established.
+- Reproduction: Diary → Backup.
+- Evidence: screenshot image(20261107-022457).png; April 8 / MAKO status HUD, desk background and green lower menu panel.
+- Confirmed Japanese: どれをおこないますか？ (What would you like to do?), セーブ (Save), ロード (Load), メニューに戻る (Return to Menu).
+- Already English: CANCEL = X button hint; preserve this and the translated status HUD.
+- Status: OPEN — log only while collecting the batch.
+- Next investigation: identify the menu string/graphic bank and native consumer, fit the prompt and all three choices, and audit the subsequent save/load slot lists, confirmations and memory-card messages for untranslated shared text.
+- Only this first Backup menu is confirmed by the screenshot; later dialogs are audit targets. Preserve selection, cancellation, existing saves and memory-card behavior. Do not perform save/load actions as part of logging.
+
 ## v34 batch implementation status — native retest pending
 
 - #001: replaces squeezed outlined Current Points text with an unsqueezed 5×7 bitmap in the verified upper 16 source rows, using a solid native dark/red ink index.
