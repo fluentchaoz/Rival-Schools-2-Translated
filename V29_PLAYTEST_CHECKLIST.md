@@ -157,6 +157,17 @@ Running list of Japanese text and other issues reported during testing from reco
 - Next investigation: identify the fixed popup labels and dynamic school/gender/character-name consumers; audit other choices and shared selectors. Fit complete English within actual sampled cells, preserving arrows, highlight, selection order and confirmation behavior.
 - Only the pictured school/gender and partner are confirmed by this screenshot; other choices are audit targets.
 
+## 017 — Doki-Waku Dance scrolling gameplay captions remain partly Japanese
+
+- Reported: 2026-11-06, current post-v34-release playtest; exact running BIN hash not independently established.
+- Reproduction: enter Doki-Waku Dance gameplay; multiple colored text lines scroll across the dancing characters.
+- Evidence: screenshot image(20261107-001028).png.
+- Confirmed Japanese: yellow caption ヘイ！ブラザー！ (Hey! Brother!) at left; another caption beginning さあゴキゲ… is partially off-screen at right. Do not infer its full wording from this frame.
+- Existing English captions are visible at the same time, including Hey! This game is Doki-Waku. The surface is mixed-language.
+- Status: OPEN — collect for next batch; separate from player-selector issue #016.
+- Next investigation: inventory the complete scrolling-caption bank and native texture/sprite assembly, translate remaining Japanese, and verify all captions across their movement cycle. Preserve scroll timing, colors, dance controls, scoring and already-English text.
+- Off-screen fragments during scrolling are not by themselves evidence of unintended clipping.
+
 ## v34 batch implementation status — native retest pending
 
 - #001: replaces squeezed outlined Current Points text with an unsqueezed 5×7 bitmap in the verified upper 16 source rows, using a solid native dark/red ink index.
