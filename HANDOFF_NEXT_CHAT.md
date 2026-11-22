@@ -33,3 +33,6 @@ TRANSLATION_STYLE.md in repo. Bitmap font: A-Z, digits (new), space ! ' , - . / 
 
 ## v139 update
 Current build is `1-KEEP\v139-CURRENT-play-this\justice-gakuen2-v139.cue`. The layout fitter (`SQUEEZE` in make_dialogue_spec_v47.py) used to delete words with plain substring replace, which mangled 509 lines ("HOLDING BACKST BATSU", "!ICE'S"). Those 509 lines are now hand-rewritten in `assets/dialogue/tr_dlg_114..124.txt` (later files override earlier ones), all fit 4x20 with no squeezing; SQUEEZE is now whole-word-only and no longer drops YOU'RE/LET'S/SO/THEN. Image/tweak builders accept `JG2_MASTER=<sha256>` to chain from a rebuilt dialogue master. Native testing of v139 pending.
+
+## v140 update
+Current build: `1-KEEP\v140-CURRENT-play-this\justice-gakuen2-v140.cue` (v139 + `tools/build_images_v140.py` / `tools/minigame_pages_v140.py`, run with `PYTHONPATH=tools`, `--accelerator build-tools/practice_lz.dll`, master = v139 `ef2b2419...`). English title cards, speech-bubble taglines and rules pages for the regular (non-practice) minigames MINITTL0-4, 9, A (Gorin Festival, Home Run, PK, Explosive Shot, Service Ace, Fiery Sprint, Doki-Waku-Dance). Next targets found: OPTINFO.TIZ (option help text), AISYOU.TIZ (compatibility mode), HERE.TIZ (vertical flame text), SELP glyph atlases, epilogues (need ending save state).
