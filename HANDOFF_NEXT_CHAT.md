@@ -36,3 +36,9 @@ Current build is `1-KEEP\v139-CURRENT-play-this\justice-gakuen2-v139.cue`. The l
 
 ## v140 update
 Current build: `1-KEEP\v140-CURRENT-play-this\justice-gakuen2-v140.cue` (v139 + `tools/build_images_v140.py` / `tools/minigame_pages_v140.py`, run with `PYTHONPATH=tools`, `--accelerator build-tools/practice_lz.dll`, master = v139 `ef2b2419...`). English title cards, speech-bubble taglines and rules pages for the regular (non-practice) minigames MINITTL0-4, 9, A (Gorin Festival, Home Run, PK, Explosive Shot, Service Ace, Fiery Sprint, Doki-Waku-Dance). Next targets found: OPTINFO.TIZ (option help text), AISYOU.TIZ (compatibility mode), HERE.TIZ (vertical flame text), SELP glyph atlases, epilogues (need ending save state).
+
+## v141 update
+Current build: `1-KEEP\v141-CURRENT-play-this\justice-gakuen2-v141.cue` (v140 + `tools/band_text_v141.py` / `build_images_v141.py`, master = v140 `dbc425cd...`). Re-lettered the Solo Play opening narration `DAT2/OP01.BIZ` (TIM at 0x63a50). NOT yet seen in game (reach it via Solo Play).
+Layout finding: baked narration images are 24-px bands (one displayed row each), 256 px wide per column; a 512-px image holds two columns. Anti-aliased grey ramp = palette indices 1..15 (1 = background). EDB##/ED## epilogue text images use the same band idea but with a long first row and 13-char wraps; geometry still needs an in-game look.
+Emulator driving tips: `work/fg2.ps1` (reliable focus), `work/keys.ps1 ENTER wait1500 ...` (220 ms holds), `work/cap.ps1 out.png` (captures only the DuckStation window). Do NOT use full-screen screenshots. Backup of savestates/memcards: `work/savestate-backup*`; kill DuckStation with Stop-Process so the resume state is not overwritten.
+Still Japanese: OPTINFO.TIZ, AISYOU.TIZ, HERE.TIZ, EDB/ED epilogues, EDITCM move lists, CARD, TOROFY (award certificate), SELP glyph atlases, credits.
