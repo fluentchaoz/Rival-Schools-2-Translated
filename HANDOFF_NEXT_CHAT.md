@@ -42,3 +42,7 @@ Current build: `1-KEEP\v141-CURRENT-play-this\justice-gakuen2-v141.cue` (v140 + 
 Layout finding: baked narration images are 24-px bands (one displayed row each), 256 px wide per column; a 512-px image holds two columns. Anti-aliased grey ramp = palette indices 1..15 (1 = background). EDB##/ED## epilogue text images use the same band idea but with a long first row and 13-char wraps; geometry still needs an in-game look.
 Emulator driving tips: `work/fg2.ps1` (reliable focus), `work/keys.ps1 ENTER wait1500 ...` (220 ms holds), `work/cap.ps1 out.png` (captures only the DuckStation window). Do NOT use full-screen screenshots. Backup of savestates/memcards: `work/savestate-backup*`; kill DuckStation with Stop-Process so the resume state is not overwritten.
 Still Japanese: OPTINFO.TIZ, AISYOU.TIZ, HERE.TIZ, EDB/ED epilogues, EDITCM move lists, CARD, TOROFY (award certificate), SELP glyph atlases, credits.
+
+## v142 update
+Current build: `1-KEEP\v142-CURRENT-play-this\justice-gakuen2-v142.cue` (v141 + `tools/label_jobs_v142.py` / `build_images_v142.py`, master = v141). English labels in AISYOU.TIZ (SYNC/SKILL/TRUST/BOND/RATING, CHAIR'S COMPATIBILITY CORNER, BACK TO MODE MENU, COMPAT. MODE, VERSUS MODE, CO-OP) and HERE.TIZ ("HOLD ON!" stacked vertically). Not yet seen in game.
+Deliberately skipped (need in-game view first): OPTINFO.TIZ (rows are fragments whose prefixes are drawn elsewhere), TOROFY certificate (team-name overlay), EDITCM move lists (24 files of move names), EDB/ED epilogues, SELP atlases.
