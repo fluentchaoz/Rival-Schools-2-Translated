@@ -12,7 +12,8 @@ from native_resource_catalog import audit_catalog, require_catalog
 from build_practice_v30 import tim, replace_pixels
 from img_label import restyle
 
-MASTER = '721919049b456b44153ee24b948a10170e7da3da20f11155937cde51feb69c7a'
+import os
+MASTER = os.environ.get('JG2_MASTER', '721919049b456b44153ee24b948a10170e7da3da20f11155937cde51feb69c7a')
 FONT = "C:/Windows/Fonts/arialn.ttf"
 
 # (record, tim_offset): list of (rect, text, restyle keyword args)

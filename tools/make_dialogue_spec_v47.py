@@ -22,11 +22,11 @@ def load(folder):
 SQUEEZE = [("FOR THE RECORD, ", ""), ("OH, RIGHT, ", ""), ("OH RIGHT, ", ""), ("UM, ", ""), ("WELL, ", ""), ("NOW THEN, ", ""), ("NOW, ", ""),
            ("ALL RIGHT, ", ""), ("OKAY, ", ""), ("GOOD, GOOD. ", ""), ("HM HM, ", ""), ("I SEE, I SEE. ", ""), ("SEE YOU NEXT MONTH", "SEE YOU"),
            ("HERE YOU ARE", "HI"), ("YEAR-END EXAMS AND THE ADVANCEMENT EXAM", "YEAR-END AND ADVANCEMENT EXAMS"), ("THERE ARE ", ""),
-           ("AS I SAID BEFORE, ", ""), ("AS I SAID, ", ""), ("I SAID BEFORE, ", ""), ("REALLY, ", ""), ("SO ", ""), ("THEN ", ""), (" VERY", ""),
+           ("AS I SAID BEFORE, ", ""), ("AS I SAID, ", ""), ("I SAID BEFORE, ", ""), ("REALLY, ", ""), (" VERY", ""),
            (" REALLY", ""), ("PLEASE ", ""), ("ALMOST ", ""), ("THIS MONTH'S ", ""), ("AT THE START OF EACH MONTH", "MONTHLY"), ("DO YOUR BEST", "TRY HARD"),
            ("THIS MONTH IS THE ", "IT'S THE "), ("THIS MONTH IS ", "IT'S "), ("THIS MONTH HAS ", "THERE'S "), ("YOU CAN CHANGE CLUBS AT SECOND TERM'S START", "CLUBS CAN CHANGE IN SECOND TERM"),
            ("YOU CAN CHANGE CLUBS IN THIRD TERM", "CLUBS CAN CHANGE IN THIRD TERM"), ("NEXT IS SPECIAL TRAINING. ", ""), ("GOOD WORK. ", ""), ("OKAY, GOOD WORK. ", ""),
-           ("YOU'RE ", ""), ("LET'S ", ""), (" AGAIN", ""), (" OF COURSE", ""), ("I'D RATHER YOU DIDN'T, BUT ", ""), (" IT'S YOUR CHOICE", ""), ("PLEASE", ""), (" JUST", "")]
+           (" OF COURSE", ""), ("I'D RATHER YOU DIDN'T, BUT ", ""), (" IT'S YOUR CHOICE", ""), (" JUST", "")]
 
 SMALL_ARENA = ('DAT2/MGK04.BIZ', 'DAT2/MGT00.BIZ')
 NAME_CODES = ('2000', '2001', '2003', '2004', '2005', '2006', '2007', '2008', '2009')   # player-name insertions, up to ~7 cells
@@ -57,8 +57,9 @@ def fit(jp, en):
     out = wrap(text)
     for a, b in SQUEEZE:
         if len(out) <= 4: break
-        if a in text:
-            text = text.replace(a, b); out = wrap(text)
+        pat = r"(?<![A-Z'])" + re.escape(a) + (r"(?![A-Z'])" if a[-1].isalpha() else "")
+        if re.search(pat, text):
+            text = re.sub(pat, b, text); out = wrap(text)
     return '\n'.join(out)
 
 def problems(i, jp, en):

@@ -30,3 +30,6 @@ NOT pushed. Repo = `repo/` (remote origin github.com/fluentchaoz/Rival-Schools-2
 
 ## Style
 TRANSLATION_STYLE.md in repo. Bitmap font: A-Z, digits (new), space ! ' , - . / ? only; <=20 cells per line, <=4 lines.
+
+## v139 update
+Current build is `1-KEEP\v139-CURRENT-play-this\justice-gakuen2-v139.cue`. The layout fitter (`SQUEEZE` in make_dialogue_spec_v47.py) used to delete words with plain substring replace, which mangled 509 lines ("HOLDING BACKST BATSU", "!ICE'S"). Those 509 lines are now hand-rewritten in `assets/dialogue/tr_dlg_114..124.txt` (later files override earlier ones), all fit 4x20 with no squeezing; SQUEEZE is now whole-word-only and no longer drops YOU'RE/LET'S/SO/THEN. Image/tweak builders accept `JG2_MASTER=<sha256>` to chain from a rebuilt dialogue master. Native testing of v139 pending.
