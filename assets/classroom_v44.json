@@ -1,0 +1,811 @@
+{
+  "path": "DAT2/MGM04.BIZ",
+  "source_decoded_sha256": "c27bbd9675105b7af8a53d30248d2825227e9a66cd2a738dda6b3e23f7ecf367",
+  "event": "Classroom (Ran/Hinata) and ground (Natsu/Roberto) scenes",
+  "entries": [
+    {
+      "selector": 0,
+      "index": 0,
+      "source_payload_sha256": "de4a409eda090eea15552d33844ea684f433a7701466868e99f6246fc2d27eed",
+      "text": "HEY, HINATA!\nGOT ANY GOOD SCOOPS?\nI'VE BEEN IN A SLUMP\nLATELY."
+    },
+    {
+      "selector": 0,
+      "index": 1,
+      "source_payload_sha256": "2b8a0a678790b502e6ad6d2aeb4432e2e8d06987f9a430d243d35df17c523310",
+      "text": "LOOKS LIKE RAN AND\nHINATA ARE IN THE\nCLASSROOM..."
+    },
+    {
+      "selector": 0,
+      "index": 2,
+      "source_payload_sha256": "e07a2d3c81794d37b8a5c768e236dabd715f3ddd2fdd057e874c131e745277fd",
+      "text": "JOIN THEIR TALK\nDON'T BUTT IN"
+    },
+    {
+      "selector": 0,
+      "index": 3,
+      "source_payload_sha256": "508a3e7345237c3a31f680a7c25399b4f75309fa6ff8057f9f5745e49147e2db",
+      "text": "WELL, I'D RATHER NOT\nINTERRUPT THEM.\nLET'S GO ELSEWHERE."
+    },
+    {
+      "selector": 0,
+      "index": 4,
+      "source_payload_sha256": "c8816330b8ced66adf83b7ca8304aa57e23aad95bfb64417b9fe73466cd319c5",
+      "text": "HEY!\nSOUNDS LIKE YOU'RE\nTALKING ABOUT\nSOMETHING FUN."
+    },
+    {
+      "selector": 0,
+      "index": 5,
+      "source_payload_sha256": "da89aa406bd41a5199beea248780714a7f92a4d42a39c924302cdeb140a325ee",
+      "text": "GOOD TIMING, {0}!\nYOU HELP ME HUNT\nFOR SCOOPS TOO!"
+    },
+    {
+      "selector": 0,
+      "index": 6,
+      "source_payload_sha256": "644c15375c988dcfa69cdb0c895a3e1bc6d92774daf77b5e2c24465750d35dd0",
+      "text": "SCOOPS, HUH...\nI WONDER IF I KNOW\nANYTHING."
+    },
+    {
+      "selector": 0,
+      "index": 7,
+      "source_payload_sha256": "6884332f618c881ceac1781fe6d34417998f4281b48466a4cd2af81dc749ab33",
+      "text": "HMM. OKAY, THEN!\nI'LL TELL YOU MY\nBEST STORY!"
+    },
+    {
+      "selector": 0,
+      "index": 8,
+      "source_payload_sha256": "42dc6722dad80e86695238d890a84fd524755eab651f2a53fde6dc31cced8a54",
+      "text": "THAT'S... THAT\nTHING, RIGHT?"
+    },
+    {
+      "selector": 0,
+      "index": 9,
+      "source_payload_sha256": "2fb6ed3fa02dd9743f5693ca62eeadceda12932a103a500de3baea2334551dbb",
+      "text": "THE SWIM CLUB'S RYU?\nPRINCIPAL RAIZO?\nHINATA, YOU?"
+    },
+    {
+      "selector": 0,
+      "index": 10,
+      "source_payload_sha256": "9eafcbe23a90502891c8fb728f81aa65093b17a009be445c58cd19dd828a4a0e",
+      "text": "THAT'S IT, ISN'T IT?\nA RUMOR ABOUT RYU\nFROM THE SWIM CLUB?"
+    },
+    {
+      "selector": 0,
+      "index": 11,
+      "source_payload_sha256": "6a556fa28f3b326a84f154b471251927a84e88c3b0ef8f1a1baf9755a31e52b1",
+      "text": "OH, {0} KNOWS\nABOUT IT TOO."
+    },
+    {
+      "selector": 0,
+      "index": 12,
+      "source_payload_sha256": "7ac23c88cfe5e113cde9150b53625800e0c687dd2cb318b31accfac199b6017a",
+      "text": "WHAT, WHAT?!\nCOME ON, HURRY UP\nAND TELL ME!"
+    },
+    {
+      "selector": 0,
+      "index": 13,
+      "source_payload_sha256": "d99b824a265ce308da793f770d6984956c5e8c88f57a6347b18b0139493e231d",
+      "text": "YOU KNOW, RYU\nALWAYS SPACES OUT.\nIT'S HARD TO TELL\nWHAT HE'S THINKING."
+    },
+    {
+      "selector": 0,
+      "index": 14,
+      "source_payload_sha256": "e18311332fc73fb267324a7a862172dec97a1c18d530953ba3792e4d1efca48b",
+      "text": "HE'S AMAZING WHEN\nHE SWIMS, THOUGH."
+    },
+    {
+      "selector": 0,
+      "index": 15,
+      "source_payload_sha256": "10edd90ce5a2fdddc663d4f037244db6a1a6626757c1c39aa2f41ea7416dd444",
+      "text": "ANYWAY, SOMEONE HE\nBEAT AT A MEET GOT\nREVENGE WITH A GANG\nAND ATTACKED HIM!"
+    },
+    {
+      "selector": 0,
+      "index": 16,
+      "source_payload_sha256": "2171602eac1ae234497dc91a06ea34a5cda8179bb0cc199d50c82256e028defe",
+      "text": "...YOU'RE JUST A\nDUMMY WHO CAN ONLY\nSWIM! ...THEY SAID."
+    },
+    {
+      "selector": 0,
+      "index": 17,
+      "source_payload_sha256": "039f12fe6d6640bf7067fdbf7ede975a71b0e560b8abda6ab19d1c3225e00d0a",
+      "text": "UH-HUH.\nAND THEN?!"
+    },
+    {
+      "selector": 0,
+      "index": 18,
+      "source_payload_sha256": "000064e230e3a44e5298735aada2dcb71d5618ccd2a41944b3dcb4b5ba66719f",
+      "text": "THE POOR GANG ENDED\nUP IN THE HOSPITAL,\nEVERY LAST ONE."
+    },
+    {
+      "selector": 0,
+      "index": 19,
+      "source_payload_sha256": "5ec7cfb3f65f78b84cf3939dc22a1ba8cbf99bf3c72453903bf53e4f08cd3653",
+      "text": "NO WAY!\nIS THAT TRUE?"
+    },
+    {
+      "selector": 0,
+      "index": 20,
+      "source_payload_sha256": "0d2a38998ba24afcaee9c405ce3ea54827ccc6fffff815a600a979c3f3585e2b",
+      "text": "IT'S TRUE, FOR REAL!\nSINCE THEN, NO ONE\nDARES BADMOUTH\nSWIMMING TO RYU."
+    },
+    {
+      "selector": 0,
+      "index": 21,
+      "source_payload_sha256": "d86da16cd342ea9ead5259d7f2b51aa7452bbaa959926320eb7e698b0c9480e2",
+      "text": "STILL, THAT'S COOL.\nRISKING YOUR BODY TO\nPROTECT WHAT YOU\nLOVE IS AWESOME."
+    },
+    {
+      "selector": 0,
+      "index": 22,
+      "source_payload_sha256": "15b8b5293c58f64b088b21fee667b1fb4f6f54c956eba6ffab79e1fe4d33efbf",
+      "text": "YOU SHOULD LEARN\nFROM HIM TOO!"
+    },
+    {
+      "selector": 0,
+      "index": 23,
+      "source_payload_sha256": "a8e216596ebaa268fce75946a5540fc7abb2a7ab89a85ffbd02dee9cf0503f68",
+      "text": "RIGHT, RIGHT.\nBOYS HAVE TO BE\nSTRONG, AFTER ALL!"
+    },
+    {
+      "selector": 0,
+      "index": 24,
+      "source_payload_sha256": "1dd1e769e7628ebf98247f061f8faade1411cfa638d5b24f2a842cbc86d48294",
+      "text": "THANKS, HINATA!\nTHAT WAS HELPFUL.\nAND YOU TOO, {0}!"
+    },
+    {
+      "selector": 0,
+      "index": 25,
+      "source_payload_sha256": "679f4657af55cbda9d55d7fb01ee894bea561fce7c6d64ba1a28c98ea9e4115a",
+      "text": "COULD IT BE THE\nRUMOR ABOUT\nMR. RAIZO?"
+    },
+    {
+      "selector": 0,
+      "index": 26,
+      "source_payload_sha256": "ccf4ccb22316e26367ddc3f5ab9766e845a59686b4b0d30813e7d4ab08d10ebe",
+      "text": "HEY, {0}, HAVE YOU\nHEARD IT TOO?"
+    },
+    {
+      "selector": 0,
+      "index": 27,
+      "source_payload_sha256": "7e44b0f7c0a2a57300f322f6c1c99065d9153c04fe9118696a2ffc40598b1cbb",
+      "text": "AW, DON'T KEEP US\nWAITING. HURRY AND\nTELL US!"
+    },
+    {
+      "selector": 0,
+      "index": 28,
+      "source_payload_sha256": "48ded7b165e812598493426f5aa2bd7f7c9e42caac9fa839d944aa73c6c5df0c",
+      "text": "ACTUALLY, PRINCIPAL\nRAIZO LOOKS LIKE NO\nORDINARY MAN. HOW IS\nHE BATSU'S DAD?!"
+    },
+    {
+      "selector": 0,
+      "index": 29,
+      "source_payload_sha256": "4e734aefc6ee23101b433d7145cc5d8d2f2623a5f662d1b26e0ed98d14a9e243",
+      "text": "HE DOES LOOK GREAT.\nBUT YOU CAN'T JUDGE\nPEOPLE BY LOOKS."
+    },
+    {
+      "selector": 0,
+      "index": 30,
+      "source_payload_sha256": "48c6983e592bae08e6c9c3cabefe196d583a58c061f881c5ecfc73ccc13d64f4",
+      "text": "BUT, YOU KNOW...\nRUMORS NEVER STOP.\nHE'S SO DEDICATED TO\nIDEAL EDUCATION TOO."
+    },
+    {
+      "selector": 0,
+      "index": 31,
+      "source_payload_sha256": "78d9bef4f501003922063bcdcd53e134b1a9e2e716771a4f52c37d472c6c7b07",
+      "text": "EXPOSED!! BETWEEN\nWAVERING IDEALS AND\nREALITY, THE DARK\nSIDE OF A PRINCIPAL!"
+    },
+    {
+      "selector": 0,
+      "index": 32,
+      "source_payload_sha256": "276571613c8d1d29fda3127ce424012db4b1e7c93dc4167b0d5b9d4537100d23",
+      "text": "...HEY, RAN?"
+    },
+    {
+      "selector": 0,
+      "index": 33,
+      "source_payload_sha256": "f2070428cca2c5b22019f088c587b0451e71ee4299ea7714563c7469365dfb7b",
+      "text": "IT'S SETTLED!\nI'LL STAKE MY CAREER\nON EXPOSING IT ALL!!\nWAIT FOR IT. BYE!!"
+    },
+    {
+      "selector": 0,
+      "index": 34,
+      "source_payload_sha256": "2662f36860c47ecbb839a80d62b1bb3e2a06ebb5744c4629276f54445d28baea",
+      "text": "RAN...\nI HOPE SHE DOESN'T\nGET EXPELLED..."
+    },
+    {
+      "selector": 0,
+      "index": 35,
+      "source_payload_sha256": "c16a4495746ac045278814a471072bb4b8b8cf212aca20e4da69c4d5cc5e144b",
+      "text": "THIS ISN'T MY\nFAULT... IS IT?"
+    },
+    {
+      "selector": 0,
+      "index": 36,
+      "source_payload_sha256": "236734daee7f1eacd0a6cffb1bd8b84869fa97e6f4946508f14da2a0486a8f38",
+      "text": "HINATA... I KNOW\nABOUT IT, YOU KNOW."
+    },
+    {
+      "selector": 0,
+      "index": 37,
+      "source_payload_sha256": "397ab8719cd943e3d331dd4f5913855e067235138b594aebb9c870f0fedf81db",
+      "text": "HUH? WH-WHAT?"
+    },
+    {
+      "selector": 0,
+      "index": 38,
+      "source_payload_sha256": "4f4179778acac0c2f53f58b069cbbdffc1b3e23f143bc5b01e7c9adb21a74483",
+      "text": "THE OTHER DAY AT THE\nCAFE, YOU ATE FIVE\nCAKES AND GOT A\nSTOMACHACHE."
+    },
+    {
+      "selector": 0,
+      "index": 39,
+      "source_payload_sha256": "8983391fa21873e64ea0dbf2cb45d41bfd7e50f88075943d1e3eb129cb573ad1",
+      "text": "WH-WHAT?! HOW DOES\n{0} KNOW THAT?!"
+    },
+    {
+      "selector": 0,
+      "index": 40,
+      "source_payload_sha256": "ba8660d32892bc280b90f28e9dad2f0416ba2b914ac043cd525f93b6c5540579",
+      "text": "IT WAS NATSU. WHEN I\nASKED WHY HINATA WAS\nABSENT, SHE LAUGHED\nAND TOLD ME."
+    },
+    {
+      "selector": 0,
+      "index": 41,
+      "source_payload_sha256": "c0d0a73a1015d197b417fdd87b667dcf040e4a1475329df462f469231d8e8613",
+      "text": "NATSU...\nGIVE ME A BREAK..."
+    },
+    {
+      "selector": 0,
+      "index": 42,
+      "source_payload_sha256": "5de69710adb7d4271a1b9a77ea0a6b583b3049c25eee7ff42bd6cc649e64c26f",
+      "text": "HA HA! THAT'S SO\nLIKE YOU, HINATA!"
+    },
+    {
+      "selector": 0,
+      "index": 43,
+      "source_payload_sha256": "5804e8473418c2e7107a2e71759a91f34e8b4bfcfeccb3af16c88639ea975b09",
+      "text": "ARGH! EVEN RAN?!\n...I DON'T CARE!\nI'M GOING HOME!!"
+    },
+    {
+      "selector": 0,
+      "index": 44,
+      "source_payload_sha256": "673454d461230ccc5c1171daf4a78798c3689a2ec47cc585aedb15d2a17c5377",
+      "text": "UH-OH... SHE REALLY\nGOT MAD. OH BOY...\nI ONLY MEANT IT AS\nA LIGHT JOKE."
+    },
+    {
+      "selector": 0,
+      "index": 45,
+      "source_payload_sha256": "411e19ff2aa4abe638155f5c6f0aaccf14d5ab5971cada131cc8d74e2b4168c5",
+      "text": "SERVES YOU RIGHT.\nKNOWING HINATA,\nSHE'LL BE BACK TO\nNORMAL TOMORROW!"
+    },
+    {
+      "selector": 0,
+      "index": 46,
+      "source_payload_sha256": "e6cef42b1f3ea821f39624cdcdf3c47caecece9ada5fb65922bfa2f2e75407c2",
+      "text": "SEE YA, {0}! CAN'T\nPUT IT IN A STORY,\nBUT IT WAS FUN!"
+    },
+    {
+      "selector": 0,
+      "index": 47,
+      "source_payload_sha256": "a2dc2d59ab4af0f7d5d781dbca16097688d1ba431dac87daef2f4470eaeebb7c",
+      "text": "THAT REMINDS ME...\nWHAT WAS HINATA'S\nSTORY ABOUT?"
+    },
+    {
+      "selector": 0,
+      "index": 48,
+      "source_payload_sha256": "ecb68e0399c14298ad42a72aa59932433e26196cc65080c27a502352838cdb40",
+      "text": "AFTER SCHOOL, THE\nFIELD IS FULL OF\nPEOPLE AT CLUB\nPRACTICE."
+    },
+    {
+      "selector": 0,
+      "index": 49,
+      "source_payload_sha256": "b8456a6013923f9212ad4149f2b9336905bf7981e9b7f95d268a9e2cff776754",
+      "text": "OH, THAT'S NATSU AND\nROBERTO OVER THERE.\nTHEY'RE ARGUING LIKE\nCRAZY! WHAT NOW?"
+    },
+    {
+      "selector": 0,
+      "index": 50,
+      "source_payload_sha256": "33049806d53f1263fcf8061e1dcac06beeed8dad72b793bf0d6805e74a19ac1a",
+      "text": "TALK TO THE TWO\nGO ELSEWHERE"
+    },
+    {
+      "selector": 0,
+      "index": 51,
+      "source_payload_sha256": "6f0897f1359d02011940cf1edaf1cde262125e5a31c0896e33a4ef1f8468fc0e",
+      "text": "HEY, NATSU, ROBERTO!\nWHY ARE YOU ARGUING\nRIGHT IN THE MIDDLE\nOF THE FIELD?"
+    },
+    {
+      "selector": 0,
+      "index": 52,
+      "source_payload_sha256": "9f2d4ad956085d07583a74c7b860f163908ab862867e1ea6c1fb0062c13ed16d",
+      "text": "WE'RE OBVIOUSLY\nGOING FIRST!"
+    },
+    {
+      "selector": 0,
+      "index": 53,
+      "source_payload_sha256": "a19a5817fb473640b2a65ae150dc564a0c829bb3f78a67ad23b736e082357800",
+      "text": "NO WAY, IT'S\nOBVIOUSLY US!"
+    },
+    {
+      "selector": 0,
+      "index": 54,
+      "source_payload_sha256": "651e571619cf52a03ed84b455e4d41ea99809e6ef07f60f8a7d4be077f808ab6",
+      "text": "WHAT'S GOING FIRST?\nI HAVE NO IDEA."
+    },
+    {
+      "selector": 0,
+      "index": 55,
+      "source_payload_sha256": "14321374636988fc05721eaffb018a827298d35f2313757c9fd69ee052e16ead",
+      "text": "WHAT ON EARTH IS\nGOING FIRST?"
+    },
+    {
+      "selector": 0,
+      "index": 56,
+      "source_payload_sha256": "4ef6f82dada31fd089702a09af6964d31bf36e78d7fa7c3c9d65804b35947e95",
+      "text": "WE WERE ARGUING ON\nWHICH TEAM WINS A\nTOURNAMENT FIRST.\nROBERTO SAYS SOCCER!"
+    },
+    {
+      "selector": 0,
+      "index": 57,
+      "source_payload_sha256": "61553060438660b7e3bbf0c9161f79d8350e61de1d968c831ed24050251f9952",
+      "text": "NATSU HAS SKILL, BUT\nVOLLEYBALL IS ABOUT\nTEAMWORK. OUR SOCCER\nTEAM IS BETTER."
+    },
+    {
+      "selector": 0,
+      "index": 58,
+      "source_payload_sha256": "39ce4d6a68b56aa39a63b33374bf2975d8437669cf72cae86b6a954b4e4b6249",
+      "text": "THAT'S NOT TRUE! OUR\nTEAM IS STRONGER!\n{0}, WHICH TEAM\nWINS FIRST?"
+    },
+    {
+      "selector": 0,
+      "index": 59,
+      "source_payload_sha256": "ef64c2deb3fb38525b1b50d99b69a13b501a35235c48c50fbc76e2d04e13c978",
+      "text": "ROBERTO'S SOCCER\nNATSU'S VOLLEYBALL"
+    },
+    {
+      "selector": 0,
+      "index": 60,
+      "source_payload_sha256": "b5aa5e73d061164ffa1bcebee3c76367e1c34cb0071e312b06aef60eae1e9603",
+      "text": "SEE? IT'S OBVIOUS IF\nYOU THINK CALMLY.\nNATSU, TRY TO BUILD\nSOME CALM JUDGMENT!"
+    },
+    {
+      "selector": 0,
+      "index": 61,
+      "source_payload_sha256": "7e1eb2e072046c20567385c15a6ef25be82546b326e7b5c633e32befe190a8fb",
+      "text": "I'LL PROVE IT WITH\nRESULTS! WATCH ME!"
+    },
+    {
+      "selector": 0,
+      "index": 62,
+      "source_payload_sha256": "9db1ea5dc468a39a082b62fd6cd024a88de7b6e69eedced20235a5501a1900fa",
+      "text": "I MADE NATSU MAD...\nMAYBE I SHOULD'VE\nSAID VOLLEYBALL EVEN\nIF IT WAS A LIE."
+    },
+    {
+      "selector": 0,
+      "index": 63,
+      "source_payload_sha256": "8b5937ddf073bdd9e06f7b95d21387744bb92a75cf34fc565398cb99edb3e642",
+      "text": "NICE ONE, {0}! NEXT\nTIME I'LL BAKE MY\nSPECIAL CAKE FOR YOU\nLOOK FORWARD TO IT!"
+    },
+    {
+      "selector": 0,
+      "index": 64,
+      "source_payload_sha256": "58e8a973a46dafb77018a931a05bfcf13de836e4e5ee360385fa26be63dcc151",
+      "text": "{0}, YOU'RE SOFT ON\nGIRLS. SHOW TOO MUCH\nSOFTNESS AND YOU'LL\nGET HURT. WATCH OUT."
+    },
+    {
+      "selector": 0,
+      "index": 65,
+      "source_payload_sha256": "7e1b9a01bb631b89f517e31dd80af1f61b501a2c1b7b8c512e455d8c3a8ab653",
+      "text": "...MIND YOUR OWN\nBUSINESS."
+    },
+    {
+      "selector": 0,
+      "index": 66,
+      "source_payload_sha256": "5b10a84d6fb3ef6a31024471f3bc7d828e9a2b9b04cd5a84277de007d4a137bc",
+      "text": "I'D BE INTERRUPTING\nANOTHER CLUB, SO\nI'LL SKIP IT. WHERE\nSHOULD I GO?"
+    },
+    {
+      "selector": 1,
+      "index": 0,
+      "source_payload_sha256": "de4a409eda090eea15552d33844ea684f433a7701466868e99f6246fc2d27eed",
+      "text": "HEY, HINATA!\nGOT ANY GOOD SCOOPS?\nI'VE BEEN IN A SLUMP\nLATELY."
+    },
+    {
+      "selector": 1,
+      "index": 1,
+      "source_payload_sha256": "6014fd1b0837614ae0adcba8bea802ceec54666f737e630aa31d666ac73011a5",
+      "text": "LOOKS LIKE RAN AND\nHINATA ARE IN THE\nCLASSROOM..."
+    },
+    {
+      "selector": 1,
+      "index": 2,
+      "source_payload_sha256": "e07a2d3c81794d37b8a5c768e236dabd715f3ddd2fdd057e874c131e745277fd",
+      "text": "JOIN THEIR TALK\nDON'T BUTT IN"
+    },
+    {
+      "selector": 1,
+      "index": 3,
+      "source_payload_sha256": "e5e72a0b9127c5a020a54dec76c6c21739b7bd9c72b00d6a71ff50f2bd4c9e52",
+      "text": "WELL, I'D RATHER NOT\nINTERRUPT THEM.\nLET'S GO ELSEWHERE."
+    },
+    {
+      "selector": 1,
+      "index": 4,
+      "source_payload_sha256": "7a59c5778fcefefbf7a864d2cee3de6c7aaf5fc7857f9d5bd79033aa8a9727b0",
+      "text": "YOO-HOO!\nSOUNDS LIKE YOU'RE\nTALKING ABOUT\nSOMETHING FUN."
+    },
+    {
+      "selector": 1,
+      "index": 5,
+      "source_payload_sha256": "971132092f004eb8055475541ad61bf6ba319b8736bb37079d1e7988063c76ea",
+      "text": "OH, {0}.\nGOOD TIMING!\nYOU HELP ME HUNT\nFOR SCOOPS TOO!"
+    },
+    {
+      "selector": 1,
+      "index": 6,
+      "source_payload_sha256": "422d674edac8a5b539e63a38e94abf65cf8ee142897bd99a8efc22205c676435",
+      "text": "SCOOPS?\n...I WONDER IF I\nKNOW ANYTHING."
+    },
+    {
+      "selector": 1,
+      "index": 7,
+      "source_payload_sha256": "6884332f618c881ceac1781fe6d34417998f4281b48466a4cd2af81dc749ab33",
+      "text": "HMM. OKAY, THEN!\nI'LL TELL YOU MY\nBEST STORY!"
+    },
+    {
+      "selector": 1,
+      "index": 8,
+      "source_payload_sha256": "00442f9ec0b1dc46bfb5163359c9fc49fd809d9fc8a2ac42389464ff8923018d",
+      "text": "THAT'S... THAT\nTHING, RIGHT?"
+    },
+    {
+      "selector": 1,
+      "index": 9,
+      "source_payload_sha256": "0603921913f3b268c1aa8bce716a903cce67ef10d8a24af3173eb71f2a57fe90",
+      "text": "THE SWIM CLUB'S RYU?\nPRINCIPAL RAIZO?\nHINATA, YOU?"
+    },
+    {
+      "selector": 1,
+      "index": 10,
+      "source_payload_sha256": "10e5ff5641bf77f3e7c36d3a05f75d07ac59591dcb6ebf5304007ad6e981b10f",
+      "text": "THAT'S IT, ISN'T IT?\nA RUMOR ABOUT RYU\nFROM THE SWIM CLUB?"
+    },
+    {
+      "selector": 1,
+      "index": 11,
+      "source_payload_sha256": "67588748b948121efd70c2bc5b8ec3116d2c15435d247fb7e213ff8c156c7f5c",
+      "text": "OH, {0} KNOWS\nABOUT IT TOO."
+    },
+    {
+      "selector": 1,
+      "index": 12,
+      "source_payload_sha256": "7ac23c88cfe5e113cde9150b53625800e0c687dd2cb318b31accfac199b6017a",
+      "text": "WHAT, WHAT?!\nCOME ON, HURRY UP\nAND TELL ME!"
+    },
+    {
+      "selector": 1,
+      "index": 13,
+      "source_payload_sha256": "d99b824a265ce308da793f770d6984956c5e8c88f57a6347b18b0139493e231d",
+      "text": "YOU KNOW, RYU\nALWAYS SPACES OUT.\nIT'S HARD TO TELL\nWHAT HE'S THINKING."
+    },
+    {
+      "selector": 1,
+      "index": 14,
+      "source_payload_sha256": "3bc7f7db2cd6846ee2f10521233253d89e9d18abff92c43def75d2a52b623ba2",
+      "text": "HE'S AMAZING WHEN\nHE SWIMS, THOUGH."
+    },
+    {
+      "selector": 1,
+      "index": 15,
+      "source_payload_sha256": "10edd90ce5a2fdddc663d4f037244db6a1a6626757c1c39aa2f41ea7416dd444",
+      "text": "ANYWAY, SOMEONE HE\nBEAT AT A MEET GOT\nREVENGE WITH A GANG\nAND ATTACKED HIM!"
+    },
+    {
+      "selector": 1,
+      "index": 16,
+      "source_payload_sha256": "2171602eac1ae234497dc91a06ea34a5cda8179bb0cc199d50c82256e028defe",
+      "text": "...YOU'RE JUST A\nDUMMY WHO CAN ONLY\nSWIM! ...THEY SAID."
+    },
+    {
+      "selector": 1,
+      "index": 17,
+      "source_payload_sha256": "039f12fe6d6640bf7067fdbf7ede975a71b0e560b8abda6ab19d1c3225e00d0a",
+      "text": "UH-HUH.\nAND THEN?!"
+    },
+    {
+      "selector": 1,
+      "index": 18,
+      "source_payload_sha256": "06751d70af3b9f2134e494c06194ddcdc3de79feb7c4d0fc2e8def4e59ade60a",
+      "text": "THE POOR GANG ENDED\nUP IN THE HOSPITAL,\nEVERY LAST ONE."
+    },
+    {
+      "selector": 1,
+      "index": 19,
+      "source_payload_sha256": "5ec7cfb3f65f78b84cf3939dc22a1ba8cbf99bf3c72453903bf53e4f08cd3653",
+      "text": "NO WAY!\nIS THAT TRUE?"
+    },
+    {
+      "selector": 1,
+      "index": 20,
+      "source_payload_sha256": "0d2a38998ba24afcaee9c405ce3ea54827ccc6fffff815a600a979c3f3585e2b",
+      "text": "IT'S TRUE, FOR REAL!\nSINCE THEN, NO ONE\nDARES BADMOUTH\nSWIMMING TO RYU."
+    },
+    {
+      "selector": 1,
+      "index": 21,
+      "source_payload_sha256": "52649e913b8c6201f81414eeb5464e3e145f55fe83f809ba2ec13ecde8ed8e53",
+      "text": "STILL, THAT'S COOL.\nRISKING YOUR BODY TO\nPROTECT WHAT YOU\nLOVE IS AWESOME."
+    },
+    {
+      "selector": 1,
+      "index": 22,
+      "source_payload_sha256": "15b8b5293c58f64b088b21fee667b1fb4f6f54c956eba6ffab79e1fe4d33efbf",
+      "text": "YOU SHOULD LEARN\nFROM HIM TOO!"
+    },
+    {
+      "selector": 1,
+      "index": 23,
+      "source_payload_sha256": "e99372c06924f9fdfe125638ed795f753adca026a63f0ef029db7d357b18bf8b",
+      "text": "RIGHT, RIGHT.\nGIRLS NEED TO BE\nSTRONG TOO!"
+    },
+    {
+      "selector": 1,
+      "index": 24,
+      "source_payload_sha256": "929bb1ce43f71f62d55da951d0f047c35ee4e85bc2be10fe931cc7bdaa9ef5d9",
+      "text": "THANKS, HINATA!\nTHAT WAS HELPFUL.\nAND YOU TOO, {0}!"
+    },
+    {
+      "selector": 1,
+      "index": 25,
+      "source_payload_sha256": "679f4657af55cbda9d55d7fb01ee894bea561fce7c6d64ba1a28c98ea9e4115a",
+      "text": "COULD IT BE THE\nRUMOR ABOUT\nMR. RAIZO?"
+    },
+    {
+      "selector": 1,
+      "index": 26,
+      "source_payload_sha256": "a6788f19ba995af35c92ecc069f67c464ce4639516c73c26493cbf0d4a6c449e",
+      "text": "HEY, {0}, HAVE YOU\nHEARD IT TOO?"
+    },
+    {
+      "selector": 1,
+      "index": 27,
+      "source_payload_sha256": "7e44b0f7c0a2a57300f322f6c1c99065d9153c04fe9118696a2ffc40598b1cbb",
+      "text": "AW, DON'T KEEP US\nWAITING. HURRY AND\nTELL US!"
+    },
+    {
+      "selector": 1,
+      "index": 28,
+      "source_payload_sha256": "48ded7b165e812598493426f5aa2bd7f7c9e42caac9fa839d944aa73c6c5df0c",
+      "text": "ACTUALLY, PRINCIPAL\nRAIZO LOOKS LIKE NO\nORDINARY MAN. HOW IS\nHE BATSU'S DAD?!"
+    },
+    {
+      "selector": 1,
+      "index": 29,
+      "source_payload_sha256": "8edde8658f89e0e5ef6a591f97af958164f7278ccea42039bf04c405bf7b115a",
+      "text": "HE DOES LOOK GREAT.\nBUT YOU CAN'T JUDGE\nPEOPLE BY LOOKS."
+    },
+    {
+      "selector": 1,
+      "index": 30,
+      "source_payload_sha256": "48c6983e592bae08e6c9c3cabefe196d583a58c061f881c5ecfc73ccc13d64f4",
+      "text": "BUT, YOU KNOW...\nRUMORS NEVER STOP.\nHE'S SO DEDICATED TO\nIDEAL EDUCATION TOO."
+    },
+    {
+      "selector": 1,
+      "index": 31,
+      "source_payload_sha256": "78d9bef4f501003922063bcdcd53e134b1a9e2e716771a4f52c37d472c6c7b07",
+      "text": "EXPOSED!! BETWEEN\nWAVERING IDEALS AND\nREALITY, THE DARK\nSIDE OF A PRINCIPAL!"
+    },
+    {
+      "selector": 1,
+      "index": 32,
+      "source_payload_sha256": "866fce1d40166e52bfa0e4754ad1a5747f508dda3ff41db663c7517e3d43b09f",
+      "text": "...HEY, RAN?"
+    },
+    {
+      "selector": 1,
+      "index": 33,
+      "source_payload_sha256": "f2070428cca2c5b22019f088c587b0451e71ee4299ea7714563c7469365dfb7b",
+      "text": "IT'S SETTLED!\nI'LL STAKE MY CAREER\nON EXPOSING IT ALL!!\nWAIT FOR IT. BYE!!"
+    },
+    {
+      "selector": 1,
+      "index": 34,
+      "source_payload_sha256": "03a8621315a996ac1097657279e323f35384ba402080894716532840d87069cd",
+      "text": "RAN...\nI HOPE SHE DOESN'T\nGET EXPELLED..."
+    },
+    {
+      "selector": 1,
+      "index": 35,
+      "source_payload_sha256": "c16a4495746ac045278814a471072bb4b8b8cf212aca20e4da69c4d5cc5e144b",
+      "text": "THIS ISN'T MY\nFAULT... IS IT?"
+    },
+    {
+      "selector": 1,
+      "index": 36,
+      "source_payload_sha256": "935c8564ba15c8f4f98b342a1113d680459e5b295281484511051d74d5505a1c",
+      "text": "HINATA... I KNOW\nABOUT IT, YOU KNOW."
+    },
+    {
+      "selector": 1,
+      "index": 37,
+      "source_payload_sha256": "397ab8719cd943e3d331dd4f5913855e067235138b594aebb9c870f0fedf81db",
+      "text": "HUH? WH-WHAT?"
+    },
+    {
+      "selector": 1,
+      "index": 38,
+      "source_payload_sha256": "3c0d7ab0167f7c521ded50b9585fe04d615d9bb759875ab3e9952f9cc90ddf77",
+      "text": "THE OTHER DAY AT THE\nCAFE, YOU ATE FIVE\nCAKES AND GOT A\nSTOMACHACHE."
+    },
+    {
+      "selector": 1,
+      "index": 39,
+      "source_payload_sha256": "d370cf8a9ddc70da3caf998bfdb546d88417ee9e337c9225f130d88c06b66e08",
+      "text": "WH-WHAT?! HOW DOES\n{0} KNOW THAT?!"
+    },
+    {
+      "selector": 1,
+      "index": 40,
+      "source_payload_sha256": "e8cb57861d6d6eb6e7273b92654e81d93616c4283ff609e4108367652931e3b9",
+      "text": "IT WAS NATSU. WHEN I\nASKED WHY HINATA WAS\nABSENT, SHE LAUGHED\nAND TOLD ME."
+    },
+    {
+      "selector": 1,
+      "index": 41,
+      "source_payload_sha256": "c0d0a73a1015d197b417fdd87b667dcf040e4a1475329df462f469231d8e8613",
+      "text": "NATSU...\nGIVE ME A BREAK..."
+    },
+    {
+      "selector": 1,
+      "index": 42,
+      "source_payload_sha256": "5de69710adb7d4271a1b9a77ea0a6b583b3049c25eee7ff42bd6cc649e64c26f",
+      "text": "HA HA! THAT'S SO\nLIKE YOU, HINATA!"
+    },
+    {
+      "selector": 1,
+      "index": 43,
+      "source_payload_sha256": "5804e8473418c2e7107a2e71759a91f34e8b4bfcfeccb3af16c88639ea975b09",
+      "text": "ARGH! EVEN RAN?!\n...I DON'T CARE!\nI'M GOING HOME!!"
+    },
+    {
+      "selector": 1,
+      "index": 44,
+      "source_payload_sha256": "db5a025fd958f93939338a4a12e42e2981fb9feb0822beb63292bdf6d7a420a2",
+      "text": "UH-OH... SHE REALLY\nGOT MAD. OH BOY...\nI ONLY MEANT IT AS\nA LIGHT JOKE."
+    },
+    {
+      "selector": 1,
+      "index": 45,
+      "source_payload_sha256": "411e19ff2aa4abe638155f5c6f0aaccf14d5ab5971cada131cc8d74e2b4168c5",
+      "text": "SERVES YOU RIGHT.\nKNOWING HINATA,\nSHE'LL BE BACK TO\nNORMAL TOMORROW!"
+    },
+    {
+      "selector": 1,
+      "index": 46,
+      "source_payload_sha256": "a9a75e5314832da46607aceaf39cde97af8f54ebf0138f853783152877c6634d",
+      "text": "SEE YA, {0}! CAN'T\nPUT IT IN A STORY,\nBUT IT WAS FUN!"
+    },
+    {
+      "selector": 1,
+      "index": 47,
+      "source_payload_sha256": "05e204e3b4afca645435b4023db2871aef5b1e93d4c5830224ec9e116f13c2aa",
+      "text": "THAT REMINDS ME...\nWHAT WAS HINATA'S\nSTORY ABOUT?"
+    },
+    {
+      "selector": 1,
+      "index": 48,
+      "source_payload_sha256": "230c5378e5f74240a4b61e517cb32f8af30461c4f064b0d951d9df3549c0bed5",
+      "text": "AFTER SCHOOL, THE\nFIELD IS FULL OF\nCLUBS PRACTICING."
+    },
+    {
+      "selector": 1,
+      "index": 49,
+      "source_payload_sha256": "ea9197b122bbfda0db37594ac9bee878c361bb62e8440d621900871854d9841d",
+      "text": "OH, THAT'S NATSU AND\nROBERTO OVER THERE.\nTHEY SEEM TO BE\nARGUING! WHAT'S UP?"
+    },
+    {
+      "selector": 1,
+      "index": 50,
+      "source_payload_sha256": "33049806d53f1263fcf8061e1dcac06beeed8dad72b793bf0d6805e74a19ac1a",
+      "text": "TALK TO THE TWO\nGO ELSEWHERE"
+    },
+    {
+      "selector": 1,
+      "index": 51,
+      "source_payload_sha256": "91f354a9175feadbd1eb4742add8e5c28db50a0772e6bbff4aa457564a77b4df",
+      "text": "HEY! NATSU, ROBERTO!\nWHY ARE YOU ARGUING\nRIGHT IN THE MIDDLE\nOF THE FIELD?"
+    },
+    {
+      "selector": 1,
+      "index": 52,
+      "source_payload_sha256": "9f2d4ad956085d07583a74c7b860f163908ab862867e1ea6c1fb0062c13ed16d",
+      "text": "WE'RE OBVIOUSLY\nGOING FIRST!"
+    },
+    {
+      "selector": 1,
+      "index": 53,
+      "source_payload_sha256": "a19a5817fb473640b2a65ae150dc564a0c829bb3f78a67ad23b736e082357800",
+      "text": "NO WAY, IT'S\nOBVIOUSLY US!"
+    },
+    {
+      "selector": 1,
+      "index": 54,
+      "source_payload_sha256": "06ad81d7e09dea708cf971dd1d3bc6d4d90e49bbadbcdd841fe11a25fb8a65d6",
+      "text": "WHAT'S GOING FIRST?\nI HAVE NO IDEA."
+    },
+    {
+      "selector": 1,
+      "index": 55,
+      "source_payload_sha256": "14321374636988fc05721eaffb018a827298d35f2313757c9fd69ee052e16ead",
+      "text": "WHAT ON EARTH IS\nGOING FIRST?"
+    },
+    {
+      "selector": 1,
+      "index": 56,
+      "source_payload_sha256": "4ef6f82dada31fd089702a09af6964d31bf36e78d7fa7c3c9d65804b35947e95",
+      "text": "WE WERE ARGUING ON\nWHICH TEAM WINS A\nTOURNAMENT FIRST.\nROBERTO SAYS SOCCER!"
+    },
+    {
+      "selector": 1,
+      "index": 57,
+      "source_payload_sha256": "61553060438660b7e3bbf0c9161f79d8350e61de1d968c831ed24050251f9952",
+      "text": "NATSU HAS SKILL, BUT\nVOLLEYBALL IS ABOUT\nTEAMWORK. OUR SOCCER\nTEAM IS BETTER."
+    },
+    {
+      "selector": 1,
+      "index": 58,
+      "source_payload_sha256": "a3aa61980d3c8dc43ec93bee38d024160e000cf6bb02dd11c5fe9501e037028f",
+      "text": "THAT'S NOT TRUE! OUR\nTEAM IS STRONGER!\n{0}, WHICH TEAM\nWINS FIRST?"
+    },
+    {
+      "selector": 1,
+      "index": 59,
+      "source_payload_sha256": "ef64c2deb3fb38525b1b50d99b69a13b501a35235c48c50fbc76e2d04e13c978",
+      "text": "ROBERTO'S SOCCER\nNATSU'S VOLLEYBALL"
+    },
+    {
+      "selector": 1,
+      "index": 60,
+      "source_payload_sha256": "b5aa5e73d061164ffa1bcebee3c76367e1c34cb0071e312b06aef60eae1e9603",
+      "text": "SEE? IT'S OBVIOUS IF\nYOU THINK CALMLY.\nNATSU, TRY TO BUILD\nSOME CALM JUDGMENT!"
+    },
+    {
+      "selector": 1,
+      "index": 61,
+      "source_payload_sha256": "7e1eb2e072046c20567385c15a6ef25be82546b326e7b5c633e32befe190a8fb",
+      "text": "I'LL PROVE IT WITH\nRESULTS! WATCH ME!"
+    },
+    {
+      "selector": 1,
+      "index": 62,
+      "source_payload_sha256": "0c962cecb726acb822178cc118fb9aa03f89b22f7bf0d40503a6b41cb226b2b3",
+      "text": "I MADE NATSU MAD...\nMAYBE I SHOULD'VE\nSAID VOLLEYBALL EVEN\nIF IT WAS A LIE."
+    },
+    {
+      "selector": 1,
+      "index": 63,
+      "source_payload_sha256": "7780969173588d813b5939cefb49b93d31ff64fcc135526b7f73b39f7cf5be2e",
+      "text": "NICE ONE, {0}! NEXT\nTIME I'LL BAKE MY\nSPECIAL CAKE FOR YOU\nLOOK FORWARD TO IT!"
+    },
+    {
+      "selector": 1,
+      "index": 64,
+      "source_payload_sha256": "14a44c4b4360aa2b7e86e8ef350b3a18abe8fbb09d492a093ad072ac6b93f281",
+      "text": "{0} IS A GIRL, SO\nGIRLS UNITE.\nFINE! I'LL PROVE IT\nWITH RESULTS! WATCH!"
+    },
+    {
+      "selector": 1,
+      "index": 65,
+      "source_payload_sha256": "bfadd83cd94fcbedd735a8969e2697af312588308f050a1545ce004d39a9e79e",
+      "text": "...THAT'S NOT WHAT\nI MEANT."
+    },
+    {
+      "selector": 1,
+      "index": 66,
+      "source_payload_sha256": "cd3b7c4a39b252efc0437d208852f42cedc1da9f1e500b2b6ea41df0b32dbfdf",
+      "text": "I'D BE INTERRUPTING\nANOTHER CLUB, SO\nI'LL SKIP IT. WHERE\nSHOULD I GO?"
+    }
+  ]
+}

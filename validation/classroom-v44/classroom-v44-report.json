@@ -1,0 +1,93 @@
+{
+  "kind": "Classroom and ground scenes v44",
+  "master_sha256": "1d294d44df7d7eff8f726a64110497d136e226c65762076b8940dde1cff25900",
+  "output_sha256": "72a6fd9ad6165c24d662de4d81cf097d351a0d1eb5ce63178ccb3cf906bcc9b5",
+  "disc_bytes": 663216960,
+  "records": [
+    {
+      "path": "DAT2/MGM04.BIZ",
+      "infirmary": {
+        "translated_coordinates": 134,
+        "selectors": [
+          0,
+          1
+        ],
+        "indices": [
+          67,
+          119
+        ],
+        "arena_gap": 0,
+        "arena_used": 44988,
+        "all_other_payloads_and_all_font_pixels_preserved": true,
+        "controls_preserved": true,
+        "english_codes": {
+          " ": 0,
+          "!": 830,
+          "'": 831,
+          ",": 832,
+          "-": 833,
+          ".": 834,
+          "?": 66,
+          "A": 836,
+          "B": 837,
+          "C": 838,
+          "D": 839,
+          "E": 840,
+          "F": 841,
+          "G": 842,
+          "H": 843,
+          "I": 844,
+          "J": 845,
+          "K": 846,
+          "L": 847,
+          "M": 848,
+          "N": 849,
+          "O": 850,
+          "P": 851,
+          "R": 852,
+          "S": 853,
+          "T": 854,
+          "U": 855,
+          "V": 856,
+          "W": 857,
+          "X": 858,
+          "Y": 859,
+          "Z": 861
+        }
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 217534,
+          "max_match": 19,
+          "max_block": 34,
+          "max_page": 2040,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 217126,
+          "max_match": 19,
+          "max_block": 34,
+          "max_page": 2040,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 145408,
+        "preserved_decoded_prefix_bytes": 200468,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "e889a44f36a7e559af8ffa311ec67c807db9564b092a855933c97cbe02c15b67",
+      "output_sha256": "e54ca193482c0e085a8f09f9de76906d59ab2e8ec7268d155a4cf03888deb24d"
+    }
+  ],
+  "catalog_rebindings": [],
+  "catalog_audit": {
+    "bound_entries": 876,
+    "mismatches": []
+  },
+  "changed_sector_count": 19,
+  "untargeted_records_preserved": 946,
+  "checksums_and_sector_ownership_passed": true,
+  "native_gameplay": "pending",
+  "entries_per_variant": 67
+}

@@ -82,3 +82,14 @@ JG2-Shared-Dates-v26-Inputs*.zip
 # Private Status/Diary runtime translation packet.
 /status_diary_v28.json
 JG2-Status-Diary-v28-Inputs*.zip
+
+# Extracted Japanese game text / glyph tables and image previews (never commit)
+assets/dialogue/corpus.txt
+assets/dialogue/corpus_items.pkl
+assets/dialogue/remaining_items.pkl
+assets/remaining_v135.*
+assets/glyphmap/
+validation/audit-images/
+validation/thumbnails-*/
+validation/**/*.png
+validation/**/*.jpg

@@ -1,0 +1,46 @@
+{
+  "kind": "Tutorial heading colour v138",
+  "master_sha256": "165bdaf306ede28548ce1627ac2525df5389b94071d989fd47249b20c4bf4c68",
+  "output_sha256": "d5915ee016b23d72a1679544aaf7c24d06423dcb8d183ba24a7ed39920006e1c",
+  "disc_bytes": 663216960,
+  "records": [
+    {
+      "path": "DAT2/MGK04.BIZ",
+      "heading_color_edits": [
+        200736
+      ],
+      "compression": {
+        "source": {
+          "stream_bytes": 206858,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 206858,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 139264,
+        "preserved_decoded_prefix_bytes": 199074,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "ab48e71cfd0c032fe6fccad1d17d1e8d1cf3407392eb8d5cee737c6f1567ed4f",
+      "output_sha256": "1c31fe58150bd5ec14198e390f584daa483fa34e62d52246511540efba3e7b83"
+    }
+  ],
+  "catalog_rebindings": [],
+  "catalog_audit": {
+    "bound_entries": 876,
+    "mismatches": []
+  },
+  "changed_sector_count": 2,
+  "untargeted_records_preserved": 946,
+  "checksums_and_sector_ownership_passed": true,
+  "native_gameplay": "pending"
+}

@@ -1,0 +1,550 @@
+{
+  "kind": "Infirmary label v43",
+  "master_sha256": "50d1bdaaa65dd48433bdace7841a853517978d4c668666af7a305e1593f53282",
+  "output_sha256": "1d294d44df7d7eff8f726a64110497d136e226c65762076b8940dde1cff25900",
+  "disc_bytes": 663216960,
+  "records": [
+    {
+      "path": "DAT2/MGBGK02.BZZ",
+      "members": [
+        {
+          "member": 18,
+          "claims": [
+            {
+              "tim_offset": "0x0",
+              "rectangles": [
+                [
+                  0,
+                  220,
+                  128,
+                  24
+                ]
+              ]
+            }
+          ],
+          "compression": {
+            "source": {
+              "stream_bytes": 136480,
+              "max_match": 1047,
+              "max_block": 1092,
+              "max_page": 2669,
+              "crossing_blocks": 64,
+              "decoded_bytes": 217088
+            },
+            "rebuilt": {
+              "stream_bytes": 135178,
+              "max_match": 1047,
+              "max_block": 1092,
+              "max_page": 2653,
+              "crossing_blocks": 16,
+              "decoded_bytes": 217088
+            },
+            "preserved_input_prefix_bytes": 34816,
+            "preserved_decoded_prefix_bytes": 44644,
+            "preserved_prefix_crossing_blocks": 16,
+            "label_variant": 0
+          },
+          "input_sha256": "641d1ac7f71d3989708f149eb88ddad684ed5511b7d5ee233c0855b3e5f2b5a5",
+          "output_sha256": "71731992b3fbe412ab58201235e58687317e0c97099a563d9828d449b7604ff3"
+        },
+        {
+          "member": 19,
+          "claims": [
+            {
+              "tim_offset": "0x0",
+              "rectangles": [
+                [
+                  0,
+                  220,
+                  128,
+                  24
+                ]
+              ]
+            }
+          ],
+          "compression": {
+            "source": {
+              "stream_bytes": 135106,
+              "max_match": 1050,
+              "max_block": 1092,
+              "max_page": 2670,
+              "crossing_blocks": 64,
+              "decoded_bytes": 217088
+            },
+            "rebuilt": {
+              "stream_bytes": 133516,
+              "max_match": 1050,
+              "max_block": 1092,
+              "max_page": 2654,
+              "crossing_blocks": 16,
+              "decoded_bytes": 217088
+            },
+            "preserved_input_prefix_bytes": 34816,
+            "preserved_decoded_prefix_bytes": 44644,
+            "preserved_prefix_crossing_blocks": 16,
+            "label_variant": 0
+          },
+          "input_sha256": "200b024787782451353a508607a373a738464498b5466e67d61978d91f3739ad",
+          "output_sha256": "c53fa62a6cf07510d5b65d9ad1a7c6b39fd87c24a8023bf2a39613977429811b"
+        },
+        {
+          "member": 54,
+          "claims": [
+            {
+              "tim_offset": "0x0",
+              "rectangles": [
+                [
+                  0,
+                  220,
+                  128,
+                  24
+                ]
+              ]
+            }
+          ],
+          "compression": {
+            "source": {
+              "stream_bytes": 130226,
+              "max_match": 1082,
+              "max_block": 1099,
+              "max_page": 2592,
+              "crossing_blocks": 61,
+              "decoded_bytes": 217088
+            },
+            "rebuilt": {
+              "stream_bytes": 129084,
+              "max_match": 1082,
+              "max_block": 1099,
+              "max_page": 2576,
+              "crossing_blocks": 16,
+              "decoded_bytes": 217088
+            },
+            "preserved_input_prefix_bytes": 34816,
+            "preserved_decoded_prefix_bytes": 44644,
+            "preserved_prefix_crossing_blocks": 16,
+            "label_variant": 0
+          },
+          "input_sha256": "7f15daabcb9a5009253ebe5dbca76116b3b567187ffa72e4c47d38430bf09c99",
+          "output_sha256": "c052fe45a7d1136dfb2e277cfec5fda90327ba9cdb4f8e931cc3d88604a9763f"
+        },
+        {
+          "member": 55,
+          "claims": [
+            {
+              "tim_offset": "0x0",
+              "rectangles": [
+                [
+                  0,
+                  220,
+                  128,
+                  24
+                ]
+              ]
+            }
+          ],
+          "compression": {
+            "source": {
+              "stream_bytes": 134372,
+              "max_match": 1082,
+              "max_block": 1099,
+              "max_page": 2320,
+              "crossing_blocks": 63,
+              "decoded_bytes": 217088
+            },
+            "rebuilt": {
+              "stream_bytes": 133130,
+              "max_match": 1082,
+              "max_block": 1099,
+              "max_page": 2304,
+              "crossing_blocks": 16,
+              "decoded_bytes": 217088
+            },
+            "preserved_input_prefix_bytes": 34816,
+            "preserved_decoded_prefix_bytes": 44644,
+            "preserved_prefix_crossing_blocks": 16,
+            "label_variant": 0
+          },
+          "input_sha256": "c4a9ea53ddc3bd45f0852a4efab9aef5e5fb77a76b4ce4321ca9c3278e4c6c81",
+          "output_sha256": "f432153f4c16d6bc8d482f0a99b41072efc26d57fe92076b10053f8d80d3fa1b"
+        }
+      ]
+    },
+    {
+      "path": "DAT2/MGBGK03.BZZ",
+      "members": []
+    },
+    {
+      "path": "DAT2/MGBGM01.BZZ",
+      "members": []
+    },
+    {
+      "path": "DAT2/MGBGM02.BZZ",
+      "members": [
+        {
+          "member": 12,
+          "claims": [
+            {
+              "tim_offset": "0x0",
+              "rectangles": [
+                [
+                  0,
+                  220,
+                  128,
+                  24
+                ]
+              ]
+            }
+          ],
+          "compression": {
+            "source": {
+              "stream_bytes": 173642,
+              "max_match": 702,
+              "max_block": 819,
+              "max_page": 2691,
+              "crossing_blocks": 80,
+              "decoded_bytes": 286720
+            },
+            "rebuilt": {
+              "stream_bytes": 172154,
+              "max_match": 507,
+              "max_block": 523,
+              "max_page": 2675,
+              "crossing_blocks": 16,
+              "decoded_bytes": 286720
+            },
+            "preserved_input_prefix_bytes": 34816,
+            "preserved_decoded_prefix_bytes": 44644,
+            "preserved_prefix_crossing_blocks": 16,
+            "label_variant": 0
+          },
+          "input_sha256": "9c70adcf55e2ef4bc988953577d29cc957fb2b41c4f50ea772b7d1dcf25a14a9",
+          "output_sha256": "2d5b81ecc3f62eeaaf79912da2ea521f96ad7a300ec4bdff18dde68e9fc899fd"
+        },
+        {
+          "member": 14,
+          "claims": [
+            {
+              "tim_offset": "0x0",
+              "rectangles": [
+                [
+                  0,
+                  220,
+                  128,
+                  24
+                ]
+              ]
+            }
+          ],
+          "compression": {
+            "source": {
+              "stream_bytes": 271766,
+              "max_match": 870,
+              "max_block": 1079,
+              "max_page": 2803,
+              "crossing_blocks": 121,
+              "decoded_bytes": 434176
+            },
+            "rebuilt": {
+              "stream_bytes": 270428,
+              "max_match": 870,
+              "max_block": 1079,
+              "max_page": 2787,
+              "crossing_blocks": 16,
+              "decoded_bytes": 434176
+            },
+            "preserved_input_prefix_bytes": 34816,
+            "preserved_decoded_prefix_bytes": 44644,
+            "preserved_prefix_crossing_blocks": 16,
+            "label_variant": 0
+          },
+          "input_sha256": "14548add6026616be2ec4d0bebb7d2ad4b9c7fe66144fc0916ded55e47988e5b",
+          "output_sha256": "2bac9177eb68561354a576d0d89aa16b60c7426e3a604b0d7bcb55b0e75b0c3e"
+        }
+      ]
+    },
+    {
+      "path": "DAT2/MGBGM04.BZZ",
+      "members": [
+        {
+          "member": 4,
+          "claims": [
+            {
+              "tim_offset": "0x0",
+              "rectangles": [
+                [
+                  0,
+                  220,
+                  128,
+                  24
+                ]
+              ]
+            }
+          ],
+          "compression": {
+            "source": {
+              "stream_bytes": 188728,
+              "max_match": 1047,
+              "max_block": 1065,
+              "max_page": 2741,
+              "crossing_blocks": 89,
+              "decoded_bytes": 321536
+            },
+            "rebuilt": {
+              "stream_bytes": 188606,
+              "max_match": 392,
+              "max_block": 509,
+              "max_page": 2725,
+              "crossing_blocks": 16,
+              "decoded_bytes": 321536
+            },
+            "preserved_input_prefix_bytes": 34816,
+            "preserved_decoded_prefix_bytes": 44644,
+            "preserved_prefix_crossing_blocks": 16,
+            "label_variant": 0
+          },
+          "input_sha256": "2ded9059d26fc053b0db7c7bc14b3babee29dc32c1a905892fbe6715b7b30b9c",
+          "output_sha256": "8b460bb4ddc32c0c6c4b376b40d070861c71f13419f3fb6f9ac3412734cc19bd"
+        }
+      ]
+    },
+    {
+      "path": "DAT2/MGBGM08.BZZ",
+      "members": [
+        {
+          "member": 3,
+          "claims": [
+            {
+              "tim_offset": "0x0",
+              "rectangles": [
+                [
+                  0,
+                  220,
+                  128,
+                  24
+                ]
+              ]
+            }
+          ],
+          "compression": {
+            "source": {
+              "stream_bytes": 206428,
+              "max_match": 648,
+              "max_block": 676,
+              "max_page": 2861,
+              "crossing_blocks": 94,
+              "decoded_bytes": 344064
+            },
+            "rebuilt": {
+              "stream_bytes": 204824,
+              "max_match": 441,
+              "max_block": 548,
+              "max_page": 2845,
+              "crossing_blocks": 16,
+              "decoded_bytes": 344064
+            },
+            "preserved_input_prefix_bytes": 34816,
+            "preserved_decoded_prefix_bytes": 44644,
+            "preserved_prefix_crossing_blocks": 16,
+            "label_variant": 0
+          },
+          "input_sha256": "cdcd9d0e9e1efca8c78246e3433c18807ca9b7c1da14037a469a9571723a46c4",
+          "output_sha256": "e8a620554092c55587cf66c0bc8d552950e6d8d32c8aff91dd52a4604f7f6a3a"
+        }
+      ]
+    },
+    {
+      "path": "DAT2/MGBGM09.BZZ",
+      "members": [
+        {
+          "member": 8,
+          "claims": [
+            {
+              "tim_offset": "0x0",
+              "rectangles": [
+                [
+                  0,
+                  220,
+                  128,
+                  24
+                ]
+              ]
+            }
+          ],
+          "compression": {
+            "source": {
+              "stream_bytes": 253066,
+              "max_match": 905,
+              "max_block": 989,
+              "max_page": 2873,
+              "crossing_blocks": 117,
+              "decoded_bytes": 397312
+            },
+            "rebuilt": {
+              "stream_bytes": 251930,
+              "max_match": 390,
+              "max_block": 807,
+              "max_page": 2857,
+              "crossing_blocks": 16,
+              "decoded_bytes": 397312
+            },
+            "preserved_input_prefix_bytes": 34816,
+            "preserved_decoded_prefix_bytes": 44644,
+            "preserved_prefix_crossing_blocks": 16,
+            "label_variant": 0
+          },
+          "input_sha256": "c66159e58eb85719f909709997f84e3ef7c174fad0558682bbf05495b6ed311a",
+          "output_sha256": "d9d6482287528140ada02f99373f02bdf31694063531e5895e2bfff04a84a2c2"
+        },
+        {
+          "member": 9,
+          "claims": [
+            {
+              "tim_offset": "0x0",
+              "rectangles": [
+                [
+                  0,
+                  220,
+                  128,
+                  24
+                ]
+              ]
+            }
+          ],
+          "compression": {
+            "source": {
+              "stream_bytes": 257288,
+              "max_match": 1038,
+              "max_block": 1092,
+              "max_page": 2932,
+              "crossing_blocks": 119,
+              "decoded_bytes": 417792
+            },
+            "rebuilt": {
+              "stream_bytes": 256404,
+              "max_match": 309,
+              "max_block": 496,
+              "max_page": 2916,
+              "crossing_blocks": 16,
+              "decoded_bytes": 417792
+            },
+            "preserved_input_prefix_bytes": 34816,
+            "preserved_decoded_prefix_bytes": 44644,
+            "preserved_prefix_crossing_blocks": 16,
+            "label_variant": 0
+          },
+          "input_sha256": "bf69e4dd9a56cbe0248384d5484bf3398c9332c29401b0a5bcefab955678fc2e",
+          "output_sha256": "0f0c92a6313eea9f3ecfbc706bd4ecc8c02f50d214ccc5a4b0a9260a37c3b11e"
+        },
+        {
+          "member": 10,
+          "claims": [
+            {
+              "tim_offset": "0x0",
+              "rectangles": [
+                [
+                  0,
+                  220,
+                  128,
+                  24
+                ]
+              ]
+            }
+          ],
+          "compression": {
+            "source": {
+              "stream_bytes": 259340,
+              "max_match": 905,
+              "max_block": 922,
+              "max_page": 2970,
+              "crossing_blocks": 118,
+              "decoded_bytes": 397312
+            },
+            "rebuilt": {
+              "stream_bytes": 258096,
+              "max_match": 100,
+              "max_block": 496,
+              "max_page": 2954,
+              "crossing_blocks": 16,
+              "decoded_bytes": 397312
+            },
+            "preserved_input_prefix_bytes": 34816,
+            "preserved_decoded_prefix_bytes": 44644,
+            "preserved_prefix_crossing_blocks": 16,
+            "label_variant": 0
+          },
+          "input_sha256": "6124418f4e704d55daa82c02ca3a87862bcbdc43c79c634a7c9c6c2f81af0aa0",
+          "output_sha256": "f30db7c15caa99c5443e854d90dc496e36178b4e200435c931155190fdc4f458"
+        }
+      ]
+    },
+    {
+      "path": "DAT2/MGBGM10.BZZ",
+      "members": [
+        {
+          "member": 6,
+          "claims": [
+            {
+              "tim_offset": "0x0",
+              "rectangles": [
+                [
+                  0,
+                  220,
+                  128,
+                  24
+                ]
+              ]
+            }
+          ],
+          "compression": {
+            "source": {
+              "stream_bytes": 166150,
+              "max_match": 1048,
+              "max_block": 1066,
+              "max_page": 2671,
+              "crossing_blocks": 76,
+              "decoded_bytes": 274432
+            },
+            "rebuilt": {
+              "stream_bytes": 165898,
+              "max_match": 265,
+              "max_block": 496,
+              "max_page": 2655,
+              "crossing_blocks": 16,
+              "decoded_bytes": 274432
+            },
+            "preserved_input_prefix_bytes": 34816,
+            "preserved_decoded_prefix_bytes": 44644,
+            "preserved_prefix_crossing_blocks": 16,
+            "label_variant": 0
+          },
+          "input_sha256": "a45553d225a0f8f226e60f5d020873c20d57f6a828d35005599030f917a4ffe6",
+          "output_sha256": "dc69c32d38851e4fb9eead72c1faa23e973a8c1e229a82df885b75576928ba8c"
+        }
+      ]
+    }
+  ],
+  "catalog_rebindings": [],
+  "catalog_audit": {
+    "bound_entries": 876,
+    "mismatches": []
+  },
+  "changed_sector_count": 930,
+  "untargeted_records_preserved": 939,
+  "checksums_and_sector_ownership_passed": true,
+  "native_gameplay": "pending",
+  "label_copies": 14,
+  "skipped_copies": [
+    {
+      "path": "DAT2/MGBGK03.BZZ",
+      "member": 17,
+      "reason": "no spare compressed space"
+    },
+    {
+      "path": "DAT2/MGBGM01.BZZ",
+      "member": 12,
+      "reason": "no spare compressed space"
+    }
+  ],
+  "patched_copies": 12,
+  "font_sha256": "4d59199834e7439c67ea4949407639961060b21b173833f566eb60ac6fd8f5af"
+}

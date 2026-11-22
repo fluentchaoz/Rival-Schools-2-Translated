@@ -1,0 +1,61 @@
+{
+  "kind": "School Life 2 Mode Select thumbnail v38",
+  "master_sha256": "66e77edfbb41c7a20255407d5718ad54533f207026c23620c8121fcc38703ffc",
+  "output_sha256": "be7c4f3606b93e9704922f9d3ade4d6e588d89e80784c7e05fad82d09112566e",
+  "disc_bytes": 663216960,
+  "records": [
+    {
+      "path": "DAT2/MENU.BIZ",
+      "claims": [
+        {
+          "tim_offset": "0x8f800",
+          "rectangles": [
+            [
+              21,
+              67,
+              89,
+              18
+            ]
+          ]
+        }
+      ],
+      "compression": {
+        "source": {
+          "stream_bytes": 382986,
+          "max_match": 23,
+          "max_block": 38,
+          "max_page": 2216,
+          "crossing_blocks": 0,
+          "decoded_bytes": 653312
+        },
+        "rebuilt": {
+          "stream_bytes": 382986,
+          "max_match": 23,
+          "max_block": 38,
+          "max_page": 2216,
+          "crossing_blocks": 0,
+          "decoded_bytes": 653312
+        },
+        "preserved_input_prefix_bytes": 346112,
+        "preserved_decoded_prefix_bytes": 591568,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "dc517fce0d416d878392ac7638378d2876167ba40345bac03d4602365b24f62b",
+      "output_sha256": "2795f2f384f40d028b13f0dbedc81b396aca1364fb19067a0163fada37900551",
+      "source_region_sha256": "0d33bea03b4f433950b8270bdb7f93c90be403cc0a8869a17b8c85bf907df124"
+    }
+  ],
+  "catalog_audit": {
+    "bound_entries": 876,
+    "mismatches": []
+  },
+  "changed_sector_count": 4,
+  "untargeted_records_preserved": 946,
+  "checksums_and_sector_ownership_passed": true,
+  "native_gameplay": "pending",
+  "lines": [
+    "OH MY, ARE YOU OKAY?",
+    "ZONING OUT HERE ISN'T",
+    "SAFE, YOU KNOW."
+  ]
+}

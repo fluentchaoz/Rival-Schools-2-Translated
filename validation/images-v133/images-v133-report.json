@@ -1,0 +1,207 @@
+{
+  "kind": "Baked image labels v133",
+  "master_sha256": "c6b21112259fcafc0d82434f850065d44b5d9cb660b250c8b09a6c3fcc12ab3d",
+  "output_sha256": "0ca64f4822f337782aa388bad4733e79503a1f7a98fea3642eaf11755113eae6",
+  "disc_bytes": 663216960,
+  "records": [
+    {
+      "path": "DAT2/KOUBAI0.TIZ",
+      "claims": [
+        {
+          "tim_offset": "0x3c800",
+          "rectangles": [
+            [
+              0,
+              0,
+              256,
+              34
+            ],
+            [
+              0,
+              40,
+              256,
+              34
+            ],
+            [
+              0,
+              80,
+              256,
+              34
+            ],
+            [
+              0,
+              144,
+              124,
+              42
+            ]
+          ],
+          "texts": [
+            "GO TO THE STORE",
+            "BONUSES BOUGHT",
+            "BACK TO MODE MENU",
+            "STORE"
+          ]
+        }
+      ],
+      "compression": {
+        "source": {
+          "stream_bytes": 202922,
+          "max_match": 1073,
+          "max_block": 1088,
+          "max_page": 3024,
+          "crossing_blocks": 93,
+          "decoded_bytes": 315392
+        },
+        "rebuilt": {
+          "stream_bytes": 202766,
+          "max_match": 1073,
+          "max_block": 1088,
+          "max_page": 3008,
+          "crossing_blocks": 0,
+          "decoded_bytes": 315392
+        }
+      },
+      "input_sha256": "4cfb3f72a3fbbce90a5efc954f5a9c9501a77580315f079a375a1ad83bb24356",
+      "output_sha256": "1fdbfd784a643341a44cb1985a5505a63f00d2db4e1748af4f2cbeea67cf43b4"
+    },
+    {
+      "path": "DAT2/KOUBAI1.TIZ",
+      "claims": [
+        {
+          "tim_offset": "0x0",
+          "rectangles": [
+            [
+              0,
+              0,
+              244,
+              44
+            ],
+            [
+              0,
+              48,
+              199,
+              20
+            ],
+            [
+              0,
+              72,
+              199,
+              19
+            ],
+            [
+              0,
+              96,
+              140,
+              19
+            ],
+            [
+              0,
+              120,
+              199,
+              20
+            ],
+            [
+              0,
+              144,
+              199,
+              20
+            ],
+            [
+              0,
+              168,
+              199,
+              20
+            ],
+            [
+              143,
+              96,
+              38,
+              20
+            ],
+            [
+              256,
+              0,
+              196,
+              27
+            ],
+            [
+              256,
+              32,
+              196,
+              29
+            ],
+            [
+              256,
+              65,
+              196,
+              27
+            ],
+            [
+              256,
+              96,
+              196,
+              28
+            ],
+            [
+              256,
+              128,
+              196,
+              27
+            ],
+            [
+              256,
+              160,
+              196,
+              29
+            ]
+          ],
+          "texts": [
+            "VIEW BONUSES",
+            "CARDS",
+            "POSTERS",
+            "CD",
+            "VIDEOS",
+            "ARTWORK",
+            "POCKETSTATION",
+            "BACK",
+            "CARDS",
+            "POSTERS",
+            "CD",
+            "VIDEOS",
+            "ARTWORK",
+            "POCKETSTATION"
+          ]
+        }
+      ],
+      "compression": {
+        "source": {
+          "stream_bytes": 142092,
+          "max_match": 1073,
+          "max_block": 1088,
+          "max_page": 2634,
+          "crossing_blocks": 67,
+          "decoded_bytes": 268288
+        },
+        "rebuilt": {
+          "stream_bytes": 141318,
+          "max_match": 1073,
+          "max_block": 1088,
+          "max_page": 2618,
+          "crossing_blocks": 0,
+          "decoded_bytes": 268288
+        }
+      },
+      "input_sha256": "3f2799f520e73b672cb36eaca3dfabddaa2318790c04311782b87059911c9da4",
+      "output_sha256": "ea624d0b9e3588a5e9d92e27ccfa36298120c314e6f39329ef4884f946b7d09d"
+    }
+  ],
+  "catalog_rebindings": [],
+  "catalog_audit": {
+    "bound_entries": 876,
+    "mismatches": []
+  },
+  "changed_sector_count": 170,
+  "untargeted_records_preserved": 945,
+  "checksums_and_sector_ownership_passed": true,
+  "native_gameplay": "pending"
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "path": "DAT2/MGBGK02.BZZ",
+    "member": 18,
+    "tim_offset": 0,
+    "pixel_sha256": "00fe869099fb748b5065f5b77f4f3a52aa5b1665e666ca2818bab93154b5bd83"
+  },
+  {
+    "path": "DAT2/MGBGK02.BZZ",
+    "member": 19,
+    "tim_offset": 0,
+    "pixel_sha256": "00fe869099fb748b5065f5b77f4f3a52aa5b1665e666ca2818bab93154b5bd83"
+  },
+  {
+    "path": "DAT2/MGBGK02.BZZ",
+    "member": 54,
+    "tim_offset": 0,
+    "pixel_sha256": "00fe869099fb748b5065f5b77f4f3a52aa5b1665e666ca2818bab93154b5bd83"
+  },
+  {
+    "path": "DAT2/MGBGK02.BZZ",
+    "member": 55,
+    "tim_offset": 0,
+    "pixel_sha256": "00fe869099fb748b5065f5b77f4f3a52aa5b1665e666ca2818bab93154b5bd83"
+  },
+  {
+    "path": "DAT2/MGBGK03.BZZ",
+    "member": 17,
+    "tim_offset": 0,
+    "pixel_sha256": "00fe869099fb748b5065f5b77f4f3a52aa5b1665e666ca2818bab93154b5bd83"
+  },
+  {
+    "path": "DAT2/MGBGM01.BZZ",
+    "member": 12,
+    "tim_offset": 0,
+    "pixel_sha256": "00fe869099fb748b5065f5b77f4f3a52aa5b1665e666ca2818bab93154b5bd83"
+  },
+  {
+    "path": "DAT2/MGBGM02.BZZ",
+    "member": 12,
+    "tim_offset": 0,
+    "pixel_sha256": "00fe869099fb748b5065f5b77f4f3a52aa5b1665e666ca2818bab93154b5bd83"
+  },
+  {
+    "path": "DAT2/MGBGM02.BZZ",
+    "member": 14,
+    "tim_offset": 0,
+    "pixel_sha256": "00fe869099fb748b5065f5b77f4f3a52aa5b1665e666ca2818bab93154b5bd83"
+  },
+  {
+    "path": "DAT2/MGBGM04.BZZ",
+    "member": 4,
+    "tim_offset": 0,
+    "pixel_sha256": "00fe869099fb748b5065f5b77f4f3a52aa5b1665e666ca2818bab93154b5bd83"
+  },
+  {
+    "path": "DAT2/MGBGM08.BZZ",
+    "member": 3,
+    "tim_offset": 0,
+    "pixel_sha256": "00fe869099fb748b5065f5b77f4f3a52aa5b1665e666ca2818bab93154b5bd83"
+  },
+  {
+    "path": "DAT2/MGBGM09.BZZ",
+    "member": 8,
+    "tim_offset": 0,
+    "pixel_sha256": "00fe869099fb748b5065f5b77f4f3a52aa5b1665e666ca2818bab93154b5bd83"
+  },
+  {
+    "path": "DAT2/MGBGM09.BZZ",
+    "member": 9,
+    "tim_offset": 0,
+    "pixel_sha256": "00fe869099fb748b5065f5b77f4f3a52aa5b1665e666ca2818bab93154b5bd83"
+  },
+  {
+    "path": "DAT2/MGBGM09.BZZ",
+    "member": 10,
+    "tim_offset": 0,
+    "pixel_sha256": "00fe869099fb748b5065f5b77f4f3a52aa5b1665e666ca2818bab93154b5bd83"
+  },
+  {
+    "path": "DAT2/MGBGM10.BZZ",
+    "member": 6,
+    "tim_offset": 0,
+    "pixel_sha256": "00fe869099fb748b5065f5b77f4f3a52aa5b1665e666ca2818bab93154b5bd83"
+  }
+]

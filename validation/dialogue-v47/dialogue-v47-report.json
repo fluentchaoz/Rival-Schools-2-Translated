@@ -1,0 +1,4317 @@
+{
+  "kind": "Dialogue batch v47",
+  "master_sha256": "7e5a778ec573f7fe0ce3225baa1a5e9dd41838be25a7345a99a9eb0ad5476d17",
+  "output_sha256": "d78e85c1af482b4f23dfc8fd5e329c5602f7a9cca62cd3655fe0d4d8d8b089c6",
+  "disc_bytes": 663216960,
+  "records": [
+    {
+      "path": "DAT2/MGC01.BIZ",
+      "shared": {
+        "translated_coordinates": 24,
+        "arena_gap": 0,
+        "arena_used": 34308,
+        "english_codes": {
+          " ": 0,
+          "!": 701,
+          "'": 702,
+          ",": 703,
+          ".": 705,
+          "/": 706,
+          "A": 707,
+          "B": 708,
+          "C": 709,
+          "D": 710,
+          "E": 711,
+          "G": 713,
+          "H": 714,
+          "I": 715,
+          "K": 717,
+          "L": 718,
+          "M": 719,
+          "N": 720,
+          "O": 721,
+          "P": 722,
+          "R": 723,
+          "S": 724,
+          "T": 725,
+          "U": 726,
+          "W": 728,
+          "X": 729,
+          "Y": 730
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 24,
+        "entries_applied": 24
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 202878,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 202972,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 135168,
+        "preserved_decoded_prefix_bytes": 198986,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "bee1693e0fa3d33b5e07208ee85e792464cc442480e37183bde4568f5d180d10",
+      "output_sha256": "d5cc078ec70cc0b1188b367fc7ab7005306da52d3f6dafbafc778b77a7080605"
+    },
+    {
+      "path": "DAT2/MGC02.BIZ",
+      "shared": {
+        "translated_coordinates": 41,
+        "arena_gap": 0,
+        "arena_used": 35504,
+        "english_codes": {
+          " ": 0,
+          "!": 707,
+          "'": 708,
+          ",": 709,
+          ".": 711,
+          "/": 712,
+          "A": 713,
+          "B": 714,
+          "C": 715,
+          "D": 716,
+          "E": 717,
+          "F": 718,
+          "G": 719,
+          "H": 720,
+          "I": 721,
+          "K": 723,
+          "L": 724,
+          "M": 725,
+          "N": 726,
+          "O": 727,
+          "P": 728,
+          "R": 729,
+          "S": 730,
+          "T": 731,
+          "U": 732,
+          "V": 733,
+          "W": 734,
+          "X": 735,
+          "Y": 736
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 41,
+        "entries_applied": 41
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 202912,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 202912,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 135168,
+        "preserved_decoded_prefix_bytes": 198996,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "6ba4d31c3d5fabac3043c73ef638a7d90d804152291f1d6ac84cdb5c9b61dad9",
+      "output_sha256": "b2bc35b2713d32960e07cc51ed74eff15492da091bd036740c195148c511817d"
+    },
+    {
+      "path": "DAT2/MGC03.BIZ",
+      "shared": {
+        "translated_coordinates": 25,
+        "arena_gap": 0,
+        "arena_used": 37004,
+        "english_codes": {
+          " ": 0,
+          "!": 717,
+          "'": 718,
+          ",": 719,
+          ".": 721,
+          "/": 722,
+          "A": 723,
+          "B": 724,
+          "C": 725,
+          "D": 726,
+          "E": 727,
+          "F": 728,
+          "G": 729,
+          "H": 730,
+          "I": 731,
+          "K": 733,
+          "L": 734,
+          "M": 735,
+          "N": 736,
+          "O": 737,
+          "P": 738,
+          "R": 739,
+          "S": 740,
+          "T": 741,
+          "U": 742,
+          "W": 744,
+          "X": 745,
+          "Y": 746
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 25,
+        "entries_applied": 25
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 202870,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 202972,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 137216,
+        "preserved_decoded_prefix_bytes": 199808,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "8dcbf81974c8f32a514d7f960b570fbfffe17ebc44dbb86f8e88f7a7ef8aa36b",
+      "output_sha256": "466da0b2b4cb0abb104d238377898f092ee83511659385c50d51fa226b077568"
+    },
+    {
+      "path": "DAT2/MGC05.BIZ",
+      "shared": {
+        "translated_coordinates": 4,
+        "arena_gap": 0,
+        "arena_used": 35968,
+        "english_codes": {
+          " ": 0,
+          "'": 731,
+          ",": 732,
+          ".": 734,
+          "/": 735,
+          "A": 736,
+          "B": 737,
+          "C": 738,
+          "D": 739,
+          "E": 740,
+          "F": 741,
+          "H": 743,
+          "I": 744,
+          "J": 745,
+          "K": 746,
+          "L": 747,
+          "M": 748,
+          "N": 749,
+          "O": 750,
+          "R": 752,
+          "S": 753,
+          "T": 754,
+          "U": 755,
+          "W": 757,
+          "Y": 759
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 4,
+        "entries_applied": 4
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 204952,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 205020,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 137216,
+        "preserved_decoded_prefix_bytes": 199328,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "8d7e70ee62e19e089d928e5bf3e22790830f8aab8f538d8c837c283da92bd6cb",
+      "output_sha256": "88590c8be2ad210199e4d07f507b26a173e5035984ac677a81e167e8193851ba"
+    },
+    {
+      "path": "DAT2/MGC06.BIZ",
+      "shared": {
+        "translated_coordinates": 66,
+        "arena_gap": 0,
+        "arena_used": 34348,
+        "english_codes": {
+          " ": 0,
+          "!": 695,
+          "'": 696,
+          ",": 697,
+          "-": 698,
+          ".": 699,
+          "/": 700,
+          "?": 66,
+          "A": 701,
+          "B": 702,
+          "C": 703,
+          "D": 704,
+          "E": 705,
+          "F": 706,
+          "G": 707,
+          "H": 708,
+          "I": 709,
+          "K": 711,
+          "L": 712,
+          "M": 713,
+          "N": 714,
+          "O": 715,
+          "P": 716,
+          "R": 717,
+          "S": 718,
+          "T": 719,
+          "U": 720,
+          "V": 721,
+          "W": 722,
+          "X": 723,
+          "Y": 724
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 66,
+        "entries_applied": 66
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 202874,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 202878,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 135168,
+        "preserved_decoded_prefix_bytes": 198906,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "259f310e6af9fd7caff4cc43dbb27d38d6f3780714fba06bab63e821d9532f7f",
+      "output_sha256": "e675752a5599f1f1f30de6a4c5283312822fad44043b455aca534e39a8361d64"
+    },
+    {
+      "path": "DAT2/MGC07.BIZ",
+      "shared": {
+        "translated_coordinates": 43,
+        "arena_gap": 0,
+        "arena_used": 34380,
+        "english_codes": {
+          " ": 0,
+          "!": 704,
+          "'": 705,
+          ",": 706,
+          "-": 707,
+          ".": 708,
+          "/": 709,
+          "?": 66,
+          "A": 710,
+          "B": 711,
+          "C": 712,
+          "D": 713,
+          "E": 714,
+          "F": 715,
+          "G": 716,
+          "H": 717,
+          "I": 718,
+          "K": 720,
+          "L": 721,
+          "M": 722,
+          "N": 723,
+          "O": 724,
+          "P": 725,
+          "R": 726,
+          "S": 727,
+          "T": 728,
+          "U": 729,
+          "V": 730,
+          "W": 731,
+          "X": 732,
+          "Y": 733
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 43,
+        "entries_applied": 43
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 202912,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 202904,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 135168,
+        "preserved_decoded_prefix_bytes": 198886,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "9b3495a141593a9b90cd1fe97ecd7132ba65e13835687733b0065738fd4082cb",
+      "output_sha256": "06cf436808b441c05914c8c2fc5180192773bf97ecd3c00b1852bfaef1251911"
+    },
+    {
+      "path": "DAT2/MGC08.BIZ",
+      "shared": {
+        "translated_coordinates": 22,
+        "arena_gap": 0,
+        "arena_used": 34684,
+        "english_codes": {
+          " ": 0,
+          "!": 711,
+          "'": 712,
+          ",": 713,
+          ".": 715,
+          "/": 716,
+          "A": 717,
+          "B": 718,
+          "C": 719,
+          "E": 721,
+          "F": 722,
+          "G": 723,
+          "H": 724,
+          "I": 725,
+          "K": 727,
+          "L": 728,
+          "M": 729,
+          "N": 730,
+          "O": 731,
+          "P": 732,
+          "R": 733,
+          "S": 734,
+          "T": 735,
+          "U": 736,
+          "W": 738,
+          "X": 739,
+          "Y": 740
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 22,
+        "entries_applied": 22
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 202908,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 202976,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 135168,
+        "preserved_decoded_prefix_bytes": 199170,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "bb16bf9bf2d4484ad81db8a29248ffe314deb9b8e57863f115e77e914b510cf1",
+      "output_sha256": "92522a9b4a95f9025549e70f7b8c140a8a4957a1eba3357d22394a2a232af0ea"
+    },
+    {
+      "path": "DAT2/MGC09.BIZ",
+      "shared": {
+        "translated_coordinates": 55,
+        "arena_gap": 0,
+        "arena_used": 34900,
+        "english_codes": {
+          " ": 0,
+          "!": 697,
+          "'": 698,
+          ",": 699,
+          ".": 701,
+          "/": 702,
+          "?": 66,
+          "A": 703,
+          "B": 704,
+          "C": 705,
+          "D": 706,
+          "E": 707,
+          "F": 708,
+          "G": 709,
+          "H": 710,
+          "I": 711,
+          "K": 713,
+          "L": 714,
+          "M": 715,
+          "N": 716,
+          "O": 717,
+          "P": 718,
+          "R": 719,
+          "S": 720,
+          "T": 721,
+          "U": 722,
+          "V": 723,
+          "W": 724,
+          "X": 725,
+          "Y": 726
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 55,
+        "entries_applied": 55
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 202878,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 202980,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 135168,
+        "preserved_decoded_prefix_bytes": 198966,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "243a5c230b495a642abeee9dcf3cfc55daf72696bdb1cdaf95b01458059e9fb6",
+      "output_sha256": "84057746adfff7aa1d8243f7bfd764009959629814a82e3fc7e05bbeb2b0307c"
+    },
+    {
+      "path": "DAT2/MGC10.BIZ",
+      "shared": {
+        "translated_coordinates": 57,
+        "arena_gap": 0,
+        "arena_used": 33888,
+        "english_codes": {
+          " ": 0,
+          "!": 706,
+          "'": 707,
+          ",": 708,
+          ".": 710,
+          "/": 711,
+          "?": 66,
+          "A": 712,
+          "B": 713,
+          "C": 714,
+          "D": 715,
+          "E": 716,
+          "F": 717,
+          "G": 718,
+          "H": 719,
+          "I": 720,
+          "K": 722,
+          "L": 723,
+          "M": 724,
+          "N": 725,
+          "O": 726,
+          "P": 727,
+          "R": 728,
+          "S": 729,
+          "T": 730,
+          "U": 731,
+          "V": 732,
+          "W": 733,
+          "X": 734,
+          "Y": 735
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 57,
+        "entries_applied": 57
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 202912,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 202938,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 135168,
+        "preserved_decoded_prefix_bytes": 198936,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "53a934d37b103166b253a9510fc21d12414f2dc29e4a7600a445cc33cd2b83fd",
+      "output_sha256": "f6d75fa566baa27034d33c11abba4758320045ead7f727b0d902215e38414715"
+    },
+    {
+      "path": "DAT2/MGC11.BIZ",
+      "shared": {
+        "translated_coordinates": 66,
+        "arena_gap": 0,
+        "arena_used": 34312,
+        "english_codes": {
+          " ": 0,
+          "!": 709,
+          "'": 710,
+          ",": 711,
+          "-": 712,
+          ".": 713,
+          "/": 714,
+          "?": 66,
+          "A": 715,
+          "B": 716,
+          "C": 717,
+          "D": 718,
+          "E": 719,
+          "F": 720,
+          "G": 721,
+          "H": 722,
+          "I": 723,
+          "K": 725,
+          "L": 726,
+          "M": 727,
+          "N": 728,
+          "O": 729,
+          "P": 730,
+          "R": 731,
+          "S": 732,
+          "T": 733,
+          "U": 734,
+          "V": 735,
+          "W": 736,
+          "X": 737,
+          "Y": 738
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 66,
+        "entries_applied": 66
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 202912,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 202950,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 135168,
+        "preserved_decoded_prefix_bytes": 198976,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "5909a13dc8d910549eba48d06cb6bf50058783a4f8044cefe295dbac72730ba0",
+      "output_sha256": "6b3e9b1cb2ec7921be1873f1c96f00d0d8932972a9c3e9ff84c86a153f173300"
+    },
+    {
+      "path": "DAT2/MGC12.BIZ",
+      "shared": {
+        "translated_coordinates": 46,
+        "arena_gap": 0,
+        "arena_used": 34888,
+        "english_codes": {
+          " ": 0,
+          "!": 706,
+          "'": 707,
+          ",": 708,
+          "-": 709,
+          ".": 710,
+          "/": 711,
+          "A": 712,
+          "B": 713,
+          "C": 714,
+          "D": 715,
+          "E": 716,
+          "F": 717,
+          "G": 718,
+          "H": 719,
+          "I": 720,
+          "K": 722,
+          "L": 723,
+          "M": 724,
+          "N": 725,
+          "O": 726,
+          "P": 727,
+          "R": 728,
+          "S": 729,
+          "T": 730,
+          "U": 731,
+          "V": 732,
+          "W": 733,
+          "X": 734,
+          "Y": 735
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 46,
+        "entries_applied": 46
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 202912,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 202946,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 135168,
+        "preserved_decoded_prefix_bytes": 198936,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "f16d810265578036df0b36b098ad6386b29ab06edda1735bd0c7ccc5211611e9",
+      "output_sha256": "2779946d667b33861e71543df59a911a0b61c954a080f62ce772c99a5bb2d1ab"
+    },
+    {
+      "path": "DAT2/MGE03.BIZ",
+      "shared": {
+        "translated_coordinates": 45,
+        "arena_gap": 0,
+        "arena_used": 67452,
+        "english_codes": {
+          " ": 0,
+          "!": 896,
+          "-": 899,
+          ".": 900,
+          "/": 901,
+          "A": 902,
+          "B": 903,
+          "E": 906,
+          "H": 909,
+          "I": 910,
+          "K": 912,
+          "L": 913,
+          "M": 914,
+          "N": 915,
+          "O": 916,
+          "P": 917,
+          "R": 918,
+          "S": 919,
+          "T": 920,
+          "U": 921,
+          "Y": 925,
+          "Z": 927
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 45,
+        "entries_applied": 45
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 223256,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 223290,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 149504,
+        "preserved_decoded_prefix_bytes": 198506,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "93c87de43d9bd432d3ffe9c05d3d09bd78bbd6fd656d16ca978ddc19b13c43e7",
+      "output_sha256": "efb557fc1b5b760e0e0bc8392e7b538a34e8b33d9fe3186e076995fe950dd003"
+    },
+    {
+      "path": "DAT2/MGF02.BIZ",
+      "shared": {
+        "translated_coordinates": 116,
+        "arena_gap": 0,
+        "arena_used": 76040,
+        "english_codes": {
+          " ": 0,
+          "!": 946,
+          "'": 947,
+          ",": 948,
+          "-": 949,
+          ".": 950,
+          "/": 951,
+          "?": 66,
+          "A": 952,
+          "B": 953,
+          "C": 954,
+          "D": 955,
+          "E": 956,
+          "F": 957,
+          "G": 958,
+          "H": 959,
+          "I": 960,
+          "J": 961,
+          "K": 962,
+          "L": 963,
+          "M": 964,
+          "N": 965,
+          "O": 966,
+          "P": 967,
+          "R": 968,
+          "S": 969,
+          "T": 970,
+          "U": 971,
+          "V": 972,
+          "W": 973,
+          "X": 974,
+          "Y": 975
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 116,
+        "entries_applied": 116
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 225290,
+          "max_match": 22,
+          "max_block": 37,
+          "max_page": 2213,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 225500,
+          "max_match": 22,
+          "max_block": 37,
+          "max_page": 2213,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 151552,
+        "preserved_decoded_prefix_bytes": 197050,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "cad604bdad2c7cce7d4f01b5017434a7fef041d30a4c3d1004d3cc125fac95bf",
+      "output_sha256": "1ef2ba13db17aa4dcddf59f832cc303114e42a91a4cfa43c93c9021ebb4eb26a"
+    },
+    {
+      "path": "DAT2/MGG04G.BIZ",
+      "shared": {
+        "translated_coordinates": 453,
+        "arena_gap": 0,
+        "arena_used": 66148,
+        "english_codes": {
+          " ": 0,
+          "!": 894,
+          "'": 895,
+          ",": 896,
+          "-": 897,
+          ".": 898,
+          "/": 893,
+          "?": 66,
+          "A": 899,
+          "B": 900,
+          "C": 901,
+          "D": 902,
+          "E": 903,
+          "F": 904,
+          "G": 905,
+          "H": 906,
+          "I": 907,
+          "J": 908,
+          "K": 909,
+          "L": 910,
+          "M": 911,
+          "N": 912,
+          "O": 913,
+          "P": 914,
+          "Q": 923,
+          "R": 915,
+          "S": 916,
+          "T": 917,
+          "U": 918,
+          "V": 919,
+          "W": 920,
+          "X": 921,
+          "Y": 922,
+          "Z": 924
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 453,
+        "entries_applied": 453
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 221260,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 221226,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 149504,
+        "preserved_decoded_prefix_bytes": 198048,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "c18e6780114dc183f8a8f599c1af1fc0d384a543279d67c512035eae3c45318b",
+      "output_sha256": "62dcae31618ae09574799ea44724a0c072cce14102db719405902c3eac44cab5"
+    },
+    {
+      "path": "DAT2/MGG04J.BIZ",
+      "shared": {
+        "translated_coordinates": 972,
+        "arena_gap": 0,
+        "arena_used": 74880,
+        "english_codes": {
+          " ": 0,
+          "!": 911,
+          "'": 912,
+          ",": 913,
+          "-": 914,
+          ".": 915,
+          "/": 910,
+          "?": 66,
+          "A": 916,
+          "B": 917,
+          "C": 918,
+          "D": 919,
+          "E": 920,
+          "F": 921,
+          "G": 922,
+          "H": 923,
+          "I": 924,
+          "J": 925,
+          "K": 926,
+          "L": 927,
+          "M": 928,
+          "N": 929,
+          "O": 930,
+          "P": 931,
+          "Q": 940,
+          "R": 932,
+          "S": 933,
+          "T": 934,
+          "U": 935,
+          "V": 936,
+          "W": 937,
+          "X": 938,
+          "Y": 939,
+          "Z": 941
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 972,
+        "entries_applied": 972
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 225330,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 225290,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 151552,
+        "preserved_decoded_prefix_bytes": 198926,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "abe562610d51438ff67fb23908af43915c5b4a2e38288f121f3cea32743995f0",
+      "output_sha256": "679135ca5c7ffeab549738b2093b6f3296986f22874b015060b07086ec1961d9"
+    },
+    {
+      "path": "DAT2/MGG04O.BIZ",
+      "shared": {
+        "translated_coordinates": 986,
+        "arena_gap": 0,
+        "arena_used": 75108,
+        "english_codes": {
+          " ": 0,
+          "!": 895,
+          "'": 896,
+          ",": 897,
+          "-": 898,
+          ".": 899,
+          "/": 894,
+          "?": 66,
+          "A": 900,
+          "B": 901,
+          "C": 902,
+          "D": 903,
+          "E": 904,
+          "F": 905,
+          "G": 906,
+          "H": 907,
+          "I": 908,
+          "J": 909,
+          "K": 910,
+          "L": 911,
+          "M": 912,
+          "N": 913,
+          "O": 914,
+          "P": 915,
+          "Q": 924,
+          "R": 916,
+          "S": 917,
+          "T": 918,
+          "U": 919,
+          "V": 920,
+          "W": 921,
+          "X": 922,
+          "Y": 923,
+          "Z": 925
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 986,
+        "entries_applied": 986
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 223276,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 223276,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 149504,
+        "preserved_decoded_prefix_bytes": 199086,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "9420ad7410b976352cadcbcff5f61f9ad0de9a92f65bd4ac7f467daab3dafbfa",
+      "output_sha256": "35ca52f5570fc8e02b54ad3033cd343003c991c22ed58b489003f7989cb34d7d"
+    },
+    {
+      "path": "DAT2/MGG04P.BIZ",
+      "shared": {
+        "translated_coordinates": 977,
+        "arena_gap": 0,
+        "arena_used": 75868,
+        "english_codes": {
+          " ": 0,
+          "!": 913,
+          "'": 914,
+          ",": 915,
+          "-": 916,
+          ".": 917,
+          "/": 912,
+          "?": 66,
+          "A": 918,
+          "B": 919,
+          "C": 920,
+          "D": 921,
+          "E": 922,
+          "F": 923,
+          "G": 924,
+          "H": 925,
+          "I": 926,
+          "J": 927,
+          "K": 928,
+          "L": 929,
+          "M": 930,
+          "N": 931,
+          "O": 932,
+          "P": 933,
+          "Q": 942,
+          "R": 934,
+          "S": 935,
+          "T": 936,
+          "U": 937,
+          "V": 938,
+          "W": 939,
+          "X": 940,
+          "Y": 941,
+          "Z": 943
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 977,
+        "entries_applied": 977
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 227338,
+          "max_match": 19,
+          "max_block": 34,
+          "max_page": 2040,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 227338,
+          "max_match": 19,
+          "max_block": 34,
+          "max_page": 2040,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 151552,
+        "preserved_decoded_prefix_bytes": 197822,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "7a015474b7e78228a682b2146f254640c127bca86f419511cf6a82b1ff428a23",
+      "output_sha256": "63531dd671e4a3d687ee2a8745c3455f3c6f5a7a179a3e632f907548be78e8c3"
+    },
+    {
+      "path": "DAT2/MGG06G.BIZ",
+      "shared": {
+        "translated_coordinates": 22,
+        "arena_gap": 0,
+        "arena_used": 25328,
+        "english_codes": {
+          " ": 0,
+          "!": 691,
+          "'": 692,
+          ",": 693,
+          ".": 695,
+          "/": 690,
+          "?": 66,
+          "A": 696,
+          "B": 697,
+          "C": 698,
+          "D": 699,
+          "E": 700,
+          "F": 701,
+          "G": 702,
+          "H": 703,
+          "I": 704,
+          "K": 706,
+          "L": 707,
+          "M": 708,
+          "N": 709,
+          "O": 710,
+          "R": 712,
+          "S": 713,
+          "T": 714,
+          "U": 715,
+          "V": 716,
+          "W": 717,
+          "Y": 719
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 22,
+        "entries_applied": 22
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 202902,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 202936,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 135168,
+        "preserved_decoded_prefix_bytes": 199946,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "62db1e7fe440ad45114d4cc122a8892159257bd64c7f2e0fa95663a7627b6633",
+      "output_sha256": "4d27b390c10e3270e123427b9f201a436cac98aa8933facf3a260a83bc531301"
+    },
+    {
+      "path": "DAT2/MGG06J.BIZ",
+      "shared": {
+        "translated_coordinates": 56,
+        "arena_gap": 28,
+        "arena_used": 29476,
+        "english_codes": {
+          " ": 0,
+          "!": 736,
+          "'": 737,
+          ",": 738,
+          "-": 739,
+          ".": 740,
+          "/": 735,
+          "?": 66,
+          "A": 741,
+          "B": 742,
+          "C": 743,
+          "D": 744,
+          "E": 745,
+          "F": 746,
+          "G": 747,
+          "H": 748,
+          "I": 749,
+          "J": 750,
+          "K": 751,
+          "L": 752,
+          "M": 753,
+          "N": 754,
+          "O": 755,
+          "P": 756,
+          "R": 757,
+          "S": 758,
+          "T": 759,
+          "U": 760,
+          "V": 761,
+          "W": 762,
+          "X": 763,
+          "Y": 764
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 56,
+        "entries_applied": 56
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 204980,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 205082,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 137216,
+        "preserved_decoded_prefix_bytes": 200606,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "f5518715aca9a5bb411eedf2f841f8ca670e8fb180ae08a5de600c7e78a59266",
+      "output_sha256": "4a0d4080404fd72f94d177f1c5df8f80f3c580870e6efb7dfb254854cc7b3222"
+    },
+    {
+      "path": "DAT2/MGG06O.BIZ",
+      "shared": {
+        "translated_coordinates": 6,
+        "arena_gap": 0,
+        "arena_used": 27936,
+        "english_codes": {
+          " ": 0,
+          ".": 722,
+          "/": 717,
+          "A": 723,
+          "D": 726,
+          "E": 727,
+          "H": 730,
+          "I": 731,
+          "K": 733,
+          "M": 735,
+          "N": 736,
+          "O": 737,
+          "R": 739,
+          "S": 740,
+          "T": 741,
+          "U": 742,
+          "W": 744
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 6,
+        "entries_applied": 6
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 202916,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 202950,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 135168,
+        "preserved_decoded_prefix_bytes": 196568,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "77a29215dd10e958f90d9998f7d33cba765984b0dbf33a3e45e20d1a047e7dbf",
+      "output_sha256": "91218ff359da8327b67e5f42af1b873a01e8dd870c4acbf072ac3ad837b2304b"
+    },
+    {
+      "path": "DAT2/MGG06P.BIZ",
+      "shared": {
+        "translated_coordinates": 68,
+        "arena_gap": 0,
+        "arena_used": 29452,
+        "english_codes": {
+          " ": 0,
+          "!": 740,
+          "'": 741,
+          ",": 742,
+          "-": 743,
+          ".": 744,
+          "/": 739,
+          "?": 66,
+          "A": 745,
+          "B": 746,
+          "C": 747,
+          "D": 748,
+          "E": 749,
+          "F": 750,
+          "G": 751,
+          "H": 752,
+          "I": 753,
+          "J": 754,
+          "K": 755,
+          "L": 756,
+          "M": 757,
+          "N": 758,
+          "O": 759,
+          "P": 760,
+          "R": 761,
+          "S": 762,
+          "T": 763,
+          "U": 764,
+          "V": 765,
+          "W": 766,
+          "X": 767,
+          "Y": 768
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 68,
+        "entries_applied": 68
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 204918,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 205054,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 137216,
+        "preserved_decoded_prefix_bytes": 196936,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "0cb50c9bb1c0c1882b3f723461771e980767bc09b9eb2f0969a70c587f5c40a8",
+      "output_sha256": "8e4469fa3b81fade2eed9eb4d85f07c40345e1776809e168d53986d720e8513e"
+    },
+    {
+      "path": "DAT2/MGG06T.BIZ",
+      "shared": {
+        "translated_coordinates": 60,
+        "arena_gap": 0,
+        "arena_used": 29516,
+        "english_codes": {
+          " ": 0,
+          "!": 737,
+          "'": 738,
+          ",": 739,
+          "-": 740,
+          ".": 741,
+          "/": 736,
+          "?": 66,
+          "A": 742,
+          "B": 743,
+          "C": 744,
+          "D": 745,
+          "E": 746,
+          "F": 747,
+          "G": 748,
+          "H": 749,
+          "I": 750,
+          "J": 751,
+          "K": 752,
+          "L": 753,
+          "M": 754,
+          "N": 755,
+          "O": 756,
+          "P": 757,
+          "R": 758,
+          "S": 759,
+          "T": 760,
+          "U": 761,
+          "V": 762,
+          "W": 763,
+          "X": 764,
+          "Y": 765
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 60,
+        "entries_applied": 60
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 204954,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 205122,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 137216,
+        "preserved_decoded_prefix_bytes": 200386,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "2b3aa542e150384ccf99c06f511e28729ee6c0565157250d4de2b32d01ff161d",
+      "output_sha256": "2149cdcd4efa73961b0609f3fea63e52ca9bdcdc58e1fea9dabbc31f3d9ef9a9"
+    },
+    {
+      "path": "DAT2/MGG08G.BIZ",
+      "shared": {
+        "translated_coordinates": 555,
+        "arena_gap": 0,
+        "arena_used": 65520,
+        "english_codes": {
+          " ": 0,
+          "!": 840,
+          "'": 841,
+          ",": 842,
+          "-": 843,
+          ".": 844,
+          "/": 839,
+          "?": 66,
+          "A": 845,
+          "B": 846,
+          "C": 847,
+          "D": 848,
+          "E": 849,
+          "F": 850,
+          "G": 851,
+          "H": 852,
+          "I": 853,
+          "J": 854,
+          "K": 855,
+          "L": 856,
+          "M": 857,
+          "N": 858,
+          "O": 859,
+          "P": 860,
+          "Q": 869,
+          "R": 861,
+          "S": 862,
+          "T": 863,
+          "U": 864,
+          "V": 865,
+          "W": 866,
+          "X": 867,
+          "Y": 868,
+          "Z": 870
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 555,
+        "entries_applied": 555
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 215096,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 215062,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 145408,
+        "preserved_decoded_prefix_bytes": 199524,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "b906e51bd42a4834661186bf4faefe5e0bea9e9c4b934e68dcc39e30a6597f33",
+      "output_sha256": "b4e8196f254138b0f82f1a051346a39866f02a0d0d1a998fc0c27c2a875fd309"
+    },
+    {
+      "path": "DAT2/MGG08J.BIZ",
+      "shared": {
+        "translated_coordinates": 970,
+        "arena_gap": 0,
+        "arena_used": 83868,
+        "english_codes": {
+          " ": 0,
+          "!": 858,
+          "'": 859,
+          ",": 860,
+          "-": 861,
+          ".": 862,
+          "/": 857,
+          "?": 66,
+          "A": 863,
+          "B": 864,
+          "C": 865,
+          "D": 866,
+          "E": 867,
+          "F": 868,
+          "G": 869,
+          "H": 870,
+          "I": 871,
+          "J": 872,
+          "K": 873,
+          "L": 874,
+          "M": 875,
+          "N": 876,
+          "O": 877,
+          "P": 878,
+          "Q": 887,
+          "R": 879,
+          "S": 880,
+          "T": 881,
+          "U": 882,
+          "V": 883,
+          "W": 884,
+          "X": 885,
+          "Y": 886,
+          "Z": 888
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 970,
+        "entries_applied": 970
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 219150,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 219150,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 145408,
+        "preserved_decoded_prefix_bytes": 197292,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "014c686a6ee91538aed0ed3903e4d96f30a718edb3afbea1fececc834dadf062",
+      "output_sha256": "c2daab681d23ef1732035d13b833687418f7f27746dcb387a0a95e35112f4df0"
+    },
+    {
+      "path": "DAT2/MGG08O.BIZ",
+      "shared": {
+        "translated_coordinates": 977,
+        "arena_gap": 0,
+        "arena_used": 84496,
+        "english_codes": {
+          " ": 0,
+          "!": 853,
+          "'": 854,
+          ",": 855,
+          "-": 856,
+          ".": 857,
+          "/": 852,
+          "?": 66,
+          "A": 858,
+          "B": 859,
+          "C": 860,
+          "D": 861,
+          "E": 862,
+          "F": 863,
+          "G": 864,
+          "H": 865,
+          "I": 866,
+          "J": 867,
+          "K": 868,
+          "L": 869,
+          "M": 870,
+          "N": 871,
+          "O": 872,
+          "P": 873,
+          "Q": 882,
+          "R": 874,
+          "S": 875,
+          "T": 876,
+          "U": 877,
+          "V": 878,
+          "W": 879,
+          "X": 880,
+          "Y": 881,
+          "Z": 883
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 977,
+        "entries_applied": 977
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 217098,
+          "max_match": 22,
+          "max_block": 37,
+          "max_page": 2220,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 217098,
+          "max_match": 22,
+          "max_block": 37,
+          "max_page": 2220,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 145408,
+        "preserved_decoded_prefix_bytes": 199520,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "54e5cc806e74a44ee61f68b28a08eb8fa45f6d87d3e82be8bc531daedcb941bb",
+      "output_sha256": "a66ab64ff9be81b15d196db0196645b6b0764d63cf1b42d536dd4179278804f2"
+    },
+    {
+      "path": "DAT2/MGG08P.BIZ",
+      "shared": {
+        "translated_coordinates": 977,
+        "arena_gap": 0,
+        "arena_used": 84232,
+        "english_codes": {
+          " ": 0,
+          "!": 858,
+          "'": 859,
+          ",": 860,
+          "-": 861,
+          ".": 862,
+          "/": 857,
+          "?": 66,
+          "A": 863,
+          "B": 864,
+          "C": 865,
+          "D": 866,
+          "E": 867,
+          "F": 868,
+          "G": 869,
+          "H": 870,
+          "I": 871,
+          "J": 872,
+          "K": 873,
+          "L": 874,
+          "M": 875,
+          "N": 876,
+          "O": 877,
+          "P": 878,
+          "Q": 887,
+          "R": 879,
+          "S": 880,
+          "T": 881,
+          "U": 882,
+          "V": 883,
+          "W": 884,
+          "X": 885,
+          "Y": 886,
+          "Z": 888
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 977,
+        "entries_applied": 977
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 217098,
+          "max_match": 22,
+          "max_block": 37,
+          "max_page": 2220,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 217098,
+          "max_match": 22,
+          "max_block": 37,
+          "max_page": 2220,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 145408,
+        "preserved_decoded_prefix_bytes": 199412,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "1c6ffc964bbc224049a0efe7fe652f27cfc9bc58af4f613e01f062e254c14190",
+      "output_sha256": "a2d9c7ea02bc1f98e1d902778edf931ecbadc239b4bb1170b3dc93bd6335525a"
+    },
+    {
+      "path": "DAT2/MGG08T.BIZ",
+      "shared": {
+        "translated_coordinates": 976,
+        "arena_gap": 0,
+        "arena_used": 84140,
+        "english_codes": {
+          " ": 0,
+          "!": 856,
+          "'": 857,
+          ",": 858,
+          "-": 859,
+          ".": 860,
+          "/": 855,
+          "?": 66,
+          "A": 861,
+          "B": 862,
+          "C": 863,
+          "D": 864,
+          "E": 865,
+          "F": 866,
+          "G": 867,
+          "H": 868,
+          "I": 869,
+          "J": 870,
+          "K": 871,
+          "L": 872,
+          "M": 873,
+          "N": 874,
+          "O": 875,
+          "P": 876,
+          "Q": 885,
+          "R": 877,
+          "S": 878,
+          "T": 879,
+          "U": 880,
+          "V": 881,
+          "W": 882,
+          "X": 883,
+          "Y": 884,
+          "Z": 886
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 976,
+        "entries_applied": 976
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 217098,
+          "max_match": 22,
+          "max_block": 37,
+          "max_page": 2220,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 217098,
+          "max_match": 22,
+          "max_block": 37,
+          "max_page": 2220,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 145408,
+        "preserved_decoded_prefix_bytes": 199232,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "d52a198e058902d391cc3d48fec19d11196ec4c4c3614b0897da2ce86391ecef",
+      "output_sha256": "37d92c9d62c6bd92e26ff48b67b3ad69b8dcf6dc6132efa8dbf70ffba14db36c"
+    },
+    {
+      "path": "DAT2/MGG09G.BIZ",
+      "shared": {
+        "translated_coordinates": 556,
+        "arena_gap": 0,
+        "arena_used": 66388,
+        "english_codes": {
+          " ": 0,
+          "!": 891,
+          "'": 892,
+          ",": 893,
+          "-": 894,
+          ".": 895,
+          "/": 890,
+          "?": 66,
+          "A": 896,
+          "B": 897,
+          "C": 898,
+          "D": 899,
+          "E": 900,
+          "F": 901,
+          "G": 902,
+          "H": 903,
+          "I": 904,
+          "J": 905,
+          "K": 906,
+          "L": 907,
+          "M": 908,
+          "N": 909,
+          "O": 910,
+          "P": 911,
+          "Q": 920,
+          "R": 912,
+          "S": 913,
+          "T": 914,
+          "U": 915,
+          "V": 916,
+          "W": 917,
+          "X": 918,
+          "Y": 919,
+          "Z": 921
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 556,
+        "entries_applied": 556
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 217128,
+          "max_match": 22,
+          "max_block": 37,
+          "max_page": 2220,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 217128,
+          "max_match": 22,
+          "max_block": 37,
+          "max_page": 2220,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 147456,
+        "preserved_decoded_prefix_bytes": 197330,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "c7e9183502d9ba50799e7ade3da74db5d4d6d333306bbf989eacca1ae81ec04d",
+      "output_sha256": "62ed37170f8081ab49611356ac69d25d392b6e9834de169b15c84f944d099a2c"
+    },
+    {
+      "path": "DAT2/MGG09J.BIZ",
+      "shared": {
+        "translated_coordinates": 940,
+        "arena_gap": 0,
+        "arena_used": 80596,
+        "english_codes": {
+          " ": 0,
+          "!": 895,
+          "'": 896,
+          ",": 897,
+          "-": 898,
+          ".": 899,
+          "/": 894,
+          "?": 66,
+          "A": 900,
+          "B": 901,
+          "C": 902,
+          "D": 903,
+          "E": 904,
+          "F": 905,
+          "G": 906,
+          "H": 907,
+          "I": 908,
+          "J": 909,
+          "K": 910,
+          "L": 911,
+          "M": 912,
+          "N": 913,
+          "O": 914,
+          "P": 915,
+          "Q": 924,
+          "R": 916,
+          "S": 917,
+          "T": 918,
+          "U": 919,
+          "V": 920,
+          "W": 921,
+          "X": 922,
+          "Y": 923,
+          "Z": 925
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 940,
+        "entries_applied": 940
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 223274,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 223274,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 149504,
+        "preserved_decoded_prefix_bytes": 200614,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "fb5321f189fd7df073c9fc8e06d8a0c2a82ceeefe55d1f1c13bda6d227e0ae66",
+      "output_sha256": "7dc53ea7413802e4c83ca9632a013ea82108388c17fbc95f17f9b0f8d3c15e9e"
+    },
+    {
+      "path": "DAT2/MGG09O.BIZ",
+      "shared": {
+        "translated_coordinates": 939,
+        "arena_gap": 0,
+        "arena_used": 80620,
+        "english_codes": {
+          " ": 0,
+          "!": 893,
+          "'": 894,
+          ",": 895,
+          "-": 896,
+          ".": 897,
+          "/": 892,
+          "?": 66,
+          "A": 898,
+          "B": 899,
+          "C": 900,
+          "D": 901,
+          "E": 902,
+          "F": 903,
+          "G": 904,
+          "H": 905,
+          "I": 906,
+          "J": 907,
+          "K": 908,
+          "L": 909,
+          "M": 910,
+          "N": 911,
+          "O": 912,
+          "P": 913,
+          "Q": 922,
+          "R": 914,
+          "S": 915,
+          "T": 916,
+          "U": 917,
+          "V": 918,
+          "W": 919,
+          "X": 920,
+          "Y": 921,
+          "Z": 923
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 939,
+        "entries_applied": 939
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 223242,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 223242,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 147456,
+        "preserved_decoded_prefix_bytes": 196796,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "d3af78feb5b8193fa741430d8f72d4a01115c354a55e225b142ae4dc44cd5cfa",
+      "output_sha256": "f554286c8bb7adb30d3ee4618c505ed2d59fea21b0f887a541c232ef67c5142e"
+    },
+    {
+      "path": "DAT2/MGG09P.BIZ",
+      "shared": {
+        "translated_coordinates": 940,
+        "arena_gap": 0,
+        "arena_used": 80512,
+        "english_codes": {
+          " ": 0,
+          "!": 893,
+          "'": 894,
+          ",": 895,
+          "-": 896,
+          ".": 897,
+          "/": 892,
+          "?": 66,
+          "A": 898,
+          "B": 899,
+          "C": 900,
+          "D": 901,
+          "E": 902,
+          "F": 903,
+          "G": 904,
+          "H": 905,
+          "I": 906,
+          "J": 907,
+          "K": 908,
+          "L": 909,
+          "M": 910,
+          "N": 911,
+          "O": 912,
+          "P": 913,
+          "Q": 922,
+          "R": 914,
+          "S": 915,
+          "T": 916,
+          "U": 917,
+          "V": 918,
+          "W": 919,
+          "X": 920,
+          "Y": 921,
+          "Z": 923
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 940,
+        "entries_applied": 940
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 223242,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 223242,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 147456,
+        "preserved_decoded_prefix_bytes": 196656,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "7cf79ef31d9bbed3ca2fb550f62880ab44f85c752bf83304a9a088122b1ced36",
+      "output_sha256": "bf611a33d82b6e738d35fa90de80191a8871cbeca2ed02652022e4314020500e"
+    },
+    {
+      "path": "DAT2/MGG09T.BIZ",
+      "shared": {
+        "translated_coordinates": 932,
+        "arena_gap": 0,
+        "arena_used": 80888,
+        "english_codes": {
+          " ": 0,
+          "!": 892,
+          "'": 893,
+          ",": 894,
+          "-": 895,
+          ".": 896,
+          "/": 891,
+          "?": 66,
+          "A": 897,
+          "B": 898,
+          "C": 899,
+          "D": 900,
+          "E": 901,
+          "F": 902,
+          "G": 903,
+          "H": 904,
+          "I": 905,
+          "J": 906,
+          "K": 907,
+          "L": 908,
+          "M": 909,
+          "N": 910,
+          "O": 911,
+          "P": 912,
+          "Q": 921,
+          "R": 913,
+          "S": 914,
+          "T": 915,
+          "U": 916,
+          "V": 917,
+          "W": 918,
+          "X": 919,
+          "Y": 920,
+          "Z": 922
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 932,
+        "entries_applied": 932
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 221208,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 221208,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 147456,
+        "preserved_decoded_prefix_bytes": 198248,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "a6e48109800d3e6c15dbd816446eaa66d1bbe9210967b5a6e4f56653658eb5c9",
+      "output_sha256": "24ac84fe5a29c8d84352137cb911fbe1ca5e224e5a9c22fe58bff471ad105325"
+    },
+    {
+      "path": "DAT2/MGG11G.BIZ",
+      "shared": {
+        "translated_coordinates": 52,
+        "arena_gap": 0,
+        "arena_used": 30528,
+        "english_codes": {
+          " ": 0,
+          "!": 737,
+          "'": 738,
+          ",": 739,
+          "-": 740,
+          ".": 741,
+          "/": 736,
+          "?": 66,
+          "A": 742,
+          "B": 743,
+          "C": 744,
+          "D": 745,
+          "E": 746,
+          "F": 747,
+          "G": 748,
+          "H": 749,
+          "I": 750,
+          "J": 751,
+          "K": 752,
+          "L": 753,
+          "M": 754,
+          "N": 755,
+          "O": 756,
+          "P": 757,
+          "R": 758,
+          "S": 759,
+          "T": 760,
+          "U": 761,
+          "V": 762,
+          "W": 763,
+          "Y": 765
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 52,
+        "entries_applied": 52
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 204916,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 204806,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 137216,
+        "preserved_decoded_prefix_bytes": 197460,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "d201b41acb997563c36019a441515a3857f68d3c84dbf6c7f94e32edb1be9420",
+      "output_sha256": "dd63cd079ca6a58817051fb06a4d1e0e731440367df932bfb13147fd0e7e3937"
+    },
+    {
+      "path": "DAT2/MGG11J.BIZ",
+      "shared": {
+        "translated_coordinates": 63,
+        "arena_gap": 0,
+        "arena_used": 34728,
+        "english_codes": {
+          " ": 0,
+          "!": 765,
+          "'": 766,
+          ",": 767,
+          "-": 768,
+          ".": 769,
+          "/": 764,
+          "?": 66,
+          "A": 770,
+          "B": 771,
+          "C": 772,
+          "D": 773,
+          "E": 774,
+          "F": 775,
+          "G": 776,
+          "H": 777,
+          "I": 778,
+          "J": 779,
+          "K": 780,
+          "L": 781,
+          "M": 782,
+          "N": 783,
+          "O": 784,
+          "P": 785,
+          "R": 786,
+          "S": 787,
+          "T": 788,
+          "U": 789,
+          "V": 790,
+          "W": 791,
+          "Y": 793
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 63,
+        "entries_applied": 63
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 209014,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 208946,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 139264,
+        "preserved_decoded_prefix_bytes": 197866,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "255f082ecfbd165304a709cbc5f35fead0775ac46eb706dfc2baf7b1a8de1e4b",
+      "output_sha256": "92310c22ce684a75376deb12fa7365297e2d490d05a6378384815ad106aab96b"
+    },
+    {
+      "path": "DAT2/MGG11O.BIZ",
+      "shared": {
+        "translated_coordinates": 82,
+        "arena_gap": 0,
+        "arena_used": 35784,
+        "english_codes": {
+          " ": 0,
+          "!": 737,
+          "'": 738,
+          ",": 739,
+          "-": 740,
+          ".": 741,
+          "/": 736,
+          "?": 66,
+          "A": 742,
+          "B": 743,
+          "C": 744,
+          "D": 745,
+          "E": 746,
+          "F": 747,
+          "G": 748,
+          "H": 749,
+          "I": 750,
+          "J": 751,
+          "K": 752,
+          "L": 753,
+          "M": 754,
+          "N": 755,
+          "O": 756,
+          "P": 757,
+          "R": 758,
+          "S": 759,
+          "T": 760,
+          "U": 761,
+          "V": 762,
+          "W": 763,
+          "Y": 765
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 82,
+        "entries_applied": 82
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 204854,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 204818,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 137216,
+        "preserved_decoded_prefix_bytes": 198784,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "bb844276b0d2af9dffd58ef9ab48ff356f4eeb5fce84fada645d2765bc45a7ef",
+      "output_sha256": "906a1944591302ef7781a6710c502c9a161ee8878dddfa60a7c2a160b342c2a8"
+    },
+    {
+      "path": "DAT2/MGG11P.BIZ",
+      "shared": {
+        "translated_coordinates": 77,
+        "arena_gap": 0,
+        "arena_used": 34768,
+        "english_codes": {
+          " ": 0,
+          "!": 738,
+          "'": 739,
+          ",": 740,
+          "-": 741,
+          ".": 742,
+          "/": 737,
+          "?": 66,
+          "A": 743,
+          "B": 744,
+          "C": 745,
+          "D": 746,
+          "E": 747,
+          "F": 748,
+          "G": 749,
+          "H": 750,
+          "I": 751,
+          "J": 752,
+          "K": 753,
+          "L": 754,
+          "M": 755,
+          "N": 756,
+          "O": 757,
+          "P": 758,
+          "R": 759,
+          "S": 760,
+          "T": 761,
+          "U": 762,
+          "V": 763,
+          "W": 764,
+          "Y": 766
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 77,
+        "entries_applied": 77
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 204918,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 204884,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 137216,
+        "preserved_decoded_prefix_bytes": 198408,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "2a17b6fb017b646012bc7e5629fa0febd7882f8bd22373b57caa5150c6988efe",
+      "output_sha256": "dfa7e4da7e449b1e60d7ee90ba1748fdd51b449fe54625af494888e469a980c0"
+    },
+    {
+      "path": "DAT2/MGG11T.BIZ",
+      "shared": {
+        "translated_coordinates": 78,
+        "arena_gap": 0,
+        "arena_used": 37864,
+        "english_codes": {
+          " ": 0,
+          "!": 742,
+          "'": 743,
+          ",": 744,
+          "-": 745,
+          ".": 746,
+          "/": 741,
+          "?": 66,
+          "A": 747,
+          "B": 748,
+          "C": 749,
+          "D": 750,
+          "E": 751,
+          "F": 752,
+          "G": 753,
+          "H": 754,
+          "I": 755,
+          "J": 756,
+          "K": 757,
+          "L": 758,
+          "M": 759,
+          "N": 760,
+          "O": 761,
+          "P": 762,
+          "R": 763,
+          "S": 764,
+          "T": 765,
+          "U": 766,
+          "V": 767,
+          "W": 768,
+          "Y": 770
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 78,
+        "entries_applied": 78
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 206956,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 206956,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 137216,
+        "preserved_decoded_prefix_bytes": 198448,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "219e1ea094805c5019463f73fd4e17ae348a95aee842b0c790e535c77ed9aa5c",
+      "output_sha256": "6a8525d9d0f5a22831594d621b95a9894e7fcedf5f31a8fba7852433aced1466"
+    },
+    {
+      "path": "DAT2/MGK01.BIZ",
+      "shared": {
+        "translated_coordinates": 37,
+        "arena_gap": 0,
+        "arena_used": 59432,
+        "english_codes": {
+          " ": 0,
+          "'": 964,
+          ",": 965,
+          ".": 967,
+          "/": 968,
+          "A": 969,
+          "B": 970,
+          "D": 972,
+          "E": 973,
+          "G": 975,
+          "H": 976,
+          "I": 977,
+          "L": 980,
+          "M": 981,
+          "N": 982,
+          "O": 983,
+          "P": 984,
+          "R": 985,
+          "S": 986,
+          "T": 987,
+          "U": 988,
+          "W": 990,
+          "Y": 992
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 37,
+        "entries_applied": 37
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 229426,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2092,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 229528,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2092,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 155648,
+        "preserved_decoded_prefix_bytes": 200216,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "cacf17783b22129e17630cf956609650345e61b7ce240ce7cc457b9a796a52f8",
+      "output_sha256": "71e7e0109be7cce23ac219767eef0f66fb9c21360424c784e1395741bce7997d"
+    },
+    {
+      "path": "DAT2/MGK02.BIZ",
+      "shared": {
+        "translated_coordinates": 37,
+        "arena_gap": 0,
+        "arena_used": 54408,
+        "english_codes": {
+          " ": 0,
+          "!": 819,
+          "-": 822,
+          ".": 823,
+          "/": 824,
+          "A": 825,
+          "C": 827,
+          "D": 828,
+          "E": 829,
+          "F": 830,
+          "H": 832,
+          "I": 833,
+          "K": 835,
+          "L": 836,
+          "M": 837,
+          "N": 838,
+          "O": 839,
+          "P": 840,
+          "R": 841,
+          "S": 842,
+          "T": 843,
+          "U": 844,
+          "Y": 848
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 37,
+        "entries_applied": 37
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 213032,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 213066,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 143360,
+        "preserved_decoded_prefix_bytes": 197468,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "2f9037853d75da2e958403ea2d27096ee9b49e8ec1949ef23d8a07c642285ad1",
+      "output_sha256": "8b58bb64db7988ecbecfd0e21b40d1cfa7075f23b8397d3ff00007d7bf81d486"
+    },
+    {
+      "path": "DAT2/MGK03.BIZ",
+      "shared": {
+        "translated_coordinates": 164,
+        "arena_gap": 0,
+        "arena_used": 62256,
+        "english_codes": {
+          " ": 0,
+          "!": 778,
+          "'": 779,
+          ",": 780,
+          "-": 781,
+          ".": 782,
+          "/": 783,
+          "?": 66,
+          "A": 784,
+          "B": 785,
+          "C": 786,
+          "D": 787,
+          "E": 788,
+          "F": 789,
+          "G": 790,
+          "H": 791,
+          "I": 792,
+          "J": 793,
+          "K": 794,
+          "L": 795,
+          "M": 796,
+          "N": 797,
+          "O": 798,
+          "P": 799,
+          "R": 800,
+          "S": 801,
+          "T": 802,
+          "U": 803,
+          "V": 804,
+          "W": 805,
+          "Y": 807
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 164,
+        "entries_applied": 164
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 210954,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 211028,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 141312,
+        "preserved_decoded_prefix_bytes": 200316,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "940bba54198942243a12c96b20843f1da61ed89c32312936481f7fb787b6fe4c",
+      "output_sha256": "812c7736ec64d44df3ad2b34ca69348a97429cea2eae4220236cbe6045d97b5e"
+    },
+    {
+      "path": "DAT2/MGK07.BIZ",
+      "shared": {
+        "translated_coordinates": 53,
+        "arena_gap": 0,
+        "arena_used": 76360,
+        "english_codes": {
+          " ": 0,
+          "!": 918,
+          "'": 919,
+          ",": 920,
+          ".": 922,
+          "/": 923,
+          "A": 924,
+          "D": 927,
+          "E": 928,
+          "F": 929,
+          "G": 930,
+          "H": 931,
+          "I": 932,
+          "K": 934,
+          "L": 935,
+          "M": 936,
+          "N": 937,
+          "O": 938,
+          "P": 939,
+          "R": 940,
+          "S": 941,
+          "T": 942,
+          "U": 943,
+          "W": 945,
+          "Y": 947
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 53,
+        "entries_applied": 53
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 223242,
+          "max_match": 22,
+          "max_block": 37,
+          "max_page": 2220,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 223242,
+          "max_match": 22,
+          "max_block": 37,
+          "max_page": 2220,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 149504,
+        "preserved_decoded_prefix_bytes": 197100,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "a95d0e0aafda4ad98d740e2984a3950069468d90ceb1b1300fcbb010688fc71f",
+      "output_sha256": "c5e1fb6bbc67cd225b483788ac8b39aae47193f1873688762520f7684f1eeafc"
+    },
+    {
+      "path": "DAT2/MGK08.BIZ",
+      "shared": {
+        "translated_coordinates": 78,
+        "arena_gap": 0,
+        "arena_used": 76888,
+        "english_codes": {
+          " ": 0,
+          "!": 871,
+          ",": 873,
+          "-": 874,
+          ".": 875,
+          "/": 876,
+          "A": 877,
+          "D": 880,
+          "E": 881,
+          "F": 882,
+          "G": 883,
+          "H": 884,
+          "I": 885,
+          "K": 887,
+          "L": 888,
+          "M": 889,
+          "N": 890,
+          "O": 891,
+          "P": 892,
+          "R": 893,
+          "S": 894,
+          "T": 895,
+          "U": 896,
+          "W": 898,
+          "Y": 900,
+          "Z": 902
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 78,
+        "entries_applied": 78
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 219146,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 219146,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 145408,
+        "preserved_decoded_prefix_bytes": 197200,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "77d6902c6d1bf08e658a3b98fcb1d74baa6caf127eb05548083b1792e96ec2cb",
+      "output_sha256": "36a6585e2279b5091873482b18e4554a48c821875d3bd18940e438046b025cc3"
+    },
+    {
+      "path": "DAT2/MGK09.BIZ",
+      "shared": {
+        "translated_coordinates": 18,
+        "arena_gap": 0,
+        "arena_used": 24928,
+        "english_codes": {
+          "/": 681,
+          "E": 686,
+          "N": 695,
+          "O": 696,
+          "S": 699,
+          "Y": 705
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 18,
+        "entries_applied": 18
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 200822,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 200822,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 133120,
+        "preserved_decoded_prefix_bytes": 199096,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "4ac07ef65d9c7882c42c68197f585d4b5223c12dab787ad17ef193aabdf64ae1",
+      "output_sha256": "b473ea8dc7c0e0131e303b9665d85f77b4362f553c6896fe133c036bdfb01351"
+    },
+    {
+      "path": "DAT2/MGK12.BIZ",
+      "shared": {
+        "translated_coordinates": 202,
+        "arena_gap": 0,
+        "arena_used": 76892,
+        "english_codes": {
+          " ": 0,
+          "!": 806,
+          "'": 807,
+          ",": 808,
+          ".": 810,
+          "/": 811,
+          "?": 66,
+          "A": 812,
+          "B": 813,
+          "C": 814,
+          "D": 815,
+          "E": 816,
+          "F": 817,
+          "G": 818,
+          "H": 819,
+          "I": 820,
+          "K": 822,
+          "L": 823,
+          "M": 824,
+          "N": 825,
+          "O": 826,
+          "P": 827,
+          "Q": 836,
+          "R": 828,
+          "S": 829,
+          "T": 830,
+          "U": 831,
+          "V": 832,
+          "W": 833,
+          "Y": 835
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 202,
+        "entries_applied": 202
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 213002,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 213144,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 141312,
+        "preserved_decoded_prefix_bytes": 197892,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "0e369822e4aa6f5c4a825829d0dd8591b2350db7bad394b9083d6b08259b3ac7",
+      "output_sha256": "391edf2e48d0866466a0b5b1842ea7fe2c1c19d1b6758778b12fb8dcf223f531"
+    },
+    {
+      "path": "DAT2/MGM01.BIZ",
+      "shared": {
+        "translated_coordinates": 24,
+        "arena_gap": 0,
+        "arena_used": 70500,
+        "english_codes": {
+          " ": 0,
+          "!": 932,
+          "'": 933,
+          ",": 934,
+          "-": 935,
+          ".": 936,
+          "/": 937,
+          "?": 66,
+          "A": 938,
+          "C": 940,
+          "D": 941,
+          "E": 942,
+          "F": 943,
+          "G": 944,
+          "H": 945,
+          "I": 946,
+          "K": 948,
+          "L": 949,
+          "M": 950,
+          "N": 951,
+          "O": 952,
+          "P": 953,
+          "R": 954,
+          "S": 955,
+          "T": 956,
+          "U": 957,
+          "W": 959,
+          "Y": 961
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 24,
+        "entries_applied": 24
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 231454,
+          "max_match": 18,
+          "max_block": 33,
+          "max_page": 1980,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 231514,
+          "max_match": 18,
+          "max_block": 33,
+          "max_page": 1980,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 153600,
+        "preserved_decoded_prefix_bytes": 198834,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "ac0b222471b131c8f7bae6d62b2626f27ac1b014ad5c2012124271ffdb18fd9e",
+      "output_sha256": "c263ef536510c8f0b879d9f90be8cb96c0bd51fa7213b3254e6b6c18e477a39b"
+    },
+    {
+      "path": "DAT2/MGM02.BIZ",
+      "shared": {
+        "translated_coordinates": 36,
+        "arena_gap": 0,
+        "arena_used": 76228,
+        "english_codes": {
+          " ": 0,
+          "!": 958,
+          ".": 962,
+          "/": 963,
+          "A": 964,
+          "D": 967,
+          "E": 968,
+          "G": 970,
+          "H": 971,
+          "I": 972,
+          "L": 975,
+          "M": 976,
+          "N": 977,
+          "O": 978,
+          "P": 979,
+          "S": 981,
+          "T": 982,
+          "U": 983,
+          "W": 985,
+          "Y": 987
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 36,
+        "entries_applied": 36
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 235530,
+          "max_match": 18,
+          "max_block": 33,
+          "max_page": 1980,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 235570,
+          "max_match": 18,
+          "max_block": 33,
+          "max_page": 1980,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 155648,
+        "preserved_decoded_prefix_bytes": 197058,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "9f307ae5764285eace61002048a5f144a5ece0f7f2843021b5f4057325d75487",
+      "output_sha256": "4c475111a2741108cefe54ed0c3a209040a0372d42ce9619f806e16de8442e6a"
+    },
+    {
+      "path": "DAT2/MGM04.BIZ",
+      "shared": {
+        "translated_coordinates": 2,
+        "arena_gap": 0,
+        "arena_used": 45232,
+        "english_codes": {
+          ".": 834,
+          "/": 835
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 2,
+        "entries_applied": 2
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 217126,
+          "max_match": 19,
+          "max_block": 34,
+          "max_page": 2040,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 217126,
+          "max_match": 19,
+          "max_block": 34,
+          "max_page": 2040,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 155648,
+        "preserved_decoded_prefix_bytes": 218094,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "e76da2ce6c3b2e76548add6c712563fb16b857f57c066be5e05f0e9b2ab2ac8b",
+      "output_sha256": "ac09880e7812122722dcf24493634b4c8dccfb420671eaba40fe13d6652421fe"
+    },
+    {
+      "path": "DAT2/MGM05.BIZ",
+      "shared": {
+        "translated_coordinates": 8,
+        "arena_gap": 0,
+        "arena_used": 35032,
+        "english_codes": {
+          "!": 808,
+          "-": 811,
+          ".": 812,
+          "/": 813,
+          "E": 818,
+          "K": 824,
+          "S": 831,
+          "Y": 837
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 8,
+        "entries_applied": 8
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 213136,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 213170,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 143360,
+        "preserved_decoded_prefix_bytes": 199676,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "01bcf70e05dad3ba3777664bc22a2844446d68c8e5b913d73dc0b041cab24b89",
+      "output_sha256": "bdea93e0bab8d272d219d30324aec980e0f665a453574fc7a3d5591cd221370d"
+    },
+    {
+      "path": "DAT2/MGM06.BIZ",
+      "shared": {
+        "translated_coordinates": 6,
+        "arena_gap": 0,
+        "arena_used": 38628,
+        "english_codes": {
+          "!": 793,
+          ".": 797,
+          "/": 798
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 6,
+        "entries_applied": 6
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 213070,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 213076,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 143360,
+        "preserved_decoded_prefix_bytes": 200446,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "b612a79ce428a3f3d0d66c674f7e98b55d8b91f9490fb67df71f1c96a5f6a1a6",
+      "output_sha256": "b087ece3d4fbf1383fda7a1428bd7043f20294dd45eeb1e0fd2d3aef8761e097"
+    },
+    {
+      "path": "DAT2/MGM07.BIZ",
+      "shared": {
+        "translated_coordinates": 4,
+        "arena_gap": 0,
+        "arena_used": 32584,
+        "english_codes": {
+          "!": 771,
+          ".": 775,
+          "/": 776,
+          "H": 784,
+          "O": 791,
+          "S": 794,
+          "W": 798
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 4,
+        "entries_applied": 4
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 211096,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 211096,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 141312,
+        "preserved_decoded_prefix_bytes": 198216,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "5e161a48b0255724dac3f781bd1a269cf243c01ae880f261b231e6c23629276f",
+      "output_sha256": "c7e63f2eadfaa4a59a3d81ee8d639e7d21dd6e0a64f4ae7fc69eaebfb4a93dda"
+    },
+    {
+      "path": "DAT2/MGM08.BIZ",
+      "shared": {
+        "translated_coordinates": 6,
+        "arena_gap": 0,
+        "arena_used": 35000,
+        "english_codes": {
+          "-": 768,
+          ".": 769,
+          "/": 770,
+          "A": 771,
+          "E": 775,
+          "H": 778,
+          "S": 788,
+          "Y": 794
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 6,
+        "entries_applied": 6
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 209048,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 209014,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 139264,
+        "preserved_decoded_prefix_bytes": 198986,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "58003f6f1acf0ccb44a991b83dd91e1185b2a3c8a7b174ba6149b5614b3c5c28",
+      "output_sha256": "834aa11c6b7cf77884cde4640690ac48f265928f5d51a1bfc197ea1f96a27675"
+    },
+    {
+      "path": "DAT2/MGM09.BIZ",
+      "shared": {
+        "translated_coordinates": 35,
+        "arena_gap": 0,
+        "arena_used": 54924,
+        "english_codes": {
+          " ": 0,
+          "!": 896,
+          "'": 897,
+          ",": 898,
+          ".": 900,
+          "/": 901,
+          "?": 66,
+          "A": 902,
+          "C": 904,
+          "D": 905,
+          "E": 906,
+          "F": 907,
+          "G": 908,
+          "H": 909,
+          "I": 910,
+          "K": 912,
+          "L": 913,
+          "M": 914,
+          "N": 915,
+          "O": 916,
+          "P": 917,
+          "R": 918,
+          "S": 919,
+          "T": 920,
+          "U": 921,
+          "W": 923,
+          "Y": 925
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 35,
+        "entries_applied": 35
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 225330,
+          "max_match": 19,
+          "max_block": 34,
+          "max_page": 2040,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 225398,
+          "max_match": 19,
+          "max_block": 34,
+          "max_page": 2040,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 151552,
+        "preserved_decoded_prefix_bytes": 200470,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "18cd065f602cf19785e6778d5bd0060caf053468ee67364a1828def72e40c7c6",
+      "output_sha256": "74d4cf9fa40a210df8e4f0a9456b9ac96115957c6d2279e76346f884fa4469bc"
+    },
+    {
+      "path": "DAT2/MGM10.BIZ",
+      "shared": {
+        "translated_coordinates": 28,
+        "arena_gap": 0,
+        "arena_used": 50600,
+        "english_codes": {
+          " ": 0,
+          "!": 879,
+          "'": 880,
+          ".": 883,
+          "/": 884,
+          "?": 66,
+          "A": 885,
+          "C": 887,
+          "D": 888,
+          "E": 889,
+          "H": 892,
+          "I": 893,
+          "K": 895,
+          "L": 896,
+          "M": 897,
+          "N": 898,
+          "O": 899,
+          "P": 900,
+          "R": 901,
+          "S": 902,
+          "T": 903,
+          "U": 904,
+          "W": 906,
+          "Y": 908
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 28,
+        "entries_applied": 28
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 221234,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 221302,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 149504,
+        "preserved_decoded_prefix_bytes": 200286,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "f0e7edc3cd415af59ae743df226e6ffe2a78871891b5fe41b0a4e0cb4186f6c9",
+      "output_sha256": "dded4fd64fc62c16ac1b1e2192b574f239cae9e6e44174dd618cb5806ef7fecf"
+    },
+    {
+      "path": "DAT2/MGM11.BIZ",
+      "shared": {
+        "translated_coordinates": 8,
+        "arena_gap": 0,
+        "arena_used": 41392,
+        "english_codes": {
+          " ": 0,
+          "!": 820,
+          "'": 821,
+          ",": 822,
+          ".": 824,
+          "/": 825,
+          "?": 66,
+          "A": 826,
+          "C": 828,
+          "D": 829,
+          "E": 830,
+          "F": 831,
+          "G": 832,
+          "H": 833,
+          "I": 834,
+          "K": 836,
+          "L": 837,
+          "M": 838,
+          "N": 839,
+          "O": 840,
+          "P": 841,
+          "R": 842,
+          "S": 843,
+          "T": 844,
+          "U": 845,
+          "W": 847,
+          "Y": 849
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 8,
+        "entries_applied": 8
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 215150,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 215286,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 143360,
+        "preserved_decoded_prefix_bytes": 197106,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "d342cf22cd1359fa15997e6aee7537eeb606def1296b932eed271cbb0a6c570a",
+      "output_sha256": "ddb4d3089d37e501c3c8cfa491717caa7f3f1c5886a7364311d106d3fc1b5cf2"
+    },
+    {
+      "path": "DAT2/MGM12.BIZ",
+      "shared": {
+        "translated_coordinates": 39,
+        "arena_gap": 0,
+        "arena_used": 63296,
+        "english_codes": {
+          " ": 0,
+          "!": 945,
+          "'": 946,
+          ",": 947,
+          "-": 948,
+          ".": 949,
+          "/": 950,
+          "?": 66,
+          "A": 951,
+          "C": 953,
+          "D": 954,
+          "E": 955,
+          "F": 956,
+          "G": 957,
+          "H": 958,
+          "I": 959,
+          "K": 961,
+          "L": 962,
+          "M": 963,
+          "N": 964,
+          "O": 965,
+          "P": 966,
+          "R": 967,
+          "S": 968,
+          "T": 969,
+          "U": 970,
+          "W": 972,
+          "Y": 974
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 39,
+        "entries_applied": 39
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 229386,
+          "max_match": 19,
+          "max_block": 34,
+          "max_page": 2040,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 229460,
+          "max_match": 19,
+          "max_block": 34,
+          "max_page": 2040,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 153600,
+        "preserved_decoded_prefix_bytes": 199150,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "46c0064522892012600b62c7c8be1df98e644d65a3bc39fcdcfafcc9b0d87d30",
+      "output_sha256": "f46a03c13f4314f9a2de2abd983c39c3290cc3f8af91c599c0a523a0e85afae7"
+    },
+    {
+      "path": "DAT2/MGT00.BIZ",
+      "shared": {
+        "translated_coordinates": 14,
+        "arena_gap": 0,
+        "arena_used": 25916,
+        "english_codes": {
+          " ": 740,
+          ".": 712,
+          "/": 713,
+          "A": 714,
+          "C": 716,
+          "D": 717,
+          "E": 718,
+          "I": 722,
+          "L": 725,
+          "N": 727,
+          "R": 730,
+          "S": 731,
+          "T": 732,
+          "W": 735
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 14,
+        "entries_applied": 14
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 204918,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 204950,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 137216,
+        "preserved_decoded_prefix_bytes": 200036,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "0d8f5e4127729c93792f431b3a0f68e871581852df6a6353e464e3837bf62dd8",
+      "output_sha256": "57c4ed29f67ee1c3439cc7e47d225219b3bc817659a8e186337304e611b0292e"
+    },
+    {
+      "path": "DAT2/MGT01.BIZ",
+      "shared": {
+        "translated_coordinates": 10,
+        "arena_gap": 0,
+        "arena_used": 31920,
+        "english_codes": {
+          " ": 0,
+          "!": 721,
+          ".": 725,
+          "/": 726,
+          "A": 727,
+          "D": 730,
+          "E": 731,
+          "G": 733,
+          "H": 734,
+          "I": 735,
+          "N": 740,
+          "O": 741,
+          "T": 745,
+          "Y": 750
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 10,
+        "entries_applied": 10
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 204890,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 204924,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 135168,
+        "preserved_decoded_prefix_bytes": 197106,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "b1558dd80634db76617bd46998b9fbcc66b205f88512fb85c7b5cb37862e86b3",
+      "output_sha256": "05ae4050694221f77ecffc8833452da2c7e8d07926ff11ad03b9d5181c83966c"
+    },
+    {
+      "path": "DAT2/MGT02.BIZ",
+      "shared": {
+        "translated_coordinates": 10,
+        "arena_gap": 0,
+        "arena_used": 27984,
+        "english_codes": {
+          " ": 0,
+          "!": 750,
+          ".": 754,
+          "/": 755,
+          "D": 759,
+          "G": 762,
+          "H": 763,
+          "I": 764,
+          "N": 769,
+          "O": 770,
+          "T": 774,
+          "U": 775
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 10,
+        "entries_applied": 10
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 207000,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 207000,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 139264,
+        "preserved_decoded_prefix_bytes": 200386,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "22bcac710d6881b8ab78cab56d58941b3039811f0f5413e0edc451796bc45ac6",
+      "output_sha256": "2adc6ce8b51e2bb369773acc61b9b0d54e985a90bdb92bd58f7aa69fd4975a99"
+    },
+    {
+      "path": "DAT2/MGT03.BIZ",
+      "shared": {
+        "translated_coordinates": 3,
+        "arena_gap": 0,
+        "arena_used": 30716,
+        "english_codes": {
+          "!": 722,
+          ".": 726,
+          "/": 727,
+          "A": 728,
+          "E": 732,
+          "H": 735,
+          "Y": 751
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 3,
+        "entries_applied": 3
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 204918,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 204918,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 135168,
+        "preserved_decoded_prefix_bytes": 196886,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "16940514553ee8d90fb2e698484aa7e16f93656d36e6280fdb13fa787fe4f62c",
+      "output_sha256": "ba3ea0c8150ac5d4fb08b05ef74a7b191cdff2a9c3af098db3b8068f23332204"
+    },
+    {
+      "path": "DAT2/MGT04.BIZ",
+      "shared": {
+        "translated_coordinates": 6,
+        "arena_gap": 0,
+        "arena_used": 30176,
+        "english_codes": {
+          " ": 0,
+          "!": 685,
+          ".": 689,
+          "/": 690,
+          "D": 694,
+          "G": 697,
+          "I": 699,
+          "N": 704,
+          "O": 705
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 6,
+        "entries_applied": 6
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 202904,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 202904,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 135168,
+        "preserved_decoded_prefix_bytes": 200616,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "dec20231b27fd0851debb6eb218171ccf2bf27e800f46a34bd0ad4986df6d6c7",
+      "output_sha256": "a599dd44518908b21cc7e7e0fec74ee1d528c0ed5e36d9a1204b9afae08ee8b9"
+    },
+    {
+      "path": "DAT2/MGT05.BIZ",
+      "shared": {
+        "translated_coordinates": 8,
+        "arena_gap": 0,
+        "arena_used": 34516,
+        "english_codes": {
+          " ": 0,
+          "!": 738,
+          ".": 742,
+          "/": 743,
+          "B": 745,
+          "D": 747,
+          "E": 748,
+          "G": 750,
+          "I": 752,
+          "N": 757,
+          "O": 758,
+          "R": 760,
+          "T": 762
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 8,
+        "entries_applied": 8
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 204884,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 204876,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 137216,
+        "preserved_decoded_prefix_bytes": 198608,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "dc133725eb69169c8a79550e55577f28d8a94c6ab28c83ba7b2e5e423a189900",
+      "output_sha256": "b3823ad57c2cb712e87adb62b6ad8b4f106774d438750073252fab421249ef19"
+    },
+    {
+      "path": "DAT2/MGT07.BIZ",
+      "shared": {
+        "translated_coordinates": 2,
+        "arena_gap": 0,
+        "arena_used": 31336,
+        "english_codes": {
+          " ": 0,
+          "!": 716,
+          "/": 721,
+          "D": 725,
+          "G": 728,
+          "I": 730,
+          "N": 735,
+          "O": 736
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 2,
+        "entries_applied": 2
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 204884,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 204918,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 135168,
+        "preserved_decoded_prefix_bytes": 196946,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "5f8b08e1d9f32bc7028e82213356535b6e71d5d82864e03a91594f1cba249347",
+      "output_sha256": "59b51a56b3b660cf7b0c8eed82752683716aa3bc5a5745e3eef1706dac8c1ccc"
+    },
+    {
+      "path": "DAT2/MGT08.BIZ",
+      "shared": {
+        "translated_coordinates": 4,
+        "arena_gap": 0,
+        "arena_used": 22428,
+        "english_codes": {
+          " ": 0,
+          "!": 677,
+          "/": 682,
+          "A": 683,
+          "G": 689,
+          "H": 690,
+          "I": 691,
+          "L": 694,
+          "R": 699,
+          "T": 701
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 4,
+        "entries_applied": 4
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 200876,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 200856,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 133120,
+        "preserved_decoded_prefix_bytes": 198736,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "95c36c6c3cfce678a15f6e0d072f6f77c01cf0fdaaad9a94ce9993a366ac7fdd",
+      "output_sha256": "fb146b8719bf534d4fcff9a53af2bd876f5f8a8fe77b1e8c8d4466dddf02166e"
+    },
+    {
+      "path": "DAT2/MGT0A.BIZ",
+      "shared": {
+        "translated_coordinates": 4,
+        "arena_gap": 0,
+        "arena_used": 31008,
+        "english_codes": {
+          " ": 0,
+          "!": 724,
+          ".": 728,
+          "/": 729,
+          "A": 730,
+          "D": 733,
+          "G": 736,
+          "I": 738,
+          "K": 740,
+          "N": 743,
+          "O": 744,
+          "R": 746
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 4,
+        "entries_applied": 4
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 204952,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 204952,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 135168,
+        "preserved_decoded_prefix_bytes": 196586,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "122d0deaebc7f9aa1509e6c04de9c3fc20e274b845eeeca097623d1d755835c5",
+      "output_sha256": "47d40d62e05ca672c2f3abf9fa7a0e4120851cb9583758b3911b4995962af53d"
+    },
+    {
+      "path": "DAT2/MGT0B.BIZ",
+      "shared": {
+        "translated_coordinates": 4,
+        "arena_gap": 0,
+        "arena_used": 24848,
+        "english_codes": {
+          " ": 0,
+          "-": 678,
+          ".": 679,
+          "/": 680,
+          "A": 681,
+          "H": 688,
+          "K": 691,
+          "N": 694,
+          "O": 695,
+          "T": 699,
+          "U": 700,
+          "Y": 704
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 4,
+        "entries_applied": 4
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 200890,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 200924,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 133120,
+        "preserved_decoded_prefix_bytes": 198966,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "8fc930f671d8675dd3dab980bfd4ca4fd000ea359d3e71ed275531aad37f67ec",
+      "output_sha256": "15541fb4d7afeb03561482753cebbdaa6379508209ad83a65b1d25a25e4d690b"
+    },
+    {
+      "path": "DAT2/MGT0C.BIZ",
+      "shared": {
+        "translated_coordinates": 2,
+        "arena_gap": 0,
+        "arena_used": 22508,
+        "english_codes": {
+          " ": 0,
+          "!": 687,
+          "/": 692,
+          "D": 696,
+          "G": 699,
+          "I": 701,
+          "N": 706,
+          "O": 707
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 2,
+        "entries_applied": 2
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 200838,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 200822,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 133120,
+        "preserved_decoded_prefix_bytes": 198916,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "da8b7c12588816b2a00023960708edec1ed80c5e935d18231f5e7531194f21b7",
+      "output_sha256": "1bb592e067f90760f8479916009f404bf41331776e0d66a4b7ae6efb55fa0796"
+    },
+    {
+      "path": "DAT2/MGT0D.BIZ",
+      "shared": {
+        "translated_coordinates": 4,
+        "arena_gap": 0,
+        "arena_used": 23116,
+        "english_codes": {
+          " ": 0,
+          "!": 676,
+          ".": 680,
+          "/": 681,
+          "D": 685,
+          "G": 688,
+          "I": 690,
+          "K": 692,
+          "M": 694,
+          "N": 695,
+          "O": 696,
+          "S": 699,
+          "Y": 705
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 4,
+        "entries_applied": 4
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 200890,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 200890,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 133120,
+        "preserved_decoded_prefix_bytes": 198816,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "313127977362ab8646aae81dab0eebcfc013249e2baa37701f028709f382309f",
+      "output_sha256": "73e446f363448a0bb3a9ae9051f682b284933dce840a1d15f9ce9ef43e4ad01f"
+    },
+    {
+      "path": "DAT2/MGT0F.BIZ",
+      "shared": {
+        "translated_coordinates": 18,
+        "arena_gap": 0,
+        "arena_used": 28656,
+        "english_codes": {
+          " ": 0,
+          "!": 768,
+          "-": 771,
+          ".": 772,
+          "/": 773,
+          "A": 774,
+          "C": 776,
+          "D": 777,
+          "E": 778,
+          "F": 779,
+          "G": 780,
+          "H": 781,
+          "I": 782,
+          "K": 784,
+          "L": 785,
+          "M": 786,
+          "N": 787,
+          "O": 788,
+          "P": 789,
+          "R": 790,
+          "S": 791,
+          "T": 792,
+          "W": 795,
+          "Y": 797
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 18,
+        "entries_applied": 18
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 209014,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 209082,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 139264,
+        "preserved_decoded_prefix_bytes": 196786,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "2553247f4db57ebb3a1f5b5fb0478b34a3fbfa0b95e26c4479bfc110dae31203",
+      "output_sha256": "fe35346faf28378faa363f192bae76e5a1a54b7a5a1ac18afea4c0b09cad3c93"
+    },
+    {
+      "path": "DAT2/MGT10.BIZ",
+      "shared": {
+        "translated_coordinates": 12,
+        "arena_gap": 0,
+        "arena_used": 22848,
+        "english_codes": {
+          " ": 0,
+          ",": 675,
+          ".": 677,
+          "/": 678,
+          "?": 66,
+          "A": 679,
+          "E": 683,
+          "H": 686,
+          "K": 689,
+          "O": 693,
+          "R": 695,
+          "S": 696,
+          "U": 698,
+          "Y": 702
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 12,
+        "entries_applied": 12
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 200878,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 200860,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 133120,
+        "preserved_decoded_prefix_bytes": 198846,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "4609b81e93833fb0c7fbc39930f440e73c80b9893a06115b31b6af845abfd1b9",
+      "output_sha256": "7a8c778ec49a9a2a81182607f4fb57b56bb9b3e3c59094e5065d2096cd8b21b8"
+    },
+    {
+      "path": "DAT2/MGT11.BIZ",
+      "shared": {
+        "translated_coordinates": 24,
+        "arena_gap": 0,
+        "arena_used": 24572,
+        "english_codes": {
+          " ": 0,
+          "!": 699,
+          ",": 701,
+          "-": 702,
+          ".": 703,
+          "/": 704,
+          "A": 705,
+          "D": 708,
+          "E": 709,
+          "G": 711,
+          "H": 712,
+          "I": 713,
+          "L": 716,
+          "N": 718,
+          "O": 719,
+          "P": 720,
+          "R": 721,
+          "S": 722,
+          "U": 724,
+          "Y": 728
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 24,
+        "entries_applied": 24
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 202904,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 202932,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 135168,
+        "preserved_decoded_prefix_bytes": 199426,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "87f30e32f24dbf1232e1a20758fac69bc7114df68f2d849bde62edb51f07010a",
+      "output_sha256": "47f2abad48698c67d22d6359d741bb62b21f7f93403013934731afd613f6627a"
+    },
+    {
+      "path": "DAT2/MGT12.BIZ",
+      "shared": {
+        "translated_coordinates": 12,
+        "arena_gap": 0,
+        "arena_used": 32780,
+        "english_codes": {
+          " ": 0,
+          ".": 747,
+          "/": 748,
+          "?": 66,
+          "A": 749,
+          "E": 753,
+          "H": 756,
+          "I": 757,
+          "O": 763,
+          "S": 766,
+          "T": 767,
+          "Y": 772
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 12,
+        "entries_applied": 12
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 207000,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 207000,
+          "max_match": 20,
+          "max_block": 35,
+          "max_page": 2100,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 137216,
+        "preserved_decoded_prefix_bytes": 196608,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "b7550983fdff850cdae611a616050964e6a4ec753da2e181b3411c6eac7ad962",
+      "output_sha256": "edf03c8741fc631b9144c5cc8e395087e02595841252af8ea5df1300aa1abf00"
+    },
+    {
+      "path": "DAT2/MGT13.BIZ",
+      "shared": {
+        "translated_coordinates": 16,
+        "arena_gap": 0,
+        "arena_used": 30796,
+        "english_codes": {
+          " ": 0,
+          "!": 752,
+          ".": 756,
+          "/": 757,
+          "A": 758,
+          "D": 761,
+          "G": 764,
+          "I": 766,
+          "L": 769,
+          "M": 770,
+          "N": 771,
+          "O": 772,
+          "P": 773,
+          "S": 775
+        },
+        "skipped_unsupported_controls": [],
+        "entries_requested": 16,
+        "entries_applied": 16
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 206948,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 206948,
+          "max_match": 21,
+          "max_block": 36,
+          "max_page": 2160,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 139264,
+        "preserved_decoded_prefix_bytes": 198096,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "81fa2b3b68a6fef55f9ebfc651a3d902be8ced9dc14489aafae3a0fbc44b6b26",
+      "output_sha256": "f880c7bcdd34783eb6d1c780b80951d9aedcb051148ab5b9338d458674a07f17"
+    }
+  ],
+  "skipped": [],
+  "catalog_rebindings": [],
+  "catalog_audit": {
+    "bound_entries": 876,
+    "mismatches": []
+  },
+  "changed_sector_count": 1241,
+  "untargeted_records_preserved": 875,
+  "checksums_and_sector_ownership_passed": true,
+  "native_gameplay": "pending"
+}

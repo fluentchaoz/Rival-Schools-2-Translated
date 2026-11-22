@@ -1,0 +1,525 @@
+{
+  "kind": "Calendar month screens v45",
+  "master_sha256": "72a6fd9ad6165c24d662de4d81cf097d351a0d1eb5ce63178ccb3cf906bcc9b5",
+  "output_sha256": "c4710152539722bbfb7afd34f642fcb0f8df838cbb6366514000f621b8185b88",
+  "disc_bytes": 663216960,
+  "members": [
+    {
+      "member": 0,
+      "claims": [
+        {
+          "tim_offset": "0x0",
+          "rectangles": [
+            [
+              36,
+              27,
+              444,
+              145
+            ],
+            [
+              161,
+              293,
+              295,
+              114
+            ]
+          ]
+        }
+      ],
+      "compression": {
+        "source": {
+          "stream_bytes": 243996,
+          "max_match": 29,
+          "max_block": 49,
+          "max_page": 1237,
+          "crossing_blocks": 112,
+          "decoded_bytes": 246304
+        },
+        "rebuilt": {
+          "stream_bytes": 243718,
+          "max_match": 29,
+          "max_block": 49,
+          "max_page": 1221,
+          "crossing_blocks": 0,
+          "decoded_bytes": 246304
+        }
+      },
+      "input_sha256": "0a866272d9186a1addc051e95fc42a320095d5f2c0c22ef908d65e019e6397cb",
+      "output_sha256": "6eda3e775e49a9e7a8085505228d718c0b5d4b5e83deb9a68e67b5407d8a8788"
+    },
+    {
+      "member": 1,
+      "claims": [
+        {
+          "tim_offset": "0x0",
+          "rectangles": [
+            [
+              36,
+              33,
+              444,
+              141
+            ],
+            [
+              29,
+              276,
+              451,
+              174
+            ]
+          ]
+        }
+      ],
+      "compression": {
+        "source": {
+          "stream_bytes": 224108,
+          "max_match": 31,
+          "max_block": 50,
+          "max_page": 1369,
+          "crossing_blocks": 103,
+          "decoded_bytes": 246304
+        },
+        "rebuilt": {
+          "stream_bytes": 223238,
+          "max_match": 31,
+          "max_block": 50,
+          "max_page": 1353,
+          "crossing_blocks": 0,
+          "decoded_bytes": 246304
+        }
+      },
+      "input_sha256": "0a0d0cff5902f628d845df2d9aa155427e9a6a32fa3b6b8cd044d0314b64670c",
+      "output_sha256": "e3bf7b990b1d7a8fb7b6c88b4bd8cb207d585d02e2a394d0434ad5f950db9193"
+    },
+    {
+      "member": 2,
+      "claims": [
+        {
+          "tim_offset": "0x0",
+          "rectangles": [
+            [
+              37,
+              33,
+              438,
+              114
+            ],
+            [
+              44,
+              267,
+              458,
+              181
+            ]
+          ]
+        }
+      ],
+      "compression": {
+        "source": {
+          "stream_bytes": 227054,
+          "max_match": 28,
+          "max_block": 47,
+          "max_page": 1445,
+          "crossing_blocks": 104,
+          "decoded_bytes": 246304
+        },
+        "rebuilt": {
+          "stream_bytes": 225306,
+          "max_match": 28,
+          "max_block": 47,
+          "max_page": 1429,
+          "crossing_blocks": 0,
+          "decoded_bytes": 246304
+        }
+      },
+      "input_sha256": "482ede3f1d7136303179a5318a0e8701d80f41c632d9c4f30c39ea32432012c5",
+      "output_sha256": "e79b97e75bd76f1a8a949e6a618c1f679103537d69eaba4e30fd2d94ddaabc5c"
+    },
+    {
+      "member": 3,
+      "claims": [
+        {
+          "tim_offset": "0x0",
+          "rectangles": [
+            [
+              36,
+              34,
+              276,
+              114
+            ],
+            [
+              9,
+              313,
+              460,
+              137
+            ]
+          ]
+        }
+      ],
+      "compression": {
+        "source": {
+          "stream_bytes": 228514,
+          "max_match": 28,
+          "max_block": 51,
+          "max_page": 1370,
+          "crossing_blocks": 105,
+          "decoded_bytes": 246304
+        },
+        "rebuilt": {
+          "stream_bytes": 227346,
+          "max_match": 28,
+          "max_block": 51,
+          "max_page": 1354,
+          "crossing_blocks": 0,
+          "decoded_bytes": 246304
+        }
+      },
+      "input_sha256": "ae51ef66565edac8914d43454148b44cb3ff6d756db66a02cf0aef238dfaf75d",
+      "output_sha256": "c3422c20c012472e9552451395eddae546ab24abb54228816f522f42f27c45f0"
+    },
+    {
+      "member": 4,
+      "claims": [
+        {
+          "tim_offset": "0x0",
+          "rectangles": [
+            [
+              36,
+              34,
+              276,
+              114
+            ],
+            [
+              9,
+              313,
+              460,
+              137
+            ]
+          ]
+        }
+      ],
+      "compression": {
+        "source": {
+          "stream_bytes": 228514,
+          "max_match": 28,
+          "max_block": 51,
+          "max_page": 1370,
+          "crossing_blocks": 105,
+          "decoded_bytes": 246304
+        },
+        "rebuilt": {
+          "stream_bytes": 227346,
+          "max_match": 28,
+          "max_block": 51,
+          "max_page": 1354,
+          "crossing_blocks": 0,
+          "decoded_bytes": 246304
+        }
+      },
+      "input_sha256": "ae51ef66565edac8914d43454148b44cb3ff6d756db66a02cf0aef238dfaf75d",
+      "output_sha256": "c3422c20c012472e9552451395eddae546ab24abb54228816f522f42f27c45f0"
+    },
+    {
+      "member": 5,
+      "claims": [
+        {
+          "tim_offset": "0x0",
+          "rectangles": [
+            [
+              38,
+              33,
+              354,
+              113
+            ],
+            [
+              33,
+              321,
+              440,
+              109
+            ]
+          ]
+        }
+      ],
+      "compression": {
+        "source": {
+          "stream_bytes": 229132,
+          "max_match": 28,
+          "max_block": 46,
+          "max_page": 1364,
+          "crossing_blocks": 105,
+          "decoded_bytes": 246304
+        },
+        "rebuilt": {
+          "stream_bytes": 227352,
+          "max_match": 28,
+          "max_block": 46,
+          "max_page": 1348,
+          "crossing_blocks": 0,
+          "decoded_bytes": 246304
+        }
+      },
+      "input_sha256": "1761f76487904fd569aea0fc70aafbad5b24ffc7e9d2eee747a81328c68f0411",
+      "output_sha256": "cd0505cdfde2fc815392e625e4292b8ec2d37d1737f2bd08b24359fccef2d788"
+    },
+    {
+      "member": 6,
+      "claims": [
+        {
+          "tim_offset": "0x0",
+          "rectangles": [
+            [
+              37,
+              33,
+              331,
+              113
+            ],
+            [
+              89,
+              336,
+              381,
+              90
+            ]
+          ]
+        }
+      ],
+      "compression": {
+        "source": {
+          "stream_bytes": 228468,
+          "max_match": 35,
+          "max_block": 53,
+          "max_page": 1413,
+          "crossing_blocks": 105,
+          "decoded_bytes": 246304
+        },
+        "rebuilt": {
+          "stream_bytes": 227342,
+          "max_match": 31,
+          "max_block": 53,
+          "max_page": 1397,
+          "crossing_blocks": 0,
+          "decoded_bytes": 246304
+        }
+      },
+      "input_sha256": "340b224402f87afc484c9f85151d90fff14b0b0bf5747c328eac0f1a33b8ffde",
+      "output_sha256": "9abc9a34702b8e6f6e170d7c2497f1b2bdc8c755a014d2beb1da9ec40ae66526"
+    },
+    {
+      "member": 7,
+      "claims": [
+        {
+          "tim_offset": "0x0",
+          "rectangles": [
+            [
+              36,
+              34,
+              442,
+              133
+            ],
+            [
+              48,
+              282,
+              422,
+              168
+            ]
+          ]
+        }
+      ],
+      "compression": {
+        "source": {
+          "stream_bytes": 237282,
+          "max_match": 30,
+          "max_block": 47,
+          "max_page": 1275,
+          "crossing_blocks": 109,
+          "decoded_bytes": 246304
+        },
+        "rebuilt": {
+          "stream_bytes": 235548,
+          "max_match": 30,
+          "max_block": 47,
+          "max_page": 1259,
+          "crossing_blocks": 0,
+          "decoded_bytes": 246304
+        }
+      },
+      "input_sha256": "796c0e96ee7b86c693bd627ab0a497922716521dcb3c031a3efb9b7c8c120a60",
+      "output_sha256": "1852f52063354d389e39a1fe6ddfbc3b6362a9e3776bedbdf27f5d65c253bf21"
+    },
+    {
+      "member": 8,
+      "claims": [
+        {
+          "tim_offset": "0x0",
+          "rectangles": [
+            [
+              37,
+              33,
+              430,
+              129
+            ],
+            [
+              152,
+              365,
+              338,
+              42
+            ]
+          ]
+        }
+      ],
+      "compression": {
+        "source": {
+          "stream_bytes": 222260,
+          "max_match": 30,
+          "max_block": 57,
+          "max_page": 1545,
+          "crossing_blocks": 102,
+          "decoded_bytes": 246304
+        },
+        "rebuilt": {
+          "stream_bytes": 221198,
+          "max_match": 30,
+          "max_block": 57,
+          "max_page": 1529,
+          "crossing_blocks": 0,
+          "decoded_bytes": 246304
+        }
+      },
+      "input_sha256": "ff013746d3f639832be361a713063702f10d1d729b56bf60b39670e012f2e176",
+      "output_sha256": "0766166e9e245e5ae3220fb6ac306dc8f081f18401e673883ae64722fa7afe61"
+    },
+    {
+      "member": 9,
+      "claims": [
+        {
+          "tim_offset": "0x0",
+          "rectangles": [
+            [
+              27,
+              35,
+              452,
+              112
+            ],
+            [
+              88,
+              365,
+              381,
+              42
+            ]
+          ]
+        }
+      ],
+      "compression": {
+        "source": {
+          "stream_bytes": 233844,
+          "max_match": 30,
+          "max_block": 49,
+          "max_page": 1289,
+          "crossing_blocks": 108,
+          "decoded_bytes": 246304
+        },
+        "rebuilt": {
+          "stream_bytes": 233478,
+          "max_match": 30,
+          "max_block": 49,
+          "max_page": 1273,
+          "crossing_blocks": 0,
+          "decoded_bytes": 246304
+        }
+      },
+      "input_sha256": "2339d80f7f46c22d6ca151f94cceae2effa0910bdbbb91981604b041e5cf8b44",
+      "output_sha256": "0b09ba1d72869e21b148ce975e3bb4acf0c7f548c8fa8cec491809f88bfbb31a"
+    },
+    {
+      "member": 10,
+      "claims": [
+        {
+          "tim_offset": "0x0",
+          "rectangles": [
+            [
+              27,
+              34,
+              452,
+              114
+            ],
+            [
+              64,
+              269,
+              401,
+              153
+            ]
+          ]
+        }
+      ],
+      "compression": {
+        "source": {
+          "stream_bytes": 232760,
+          "max_match": 255,
+          "max_block": 270,
+          "max_page": 1350,
+          "crossing_blocks": 107,
+          "decoded_bytes": 246304
+        },
+        "rebuilt": {
+          "stream_bytes": 231442,
+          "max_match": 85,
+          "max_block": 204,
+          "max_page": 1334,
+          "crossing_blocks": 0,
+          "decoded_bytes": 246304
+        }
+      },
+      "input_sha256": "4b6057e0adb13e4a6f21d7db4580f677773396b91c7f3ddb02ede5ae2c9eebac",
+      "output_sha256": "eab0c176c0d53c9161186aaf0ff7ce28df07905fa4175567870593b0973473a2"
+    },
+    {
+      "member": 11,
+      "claims": [
+        {
+          "tim_offset": "0x0",
+          "rectangles": [
+            [
+              27,
+              33,
+              453,
+              132
+            ],
+            [
+              105,
+              262,
+              378,
+              165
+            ]
+          ]
+        }
+      ],
+      "compression": {
+        "source": {
+          "stream_bytes": 181284,
+          "max_match": 31,
+          "max_block": 51,
+          "max_page": 1714,
+          "crossing_blocks": 83,
+          "decoded_bytes": 246304
+        },
+        "rebuilt": {
+          "stream_bytes": 180282,
+          "max_match": 31,
+          "max_block": 51,
+          "max_page": 1698,
+          "crossing_blocks": 0,
+          "decoded_bytes": 246304
+        }
+      },
+      "input_sha256": "78eef76d1e4f647f14fb173f2b4b175e3335a5e958cd568b89c77fd29bf17bc1",
+      "output_sha256": "a1144db8f0a54f090f039e0f059a68304c48c16d542619e1a2e771c3ecd1ef27"
+    }
+  ],
+  "catalog_rebindings": [],
+  "catalog_audit": {
+    "bound_entries": 876,
+    "mismatches": []
+  },
+  "changed_sector_count": 1332,
+  "untargeted_records_preserved": 946,
+  "checksums_and_sector_ownership_passed": true,
+  "native_gameplay": "pending",
+  "fonts": [
+    "10df702864b1f89cb29ba0d6b97c04228338d16807e13e8d8c74b91aba5e5f23",
+    "4d59199834e7439c67ea4949407639961060b21b173833f566eb60ac6fd8f5af"
+  ]
+}

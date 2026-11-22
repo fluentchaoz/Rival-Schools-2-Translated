@@ -1,0 +1,223 @@
+{
+  "path": "DAT2/MGM04.BIZ",
+  "source_decoded_sha256": "edb35c47574f2e472b21dff8d18eae473baadc5c92c955299e78be63f38b3e96",
+  "event": "Infirmary: Hayato and Kyoko disagree about student training",
+  "entries": [
+    {
+      "selector": 0,
+      "index": 171,
+      "source_payload_sha256": "8df8c51cba52f8e8a443642c772d6b087da37a943c2d389b2c1aa1a26c3b8db7",
+      "text": "PLEASE THINK ABOUT\nTHE STUDENTS' BODIES\nA LITTLE WHEN YOU\nCOACH THEM."
+    },
+    {
+      "selector": 0,
+      "index": 172,
+      "source_payload_sha256": "823f6a6a49f0753163ad060e8d32f280bae9e5671cc69e47a5ae1a8e9c50a396",
+      "text": "THESE DAYS EVERY\nSTUDENT LACKS THE\nSTAMINA! WE HAVE TO\nTRAIN THEM HARDER!"
+    },
+    {
+      "selector": 0,
+      "index": 173,
+      "source_payload_sha256": "3aaa370f2e6211a186b8d817a0b566308cc8f2288941cb79f32850e625833efe",
+      "text": "THIS SOUNDS SERIOUS.\nWHAT SHOULD I DO?"
+    },
+    {
+      "selector": 0,
+      "index": 174,
+      "source_payload_sha256": "a22b3fa91c1959092541c06f3a03f7e4e7dbbbef537677e1bf3c072deee754df",
+      "text": "JOIN THE TALK\nGO ELSEWHERE"
+    },
+    {
+      "selector": 0,
+      "index": 175,
+      "source_payload_sha256": "98ae5cabfec72464b6781c396e7b5c81a6cf65237bae1075f29f1c76b900fec8",
+      "text": "I'LL TRY JOINING IN.\n...THAT'S RIGHT.\nI DEFINITELY AGREE."
+    },
+    {
+      "selector": 0,
+      "index": 176,
+      "source_payload_sha256": "ba971200af646b5a8c50455ea1bbc4483f1aa2d743a9dd0b3f844284b1e791d1",
+      "text": "RIGHT?!\n...WAIT, WHO ARE YOU\nNODDING ALONG WITH?"
+    },
+    {
+      "selector": 0,
+      "index": 177,
+      "source_payload_sha256": "4794c5aa35a562ae5ce7f5970970433de0ac73d41d080dbd632020d35220e0c2",
+      "text": "MR. HAYATO\nMS. KYOKO"
+    },
+    {
+      "selector": 0,
+      "index": 178,
+      "source_payload_sha256": "7a082ed618659911a64fc3347512d31354a77e17c509242009a8d770648f68f9",
+      "text": "I AGREE WITH\nMR. HAYATO."
+    },
+    {
+      "selector": 0,
+      "index": 179,
+      "source_payload_sha256": "4a6a6e3a66c15326007289c0d04a31d7c19aef9fc9a9826bd3efd413d10540f6",
+      "text": "YOU GET IT, {0}!\nBOYS SHOULD BE LIKE\nTHAT, AFTER ALL!"
+    },
+    {
+      "selector": 0,
+      "index": 180,
+      "source_payload_sha256": "3bca1cdbcd94c4156d49e79f6483e362c7a90d5bf8bbe7485ef80f5d1002582a",
+      "text": "ALL RIGHT, THEN!\nLET'S HIT THE FIELD\nFOR SOME TRAINING!\nGET OUTSIDE!"
+    },
+    {
+      "selector": 0,
+      "index": 181,
+      "source_payload_sha256": "e5ef1928661c214b4672f0d32bb75468c1f08ff431417bb6810a0c024bd866f3",
+      "text": "R-RIGHT NOW?!\nHOLD ON A SECOND...\nI SHOULDN'T HAVE\nSAID ANYTHING."
+    },
+    {
+      "selector": 0,
+      "index": 182,
+      "source_payload_sha256": "8c1003977f816206acee43eb61a3cf650fe41c7bffb16a35afa0d49486bb83db",
+      "text": "OF COURSE, I THINK\nMS. KYOKO'S OPINION\nIS THE RIGHT ONE."
+    },
+    {
+      "selector": 0,
+      "index": 183,
+      "source_payload_sha256": "8b34d74e82cec67d2bdbf62b118750b870ff5a0ab315d459655a3d91c207af07",
+      "text": "AS EXPECTED, {0}{1}{2}.\nYOU GET IT. BUT\nSTUDENT STAMINA IS\nFALLING EVERY YEAR."
+    },
+    {
+      "selector": 0,
+      "index": 184,
+      "source_payload_sha256": "13d2884d82071d76faa13f3c4224d4e92b15e94ce872bb07c61fc98a3642ab4e",
+      "text": "YES."
+    },
+    {
+      "selector": 0,
+      "index": 185,
+      "source_payload_sha256": "a084b8e0a3fa5e74147c0926ce33d42c3f7736e803ccb8f830e8f578fe0342d5",
+      "text": "SO LET ME GIVE YOUR\nBODY A LITTLE\nCORRECTION."
+    },
+    {
+      "selector": 0,
+      "index": 186,
+      "source_payload_sha256": "580e2a2dbbb30024977e2225975fed30f1a634a908109822047a28632b96f82d",
+      "text": "THERE, DOESN'T YOUR\nBODY FEEL LIGHTER?\nI'LL LOOK AFTER YOU\nWHEN IT FEELS HEAVY."
+    },
+    {
+      "selector": 0,
+      "index": 187,
+      "source_payload_sha256": "dec3f6f62cff2abdbcbb6859da35bc8b2f75c7620427a04ccf53847e214c1b7b",
+      "text": "THANK YOU.\nTHANKS TO MS. KYOKO,\nMY BODY FEELS LIGHT.\nI'M GLAD."
+    },
+    {
+      "selector": 0,
+      "index": 188,
+      "source_payload_sha256": "f97389787405de1065977e440209691bd0203b724d6e0523e63349dfea6ccd24",
+      "text": "I'D BETTER NOT GET\nCAUGHT IN THIS.\nI'LL GO SOMEWHERE\nELSE. WHERE TO?"
+    },
+    {
+      "selector": 1,
+      "index": 171,
+      "source_payload_sha256": "8df8c51cba52f8e8a443642c772d6b087da37a943c2d389b2c1aa1a26c3b8db7",
+      "text": "PLEASE THINK ABOUT\nTHE STUDENTS' BODIES\nA LITTLE WHEN YOU\nCOACH THEM."
+    },
+    {
+      "selector": 1,
+      "index": 172,
+      "source_payload_sha256": "1bbc22324d078d7a3534c8f497790d1bedeeb020a23d27e42bd5731767ffd232",
+      "text": "THESE DAYS EVERY\nSTUDENT LACKS THE\nSTAMINA! WE HAVE TO\nTRAIN THEM HARDER!"
+    },
+    {
+      "selector": 1,
+      "index": 173,
+      "source_payload_sha256": "3ad2f0b5ae9f2235c94e05036808a5c18e5d7942049551b185cd1d02c357edba",
+      "text": "THIS SOUNDS SERIOUS.\nWHAT SHOULD I DO?"
+    },
+    {
+      "selector": 1,
+      "index": 174,
+      "source_payload_sha256": "a22b3fa91c1959092541c06f3a03f7e4e7dbbbef537677e1bf3c072deee754df",
+      "text": "JOIN THE TALK\nGO ELSEWHERE"
+    },
+    {
+      "selector": 1,
+      "index": 175,
+      "source_payload_sha256": "98ae5cabfec72464b6781c396e7b5c81a6cf65237bae1075f29f1c76b900fec8",
+      "text": "I'LL TRY JOINING IN.\n...THAT'S RIGHT.\nI DEFINITELY AGREE."
+    },
+    {
+      "selector": 1,
+      "index": 176,
+      "source_payload_sha256": "ba971200af646b5a8c50455ea1bbc4483f1aa2d743a9dd0b3f844284b1e791d1",
+      "text": "RIGHT?!\n...WAIT, WHO ARE YOU\nNODDING ALONG WITH?"
+    },
+    {
+      "selector": 1,
+      "index": 177,
+      "source_payload_sha256": "4794c5aa35a562ae5ce7f5970970433de0ac73d41d080dbd632020d35220e0c2",
+      "text": "MR. HAYATO\nMS. KYOKO"
+    },
+    {
+      "selector": 1,
+      "index": 178,
+      "source_payload_sha256": "7a082ed618659911a64fc3347512d31354a77e17c509242009a8d770648f68f9",
+      "text": "I AGREE WITH\nMR. HAYATO."
+    },
+    {
+      "selector": 1,
+      "index": 179,
+      "source_payload_sha256": "d55b23c94a5647cf1522efdb662f8bbae5f0418957496dd5873e68032f989878",
+      "text": "YOU GET IT, {0}!\nEVEN GIRLS NEED TO\nTRAIN, YOU KNOW!"
+    },
+    {
+      "selector": 1,
+      "index": 180,
+      "source_payload_sha256": "3bca1cdbcd94c4156d49e79f6483e362c7a90d5bf8bbe7485ef80f5d1002582a",
+      "text": "ALL RIGHT, THEN!\nLET'S HIT THE FIELD\nFOR SOME TRAINING!\nGET OUTSIDE!"
+    },
+    {
+      "selector": 1,
+      "index": 181,
+      "source_payload_sha256": "8e21d3aedf112ad5b1494be22a6fb2040d08012879f4474969e13b9757a2e80a",
+      "text": "R-RIGHT NOW?!\nHOLD ON A SECOND...\nI SHOULDN'T HAVE\nSAID ANYTHING..."
+    },
+    {
+      "selector": 1,
+      "index": 182,
+      "source_payload_sha256": "8c1003977f816206acee43eb61a3cf650fe41c7bffb16a35afa0d49486bb83db",
+      "text": "OF COURSE, I THINK\nMS. KYOKO'S OPINION\nIS THE RIGHT ONE."
+    },
+    {
+      "selector": 1,
+      "index": 183,
+      "source_payload_sha256": "3d4bd08623303fce59b9a01a9d6e76bacc817bb15e35b095851b30d8064b970e",
+      "text": "AS EXPECTED, {0}{1}{2}.\nYOU GET IT. BUT\nSTUDENT STAMINA IS\nFALLING EVERY YEAR."
+    },
+    {
+      "selector": 1,
+      "index": 184,
+      "source_payload_sha256": "13d2884d82071d76faa13f3c4224d4e92b15e94ce872bb07c61fc98a3642ab4e",
+      "text": "YES."
+    },
+    {
+      "selector": 1,
+      "index": 185,
+      "source_payload_sha256": "a084b8e0a3fa5e74147c0926ce33d42c3f7736e803ccb8f830e8f578fe0342d5",
+      "text": "SO LET ME GIVE YOUR\nBODY A LITTLE\nCORRECTION."
+    },
+    {
+      "selector": 1,
+      "index": 186,
+      "source_payload_sha256": "580e2a2dbbb30024977e2225975fed30f1a634a908109822047a28632b96f82d",
+      "text": "THERE, DOESN'T YOUR\nBODY FEEL LIGHTER?\nI'LL LOOK AFTER YOU\nWHEN IT FEELS HEAVY."
+    },
+    {
+      "selector": 1,
+      "index": 187,
+      "source_payload_sha256": "dec3f6f62cff2abdbcbb6859da35bc8b2f75c7620427a04ccf53847e214c1b7b",
+      "text": "THANK YOU.\nTHANKS TO MS. KYOKO,\nMY BODY FEELS LIGHT.\nI'M GLAD."
+    },
+    {
+      "selector": 1,
+      "index": 188,
+      "source_payload_sha256": "f97389787405de1065977e440209691bd0203b724d6e0523e63349dfea6ccd24",
+      "text": "I'D BETTER NOT GET\nCAUGHT IN THIS.\nI'LL GO SOMEWHERE\nELSE. WHERE TO?"
+    }
+  ]
+}

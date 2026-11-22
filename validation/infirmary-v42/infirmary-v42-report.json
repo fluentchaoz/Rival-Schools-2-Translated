@@ -1,0 +1,92 @@
+{
+  "kind": "Infirmary event v42",
+  "master_sha256": "00f3a31a098096317550424b7804b881367b9ce522f8c7f5f59f17c5bc00f053",
+  "output_sha256": "50d1bdaaa65dd48433bdace7841a853517978d4c668666af7a305e1593f53282",
+  "disc_bytes": 663216960,
+  "records": [
+    {
+      "path": "DAT2/MGM04.BIZ",
+      "infirmary": {
+        "translated_coordinates": 36,
+        "selectors": [
+          0,
+          1
+        ],
+        "indices": [
+          67,
+          119
+        ],
+        "arena_gap": 0,
+        "arena_used": 42460,
+        "all_other_payloads_and_all_font_pixels_preserved": true,
+        "controls_preserved": true,
+        "english_codes": {
+          " ": 0,
+          "!": 830,
+          "'": 831,
+          ",": 832,
+          "-": 833,
+          ".": 834,
+          "?": 66,
+          "A": 836,
+          "B": 837,
+          "C": 838,
+          "D": 839,
+          "E": 840,
+          "F": 841,
+          "G": 842,
+          "H": 843,
+          "I": 844,
+          "J": 845,
+          "K": 846,
+          "L": 847,
+          "M": 848,
+          "N": 849,
+          "O": 850,
+          "P": 851,
+          "R": 852,
+          "S": 853,
+          "T": 854,
+          "U": 855,
+          "V": 856,
+          "W": 857,
+          "X": 858,
+          "Y": 859
+        }
+      },
+      "compression": {
+        "source": {
+          "stream_bytes": 217466,
+          "max_match": 19,
+          "max_block": 34,
+          "max_page": 2040,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "rebuilt": {
+          "stream_bytes": 217534,
+          "max_match": 19,
+          "max_block": 34,
+          "max_page": 2040,
+          "crossing_blocks": 0,
+          "decoded_bytes": 333824
+        },
+        "preserved_input_prefix_bytes": 145408,
+        "preserved_decoded_prefix_bytes": 200468,
+        "preserved_prefix_crossing_blocks": 0
+      },
+      "input_sha256": "a251ea400c720f35ce9ab573aca9a4bfc8e2407ddcf191cf3cfd79d9f78d1f4d",
+      "output_sha256": "e889a44f36a7e559af8ffa311ec67c807db9564b092a855933c97cbe02c15b67"
+    }
+  ],
+  "catalog_rebindings": [],
+  "catalog_audit": {
+    "bound_entries": 876,
+    "mismatches": []
+  },
+  "changed_sector_count": 16,
+  "untargeted_records_preserved": 946,
+  "checksums_and_sector_ownership_passed": true,
+  "native_gameplay": "pending",
+  "entries_per_variant": 18
+}
