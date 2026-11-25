@@ -90,3 +90,9 @@ v145 lettering looked garbled at 1080p fullscreen (striped banner, uneven PL AYE
 
 ## v147 (2026-11-24): shared overlay prompts
 Verified in game fullscreen: PRESS START! and COME ON! alternate top-right at character select; COME ON! also over the Solo Play opening narration. Not yet seen: HOLD ON! (after the lead is picked, timing), ADD n COINS!, STREAK! RIVAL, and the fight screen.
+
+## v148 (2026-11-24): Mode Select clipping fixed
+Verified in game: SOLO PLAY / TRAINING / SKILL 99 list labels and card tabs display in full. TOURNAMENT is in a tiny font (legible, a bit crushed). Not rechecked: VERSUS/LEAGUE/CO-OP/EDIT/BONUS/RECORDS/OPTIONS tabs (unchanged, were fine in v147).
+
+## v149 (2026-11-24): Mode Select list centred
+Verified in game: all 12 list labels centred in the green panel (VERSUS .. OPTIONS), highlight bars and card tabs unchanged.
