@@ -1,6 +1,6 @@
 # Solo Play character select: investigation notes (started 2026-11-24, v144)
 
-Status: **implemented in v145 (tools/charselect_v145.py), verified in game: banner, LEAD, PARTNER, BATSU.**
+Status: **implemented (v145, restyled in v146) and verified in game fullscreen: PLAYER SELECT banner, LEAD, PARTNER, name captions. The top-right prompts turned out to live in OVER.TIZ (v147).**
 
 ## What is on screen (all Japanese in v144)
 Screenshot: `work/shots/solo_charselect.jpg`.

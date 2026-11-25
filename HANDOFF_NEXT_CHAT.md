@@ -1,3 +1,14 @@
+# START HERE (updated 2026-11-24, current build v149)
+
+**Current build:** `1-KEEP\v149-CURRENT-play-this\justice-gakuen2-v149.cue`. Older builds are in `2-CAN-DELETE` (v144 was kept as a rollback); move, never delete. `original-disc` and `v46-base-for-next-patch` must stay in 1-KEEP.
+**Git:** repo at `C:\Users\Fluent\JG2-Project\repo`, origin fluentchaoz/Rival-Schools-2-Translated, `main`. Last pushed commit: v148-v149 (`9a8b054`). The two `Apply-*.ps1` files show as modified from before this work (line-ending noise): ignore them. The user commits/pushes only when they say so.
+**How to test:** read `PLAYTEST_HOWTO.md`. The user wants DuckStation kept **fullscreen (F11)** while testing. Refocus with `work/fg2.ps1`, click the left black margin, use 0.2 s `hold_key`, double Start on the title.
+**Done this session (v145-v149), all verified in game:** Solo Play character select (PLAYER SELECT banner, LEAD/PARTNER, 24 name captions); shared overlay prompts in OVER.TIZ (COME ON!, PRESS START!, HOLD ON!, coin/streak rows); Mode Select labels no longer clipped and centred in the side panel. Details in the dated sections at the bottom of this file, plus `CHARSELECT_NOTES.md` and `PLAYTEST_LIST.md`.
+**Next, in order:** (1) fight HUD in `DAT2/CEFT1.BIZ` / `CEFT3.BIZ` (TIM 0x10800): easy pieces first (準備OK!!, 開始!, 第/戦 numerals), then the big brush-script 最終/決着 and the vertical name labels; see the "Research after v146" section. (2) 第一話 episode card (not located). (3) "Return to Mode Select?" prompt (はい/いいえ). (4) TOURNAMENT card tab/label are in a tiny crushed font. Not yet eyeballed: DAIGO/HAYATO/"2" name captions, HOLD ON!.
+**Tools added:** `tools/charselect_v145.py`, `over_v147.py`, `menu_fit_v148.py`, `menu_center_v149.py` (+ matching `build_*.py`), `vram_from_state.py` (VRAM from a DuckStation state). DuckStation's Debug menu is enabled in its settings (Debug > Dump CPU to VRAM Copies finds dynamic uploads; turn it off and delete the PNGs afterwards in %LOCALAPPDATA%\DuckStation).
+
+---
+
 # Handoff for the next chat (updated at v144, 2026-11-24)
 
 ## What this is
