@@ -13,6 +13,7 @@ import charselect_v145 as cs
 
 MASTER = os.environ.get('JG2_MASTER', 'c6d02c055debc809b296661eb47182b0e4d59291c818a863875582e6c50a3043')
 TIM_OFFSET = 0x17800
+VERSION = os.environ.get('JG2_VERSION', '145')  # 145 = first cut, 146 = restyled lettering (same master, v144)
 
 
 def run(a):
@@ -67,7 +68,7 @@ def run(a):
     if bindings:
         replacements['SLPS_021.20'] = bytes(exe)
     require_catalog(source, replacements)
-    target = a.output / 'justice-gakuen2-v145.bin'
+    target = a.output / f'justice-gakuen2-v{VERSION}.bin'
     shutil.copyfile(a.master, target)
     changed = {}
     with target.open('r+b') as f:
@@ -116,12 +117,12 @@ def run(a):
     if file_sha(a.master) != MASTER:
         raise ValueError('input modified')
     target.with_suffix('.cue').write_bytes(f'FILE "{target.name}" BINARY\r\n  TRACK 01 MODE2/2352\r\n    INDEX 01 00:00:00\r\n'.encode())
-    report = dict(kind='Solo Play character select v145', master_sha256=MASTER, output_sha256=file_sha(target),
+    report = dict(kind=f'Solo Play character select v{VERSION}', master_sha256=MASTER, output_sha256=file_sha(target),
                   disc_bytes=target.stat().st_size, records=reports, catalog_rebindings=bindings, catalog_audit=cat,
                   changed_sector_count=len(changed), untargeted_records_preserved=len(source.records) - len(replacements),
                   checksums_and_sector_ownership_passed=True, native_gameplay='pending')
-    (a.output / 'charselect-v145-report.json').write_text(json.dumps(report, indent=2) + '\n')
-    print('V145 COMPLETE', report['output_sha256'], 'changed sectors', len(changed), flush=True)
+    (a.output / f'charselect-v{VERSION}-report.json').write_text(json.dumps(report, indent=2) + '\n')
+    print(f'V{VERSION} COMPLETE', report['output_sha256'], 'changed sectors', len(changed), flush=True)
 
 
 if __name__ == '__main__':

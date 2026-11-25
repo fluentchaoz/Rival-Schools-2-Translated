@@ -84,3 +84,6 @@ Driving note: window flips between maximized and small after refocus; screenshot
 
 ## v145 (2026-11-24): character select
 Verified in game: PLAYER SELECT banner, LEAD, PARTNER, BATSU caption. Not yet seen: the other 23 name captions, "2" variants, PLSEL3/4 league/tournament select screens (their titles still use the original Japanese cells, intentionally), the other four schools' atlases. Still Japanese on this screen: top-right スタートボタンを押して！ / ちょっと待って！ and かかって来なさい！. PARTNER header is small (7 letters in 40 px); revisit if it is hard to read at fullscreen.
+
+## v146 (2026-11-24): character select restyle
+v145 lettering looked garbled at 1080p fullscreen (striped banner, uneven PL AYER spacing, mushy LEAD/PARTNER). v146 fixes the styling; verified in game fullscreen: PLAYER SELECT, LEAD, PARTNER, BATSU now clean. Captions still to eyeball: DAIGO, HAYATO, "2" variants.

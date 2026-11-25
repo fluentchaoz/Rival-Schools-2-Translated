@@ -67,3 +67,9 @@ Current build: `1-KEEP\v145-CURRENT-play-this\justice-gakuen2-v145.cue` (v144 + 
 Solo Play character select is English and **verified in game**: PLAYER SELECT banner, LEAD / PARTNER headers, BATSU caption (24 name captions relettered, others not yet seen). Banner is PLAYER, not CHARACTER, SELECT: the キャラクタ cells (7,2), (0,3), (2,1) are shared with the league/tournament titles (PLSEL3/4) and row 3 is the English number font. PLSEL2/5 have no such banner string.
 How it works: see `CHARSELECT_NOTES.md` (text = (col,row) cell strings in PLSEL overlays + 32x32 / 40x20 / 48x16 sprite cells in SELPn 0x17800).
 Still Japanese: top-right prompts スタートボタンを押して！ / ちょっと待って！ and the かかって来なさい！ banner (global overlay, not SELP), 第一話 card, fight HUD (第一戦, 準備OK!!, red vertical names), return-to-Mode-Select prompt. Not checked: PLSEL3/4 screens, "2" name variants, the other SELP schools.
+
+## v146 update (2026-11-24)
+Current build: `1-KEEP146-CURRENT-play-this\justice-gakuen2-v146.cue` = v145 lettering restyled. User saw v145 at 1080p fullscreen: banner had dark stripes and uneven gaps, LEAD/PARTNER were garbled. Cause: per-row fill learned from the Japanese glyphs included outline-colour rows. v146 uses a cleaned gradient (`clean_fill`), outline index 1, shadow index 13, even 13 px letter slots, and flat yellow (14) + shade (2) headers. Verified in game fullscreen: banner, LEAD, PARTNER, BATSU look clean. v145 moved to `2-CAN-DELETE145-garbled-lettering`, v144 kept as rollback.
+Rebuild: `JG2_VERSION=146 PYTHONPATH=tools python tools/build_charselect_v145.py <v144 bin> <new folder> --accelerator build-tools/practice_lz.dll` (master is still v144, sha c6d02c05...3043).
+Captions seen clean in game: BATSU HINATA KYOSUKE SHOMA NATSU ROBERTO ROY TIFFANY BOMAN KYOKO HIDEO GAN AKIRA EDGE RAIZO HYO SAKURA. Not yet seen: DAIGO, HAYATO, the "2" variants.
+Testing rule from the user: keep DuckStation fullscreen (F11).

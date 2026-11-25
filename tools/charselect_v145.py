@@ -29,6 +29,7 @@ BANNER_NEW = bytes([len(BANNER_SEQ)] + [v for c in BANNER_SEQ for v in c])
 BANNER_NEW = BANNER_NEW + bytes(len(BANNER_OLD) - len(BANNER_NEW))
 
 HEADERS = [((0, 220, 40, 20), 'LEAD'), ((40, 220, 40, 20), 'PARTNER')]
+HEADER_H = {'LEAD': 14, 'PARTNER': 11}
 
 # (u, v) of each 48x16 name cell -> English (same spellings as the dialogue translation).
 NAMES = {
@@ -42,7 +43,7 @@ NAME_TABLE_OFFSET = 0x2a0
 NAME_TABLE_PAIRS = 30
 
 
-def render_mask(text, max_w, height, align='center', font=BOLD):
+def render_mask(text, max_w, height, align='center', font=BOLD, stretch=False):
     """Crisp 1-bit mask of `text`, `height` px tall (cap height), at most max_w wide, squeezed if needed."""
     size = 8
     while True:
@@ -59,7 +60,7 @@ def render_mask(text, max_w, height, align='center', font=BOLD):
     ys, xs = np.where(arr)
     arr = arr[ys.min():ys.max() + 1, xs.min():xs.max() + 1]
     nat_w = max(1, round(arr.shape[1] * height / arr.shape[0]))
-    w = min(nat_w, max_w)
+    w = max_w if stretch else min(nat_w, max_w)
     img = Image.fromarray((arr * 255).astype(np.uint8)).resize((w, height), Image.Resampling.LANCZOS)
     return np.array(img) >= 120
 
@@ -78,6 +79,12 @@ def learn_union(px, rects, bg=0):
     h = rects[0][3]
     stack = np.concatenate([px[y:y + h, x:x + w] for x, y, w, _ in rects], axis=1)
     return learn_style(stack, bg)
+
+
+def clean_fill(fill, bad):
+    """Replace fill entries that are really outline/background colours (learning artefacts) with the nearest good one."""
+    good = [i for i, v in enumerate(fill) if v not in bad]
+    return [fill[min(good, key=lambda g: abs(g - r))] if v in bad else v for r, v in enumerate(fill)]
 
 
 def paint(px, rect, core, outline_px, style, shadow=None, bg=0):
@@ -109,21 +116,19 @@ def patch_selp(px):
     banner_style = learn_union(px, [banner_rect(c) for c in STYLE_CELLS])
     header_style = learn_union(px, [r for r, _ in HEADERS])
     name_style = learn_union(px, [(NAME_PAGE_X + u, v, 48, 16) for (u, v) in NAMES])
+    banner_fill, _ = banner_style
+    banner_style = (clean_fill(banner_fill, {0, 1}), [1] * 32)
     for cell, text in BANNER_CELLS:
         rect = banner_rect(cell)
         w = 32
-        if len(text) == 1:
-            core = place(render_mask(text, 13, 22), w, 32, 'left', 5)
-        else:
-            parts = [render_mask(c, 13, 22) for c in text]
-            core = np.zeros((32, w), dtype=bool)
-            for i, m in enumerate(parts):
-                core |= place(m, w, 32, 'left', 3 + i * 14)
-        px = paint(px, rect, core, 1, banner_style, shadow=(2, 2, 1))
+        core = np.zeros((32, w), dtype=bool)
+        for i, ch in enumerate(text):
+            core |= place(render_mask(ch, 13, 22, stretch=True), w, 32, 'left', 2 + i * 15)
+        px = paint(px, rect, core, 1, banner_style, shadow=(2, 2, 13))
         rects.append(rect)
     for rect, text in HEADERS:
-        core = place(render_mask(text, rect[2] - 4, 12 if len(text) <= 4 else 8), rect[2], rect[3])
-        px = paint(px, rect, core, 1, header_style)
+        core = place(render_mask(text, rect[2] - 4, HEADER_H[text], stretch=True), rect[2], rect[3])
+        px = paint(px, rect, core, 0, ([14] * rect[3], [2] * rect[3]), shadow=(1, 1, 2))
         rects.append(rect)
     for (u, v), text in NAMES.items():
         rect = (NAME_PAGE_X + u, v, 48, 16)
