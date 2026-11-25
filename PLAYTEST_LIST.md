@@ -71,3 +71,16 @@ Still Japanese:
 
 ## Not tested yet
 - Club menu, stat-training menus, first school days, battles, later story
+
+## v144 in-game survey of Solo Play (2026-11-24)
+Verified: v144 Solo Play route works. Screenshots in `work/shots/` (solo_charselect, solo_episode1, solo_fight1, returnmodeselect_prompt).
+Still Japanese, found on the Solo Play route:
+- Character select (キャラクターセレクト): red title banner; 主役 (Lead) and 相棒 (Partner) headers; top-right blinking prompt スタートボタンを押して！ / ちょっと待って！; name captions under the two portraits (バツ, ひなた) — likely a glyph or baked name atlas.
+- Episode card 第一話 (white serif on black) before the first fight, plus the top-right banner かかって来なさい！ which stays on screen through the fight.
+- Fight HUD: 第一戦 (Match 1) announcer text, 準備OK!! (both corners, Ready OK), red vertical name labels バツ / さくら beside the health bars.
+- "Return to Mode Select?" confirm (モードセレクト画面に戻りますか？ はい / いいえ), reached by pressing X on the School Life 2 PLAY/LOAD screen. Not yet scheduled.
+Not seen: story/episode text between fights, results, ending. Loading screen shows English NOW LOADING.
+Driving note: window flips between maximized and small after refocus; screenshot to find the left black margin before clicking, use hold_key 0.2 s, and title needs double Start.
+
+## v145 (2026-11-24): character select
+Verified in game: PLAYER SELECT banner, LEAD, PARTNER, BATSU caption. Not yet seen: the other 23 name captions, "2" variants, PLSEL3/4 league/tournament select screens (their titles still use the original Japanese cells, intentionally), the other four schools' atlases. Still Japanese on this screen: top-right スタートボタンを押して！ / ちょっと待って！ and かかって来なさい！. PARTNER header is small (7 letters in 40 px); revisit if it is hard to read at fullscreen.
