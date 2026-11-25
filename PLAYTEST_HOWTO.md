@@ -4,7 +4,21 @@ This is the method used to verify builds in game. It needs a legally owned disc 
 
 ## Setup
 - DuckStation with the built `justice-gakuen2-vNNN.cue` (the .bin sits beside it).
-- Keyboard bindings in DuckStation's `settings.ini`: Enter = Start, C = Circle (confirm), X = Cross (cancel), arrow keys = D-pad.
+- Keyboard bindings (added to the real `%LOCALAPPDATA%\DuckStation\settings.ini`, section `[Pad1]`; the controller type is AnalogController and the pad bindings are kept alongside):
+
+  | PS1 button | Key |
+  |---|---|
+  | Start | Enter (`Keyboard/Return`) |
+  | Select | Backspace |
+  | Circle (confirm) | C |
+  | Cross (cancel) | X |
+  | Square | Z |
+  | Triangle | V |
+  | D-pad | Arrow keys |
+
+  L1/L2/R1/R2 and the sticks are bound only to a gamepad, not the keyboard.
+- DuckStation hotkeys (section `[Hotkeys]`): Space = pause, Tab = fast-forward, Esc = pause menu, F1/F2 = load/save state, F3/F4 = previous/next slot, F10 = screenshot, F11 = fullscreen.
+- To reproduce on another machine, add these lines under `[Pad1]` (e.g. `Circle = Keyboard/C`) with DuckStation closed.
 - Launch DuckStation once (`Start-Process`) with the cue. Do not launch a second copy.
 
 ## Driving it
