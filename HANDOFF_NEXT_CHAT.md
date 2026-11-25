@@ -73,3 +73,29 @@ Current build: `1-KEEP146-CURRENT-play-this\justice-gakuen2-v146.cue` = v145 le
 Rebuild: `JG2_VERSION=146 PYTHONPATH=tools python tools/build_charselect_v145.py <v144 bin> <new folder> --accelerator build-tools/practice_lz.dll` (master is still v144, sha c6d02c05...3043).
 Captions seen clean in game: BATSU HINATA KYOSUKE SHOMA NATSU ROBERTO ROY TIFFANY BOMAN KYOKO HIDEO GAN AKIRA EDGE RAIZO HYO SAKURA. Not yet seen: DAIGO, HAYATO, the "2" variants.
 Testing rule from the user: keep DuckStation fullscreen (F11).
+
+## Research after v146: fight HUD / episode card / top-right prompts (not built)
+- Fight announcer + HUD art is in `DAT2/CEFT1.BIZ` (TIM at 0x10800, 768x256) and `DAT2/CEFT3.BIZ` (TIMs at 0x10800 and 0x19000). CEFT1 0x10800 contains: 最終 / 第 + 一二三四五 (so 第一戦 = 第 + digit + 戦, giving FINAL / ROUND n), 開始! (START!), 決着 (decision), GAME OVER (already English), 圧倒! / 勝 / 時間切れ引き分け (time-up draw), 準備OK!! (small, both corners), the vertical red name labels (醍醐 将馬 バツ 響子 ロイ ラン 英雄 エッジ アキラ 雷蔵 ひなた さくら ボーマン ティファニー ロベルト 夏 雪 ...), 主役交代? / 相棒交代? / PUSH BUTTON, 完全夢想アタック / 根性カウンター. Contact sheets: `work/shots/scan_hud.png`, `work/shots/ceft1_10800_3x.png`. CEFT4/6 (exam HUD) were already done in v34.
+- The top-right prompts スタートボタンを押して！ / ちょっと待って！ / かかって来なさい！ were NOT found in CEFT1-3, MOJI2, EDITMOJI, CONT, MGSTAT or FONT.TIM. Remaining candidates: archive members of DAT2/COMMOT.BIZ, MGBETA.TZZ, MGSCH.TZZ, HEADQMD.BIZ (TIM scan found nothing at top level, so they need member-level decoding), or the main executable.
+- 第一話 episode card: not yet located (white serif on black; probably a TIM in OP01.BIZ's sibling or an ED/END file).
+- Scan helper: scratchpad scripts `scan.py` / `sheet.py` pattern = decode record, regex TIM header `10 00 00 00 [08|09|02|03] 00 00 00`, render with `rgb_image`.
+
+## Prompt-hunt result (2026-11-24, not solved)
+Top-right prompts (スタートボタンを押して！ etc.) were not found by: SJIS search (all records), TIM scans of CEFT1-3/MOJI2/EDITMOJI/CONT/MGSTAT/FONT, member scans of COMMOT/MGBETA/MGSCH/HEADQMD (they have no (off,size) table), or VRAM matching. VRAM was dumped from a fresh state with the prompt on screen (`tools/vram_from_state.py`; capture method in its docstring). The fb text is only ~84x16 px for ~12 glyphs (about 7 px per glyph), so it is probably composed from small scaled glyph sprites, and a whole-string image match finds nothing (best NCC 0.36).
+Next ideas: (a) catch the GPU draw list (DuckStation GPU dump / debugger) to get the texpage+UV of those sprites, then trace the texture back; (b) find the overlay that draws it: same text shows in the fight, so look for a battle/arena overlay in DAT1 (not PLSEL) or SLPS data; (c) do the known fight HUD art in CEFT1/CEFT3 first.
+User's resume state was backed up and restored; backups also in scratchpad state-backup.
+
+## Prompt hunt, round 2 (2026-11-24): the draw packet is found, the texture is not
+Method: two resume states (one per message) parsed with `tools/vram_from_state.py`; main RAM sits at payload offset 0x31a63 (PLSEL1 code found at 0x800a2960 for calibration). The top-right prompt is ONE GPU quad (POLY_FT4, code 0x2c, tag size 9) at RAM 0x1c6504 (double-buffer copy at 0x1c652c). Each message is one row of a text sheet on texture page (960,256), 4-bit, CLUT field 0x7fc0 (x0,y511), drawn at screen y 13..35 (2x vertical stretch of 11 texel rows):
+- かかって来なさい！: screen x 328..416 (w 88), UV (0,100)-(88,111)
+- スタートボタンを押して！: screen x 316..428 (w 112), UV (0,116)-(112,127)
+- rows are 16 apart, so ちょっと待って！ is probably the next row (v=132 or 84). Per-glyph pitch is about 11 texels (11 px font).
+Unresolved: in both captured VRAMs, page (960,256) rows 100..127 hold the 20x20 kanji atlas (SELP 0x38000 block 3), and the CLUT at (0,511) is junk (0x3333 x8), so the packet fields alone do not describe the real texture (the VRAM backbuffer region also renders with wrong colours, green instead of orange). Either the text strip is uploaded to VRAM and drawn in the same frame before the atlas is restored, or the displayed buffer is elsewhere and uses other fields.
+Cleanest next step: a real GP0 trace of one frame (DuckStation: View > enable "Show Debug Menu" in Settings > Advanced, then Debug > Capture GPU Frame / GPU dump) to see the LoadImage that fills the strip and its source data; that source bitmap is what to re-letter. Alternative: break on the VRAM write via the DuckStation debugger. Settings change needs the user's OK.
+Not yet translated: those three prompts, 第一話 card, fight HUD (CEFT1/CEFT3).
+
+## v147 update (2026-11-24): shared overlay prompts, SOLVED
+Current build: `1-KEEP\v147-CURRENT-play-this\justice-gakuen2-v147.cue` (v146 + `tools/over_v147.py` / `build_over_v147.py`; master sha 2ffe2080...ee61). v146 moved to `2-CAN-DELETE\v146-play-this`, v144 also still there.
+The top-right prompts are rows of `DAT2/OVER.TIZ` (TIM at 0, 256x240, 4bpp). Found by dumping CPU->VRAM uploads (DuckStation Debug menu, now enabled in settings) plus a VRAM texel match; row table is in `tools/over_v147.py`. English: COME ON!, PRESS START!, HOLD ON!, ADD [n] COINS!, STREAK! RIVAL, in thin Verdana-like caps (fill idx 3, shade idx 7). Verified in game fullscreen: PRESS START! / COME ON! at character select and COME ON! over the opening narration. HOLD ON!, insert-coin and streak rows not seen in game yet.
+Still Japanese on the Solo Play route: 第一話 card, fight HUD (CEFT1/CEFT3: 第一戦, 準備OK!!, vertical names, 開始!, 決着, 圧倒!), "Return to Mode Select?" prompt.
+Debug aids: Debug > "Dump CPU to VRAM Copies" writes cpu_to_vram_copy_N.png into %LOCALAPPDATA%\DuckStation (turn off and delete afterwards); `tools/vram_from_state.py` for state VRAM.

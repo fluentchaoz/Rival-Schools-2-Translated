@@ -87,3 +87,6 @@ Verified in game: PLAYER SELECT banner, LEAD, PARTNER, BATSU caption. Not yet se
 
 ## v146 (2026-11-24): character select restyle
 v145 lettering looked garbled at 1080p fullscreen (striped banner, uneven PL AYER spacing, mushy LEAD/PARTNER). v146 fixes the styling; verified in game fullscreen: PLAYER SELECT, LEAD, PARTNER, BATSU now clean. Captions still to eyeball: DAIGO, HAYATO, "2" variants.
+
+## v147 (2026-11-24): shared overlay prompts
+Verified in game fullscreen: PRESS START! and COME ON! alternate top-right at character select; COME ON! also over the Solo Play opening narration. Not yet seen: HOLD ON! (after the lead is picked, timing), ADD n COINS!, STREAK! RIVAL, and the fight screen.
