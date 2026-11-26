@@ -96,3 +96,6 @@ Verified in game: SOLO PLAY / TRAINING / SKILL 99 list labels and card tabs disp
 
 ## v149 (2026-11-24): Mode Select list centred
 Verified in game: all 12 list labels centred in the green panel (VERSUS .. OPTIONS), highlight bars and card tabs unchanged.
+
+## v150 (2026-11-26): fight HUD announcer art (CEFT1)
+Verified in game fullscreen: READY!! in both lower corners of the fight HUD; "ROUND 2" banner (yellow); HOLD ON! seen top-right between narration and fight (v147 item, now confirmed). Not yet seen: ROUND 1, 3, 4, 5; FIN AL (final fight); FIN ISH (KO banner). Check that nothing is clipped or has a seam. Still Japanese in the fight: 開始!, 制圧!, 時間切れ, 主役交代?/相棒交代?, 完全夢想アタック / 根性カウンター popups, vertical red name labels.
