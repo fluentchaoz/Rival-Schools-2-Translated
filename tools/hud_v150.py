@@ -151,7 +151,7 @@ def silhouette(core, outline=2, shadow=(3, 3)):
 
 
 def render_cell(px, text, rect, style_rects, src=None, font=FONT, outline=1, shadow=(2, 2), shear=SHEAR, align='center', gap=3,
-                text_h=None, variation=None):
+                text_h=None, variation=None, band_map=None):
     """Paint `text` into rect (x,y,w,h) of px, in the style learnt from the union of style_rects. Returns new px."""
     x, y, w, h = rect
     src = px if src is None else src
@@ -167,7 +167,10 @@ def render_cell(px, text, rect, style_rects, src=None, font=FONT, outline=1, sha
     if text_h:
         avail_h = min(avail_h, text_h)
     core = text_mask(text, avail_w, avail_h, font=font, shear=shear, gap=gap, variation=variation)
-    painted = layered(core, outline, shadow, layer_indices(table, loose))
+    layers = layer_indices(table, loose)
+    if band_map:
+        layers = {b: layers[band_map[b]] for b in range(4)}
+    painted = layered(core, outline, shadow, layers)
     sh, sw = painted.shape
     if sh > h or sw > w:
         raise ValueError(f'{text!r} silhouette {sw}x{sh} exceeds cell {w}x{h}')
