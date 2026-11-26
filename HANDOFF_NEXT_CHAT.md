@@ -1,5 +1,6 @@
 # START HERE (updated 2026-11-24, current build v149)
 
+**Repo layout (reorganised 2026-11-26):** rules for every assistant are in `AGENTS.md` (read first). This file is the only live handoff; old per-version notes are in `docs/archive/`, superseded scripts in `legacy/scripts/`. Nothing in `tools/` moved.
 **Current build:** `1-KEEP\v149-CURRENT-play-this\justice-gakuen2-v149.cue`. Older builds are in `2-CAN-DELETE` (v144 was kept as a rollback); move, never delete. `original-disc` and `v46-base-for-next-patch` must stay in 1-KEEP.
 **Git:** repo at `C:\Users\Fluent\JG2-Project\repo`, origin fluentchaoz/Rival-Schools-2-Translated, `main`. Last pushed commit: v148-v149 (`9a8b054`). The two `Apply-*.ps1` files show as modified from before this work (line-ending noise): ignore them. The user commits/pushes only when they say so.
 **How to test:** read `PLAYTEST_HOWTO.md`. The user wants DuckStation kept **fullscreen (F11)** while testing. Refocus with `work/fg2.ps1`, click the left black margin, use 0.2 s `hold_key`, double Start on the title.
