@@ -99,3 +99,7 @@ Verified in game: all 12 list labels centred in the green panel (VERSUS .. OPTIO
 
 ## v150 (2026-11-26): fight HUD announcer art (CEFT1)
 Verified in game fullscreen: READY!! in both lower corners of the fight HUD; "ROUND 2" banner (yellow); HOLD ON! seen top-right between narration and fight (v147 item, now confirmed). Not yet seen: ROUND 1, 3, 4, 5; FIN AL (final fight); FIN ISH (KO banner). Check that nothing is clipped or has a seam. Still Japanese in the fight: 開始!, 制圧!, 時間切れ, 主役交代?/相棒交代?, 完全夢想アタック / 根性カウンター popups, vertical red name labels.
+
+## v151-v154 (2026-11-26): rest of the fight HUD
+Verified in game fullscreen: ROUND 1 and ROUND 2, FIGHT! (one word since v152), TIME UP, FIN ISH, PERFECT! (reads correctly since v153/v154), DREAM ATTACK, READY!!. Not yet seen: FIN AL (final fight), ROUND 3/4/5 and numerals 3-5, DRAW, GUTS COUNTER, SUPER! (shown when 制圧! would be). Check for clipping and seams. See `queue/002`.
+

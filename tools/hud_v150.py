@@ -151,7 +151,7 @@ def silhouette(core, outline=2, shadow=(3, 3)):
 
 
 def render_cell(px, text, rect, style_rects, src=None, font=FONT, outline=1, shadow=(2, 2), shear=SHEAR, align='center', gap=3,
-                text_h=None, variation=None, band_map=None):
+                text_h=None, variation=None, band_map=None, stretch=False):
     """Paint `text` into rect (x,y,w,h) of px, in the style learnt from the union of style_rects. Returns new px."""
     x, y, w, h = rect
     src = px if src is None else src
@@ -167,6 +167,8 @@ def render_cell(px, text, rect, style_rects, src=None, font=FONT, outline=1, sha
     if text_h:
         avail_h = min(avail_h, text_h)
     core = text_mask(text, avail_w, avail_h, font=font, shear=shear, gap=gap, variation=variation)
+    if stretch and core.shape[1] < avail_w:  # widen the letterforms to fill the cell edge to edge (abutting sprites)
+        core = np.array(Image.fromarray((core * 255).astype(np.uint8)).resize((avail_w, core.shape[0]), Image.Resampling.LANCZOS)) >= 128
     layers = layer_indices(table, loose)
     if band_map:
         layers = {b: layers[band_map[b]] for b in range(4)}
@@ -176,7 +178,7 @@ def render_cell(px, text, rect, style_rects, src=None, font=FONT, outline=1, sha
         raise ValueError(f'{text!r} silhouette {sw}x{sh} exceeds cell {w}x{h}')
     out = px.copy()
     out[y:y + h, x:x + w] = 0
-    ox = x + (w - sw) // 2 if align == 'center' else x
+    ox = {'center': x + (w - sw) // 2, 'left': x, 'right': x + w - sw}[align]
     oy = y + (h - sh) // 2
     out[oy:oy + sh, ox:ox + sw] = painted
     return out
@@ -230,13 +232,13 @@ READY_RECT = (160, 96, 80, 11)
 READY_FILL = [0xb, 0xb, 0xc, 0xc, 0xd, 0xd, 0xe, 0xe, 0xe]
 READY_SHADOW = 0xa
 JOBS = [
-    ('FIN', 'FIN', SEL[0], SEL, {}),
-    ('AL', 'AL', SEL[1], SEL, {}),
-    ('ROUND', 'ROUND', DAI[0], DAI, dict(gap=3, text_h=28, outline=1, shadow=(1, 1), shear=0.15)),
+    ('FIN', 'FIN', SEL[0], SEL, dict(align='right')),
+    ('AL', 'AL', SEL[1], SEL, dict(align='left')),
+    ('ROUND', 'ROUND', DAI[0], DAI, dict(gap=3, text_h=28, outline=1, shadow=(1, 1), shear=0.15, align='right')),
     ('BLANK-SEN', '', DAI[1], None, {}),
-    ('FIN2', 'FIN', KET[0], KET, {}),
-    ('ISH', 'ISH', KET[1], KET, {}),
-] + [(f'num{n}', str(n), r, DAI, dict(text_h=20, outline=1, shadow=(1, 1), shear=0.15, variation=b'Bold')) for n, r in DIGIT_CELLS.items()] + [
+    ('FIN2', 'FIN', KET[0], KET, dict(align='right')),
+    ('ISH', 'ISH', KET[1], KET, dict(align='left')),
+] + [(f'num{n}', str(n), r, DAI, dict(text_h=20, outline=1, shadow=(1, 1), shear=0.15, variation=b'Bold', align='left')) for n, r in DIGIT_CELLS.items()] + [
 ]
 
 
