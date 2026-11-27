@@ -8,7 +8,7 @@ Current build: **v149** (play from `1-KEEP\v149-CURRENT-play-this`, outside this
 
 ## Start here
 
-- [Whole-disc roadmap](TRANSLATION_ROADMAP.md): priorities, batch workflow, release and recovery requirements.
+- [Whole-disc roadmap (archived, old)](docs/archive/TRANSLATION_ROADMAP.md): priorities, batch workflow, release and recovery requirements.
 - [Old milestone log](docs/archive/CURRENT_MILESTONE.md): historical (v29-era); the live status is above and in the handoff.
 - [Progress ledger](translation_progress.json): separate draft, fit, build and native statuses.
 - [Project handoff](docs/archive/PROJECT_HANDOFF.md): historical checkpoints and technical constraints.

@@ -3,6 +3,13 @@
 English patch for Justice Gakuen 2 / Rival Schools 2 (PSX, SLPM-86750), played in DuckStation.
 This file is the shared contract. `CLAUDE.md` points here. If this file and an older doc disagree, this file wins.
 
+## New here? Do these 5 things
+1. Read this file, then the START HERE block of `HANDOFF_NEXT_CHAT.md`.
+2. Run `git log -5` and `python tools/queue_status.py` to see where things stand.
+3. Pick a task in `queue/open/` that you can do (check its **Needs** line: `emulator`, `image-generation` or `none`), move it to `queue/in-progress/`, and when done fill in **Result** and move it to `queue/done/`.
+4. If you cannot do something (no emulator, cannot draw English art for a Japanese image), say so in the task file and move it back. Do not guess or fake it.
+5. Never push, never delete builds, never commit disc data. Mark anything you did not see in game as unverified.
+
 ## Read order
 1. The "START HERE" block at the top of `HANDOFF_NEXT_CHAT.md` - the ONLY live handoff.
 2. `PLAYTEST_HOWTO.md` (driving DuckStation) and `PLAYTEST_LIST.md` (what is verified / pending).
