@@ -21,7 +21,7 @@ The source audio/prefix, TIM metadata, palette and lower 80 rows (including exac
 original copyright pixels) remain unchanged. PRESS START is a separate runtime
 element and its code/data are not patched or duplicated into the picture.
 
-The source image SHA is recorded in validation/title-exam-v32.json. Its private
+The source image SHA is recorded in legacy/validation/title-exam-v32.json. Its private
 file is `Rival Schools_ Hot-Blooded Youth Diary.png`, supplied by Ryan. The title
 says RIVAL SCHOOLS as requested; it is the approved localized mockup, not a new
 literal translation of the franchise name. The separate small MODE SELECT logo
@@ -83,7 +83,7 @@ input pages, decoder expansion limits, whole-image sector ownership and EDC/ECC
 passed. Seven regressions cover crop survival, original replay anchors, title
 footer/audio/palette preservation, exam table/member/tile ownership, earlier
 practice retention and wrong-input rejection. All six edited surfaces were
-visually reviewed. See validation/title-exam-v32.json for exact identities/counts.
+visually reviewed. See legacy/validation/title-exam-v32.json for exact identities/counts.
 
 Private cumulative updater paths from exact v29, v30 and v31 all reproduce the
 same v32 hash. The equivalent Python apply paths were executed; the PowerShell

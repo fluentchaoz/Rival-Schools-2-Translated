@@ -2,26 +2,26 @@
 
 ## v37 practice / rooftop candidate — 2026-11-06
 
-Issues #022–#025 are implemented in a new candidate based on exact v36: approved Kyosuke loading card, PK Shootout GUTS, shared English pause menus and the reviewed Edge/Daigo rooftop encounter. Rooftop coverage is 53 entries in each player variant (106 coordinates), with choices/outcomes, plus 16 location-label copies in 11 archives. Other rooftop encounters and other loading illustrations remain follow-up work. Read [PRACTICE_ROOF_V37.md](PRACTICE_ROOF_V37.md), [integration validation](validation/practice-roof-v37.json) and [updater validation](validation/practice-roof-v37-updater.json).
+Issues #022–#025 are implemented in a new candidate based on exact v36: approved Kyosuke loading card, PK Shootout GUTS, shared English pause menus and the reviewed Edge/Daigo rooftop encounter. Rooftop coverage is 53 entries in each player variant (106 coordinates), with choices/outcomes, plus 16 location-label copies in 11 archives. Other rooftop encounters and other loading illustrations remain follow-up work. Read [PRACTICE_ROOF_V37.md](PRACTICE_ROOF_V37.md), [integration validation](legacy/validation/practice-roof-v37.json) and [updater validation](legacy/validation/practice-roof-v37-updater.json).
 
 Output BIN SHA-256: `66e77edfbb41c7a20255407d5718ad54533f207026c23620c8121fcc38703ffc`. Ten integration checks pass; all 876 catalog signatures match, 921 untouched records remain exact, and all 1,483 changed sectors pass ownership/EDC/ECC checks. Native boot and live tests remain pending. Keep v36; fresh-boot the v37 CUE and use an in-game save. Check all six pause paths and the rooftop branches before closing the issues. PowerShell is reviewed, not executed here; the equivalent Python updater reproduces the exact BIN.
 
 ## v36 menu art / Backup candidate — 2026-11-06
 
-Issues #018–#021 are implemented: eight menu-logo cells, 29 Backup messages in each of 78 runtime banks (plus M/D date-unit labels and 25 bundled mirrors), Service Ace record captions and both exam backdrop variants. Uses exact v35; preserves original report sheets/props, live result data, stamps and earlier English. Read [MENU_ART_V36.md](MENU_ART_V36.md) and [validation/menu-art-v36.json](validation/menu-art-v36.json). Native boot and live-screen checks remain pending; keep v35 and fresh-boot the new CUE.
+Issues #018–#021 are implemented: eight menu-logo cells, 29 Backup messages in each of 78 runtime banks (plus M/D date-unit labels and 25 bundled mirrors), Service Ace record captions and both exam backdrop variants. Uses exact v35; preserves original report sheets/props, live result data, stamps and earlier English. Read [MENU_ART_V36.md](MENU_ART_V36.md) and [legacy/validation/menu-art-v36.json](legacy/validation/menu-art-v36.json). Native boot and live-screen checks remain pending; keep v35 and fresh-boot the new CUE.
 
 Output BIN SHA-256: `9885ee49e0404d43218b36e7b40b7308a9b7300274e6984f0aa3a260cdba95f1`. All 876 loader bindings match, all 854 untargeted records remain exact, and all 3504 changed sectors passed ownership/EDC/ECC checks. The PowerShell wrapper is reviewed, not executed here; equivalent Python updater verification is recorded separately.
 
 ## v35 exam results / ball HUD / dance candidate — 2026-11-06
 
-Issues #013–#017 are implemented in the v35 candidate. It applies to exact v34 and adds exam results/stamps, Explosive Shot HUD lettering, Doki-Waku selector names/schools and four Japanese scrolling captions. Eight integration tests and an updater roundtrip pass; native v35 boot/gameplay remains pending. Read EXAM_DANCE_V35.md and validation/exam-dance-v35.json. Preserve v34 and test via fresh boot with an in-game save.
+Issues #013–#017 are implemented in the v35 candidate. It applies to exact v34 and adds exam results/stamps, Explosive Shot HUD lettering, Doki-Waku selector names/schools and four Japanese scrolling captions. Eight integration tests and an updater roundtrip pass; native v35 boot/gameplay remains pending. Read EXAM_DANCE_V35.md and legacy/validation/exam-dance-v35.json. Preserve v34 and test via fresh boot with an in-game save.
 
 Output BIN SHA-256: `c25207ba7f18dd73e56f5569d3df7dcdf3d9f92cc605dbbf17692b28a6e9cf8c`. All 876 catalog bindings match; all 934 untargeted records are exact. Decorative exam backdrop text remains original. Do not close issues until Ryan checks the relevant live screens.
 
 
 ## v34 practice layout / exam HUD candidate — 2026-11-06
 
-Current native baseline: Ryan confirmed v33 boot, English title and mode select. v34 addresses issues #001 (points legibility), #008 (Sprint/shared ball-game WIN), #010 (BACK clipping), #011 (practice popup labels/speed markers) and #012 (exam START/FINISH/TASK graphics). Output BIN SHA-256: `2ed4e3233c01b0f1eccf804bffdce6ed6c1f268ce71cf94109c839e86894734a`. Six integration tests, 876 catalog matches, all 929 untargeted records and a Python updater roundtrip passed. Native v34 validation is pending. Read PRACTICE_LAYOUT_V34.md and validation/practice-layout-v34.json. Apply the new updater to exact v33; keep v33 as the boot-tested fallback. Do not close checklist issues until Ryan checks their corresponding screens.
+Current native baseline: Ryan confirmed v33 boot, English title and mode select. v34 addresses issues #001 (points legibility), #008 (Sprint/shared ball-game WIN), #010 (BACK clipping), #011 (practice popup labels/speed markers) and #012 (exam START/FINISH/TASK graphics). Output BIN SHA-256: `2ed4e3233c01b0f1eccf804bffdce6ed6c1f268ce71cf94109c839e86894734a`. Six integration tests, 876 catalog matches, all 929 untargeted records and a Python updater roundtrip passed. Native v34 validation is pending. Read PRACTICE_LAYOUT_V34.md and legacy/validation/practice-layout-v34.json. Apply the new updater to exact v33; keep v33 as the boot-tested fallback. Do not close checklist issues until Ryan checks their corresponding screens.
 
 
 ## v33 native boot/title confirmed; collecting next batch — 2026-11-06
@@ -39,7 +39,7 @@ byte-for-byte intact. v31 is the earlier booting fallback.
 
 v33 BIN SHA-256:
 `1efd2f0231f9eaaa941830406450e705063d141fe23caa88f2bfe08dfeff03a9`.
-Read BOOT_HOTFIX_V33.md and validation/boot-hotfix-v33.json. The native-catalog
+Read BOOT_HOTFIX_V33.md and legacy/validation/boot-hotfix-v33.json. The native-catalog
 audit finds one mismatch in v32 and zero in v33 across 876 matched entries.
 Six regressions, one-sector integrity/scope checks and updater roundtrip pass.
 **Native v33 boot is pending.** The PowerShell wrapper was not executed here.
@@ -60,7 +60,7 @@ remain untouched. The earlier practice translations/full Sprint label remain.
 
 Output BIN SHA-256:
 `4cfa22fde28be1d805b141fe67f0bbe0f9cbcf999d6f015abd858e4b8dc8654b`.
-Read TITLE_EXAM_V32.md and validation/title-exam-v32.json. Seven regression tests,
+Read TITLE_EXAM_V32.md and legacy/validation/title-exam-v32.json. Seven regression tests,
 record/pixel ownership and disc integrity checks passed. Cumulative private
 updaters from v29/v30/v31 reproduced this hash. Native v32 testing is pending;
 PowerShell was not executed here, while the three Python apply paths were.
@@ -79,7 +79,7 @@ practice landing/rules batch is retained. No title-screen logo change.
 
 BIN SHA-256:
 `f9a3d199c9f535188258203b3a4ddea159755fe35b52e88a8c0c273871b7e7f2`.
-Read MENU_FIXES_V31.md and validation/menu-fixes-v31.json. Six tests and the disc
+Read MENU_FIXES_V31.md and legacy/validation/menu-fixes-v31.json. Six tests and the disc
 preservation/integrity checks passed; private updater paths from both v29 and
 v30 reproduced this output exactly. Native testing remains pending. PowerShell
 was not executed here; both equivalent Python apply paths were executed.
@@ -96,7 +96,7 @@ are patched in all 13 identical MINITTL atlases. FIERY SPRINT now fits the nativ
 144-pixel Diary strip. Candidate BIN SHA-256:
 `c9fdc6a749084fdf972b4debb36dda6b77cb44e0b34f4161d27573130dc44815`.
 
-Read PRACTICE_V30.md and validation/practice-v30.json. Five regression tests,
+Read PRACTICE_V30.md and legacy/validation/practice-v30.json. Five regression tests,
 fixed-slot/profile checks, record readback, changed-sector ownership/EDC/ECC and
 a private updater roundtrip passed. Native gameplay is pending; keep v29.
 The PowerShell updater was not executed here; its equivalent Python path was.
@@ -120,7 +120,7 @@ Read-only inspection found all 947 ISO file records and confirmed the expected
 `NO FILE` and `LOAD SKIPPED` strings in both `DAT1/NEWOPT.BIN` and the resident
 `SLPS_021.20` executable (all four length-prefixed slots). Three v29 wrapper
 regression checks also passed. Exact artifact/record hashes and limitations are
-in `validation/boot-notice-v29-recovered.json`.
+in `legacy/validation/boot-notice-v29-recovered.json`.
 
 **Latest recovered candidate: v29. Latest user-confirmed gameplay: v28.** The
 recovered v29 has not been independently rebuilt or tested in DuckStation here;
@@ -128,7 +128,7 @@ its original Windows build report/log was not supplied. Do not claim a native
 v29 pass or an independently verified v28-to-v29 sector comparison.
 
 The actual v28 fallback SHA is already recorded in
-`validation/status-diary-v28-windows.json`:
+`legacy/validation/status-diary-v28-windows.json`:
 `47ed14e1936a0072be400dcdd41296be264ab8bdc1ddcff0e4e7be3bfdc4902b`.
 The older reconciliation note incorrectly said this hash was missing.
 
@@ -151,11 +151,11 @@ Status by evidence level:
 - **Windows-built and user-confirmed in play:** through v28. v26, v27 and v28 passed
   their Rust tests and final verification; the user confirmed Status and Diary menus
   work in DuckStation (v28). Latest hash on record: v27 `3f5b7630...dc34e`; the v28
-  output SHA is not recorded in the repo (see validation/status-diary-v28-windows.json).
+  output SHA is not recorded in the repo (see legacy/validation/status-diary-v28-windows.json).
 - **Built-ready, native result NOT recorded:** v29 (startup notices `NO FILE` /
   `LOAD SKIPPED`). Run `build_boot_notice_english_v29.ps1` on the actual v28 master,
   fresh-boot the printed CUE, and test the notice without altering memory-card data.
-  Record the output SHA-256 and result in `validation/`.
+  Record the output SHA-256 and result in `legacy/validation/`.
 - **Unverified:** v26 April 21 narration (the message was skipped in play), individual
   item descriptions, all birthday variants, and the 58 retained custom item entries.
 
@@ -190,7 +190,7 @@ The Status screenshot still has Japanese headings, character names, gender/date
 sprites; the Diary menu options are Japanese. These shared interfaces are the
 next batch. User authorized Status/Diary work. Six-map-label/default-name tests
 are not independently certified by these screenshots. Keep v26.
-Evidence:validation/daily-map-v27-windows.json.
+Evidence:legacy/validation/daily-map-v27-windows.json.
 
 
 ## v27 daily map, help and new-name defaults — 2026-10-30
@@ -228,7 +228,7 @@ Fixture SHA-256:b191187378a647635b7c8dc62787ff9ffd0f10167b521cb808cc25e1d8d04e69
 This fixture used the original as QA master and Nimbus Sans instead of Arial;
 it is not the production v27 image. Actual Windows/native checks remain pending.
 
-Validation status is recorded in validation/daily-map-v27.json. Actual Windows
+Validation status is recorded in legacy/validation/daily-map-v27.json. Actual Windows
 v27 output/hash and native gameplay remain pending. Keep v26 and its v25 fallback.
 Fresh-boot the new CUE with an in-game save; check all6 map destinations/help,
 daily action help, earlier English and unchanged saved name. Separately test new
@@ -254,7 +254,7 @@ name corruption or treat this proper name as untranslated dialogue.
 
 User skipped the prior April21 message, so these screenshots do not validate
 v26's new date/narration. No replay is needed merely to identify the map system;
-retain the actual v26 and v25 fallback. See validation/april21-travel-map-boundary.json.
+retain the actual v26 and v25 fallback. See legacy/validation/april21-travel-map-boundary.json.
 
 
 ## Actual v26 Windows build passed — 2026-10-30
@@ -279,7 +279,7 @@ narration/date, a seasonal/exam notice and an earlier translated event.
 Native v26 gameplay remains pending. This is the shared date/narration batch;
 unique subsequent story dialogue is still outside scope. Continue the whole-disc
 roadmap with shared daily interfaces and complete story/event packages.
-Actual console evidence: validation/shared-dates-v26-windows.json. The local
+Actual console evidence: legacy/validation/shared-dates-v26-windows.json. The local
 original-disc fixture hash remains separate and must not be used as production.
 
 
@@ -319,7 +319,7 @@ opening/date, seasonal or exam text and an earlier custom translated event.
 This batch does not translate subsequent unique story dialogue.
 Continue with shared daily interfaces and coherent story packages from the
 whole-disc roadmap. Detailed private input/QA is in JG2-Shared-Dates-v26-Inputs.zip;
-public validation summary is validation/shared-dates-v26.json.
+public validation summary is legacy/validation/shared-dates-v26.json.
 
 
 ## Whole-disc translation programme started — 2026-10-29
@@ -403,7 +403,7 @@ Keep v24. Fresh-boot this v25 CUE in DuckStation and check School Gate and Plaza
 Hinata/Ran addressing O without Japanese suffixes, and dialogue continuing normally
 after each inserted name. Native v25 gameplay remains pending. Unmatched graphics,
 other scene banks and untranslated later stories remain outside scope.
-See validation/locations-names-v25-windows.json for actual console evidence.
+See legacy/validation/locations-names-v25-windows.json for actual console evidence.
 
 
 ## v25 locations and English name insertions candidate ready — 2026-10-29
@@ -412,7 +412,7 @@ Read LOCATIONS_NAMES_V25.md and use build_locations_names_english_v25.ps1 agains
 
 Four renderer-owned honorific messages (selector2 entries5–8: kanji kun, katakana kun, san, chan) become valid empty end-terminated insertions in25 MGG event banks and their five loaded bundles. Relationship controls and enrolled names are preserved; natural English addresses use the name alone. Known location strip fingerprints are matched across48 MGBG archives; existing English strips are preserved and unmatched labels remain outside scope.
 
-The direct Rust full original-disc fixture passed in886.39 seconds:100 honorific entries,394 location copies across43 archives,28886 changed raw sectors. Readback, sector ownership, native EDC/ECC and unchanged input identities passed. Representative School Gate/Plaza/park labels were visually reviewed and empty insertion payloads read back. Nimbus Sans substituted for Arial; only QA master identity changed. This fixture lacks prior English layers, so production counts will differ and actual v24 compression profiles still require the Windows build. Source restored exactly. Static wrapper/source checks pass; PowerShell runtime/native v25 tests remain pending. See validation/locations-names-v25.json. Allow several minutes for the broader compression sweep.
+The direct Rust full original-disc fixture passed in886.39 seconds:100 honorific entries,394 location copies across43 archives,28886 changed raw sectors. Readback, sector ownership, native EDC/ECC and unchanged input identities passed. Representative School Gate/Plaza/park labels were visually reviewed and empty insertion payloads read back. Nimbus Sans substituted for Arial; only QA master identity changed. This fixture lacks prior English layers, so production counts will differ and actual v24 compression profiles still require the Windows build. Source restored exactly. Static wrapper/source checks pass; PowerShell runtime/native v25 tests remain pending. See legacy/validation/locations-names-v25.json. Allow several minutes for the broader compression sweep.
 
 
 ## v24 native field-trip opening reached; location/suffix gaps — 2026-10-29
@@ -454,13 +454,13 @@ C:\Users\Fluent\JG2-Recovery-v1\candidates\field-trip-dates-v24-0fd1c9c115b94758
 Keep v23. Fresh-boot v24 and check April16 title, opening date/dialogue, and
 field-trip branches. Native v24 gameplay is still pending. Later stories and
 other schools' story prose remain outside scope. Actual console evidence is in
-validation/field-trip-dates-v24-windows.json; do not confuse the local fixture hash
+legacy/validation/field-trip-dates-v24-windows.json; do not confuse the local fixture hash
 with this production output. Detailed Windows JSON report was not attached.
 
 
 ## v24 field trip and event dates candidate ready — 2026-10-29
 
-Read FIELD_TRIP_DATES_V24.md and run build_field_trip_dates_english_v24.ps1 from actual v23 (9329e5a8ed0c1270fa090f015a4a833ee4b00f120ec884b3f079d67d619fd4f1). The complete direct-Rust full-disc fixture passed: 430 field-trip messages, the spring-trip opening, 1550 date formats in 25 event banks, and all 19 inventoried event/exam cards (48 original references; existing English April8 copies preserved on production). Final visual check passed after removing horizontal clearing bands. All changed records and sector checksums read back correctly; fixture changed10857 sectors. Windows/native v24 tests remain pending. Keep v23. Japanese prose attached to other dates, other schools' story dialogue and later events remain untranslated. See validation/field-trip-dates-v24.json for fixture/font/hash-guard limits. Native title-card style uses source-colored clearing panels and rainbow/white English.
+Read FIELD_TRIP_DATES_V24.md and run build_field_trip_dates_english_v24.ps1 from actual v23 (9329e5a8ed0c1270fa090f015a4a833ee4b00f120ec884b3f079d67d619fd4f1). The complete direct-Rust full-disc fixture passed: 430 field-trip messages, the spring-trip opening, 1550 date formats in 25 event banks, and all 19 inventoried event/exam cards (48 original references; existing English April8 copies preserved on production). Final visual check passed after removing horizontal clearing bands. All changed records and sector checksums read back correctly; fixture changed10857 sectors. Windows/native v24 tests remain pending. Keep v23. Japanese prose attached to other dates, other schools' story dialogue and later events remain untranslated. See legacy/validation/field-trip-dates-v24.json for fixture/font/hash-guard limits. Native title-card style uses source-colored clearing panels and rainbow/white English.
 
 
 ## v23 native baseball route passed; April 16 field trip is next — 2026-10-29
@@ -502,7 +502,7 @@ C:\Users\Fluent\JG2-Recovery-v1\candidates\club-join-v23-40f8384b526946e48358405
 
 Keep v22. Fresh-boot this CUE and test Club Building, baseball selection and HUD,
 remaining tutorial and farewell. Native v23 gameplay remains pending.
-See `validation/club-join-v23-windows.json`; the local fixture remains separate.
+See `legacy/validation/club-join-v23-windows.json`; the local fixture remains separate.
 
 
 ## v23 club joining candidate ready — 2026-10-29
@@ -533,8 +533,8 @@ Keep v21. Boot this CUE fresh in DuckStation, check the daily menu, pool
 conversation, both club-selection pages and choice columns, then join a club
 and test the training tutorial. Native v22 gameplay is still pending.
 The original compiler unused-import warnings did not prevent the successful
-build. See `validation/pool-club-v22-windows.json` for the actual production
-report; `validation/pool-club-v22.json` remains the separate local fixture.
+build. See `legacy/validation/pool-club-v22-windows.json` for the actual production
+report; `legacy/validation/pool-club-v22.json` remains the separate local fixture.
 
 
 ## Pool/club and daily menu v22 candidate — 2026-10-28
@@ -564,7 +564,7 @@ Local PowerShell execution was blocked by automatic review over a Visual Studio
 telemetry connection. No wrapper runtime pass is claimed. Validation uses
 direct Rust execution, offline wrapper consistency checks, and actual saved
 MGAME/MGCOCK shared records inside a clearly identified disc fixture.
-See `validation/pool-club-v22.json` for final local results and limits.
+See `legacy/validation/pool-club-v22.json` for final local results and limits.
 
 ## v21 live playtest: apology route reaches pool conversation — 2026-10-28
 
@@ -634,7 +634,7 @@ variants, apology/teasing branches, four dynamic date messages, the title card,
 and matching School Gate/Gym labels. It reaches Ran's introduction and the
 opening transition toward club orientation. Later club scenes and other
 schools' ceremony dialogue remain Japanese. The complete local fixture builder and
-eight wrapper tests passed; see `validation/entrance-ceremony-v21.json`.
+eight wrapper tests passed; see `legacy/validation/entrance-ceremony-v21.json`.
 The later Windows build above passed; native v21 checks remain pending.
 
 Runtime ownership: MGG04T.BIZ is member 0 of the loaded MGG04.BZZ bundle;

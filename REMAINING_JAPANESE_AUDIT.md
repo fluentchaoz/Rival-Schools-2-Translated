@@ -2,7 +2,7 @@
 
 Method: compared every text record against the original disc and against the English glyph set. Nothing here needed
 the game to be booted. Counts are *message slots* ("coordinates") unless stated. Contact sheets of the image finds are
-in `validation/audit-images/`.
+in `legacy/validation/audit-images/`.
 
 ## 1. Story / dialogue text (DAT2/MG*.BIZ, 78 records) — the big one
 

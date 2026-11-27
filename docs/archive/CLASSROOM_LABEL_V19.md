@@ -111,7 +111,7 @@ image-length and EDC/ECC checks, preserved the v18 MGK04 bytes, rechecked both
 input images, and restored the exact Rust source. This is a fixture result,
 not a real v19 Windows disc or emulator test.
 
-Machine-readable test metadata: [validation/classroom-label-v19.json](validation/classroom-label-v19.json).
+Machine-readable test metadata: [legacy/validation/classroom-label-v19.json](legacy/validation/classroom-label-v19.json).
 
 Eight PowerShell wrapper tests passed: input identity, read-only preflight,
 space, output collision, exact source restoration, missing success outputs,

@@ -45,12 +45,12 @@ See [practice audit and directions](docs/archive/PRACTICE_V30.md); keep v29.
 **Recovered baseline: v29.** Its recovered BIN is 663,216,960 bytes, with
 SHA-256 `f4f974c40220dd82925d4b17d6a31b3f95218a6017783666851204ea3040c67f`.
 Archive extraction, CUE identity and all four startup-notice string slots passed
-read-only checks. See [recovery verification](validation/boot-notice-v29-recovered.json).
+read-only checks. See [recovery verification](legacy/validation/boot-notice-v29-recovered.json).
 The original build log/report was not supplied; v29 native gameplay is pending.
 
 **Latest user-confirmed gameplay: v28.** Both Windows tests and final verification
 passed; the user reports that Status and Diary menus work in DuckStation.
-See [v28 details](docs/archive/STATUS_DIARY_V28.md) and validation/status-diary-v28-windows.json.
+See [v28 details](docs/archive/STATUS_DIARY_V28.md) and legacy/validation/status-diary-v28-windows.json.
 Keep v27 as its fallback. Not every item description or birthday variant is native-tested.
 
 **Fresh-boot the recovered v29 CUE to test its startup notice.** See

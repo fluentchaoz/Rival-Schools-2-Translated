@@ -89,7 +89,7 @@ Running list of Japanese text and other issues reported during testing from reco
 - Diagnosis: TITLE.BIZ begins 00007042 after recompression, but its executable CD locator still expects 00087042. This mismatch was missed by decoded-image/checksum tests.
 - Repair: one catalog data byte at SLPS_021.20 + 0x770DD corrected; all v32 graphics/translations remain unchanged. Audit of 876 matched native locator entries: v32 one mismatch, v33 zero.
 - Next: continue collecting issues one at a time on v33. Boot/title confirmation does not validate the exam, replay alignment or all practice routes.
-- Evidence and directions: BOOT_HOTFIX_V33.md; validation/boot-hotfix-v33.json.
+- Evidence and directions: BOOT_HOTFIX_V33.md; legacy/validation/boot-hotfix-v33.json.
 
 ## 010 — Practice menu BACK label clipped
 

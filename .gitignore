@@ -70,8 +70,8 @@ JG2-Stat-Probe-v18-*.zip.partial
 # Private mainline source inventory and English draft checkpoint (public upload withheld).
 /private-mainline/
 /translations/shared_daily_dates_batch01.json
-/validation/disc-translation-inventory.json
-/validation/mainline-foundation.json
+/legacy/validation/disc-translation-inventory.json
+/legacy/validation/mainline-foundation.json
 
 # Private runtime inputs supplied outside public GitHub.
 /daily_map_v27.json
@@ -89,7 +89,7 @@ assets/dialogue/corpus_items.pkl
 assets/dialogue/remaining_items.pkl
 assets/remaining_v135.*
 assets/glyphmap/
-validation/audit-images/
-validation/thumbnails-*/
-validation/**/*.png
-validation/**/*.jpg
+legacy/validation/audit-images/
+legacy/validation/thumbnails-*/
+legacy/validation/**/*.png
+legacy/validation/**/*.jpg

@@ -75,7 +75,7 @@ than restoring an old save state with loaded textures.
 5. Check CLASSROOM on the classroom screen; this remains a separate check.
 
 The Windows v20 build and native tests are pending. Local validation results are
-recorded separately in `validation/rating-popup-v20.json`; local font-dependent
+recorded separately in `legacy/validation/rating-popup-v20.json`; local font-dependent
 output hashes are not the Windows candidate's identity.
 
 ## Local validation

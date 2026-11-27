@@ -1,7 +1,7 @@
 """Build reviewed field-trip packet from the English draft and control manifest."""
 from pathlib import Path
 import json,textwrap,re
-r=Path(__file__).resolve().parents[1];p=json.loads((r/'translations/field_trip_taiyo_v24.draft.json').read_text());review=json.loads((r/'validation/field-trip-v24-review.json').read_text());entries={e['index']:e['text']for e in p['entries']}
+r=Path(__file__).resolve().parents[1];p=json.loads((r/'translations/field_trip_taiyo_v24.draft.json').read_text());review=json.loads((r/'legacy/validation/field-trip-v24-review.json').read_text());entries={e['index']:e['text']for e in p['entries']}
 fix={349:"HEY, {0}!\nGLAD THE WEATHER\nCLEARED UP.",352:"MORNING, {0}!\nI'M EXCITED ABOUT\nTODAY'S TRIP!",361:"FERRIS WHEEL? SURE.\nWHAT ABOUT YOU,\n{0}?",365:"{0},\nSEE YOU LATER!",366:"OH, {0}!\nWHAT ARE YOU DOING\nHERE?",395:"GOOD POINT.\n{0}, LET'S GO!",403:"THAT'S IT!\n{0}, COME ALONG!",430:"HEY, {0}!\nLOOK AT THIS LINE.",450:"{0}, WE NEVER GOT\nTO RIDE THE WHEEL!\nWE WAITED SO LONG.\nI WAS SO EXCITED!",454:"HINATA, HOW ABOUT\n{0} AND I BUY YOU\nCAKE TO MAKE UP?",460:"{0}, OUR TURN!\nYOU CAME TO RIDE,\nRIGHT? LET'S GO!",468:"PLEASE, {0}!\nGIVE MY HELMET BACK!",471:"{0}, HOW AWFUL.\nI'M SCARED OF\nCOASTERS. THAT'S WHY\nI WANTED MY HELMET.",488:"OH? ISN'T THAT\n{0}?",489:"{0}! WHAT ARE\nYOU DOING HERE?",507:"{0}, NO GUT!",508:"{0}, YOU MEAN\nGUTS. ARE YOU REALLY\nNOT COMING?",512:"HEY, {0}!\nYOU CAME HERE, TOO?",525:"HAHA! PRACTICE.\nRIGHT, {0}?",537:"...{0}?\nAS YOU CAN SEE.",557:"{0}...\nNATURE IS A FINE\nTHING."}
 entries.update(fix)
 controls={(e['selector'],e['entry']):e['controls']for e in review['protected_control_coordinates']}

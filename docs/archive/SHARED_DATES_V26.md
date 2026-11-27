@@ -87,7 +87,7 @@ neutral white palette. The live game supplies digits and the preserved date
 palette. They are layout checks, not emulator screenshots.
 
 The separate preservation regression and offline wrapper checks are recorded
-in `validation/shared-dates-v26.json`. PowerShell runtime and native gameplay
+in `legacy/validation/shared-dates-v26.json`. PowerShell runtime and native gameplay
 validation remain pending until the actual Windows build and playtest.
 
 ## In-game checks

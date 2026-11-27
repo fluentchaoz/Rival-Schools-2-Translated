@@ -94,7 +94,7 @@ The rendered title and location previews were visually inspected. Dialogue
 layout/name/control checks pass, and the new text record reproduces the earlier
 visually inspected record hash. Local tests used Liberation Sans Regular,
 which is not claimed to be Windows Arial. Full machine-readable evidence is in
-`validation/entrance-ceremony-v21.json`. Its output hash is a fixture identity;
+`legacy/validation/entrance-ceremony-v21.json`. Its output hash is a fixture identity;
 that fixture lacks earlier English layers. The later Windows production run passed as recorded below. Native v21 checks
 remain pending.
 

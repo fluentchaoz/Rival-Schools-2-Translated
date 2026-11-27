@@ -21,7 +21,7 @@ def run(a):
  if count!=report['changed_sector_count']:raise ValueError('sector accounting')
  manifest=dict(kind='Private v36 to v37 practice and rooftop update',output_sha256=report['output_sha256'],inputs=[dict(master_sha256=MASTER,patch_file='from-v36.patch',patch_sha256=file_sha(a.packet/'from-v36.patch'),changed_sector_count=count)])
  (a.packet/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
- for src in [ROOT/'Apply-Practice-Roof-v37.ps1',ROOT/'tools/apply_practice_roof_v37.py',ROOT/'PRACTICE_ROOF_V37.md',ROOT/'validation/practice-roof-v37.json',a.build/'practice-roof-v37-report.json']:shutil.copyfile(src,a.packet/src.name)
+ for src in [ROOT/'Apply-Practice-Roof-v37.ps1',ROOT/'tools/apply_practice_roof_v37.py',ROOT/'PRACTICE_ROOF_V37.md',ROOT/'legacy/validation/practice-roof-v37.json',a.build/'practice-roof-v37-report.json']:shutil.copyfile(src,a.packet/src.name)
  (a.packet/'README.txt').write_text('''JUSTICE GAKUEN 2 — V37 PRIVATE UPDATE
 
 Apply to exact justice-gakuen2-menu-art-v36.bin. Keep the original disc and cards.

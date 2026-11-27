@@ -60,7 +60,7 @@ save-state, memory-card or gameplay overlay records change.
 
 Five regression tests passed. The private sector updater recreated the exact
 candidate hash. Its Python path was executed; the PowerShell wrapper was reviewed
-but cannot be executed in this Linux environment. See validation/practice-v30.json.
+but cannot be executed in this Linux environment. See legacy/validation/practice-v30.json.
 No emulator gameplay test was performed here.
 
 ## Use the private updater

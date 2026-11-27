@@ -37,4 +37,4 @@ other park labels and that following text still appears after inserted names.
 Also check a longer name and relationship tiers when practical. Other schools'
 story dialogue and unmatched labels remain Japanese.
 
-The final fixture passed in886.39 seconds, translated394 source-label copies in43 archives, and changed28886 raw sectors. Actual v24 already has English strips, so production should patch fewer copies. Allow several minutes for this broader sweep. Actual Windows and native results remain pending. See validation/locations-names-v25.json.
+The final fixture passed in886.39 seconds, translated394 source-label copies in43 archives, and changed28886 raw sectors. Actual v24 already has English strips, so production should patch fewer copies. Allow several minutes for this broader sweep. Actual Windows and native results remain pending. See legacy/validation/locations-names-v25.json.

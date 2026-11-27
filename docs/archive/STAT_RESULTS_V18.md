@@ -113,7 +113,7 @@ Validated patched MGK04 SHA-256:
 - Message arena: 31,372 / 102,368 bytes; 70,996 bytes spare.
 - Native page-safe compression limits and final input page are preserved.
 
-Machine-readable metadata: [validation/stat-results-v18.json](validation/stat-results-v18.json).
+Machine-readable metadata: [legacy/validation/stat-results-v18.json](legacy/validation/stat-results-v18.json).
 The production builder pins the tested replacement-record hash as well as both
 full input-image hashes. The actual Windows output-disc hash is recorded above.
 

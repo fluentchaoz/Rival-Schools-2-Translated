@@ -19,7 +19,7 @@ Python 3.11+, Pillow, NumPy, SciPy, C compiler and exact private v36 BIN require
 cc -O2 -shared -fPIC tools/practice_lz_v30.c -o /tmp/practice_lz.so
 cc -O2 -shared -fPIC tools/practice_lz_v36.c -o /tmp/practice_lz_v36.so
 python tools/build_practice_roof_v37.py /path/to/v36.bin /new/build --font /usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf --accelerator /tmp/practice_lz.so --tail-accelerator /tmp/practice_lz_v36.so
-python tools/test_practice_roof_v37.py /path/to/v36.bin /new/build/justice-gakuen2-practice-roof-v37.bin /new/build/practice-roof-v37-report.json validation/practice-roof-v37.json
+python tools/test_practice_roof_v37.py /path/to/v36.bin /new/build/justice-gakuen2-practice-roof-v37.bin /new/build/practice-roof-v37-report.json legacy/validation/practice-roof-v37.json
 ```
 
 The tail compressor now preserves source page crossings only in the unchanged compressed prefix; its rebuilt tail introduces none. Original per-record decoder match/block/page bounds, final input pages, compressed slots, archive tables and ISO extents remain enforced. A complete rebuild under the same bounds is used when a preserved prefix cannot fit. The exact decoded result is always verified.

@@ -59,7 +59,7 @@ The accelerator is optional; compile `tools/practice_lz_v30.c` as a shared libra
 for faster compression. Python 3.11+, NumPy and Pillow are required for building;
 the packaged updater uses PowerShell or Python standard-library code only.
 
-`validation/practice-layout-v34.json` records the exact output identity, source
+`legacy/validation/practice-layout-v34.json` records the exact output identity, source
 compression limits, 18 edited resources and their pixel ownership rectangles.
 All 876 matched native catalog entries must match their resource signatures before
 and after writing. The builder permits only explicit catalog-signature data

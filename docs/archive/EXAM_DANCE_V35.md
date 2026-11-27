@@ -77,7 +77,7 @@ Input v34 SHA-256:
 Output v35 SHA-256:
 `c25207ba7f18dd73e56f5569d3df7dcdf3d9f92cc605dbbf17692b28a6e9cf8c`
 
-Both images are 663,216,960 bytes. See `validation/exam-dance-v35.json` for exact
+Both images are 663,216,960 bytes. See `legacy/validation/exam-dance-v35.json` for exact
 record hashes, ownership, compression profiles, member lengths and test evidence.
 
 ## Apply on Windows

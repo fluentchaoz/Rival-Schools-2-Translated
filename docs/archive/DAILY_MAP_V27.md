@@ -89,7 +89,7 @@ Fixture SHA-256:b191187378a647635b7c8dc62787ff9ffd0f10167b521cb808cc25e1d8d04e69
 This fixture used the original as QA master and Nimbus Sans instead of Arial;
 it is not the production v27 image. Actual Windows/native checks remain pending.
 
-See `validation/daily-map-v27.json` for completed checks and their limits.
+See `legacy/validation/daily-map-v27.json` for completed checks and their limits.
 Original-disc fixtures use Nimbus Sans and lack the earlier English layers;
 they establish source coverage and patch mechanics, not production output or
 native gameplay. Actual v26 compression/preservation accounting is checked again

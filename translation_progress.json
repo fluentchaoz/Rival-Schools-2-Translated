@@ -13,7 +13,7 @@
   "overall_translation_percentage": null,
   "percentage_reason": "Original-source inventory measured; current English build coverage and reachable surface denominator not fully audited",
   "inventory": {
-    "report": "validation/disc-translation-inventory.json",
+    "report": "legacy/validation/disc-translation-inventory.json",
     "iso_files": 947,
     "runtime_text_images": 78,
     "message_coordinates": 62639,

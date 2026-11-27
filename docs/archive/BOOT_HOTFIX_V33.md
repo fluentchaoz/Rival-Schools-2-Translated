@@ -52,7 +52,7 @@ Input failed v32 SHA-256:
 Output v33 SHA-256:
 `1efd2f0231f9eaaa941830406450e705063d141fe23caa88f2bfe08dfeff03a9`
 
-Both are 663,216,960 bytes. See validation/boot-hotfix-v33.json.
+Both are 663,216,960 bytes. See legacy/validation/boot-hotfix-v33.json.
 
 ## Apply
 

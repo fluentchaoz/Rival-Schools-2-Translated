@@ -23,8 +23,8 @@ Keep v21. Boot this CUE fresh in DuckStation, check the daily menu, pool
 conversation, both club-selection pages and choice columns, then join a club
 and test the training tutorial. Native v22 gameplay is still pending.
 The original compiler unused-import warnings did not prevent the successful
-build. See `validation/pool-club-v22-windows.json` for the actual production
-report; `validation/pool-club-v22.json` remains the separate local fixture.
+build. See `legacy/validation/pool-club-v22-windows.json` for the actual production
+report; `legacy/validation/pool-club-v22.json` remains the separate local fixture.
 
 
 Candidate prepared: direct Rust disc tests and offline consistency checks passed.
@@ -54,7 +54,7 @@ v21 input; a pointer-aware reader is needed after compaction and for later patch
 
 The private inspection helper `tools/inspect_pool_club_v22.py` accepts the
 original BIN and a private output folder. Its extracted records/previews must
-stay outside public GitHub. Full validation/build instructions will be added
+stay outside public GitHub. Full legacy/validation/build instructions will be added
 when the candidate is ready.
 
 ## Builder design
@@ -107,7 +107,7 @@ host attempted to contact a Visual Studio telemetry endpoint. That run is not
 counted as a passed wrapper test. Testing continues through direct Rust execution
 and offline wrapper inspection; no further local PowerShell execution is used.
 Windows/native v22 checks remain pending. Final local results will be added to
-`validation/pool-club-v22.json` before the candidate is handed over.
+`legacy/validation/pool-club-v22.json` before the candidate is handed over.
 
 ## Shared-record evidence
 
@@ -181,6 +181,6 @@ Preview review covered white/yellow menu states, location strips, the native
 two-column choice geometry, six-cell name insertions, and menu-help layout.
 These font-dependent numbers use Liberation Sans Regular; they are not claimed
 to be Windows Arial output identities. Full evidence and the fixture output
-hash are in `validation/pool-club-v22.json`. The PowerShell runtime-test limit
+hash are in `legacy/validation/pool-club-v22.json`. The PowerShell runtime-test limit
 above remains; the wrapper's embedded-source and offline consistency checks
 passed. No actual Windows v22 or native playtest is claimed.

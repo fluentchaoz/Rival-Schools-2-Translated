@@ -48,7 +48,7 @@ All four edited surfaces were visually reviewed using the bound palettes.
 Six regression tests passed, including source rejection, frame/ramp protection,
 matching answer heights, point-cell ownership and retention of every v30 practice
 archive plus the Sprint label. The v30 baseline was rebuilt here and matched its
-recorded SHA exactly. See `validation/menu-fixes-v31.json`.
+recorded SHA exactly. See `legacy/validation/menu-fixes-v31.json`.
 
 Private updater paths from both the recovered v29 and verified v30 recreate the
 same v31 output SHA. The v29 path includes every v30 translation. PowerShell was
