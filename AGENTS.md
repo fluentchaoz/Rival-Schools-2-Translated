@@ -34,6 +34,14 @@ Everything in `docs/archive/` and `legacy/` is history. Do not treat it as curre
 - Keep DuckStation fullscreen (F11) while playtesting; do not call `open_application` for it after launch (spawns a second copy).
 - Bitmap font: A-Z, digits, space ! ' , - . / ? only; <= 20 cells per line, <= 4 lines.
 
+## Workflow (how work is done here)
+1. **Inventory before editing.** Know what is still Japanese before translating. The inventory is task 009; keep it current as items are fixed.
+2. **Batch by source file.** Group every item that lives in one disc file (e.g. all of `DAT2/CEFT1.BIZ`) into one build. One build per batch, not one per sprite.
+3. **Verify offline first.** Preview the patched sheet with the game's real palette, or dump VRAM from a savestate, before touching the emulator. Playing is for placement, cropping, timing and wording in context.
+4. **Test from savestates, not from boot.** Task 010 keeps a library of states (scene name, build, how it was made). Use a state and a fast trigger, not a 3-minute boot and a mashed fight. Booting fresh is the last resort.
+5. **One short in-game pass per batch.** Record what was seen and what was not in `PLAYTEST_LIST.md`; log newly found Japanese as inventory entries, not as ad-hoc tasks.
+6. **Split by capability.** Tasks that need real art generation go to whoever has image tools; the sprite painter and emulator work go to whoever can drive DuckStation.
+
 ## Handoff protocol (so two assistants don't collide)
 - Before starting: read the START HERE block, then `git status` / `git log -5`. Say which build you are continuing from.
 - One assistant works on a given build step at a time. Note in START HERE who has it ("in progress: <assistant>, <target>") and clear it when done.

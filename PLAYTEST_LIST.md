@@ -103,3 +103,5 @@ Verified in game fullscreen: READY!! in both lower corners of the fight HUD; "RO
 ## v151-v154 (2026-11-26): rest of the fight HUD
 Verified in game fullscreen: ROUND 1 and ROUND 2, FIGHT! (one word since v152), TIME UP, FIN ISH, PERFECT! (reads correctly since v153/v154), DREAM ATTACK, READY!!. Not yet seen: FIN AL (final fight), ROUND 3/4/5 and numerals 3-5, DRAW, GUTS COUNTER, SUPER! (shown when 制圧! would be). Check for clipping and seams. See `queue/002`.
 
+## v155 (2026-11-27): prompt text
+Seen in game: FIN AL (deciding round at 1-1), and on v155 "SWAP LEAD ?" under the portrait box after a round (legible). Not yet seen: "SWAP ALLY ?", ROUND 3-5 numerals, DRAW, GUTS COUNTER, SUPER!. Still Japanese on screen: the win banner 辛勝!, the vertical red name labels, the 第一話 card, the "N勝" win counter (queue 003/006/008).

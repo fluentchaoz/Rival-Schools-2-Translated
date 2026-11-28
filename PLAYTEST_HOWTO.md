@@ -49,7 +49,7 @@ The word "Start" means three different things on the way in. Go by the screen, n
 Checkpoints: (a) title with PRESS START BUTTON, (b) Mode Select with SCHOOL LIFE 2 highlighted at the top.
 
 ## Route to Solo Play and the first fight
-From Mode Select: Down (screenshot: SOLO PLAY highlighted), C (Solo Play), C (lead, default BATSU), C (partner, default HINATA), **Start**, then:
+From Mode Select (the cursor starts on SCHOOL LIFE; Start there enters School Life, not Solo Play): Down (screenshot: SOLO PLAY highlighted), C (Solo Play), C (lead, default BATSU), C (partner, default HINATA), then **Start held 0.6 s** (0.2 s was ignored; if nothing happens click the margin, press C once and hold Start again), then:
 - about 10 s: English opening narration over the background art (8 lines over 2 pages, none clipped). A black screen with audio means the OP01 stream is bad.
 - about 40-60 s after the Start (disc loading, NOW LOADING card): the first fight. The ROUND n banner, then FIGHT!, appear in the first 3 s. READY!! shows in both lower corners for the whole fight.
 - A round lasts 99 s. Time-up or a KO ends it; the end-of-round banners (TIME UP, FIN ISH, PERFECT!/SUPER!) show for about 1-2 s. Losing the fight leads to CONTINUE? (10 s countdown), GAME OVER, then attract mode.

@@ -14,3 +14,6 @@ Meaning and trigger unknown; trigger each in a fight to learn what the Japanese 
 - Stage backdrops carry Japanese signs (e.g. a pool-side sign on the pool stage): scenery art, low priority.
 
 ## Result
+
+## Seen 2026-11-27 (v154)
+After a won round the game shows a big red-gold Japanese banner **辛勝!** (narrow win; probably 勝 plus 辛/幸 cells) beside the winner's portrait, with the 主役交代? box lower left (task 004). The "ROUND BONUS 0" panel under it is already English. Likely English: "NARROW WIN!" or "CLOSE WIN!" (guess; check for the other win variants such as 完勝 and 圧勝 first). Captured frames: `work/shots/run-081623` (outside the repo), roughly frames 130-160.
