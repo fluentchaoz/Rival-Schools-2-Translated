@@ -105,3 +105,6 @@ Verified in game fullscreen: ROUND 1 and ROUND 2, FIGHT! (one word since v152), 
 
 ## v155 (2026-11-27): prompt text
 Seen in game: FIN AL (deciding round at 1-1), and on v155 "SWAP LEAD ?" under the portrait box after a round (legible). Not yet seen: "SWAP ALLY ?", ROUND 3-5 numerals, DRAW, GUTS COUNTER, SUPER!. Still Japanese on screen: the win banner 辛勝!, the vertical red name labels, the 第一話 card, the "N勝" win counter (queue 003/006/008).
+
+## v156 (2026-11-27): epilogue narration (EDB), unverified
+Built, not seen in game: 22 EDB pages in English (queue 011). To check: reach an epilogue; text should be readable, not clipped, no black screen. Ending dialogue pages ED01-24 are still Japanese.
