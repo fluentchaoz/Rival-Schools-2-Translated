@@ -1,6 +1,6 @@
 """Ending/epilogue narration pages (task 011): dump contact sheets or print size/volume stats.
 
-Usage (project venv, run from C:\Users\Fluent\JG2-Project): python repo/tools/ed_pages.py dump|stats
+Usage (project venv, from the JG2-Project folder): python repo/tools/ed_pages.py dump|stats
 Pages: DAT2/ED*.BIZ text TIM at 0x4000, DAT2/EDB*.BIZ text TIM at 0x5f800. Output goes under work/hud (not committed).
 """
 import sys
