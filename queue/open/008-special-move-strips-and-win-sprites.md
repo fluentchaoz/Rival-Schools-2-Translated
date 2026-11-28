@@ -26,3 +26,6 @@ After a won round the game shows a big red-gold Japanese banner **辛勝!** (nar
 
 ## Correction 2026-11-28 (v161)
 The earlier note that "N発 and 先制 are not in this sheet" was WRONG: it came from a test on a savestate that already held the old HUD art in VRAM. Savestates made after the HUD loads (slots 4+) never show new CEFT1 art; only a walk from Mode Select (slot 3) reloads it. Re-tested properly: v161 shows "2 HITS" in the combo counter, so the 発 cell (711,143,25,17) -> HITS is correct and seen in game. 先制 (first hit popup) probably also lives in this sheet: look for it next with a walk-through test.
+
+## 先制 popup (searched 2026-11-28, not found)
+The yellow-green "先制" (first hit) popup that appears near the right-hand name label after the first hit is not among the CEFT1 cells that remain unpainted (every component outside the known jobs was listed: only the HUD frames, GAME OVER, digits and strips). It is not in CEFT2-CEFT6 or CEFT3's Training atlas either. It may reuse the 制 cell from the 制圧! row (now "SU") or live in another file. To find it: capture the popup in game (screenshot right after the first hit, on v161) and check whether the second glyph now reads SU; otherwise save a state while it is showing and look at VRAM (`tools/vram_from_state.py`).
