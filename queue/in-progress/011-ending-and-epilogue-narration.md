@@ -27,3 +27,6 @@ The ending and epilogue narration are baked Japanese images, about 49 pages, one
 Technique: `tools/band_text_v141.py` + `build_images_v143.py` (see "FIXED in v143/v144" in `docs/archive/HANDOFF_history_v143-v154.md`: rows are pairs of 24 px bands, the game stretches about 1.3x and crops the right band to the original ink width; `surgical_lz_v143.py` for streams that do not follow the page schedule). Steps: read each page's Japanese from the sheet, write the English into `translations/` (JSON; no Japanese dumps committed), run the band painter per file, rebuild in one batch, check the rendered pages offline, then play one ending.
 
 ## Result
+
+## Attempt to see an epilogue (2026-11-27, failed)
+Tried a throwaway test disc (`work/mk_test_disc.py`) with EDB05 written into the OP01 slot (catalog signature rebound) and started Solo Play from a retargeted Mode Select state: the game stopped on the character-select screen (HOLD ON!) and never showed a scene, so the epilogue scene cannot be played through the narration slot. Endings are reached only by finishing the story. The ED/EDB layout is therefore still unconfirmed in game. Ideas: find which resource id the game requests at the end of a story and patch the savestate RAM to request it; or clear a story (long).

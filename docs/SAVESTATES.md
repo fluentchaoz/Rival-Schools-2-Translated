@@ -25,6 +25,7 @@ Then `work/fg2.ps1` and click the left margin as usual. The window opens windowe
 - Health bars: not located yet. Method: save two states with different health, diff the two for 16-bit values that match the bar fill.
 
 ## Caveats
-- A state taken after the HUD art was uploaded keeps the OLD art in VRAM. To see new art, use slot 5 (before the load) or make a new state on the new build. Slot 3 (made on v155) reloads cleanly on v156 (checked 2026-11-27: Mode Select came up); slots 4 and 5 are not yet checked on another build.
+- A state taken after the HUD art was uploaded keeps the OLD art in VRAM. To see new art, use slot 5 (before the load) or make a new state on the new build. **A state records the path of the disc it was made on and loading it can switch the emulator back to that disc.** So `-state N` with another build's cue may silently run the OLD build (found 2026-11-27 when a test disc kept playing the original narration). Retarget first with `python tools/state_retarget.py <src.sav> <dst.sav> <old cue path> <new cue path>` (same length; v155 -> v156 is). The earlier note that slot 3 "reloads on v156" was wrong: it had run the v155 disc. States made at the character select (slot 4 and later) also already hold the scene data that was preloaded then (the opening narration is loaded during character select), so they cannot show a changed OP01; use slot 3 and walk through.
 - The in-app cheat route did not work (the Cheats menu stayed disabled even with `EnableCheats` set); patching the state file is the reliable way.
 - Slot, timer address and offsets are specific to SLPM-86750 / the memory layout of the fight scene; re-find them for other scenes.
+
