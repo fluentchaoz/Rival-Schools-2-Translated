@@ -1,16 +1,36 @@
-# START HERE (updated 2026-11-28, current build v155 verified; v156-v161 built; HITS and name labels seen in game on v161)
+# START HERE (updated 2026-11-28)
 
-**Repo layout (reorganised 2026-11-26):** rules for every assistant are in `AGENTS.md` (read first). This file is the only live handoff; old per-version notes are in `docs/archive/`, superseded scripts in `legacy/scripts/`. Nothing in `tools/` moved.
-**Current build:** `1-KEEP\v155-CURRENT-play-this\justice-gakuen2-v155.cue` (SHA-256 `31fd4791...d17c`). Fight HUD art in `DAT2/CEFT1.BIZ`: READY!!, ROUND n, FIN AL, FIN ISH, FIGHT!, SUPER!/PERFECT!, TIME UP, DRAW, DREAM ATTACK, GUTS COUNTER. v155 = v154 + English "SWAP LEAD ?" prompt (seen in game; the "SWAP ALLY" partner variant is built, not yet seen). Rollbacks in `2-CAN-DELETE`: v154 (previous), v153, v150-v152. Only the user empties that folder. `original-disc` and `v46-base-for-next-patch` must stay in 1-KEEP. Rebuild/extend: `JG2_MASTER=<sha of previous BIN> JG2_VERSION=NNN PYTHONPATH=tools python tools/build_hud_v155.py <previous BIN> <new folder> --accelerator build-tools/practice_lz.dll --original <original disc BIN>` (`build_hud_v155.py` re-renders ALL HUD jobs from the original sprites, then paints the prompts: edit jobs in `tools/hud_v150.py` / `hud_v151.py` / `hud_v155.py`).
-**How to test:** read `PLAYTEST_HOWTO.md` in full first (it separates the three kinds of Start, and says Tab fast-forward is for short bursts only because it steals focus). Fullscreen (F11), `work/fg2.ps1`, click the left black margin, 0.2 s `hold_key`.
-**Done recently:** v145-v149 (Solo Play character select, shared overlay prompts, Mode Select labels; all verified). v150: fight HUD announcer art (READY!!, ROUND n, FIN AL, FIN ISH) - READY!! and ROUND 2 verified in game, the rest built but unseen. Details in the v150 section at the bottom.
-**v156 (built, NOT seen in game):** `1-KEEP\v156-CURRENT-play-this` = v155 + English epilogue narration (22 EDB pages, SHA-256 `28300c13...1eff`). v155 stays the last verified build. Do not call v156 good until an epilogue is seen in game (queue 011 has the risks). Rebuild: `JG2_MASTER=<sha of previous BIN> JG2_VERSION=NNN PYTHONPATH=tools python tools/build_endings_v156.py <previous BIN> <new folder> --original <original disc BIN>`.
-**v161 (newest; combo HITS and 17 fighter name labels SEEN in game):** `1-KEEP\v161-CURRENT-play-this` = v159 + name labels (v160) + HITS cell, SHA-256 `b2875f98...9615`. Rebuild: `JG2_MASTER=<sha> JG2_VERSION=NNN PYTHONPATH=tools python tools/build_hud_v161.py <previous BIN> <new folder> --accelerator build-tools/practice_lz.dll --original <original BIN>`. Test new HUD art by walking from slot 3, never from slots 4+ (stale VRAM).
-**v159 (built, NOT seen in game):** `1-KEEP\v159-CURRENT-play-this` = v158 + English move-list sheets (EDITCM01-24), SHA-256 `87bd1105...3673`; contains everything from v156-v158. Rebuild: `JG2_MASTER=<sha> JG2_VERSION=NNN PYTHONPATH=tools python tools/build_editcm_v159.py <previous BIN> <new folder> --accelerator build-tools/practice_lz.dll --original <original BIN>`.
-**v158 (built, NOT seen in game):** `1-KEEP\v158-CURRENT-play-this` = v157 + English ending dialogue (23 ED pages); contains everything from v156-v157 (SHA-256 `7da50d74...adfa`). Rebuild: `JG2_MASTER=<sha> JG2_VERSION=NNN PYTHONPATH=tools python tools/build_endings_v158.py <previous BIN> <new folder> --original <original BIN>`. If any ending screen goes black, fall back to v157 (HUD only) or v155.
-**v157 (built, NOT seen in game):** `1-KEEP\v157-CURRENT-play-this` = v156 + CLOSE WIN! banner + HEAL sprite (PL140/240/410), SHA-256 `8e2baab6...c657`. `2-CAN-DELETE\v157-first-build-with-HITS` is an obsolete first attempt. Rebuild: `JG2_MASTER=<sha> JG2_VERSION=NNN PYTHONPATH=tools python tools/build_hud_v157.py <previous BIN> <new folder> --accelerator build-tools/practice_lz.dll --original <original BIN>`.
-**Next:** see an ending/epilogue in game to confirm v156 (queue 011), then the ED dialogue pages; then 003+008 CEFT1, 012, 013, 014, 015; also 005. Verify offline first, then load a state (docs/SAVESTATES.md) for one short in-game pass per batch (see "Workflow" in `AGENTS.md`).
-**Tools added:** `tools/hud_v150.py` + `build_hud_v150.py` (v150), `tools/charselect_v145.py`, `over_v147.py`, `menu_fit_v148.py`, `menu_center_v149.py` (+ matching `build_*.py`), `vram_from_state.py` (VRAM from a DuckStation state). DuckStation's Debug menu is enabled in its settings (Debug > Dump CPU to VRAM Copies finds dynamic uploads; turn it off and delete the PNGs afterwards in %LOCALAPPDATA%\DuckStation).
+**Read first:** `AGENTS.md` (rules, "New here? Do these 5 things", Workflow), then this block, `PLAYTEST_HOWTO.md`, `docs/INVENTORY.md` (what is still Japanese), `docs/SAVESTATES.md` (fast tests), `docs/ENDING_ENGINE.md` (how ending text is drawn). `python tools/queue_status.py` lists the work queue; all open work is in `queue/`.
+
+## Builds (outside the repo, in `C:\Users\Fluent\JG2-Project\`)
+- `1-KEEP\v161-CURRENT-play-this\justice-gakuen2-v161.cue`: NEWEST. Chain v155 -> v156 -> ... -> v161, each built on the exact previous BIN (SHA-256 below). Not everything in it has been seen in game.
+- `1-KEEP\v155-CURRENT-play-this`: last fully verified build (rollback if anything in v156-v161 breaks).
+- `1-KEEP\original-disc` and `v46-base-for-next-patch`: never remove. `2-CAN-DELETE\`: older and intermediate builds; only the user empties it.
+
+| Build | Adds (builder script in `tools/`) | Seen in game? | SHA-256 |
+|---|---|---|---|
+| v155 | "SWAP LEAD ?" prompt (`build_hud_v155.py`) | yes | 31fd479195f2138ddcc5307e6917bc3d283712c7b0b7e25247a5058b4f4fd17c |
+| v156 | 22 epilogue pages EDB (`build_endings_v156.py`) | NO | 28300c131dde3335ae6cad0ef2aa6ef4158e75f2a7a2a8795f9b165ff46f1eff |
+| v157 | CLOSE WIN! banner, HEAL sprite in PL140/240/410 (`build_hud_v157.py`) | NO | 8e2baab650175d92ceb186962e5531c127161e5366eb10ed3f836379bb1ac657 |
+| v158 | 23 ED ending dialogue pages (`build_endings_v158.py`) | NO | 7da50d7426d17db637c7124cb0355bf54a44abb00b3b7a69f93380e5bbc5fada |
+| v159 | 24 move-list sheets EDITCM + tag-attack list (`build_editcm_v159.py`) | NO | 87bd1105fda2a513c249cd3059b67b9cfdc994963edeca04bb440765b0c73673 |
+| v160 | 17 fighter name labels (`build_hud_v160.py`) | yes (BAT/SU, DAI/GO) | 8a354b8ff012a5289146a8a49b8684c3cf7611267bc699949dfc1c16eff9cc62 |
+| v161 | HITS combo counter (`build_hud_v161.py`) | yes ("2 HITS") | b2875f9873e16d4198cc2ca199ad6a7b27c03e70806ff4aa61d4ab9ff4679615 |
+
+Rebuild/extend: `JG2_MASTER=<sha of previous BIN> JG2_VERSION=NNN PYTHONPATH=tools python tools/<builder>.py <previous BIN> <NEW folder> [--accelerator build-tools/practice_lz.dll] --original <original disc BIN>` (new folder every time; builders enforce the exact master). New painter jobs go in the matching `tools/hud_*.py` / `endings_v156.py` / `editcm_v159.py`; translations in `translations/*.json` (English only).
+
+## Testing rules that cost time when ignored
+- Close DuckStation when a test is done. Launch with `-batch -state N <cue>`; a state records its disc path (retarget with `tools/state_retarget.py`).
+- New fight HUD art only shows when walking from slot 3 (Mode Select); states made after the HUD loads keep the old art in VRAM.
+- Character select needs one extra C before Start, then hold Start 0.6 s.
+
+## Next work (priority order)
+1. See an ending and an epilogue in game on v161 (queue 011) to confirm the EDB/ED layout and the streams; fine-tune font size and breaks from that. Also view CLOSE WIN!, HEAL, the move-list screens (013), the other name labels (003 follow-up) and the 先制 popup (008).
+2. Queue 014: exam / shop / options / Edit-mode UI sheets (SIKEN, KOUBAI, OPTINFO, MENU, MOJI2, EDITMOJI, SELP).
+3. Queue 008: remaining CEFT1 strips (愛と友情のツープラトン, フィニッシュ必殺), CEFT3 copy of the banners and Training text; 005 loading-card text (ただいまロード中, credit); 006 第一話 card; 007; 015 (certificate, school songs).
+4. Keep `docs/INVENTORY.md` current: re-run `tools/inventory_sweep.py` on each new build.
+
+Tools added recently: `inventory_sweep.py`, `ed_pages.py`, `endings_v156.py`, `editcm_v159.py`, `hud_v155/v157/v160.py`, `state_patch.py`, `state_retarget.py`, `vram_from_state.py` (+ the builders above).
 
 ---
 

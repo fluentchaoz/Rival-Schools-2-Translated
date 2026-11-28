@@ -18,9 +18,10 @@ Everything in `docs/archive/` and `legacy/` is history. Do not treat it as curre
 
 ## Layout
 - `queue/` - the work queue: one file per task, folder = status (`open/`, `in-progress/`, `done/`). Read `queue/README.md`; `python tools/queue_status.py` lists it. Any assistant may take a task it can do.
-- `tools/` - the live Python toolchain (build chain v47 -> current; see the handoff's "Build chain").
+- `tools/` - the live Python toolchain (build chain v47 -> current; see the handoff's build table).
+- `docs/INVENTORY.md`, `docs/SAVESTATES.md`, `docs/ENDING_ENGINE.md` - live reference docs (what is still Japanese, how to test fast, how ending text is drawn).
 - `assets/`, `translations/` - English text and small JSON inputs. Never commit extracted Japanese text, glyph tables, previews or disc data (see `.gitignore`).
-- `tests/` - unit tests. Some still pin Codex-era scripts at the repo root (`build_*_english_v*.ps1`, `probe_stat_results_v18.ps1`, `Apply-Practice-Roof-v37.ps1`, `PRACTICE_*_V3*.md`); do not move those without updating the tests. Known baseline: 54 tests, 1 failure, 6 errors, 44 skipped (environment: no cargo / PowerShell quirks).
+- `tests/` - unit tests. Some still pin Codex-era scripts at the repo root (`build_*_english_v*.ps1`, `probe_stat_results_v18.ps1`, `Apply-Practice-Roof-v37.ps1`, `PRACTICE_*_V3*.md`); do not move those without updating the tests. Known baseline (project venv, `PYTHONPATH=tools python -m unittest discover -s tests` from `repo/`, 2026-11-28): 68 tests, 1 failure (quiz builder preflight, a PowerShell quirk), 3 errors (tests that need disc-path env vars such as `JG2_V33_V32`), 61 skipped. Anything beyond that is a regression.
 - `legacy/scripts/` - superseded PowerShell/probe scripts (Codex era, v1-v37). Reference only.
 - `docs/archive/` - superseded per-version notes, old handoffs and milestones.
 - Game builds live OUTSIDE the repo in `C:\Users\Fluent\JG2-Project\1-KEEP\` (current) and `2-CAN-DELETE\` (old).

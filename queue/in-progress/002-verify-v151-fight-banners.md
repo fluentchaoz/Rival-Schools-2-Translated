@@ -1,4 +1,4 @@
-# 002 Verify remaining fight banners in game (current build v154)
+# 002 Verify remaining fight banners in game (vs the current build)
 
 **Needs:** emulator
 **Claimed by:** Claude (2026-11-27)
