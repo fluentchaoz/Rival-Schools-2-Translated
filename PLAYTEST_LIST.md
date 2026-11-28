@@ -117,3 +117,6 @@ Built, not seen: all 23 ED pages in English (plus the v156 epilogues and v157 HU
 
 ## v159 (2026-11-28): move-list sheets (EDITCM), unverified
 Built, not seen: the 24 move-list screens (probably EDIT mode): headers, move names, AIR/HOLD/MASH labels, L/H on the tag-attack row, and the thin-line tag-attack name list. Check legibility and that no icon is damaged.
+
+## v160-v161 (2026-11-28)
+Seen in game (walk from Mode Select, v161): fighter name labels BAT/SU and DAI/GO (rotated, readable), "2 HITS" combo counter, DREAM ATTACK banner. Not yet seen: CLOSE WIN!, HEAL, the other 15 labels, 先制 popup (still Japanese).

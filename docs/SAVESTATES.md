@@ -29,3 +29,6 @@ Then `work/fg2.ps1` and click the left margin as usual. The window opens windowe
 - The in-app cheat route did not work (the Cheats menu stayed disabled even with `EnableCheats` set); patching the state file is the reliable way.
 - Slot, timer address and offsets are specific to SLPM-86750 / the memory layout of the fight scene; re-find them for other scenes.
 
+## Which states show new art (checked 2026-11-28)
+- The disc path stored in a state IS used when it can be opened (DuckStation falls back to the command-line disc only if it cannot open it, and says so on screen). Retarget with `tools/state_retarget.py` and it loads that build.
+- BUT a state made after the fight HUD has loaded (slots 4, 5, 6, 7, 8, 9 and anything saved in a fight) keeps the OLD HUD art in VRAM: the new CEFT1 art never appears from them. To see new HUD art, load slot 3 (Mode Select) and walk (Down, C, C, C, C, hold Start 0.6 s, about 80 s to the fight). Slot 9 (timer = 1) is only good for checking things that were already loaded, such as prompts and banners from the same build.

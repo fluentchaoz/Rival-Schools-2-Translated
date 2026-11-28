@@ -21,4 +21,4 @@ Coverage (image side, by file family, judged from the sheets): English, or only 
 Not located as images (script or font driven): the episode card and return-to-Mode-Select prompt (queue 006), the loading-card credit (queue 005), the TOURNAMENT label font (queue 007).
 
 | 12 | `DAT2/CEFT3.BIZ` TIM 0x19000 (banner copy, x-256 of CEFT1) and 0x10800 (Training atlas/labels) | announcer banners for another mode; Training mode labels (トータルコンボダメージ, ツープラトン, 完全燃焼, 根性) | Training or other mode | medium | banner jobs reusable; Training text is a glyph atlas | 008 |
-| 13 | code strings (overlays `DAT1/*.BIN`, `SLPS_021.20`) | runtime text drawn from the font: N発 combo counter, 先制 popup, other fight popups | every fight | high | needs a string patch tool (find Shift-JIS strings in code, patch with same-length English) | new |
+| 13 | `DAT2/CEFT1.BIZ` (check) | 先制 first-hit popup and other small fight popups | every fight | medium | find the cell with a walk-through test (the N発 counter was in the sheet after all: HITS, seen v161) | 008 |

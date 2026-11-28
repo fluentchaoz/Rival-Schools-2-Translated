@@ -13,6 +13,7 @@ from hud_v155 import patch_all155
 
 KOU = (705, 108, 53, 32)      # 幸 (of 辛勝)
 SHOU = (514, 112, 59, 39)     # 勝
+HATSU = (711, 143, 25, 17)    # 発 (of the N発 combo counter?) -> HITS; unverified, see queue 008
 PL_FILES = ['DAT2/PL140.BIZ', 'DAT2/PL240.BIZ', 'DAT2/PL410.BIZ']
 PL_TIM = 0x6800
 
@@ -22,7 +23,8 @@ def patch_ceft1(orig_px):
     out = px.copy()
     out = render_cell(out, 'CLOSE', KOU, [KOU], src=orig_px, text_h=26, gap=1, shear=0.12, align='right')
     out = render_cell(out, 'WIN', SHOU, [SHOU], src=orig_px, text_h=32, gap=2, shear=0.12, align='left')
-    return out, rects + [KOU, SHOU]
+    out = render_cell(out, 'HITS', HATSU, [HATSU], src=orig_px, text_h=11, gap=1, shear=0.1, outline=1, shadow=(1, 1))
+    return out, rects + [KOU, SHOU, HATSU]
 
 
 def recovery_rect(px):
