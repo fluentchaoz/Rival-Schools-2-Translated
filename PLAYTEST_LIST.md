@@ -114,3 +114,6 @@ Built, not seen in game: win banner after a won round should read CLOSE WIN! (wh
 
 ## v158 (2026-11-28): ending dialogue pages (ED01-24), unverified
 Built, not seen: all 23 ED pages in English (plus the v156 epilogues and v157 HUD fixes). Check: readable, complete, not clipped; no black screen; reading order correct (speaker flow). Fine-tune font size and breaks afterwards.
+
+## v159 (2026-11-28): move-list sheets (EDITCM), unverified
+Built, not seen: the 24 move-list screens (probably EDIT mode): headers, move names, AIR/HOLD/MASH labels, L/H on the tag-attack row, and the thin-line tag-attack name list. Check legibility and that no icon is damaged.

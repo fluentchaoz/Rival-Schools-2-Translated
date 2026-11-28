@@ -10,7 +10,7 @@ Coverage (image side, by file family, judged from the sheets): English, or only 
 | 2 | `DAT2/EDB01-EDB25.BIZ` (512x256 at 0x5f800) | epilogue narration text | every ending | high | built v156 (22 pages), unseen | 011 |
 | 3 | `DAT2/CEFT1.BIZ` TIM 0x10800 | win banner done v157 (CLOSE WIN!); still:  愛と友情のプラトン and フィニッシュ strips, red vertical name labels (24) | every fight | high | sprite painter (`hud_v150`/`hud_v155`) | 003, 008 |
 | 4 | `DAT2/PL140/PL240/PL410.BIZ`, TIM 0x6800 | 回復 sprite under GUTS UP / LIFE UP (only these three files) | recovery moves | medium | built v157 (offline preview), unseen | 012 (done) |
-| 5 | `DAT2/EDITCM01-24.BIZ` (412x369 move table, 512x256 super names) | per-character move lists: headers and move names | move list screens | medium-high | painter or image generation; 24 files | 013 |
+| 5 | `DAT2/EDITCM01-24.BIZ` (412x369 move table, 512x256 shared name list) | per-character move lists | move list screens | medium-high | built v159 (all 24), unseen | 013 |
 | 6 | `DAT2/SIKEN1/2/10/20.BIZ` | exam question text sheet, results card (table headers, 達成率) | exams in School Life | medium-high | painter + band text | 014 |
 | 7 | `DAT2/KOUBAI.TIZ`, `KOUBAI0.TIZ`, `KOUBAI1.TIZ` | shop labels, おまけ title, 戻る | shop / bonuses | medium | painter | 014 |
 | 8 | `DAT2/OPTINFO.TIZ` (4+ images 256x256), `MENU.BIZ` TIM 0x0, `MOJI2.TIZ` | option descriptions and option list labels | Options screen | medium | band text / painter | 014 |
