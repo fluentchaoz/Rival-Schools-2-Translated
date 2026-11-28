@@ -18,7 +18,8 @@ import band_text_v141 as B
 from PIL import Image, ImageDraw
 from build_practice_v30 import tim, replace_pixels, rgb_palette
 
-TEXT_TIM = 0x5f800
+TEXT_TIM = 0x5f800        # EDB pages; ED pages use 0x4000 (ED_TIM)
+ED_TIM = 0x4000
 ROOT = Path(__file__).resolve().parents[1]
 MARGIN = 5
 
@@ -31,12 +32,17 @@ def load_translations(path=None):
     return pages
 
 
+def rows_in(height):
+    """Rows (band pairs) whose first 24-px band fits fully; a trailing single band counts as a row."""
+    return (height - 24) // 48 + 1 if height >= 24 else 0
+
+
 def slots(pix, ncols):
     """[(col_x, row, limit)] in reading order for rows whose left band holds real ink (>= 5 columns)."""
     bg = np.bincount(pix.ravel()).argmax()
     out = []
     for cx in range(0, ncols * 256, 256):
-        for k in range(pix.shape[0] // 48):
+        for k in range(rows_in(pix.shape[0])):
             y0 = k * 48
             left = (pix[y0:y0 + 24, cx:cx + 256] != bg).any(axis=0).sum()
             if left < 5:
@@ -63,8 +69,9 @@ def wrap(text, lims, size):
     return rows if i == len(words) else None
 
 
-def layout(pix, width, text):
-    ncols = 2 if width >= 512 else 1
+def layout(pix, width, text):  # one paragraph, read column 0 then column 1 ...
+    ncols = max(1, width // 256)
+    nrows = rows_in(pix.shape[0])
     sl = slots(pix, ncols)
     lims = [s[2] for s in sl]
     for size in range(17, B.MINSIZE - 1, -1):
@@ -75,7 +82,7 @@ def layout(pix, width, text):
         raise ValueError('text does not fit %d slots (%d px total)' % (len(sl), sum(lims)))
     cols = []
     for ci in range(ncols):
-        col_rows = [''] * 5
+        col_rows = [''] * nrows
         for (cx, k, _), line in zip(sl, rows):
             if cx == ci * 256:
                 col_rows[k] = line
@@ -100,7 +107,7 @@ def letter(pix, lut, bg, col_x, col_w, rows, size, font=B.FONT):
     f = ImageFont.truetype(font, size)
     for k, text in enumerate(rows):
         y0 = k * 2 * B.BAND
-        if y0 + 2 * B.BAND > pix.shape[0]:
+        if y0 + B.BAND > pix.shape[0]:
             raise ValueError('too many rows')
         row = np.full((B.BAND, full), bg, dtype=np.uint8)
         reg = pix[y0 + B.BAND:y0 + 2 * B.BAND, col_x:col_x + col_w]
@@ -117,7 +124,9 @@ def letter(pix, lut, bg, col_x, col_w, rows, size, font=B.FONT):
             d.text((3 - b[0], (B.BAND - (b[3] - b[1])) // 2 - b[1] - 1), text, font=f, fill=255)
             row = lut[np.array(im)]
         out[y0:y0 + B.BAND, col_x:col_x + col_w] = row[:, :col_w]
-        out[y0 + B.BAND:y0 + 2 * B.BAND, col_x:col_x + col_w] = row[:, col_w:]
+        h2 = min(B.BAND, pix.shape[0] - (y0 + B.BAND))   # a trailing single band has no second half
+        if h2 > 0:
+            out[y0 + B.BAND:y0 + B.BAND + h2, col_x:col_x + col_w] = row[:h2, col_w:]
     return out
 
 
@@ -131,6 +140,6 @@ def patch_page(after, name, offset=TEXT_TIM, translations=None):
     rects = []
     for x, w, rows in cols:
         pix = letter(pix, lut, bg, x, w, rows, size)
-        rects.append((x, 0, w, len(rows) * 2 * B.BAND))
+        rects.append((x, 0, w, min(len(rows) * 2 * B.BAND, pix.shape[0])))
     replace_pixels(after, tim(bytes(after), offset), pix, rects)
     return size, [(offset, rects)]

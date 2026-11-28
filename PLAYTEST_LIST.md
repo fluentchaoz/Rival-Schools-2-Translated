@@ -111,3 +111,6 @@ Built, not seen in game: 22 EDB pages in English (queue 011). To check: reach an
 
 ## v157 (2026-11-28): CLOSE WIN! banner, HEAL sprite (unverified)
 Built, not seen in game: win banner after a won round should read CLOSE WIN! (when the win is narrow); HEAL under GUTS UP / LIFE UP for characters 140/240/410. Savestates: a state made mid-fight keeps old HUD art in memory; use slot 5/12 (the loading card) to see new art from the disc.
+
+## v158 (2026-11-28): ending dialogue pages (ED01-24), unverified
+Built, not seen: all 23 ED pages in English (plus the v156 epilogues and v157 HUD fixes). Check: readable, complete, not clipped; no black screen; reading order correct (speaker flow). Fine-tune font size and breaks afterwards.

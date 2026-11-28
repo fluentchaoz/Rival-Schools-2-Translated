@@ -6,8 +6,8 @@ Coverage (image side, by file family, judged from the sheets): English, or only 
 
 | # | Source files | What | Seen when | Priority | Technique / who | Queue |
 |---|---|---|---|---|---|---|
-| 1 | `DAT2/ED01-ED24.BIZ` (512x256 text pages at 0x4000; ED24 256x168) | ending narration text | every ending | high | band text as OP01 (`tools/band_text_v141.py`); needs the translation | 011 |
-| 2 | `DAT2/EDB01-EDB25.BIZ` (512x256 at 0x5f800) | epilogue narration text | every ending | high | same | 011 |
+| 1 | `DAT2/ED01-ED24.BIZ` (text pages at 0x4000, 256-1024 px wide) | ending dialogue | every ending | high | built v158 (all 23 pages), unseen | 011 |
+| 2 | `DAT2/EDB01-EDB25.BIZ` (512x256 at 0x5f800) | epilogue narration text | every ending | high | built v156 (22 pages), unseen | 011 |
 | 3 | `DAT2/CEFT1.BIZ` TIM 0x10800 | win banner done v157 (CLOSE WIN!); still:  愛と友情のプラトン and フィニッシュ strips, red vertical name labels (24) | every fight | high | sprite painter (`hud_v150`/`hud_v155`) | 003, 008 |
 | 4 | `DAT2/PL140/PL240/PL410.BIZ`, TIM 0x6800 | 回復 sprite under GUTS UP / LIFE UP (only these three files) | recovery moves | medium | built v157 (offline preview), unseen | 012 (done) |
 | 5 | `DAT2/EDITCM01-24.BIZ` (412x369 move table, 512x256 super names) | per-character move lists: headers and move names | move list screens | medium-high | painter or image generation; 24 files | 013 |
