@@ -22,7 +22,7 @@ Rules that cost time when ignored are marked **RULE**.
 - To reproduce on another machine, add these lines under `[Pad1]` (e.g. `Circle = Keyboard/C`) with DuckStation closed.
 
 ## Fast route (use this first)
-Load a savestate at launch instead of booting: `-state N` (see `docs/SAVESTATES.md` for the scenes and slots). For round-end banners load slot 9 (timer already 1): TIME UP, win/lose banner and the swap prompt appear within about 10 s. Boot from scratch only when no state fits.
+Load a savestate at launch instead of booting: `-state N` (see `docs/SAVESTATES.md` for the scenes and slots). For round-end banners load slot 9 (timer already 1): TIME UP, win/lose banner and the swap prompt appear within about 10 s. CAUTION: a state made after the fight HUD loaded (slots 4+) keeps the old HUD art, so it cannot show NEW fight art; for that, load slot 3 (Mode Select, retargeted to the new build with `tools/state_retarget.py`) and walk to the fight (about 80 s). Boot from scratch only when no state fits. Close DuckStation when the test is done.
 
 ## Launching
 - Launch DuckStation **once**: `Start-Process "$env:LOCALAPPDATA\Programs\DuckStation\duckstation-qt-x64-ReleaseLTCG.exe" -ArgumentList @('-batch', ('"' + $cuePath + '"'))`. `-batch` makes it start the game instead of showing the game list (a plain launch sometimes lands on the list; if you see an empty or one-row game list, kill it and relaunch with `-batch`).
