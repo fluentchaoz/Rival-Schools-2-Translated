@@ -21,6 +21,9 @@ Rules that cost time when ignored are marked **RULE**.
 - DuckStation hotkeys (section `[Hotkeys]`): Space = pause, Tab = fast-forward (hold), Esc = pause menu, F1/F2 = load/save state, F3/F4 = previous/next slot, F10 = screenshot, F11 = fullscreen.
 - To reproduce on another machine, add these lines under `[Pad1]` (e.g. `Circle = Keyboard/C`) with DuckStation closed.
 
+## Fast route (use this first)
+Load a savestate at launch instead of booting: `-state N` (see `docs/SAVESTATES.md` for the scenes and slots). For round-end banners load slot 9 (timer already 1): TIME UP, win/lose banner and the swap prompt appear within about 10 s. Boot from scratch only when no state fits.
+
 ## Launching
 - Launch DuckStation **once**: `Start-Process "$env:LOCALAPPDATA\Programs\DuckStation\duckstation-qt-x64-ReleaseLTCG.exe" -ArgumentList @('-batch', ('"' + $cuePath + '"'))`. `-batch` makes it start the game instead of showing the game list (a plain launch sometimes lands on the list; if you see an empty or one-row game list, kill it and relaunch with `-batch`).
 - **RULE:** never use computer-use `open_application` on DuckStation (starts a second copy). Computer-use needs `request_access` for "DuckStation" once per session.

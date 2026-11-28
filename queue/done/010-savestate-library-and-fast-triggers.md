@@ -1,7 +1,7 @@
 # 010 Savestate library and fast triggers for playtesting
 
 **Needs:** emulator
-**Claimed by:** -
+**Claimed by:** Claude (2026-11-27)
 **Priority:** high
 **Verify:** savestate
 **Source:** DuckStation save states (F1 load / F2 save, slots F3/F4), `tools/vram_from_state.py`
@@ -19,3 +19,4 @@ Every test restarts from boot: logos, intro skips, menus, a 40 s load, then a ma
 Cheats and states live under `%LOCALAPPDATA%\DuckStation` (or the app's data folder); keep copies of the useful ones in `C:\Users\Fluent\JG2-Project\work\states\` (outside the repo).
 
 ## Result
+Done 2026-11-27 on v155. States in slots 3-9 (Mode Select, character select, loading card, fight, patched timer=1), documented in `docs/SAVESTATES.md`; `tools/state_patch.py` writes patched states; the round timer is at data offset 0x9ecff (PS1 0x8009CCFF) and a timer=1 state ends a round in about 8 s (seen: TIME UP, PERFECT!, "SWAP LEAD ?"). `PLAYTEST_HOWTO.md` now has a "Fast route" section. NOT checked: whether states 3-5 reload cleanly on a different build (do it with the first new build); health bar addresses; states for win banner, DRAW, game over, School Life screens; the in-app cheat route (menu stayed disabled).
