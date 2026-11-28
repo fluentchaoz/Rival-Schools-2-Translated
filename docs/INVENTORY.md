@@ -8,8 +8,8 @@ Coverage (image side, by file family, judged from the sheets): English, or only 
 |---|---|---|---|---|---|---|
 | 1 | `DAT2/ED01-ED24.BIZ` (512x256 text pages at 0x4000; ED24 256x168) | ending narration text | every ending | high | band text as OP01 (`tools/band_text_v141.py`); needs the translation | 011 |
 | 2 | `DAT2/EDB01-EDB25.BIZ` (512x256 at 0x5f800) | epilogue narration text | every ending | high | same | 011 |
-| 3 | `DAT2/CEFT1.BIZ` TIM 0x10800 | the win banner (辛勝!/勝), N勝 counter, 愛と友情のプラトン and フィニッシュ strips, red vertical name labels (24) | every fight | high | sprite painter (`hud_v150`/`hud_v155`) | 003, 008 |
-| 4 | `DAT2/PL010-PL410.BIZ` (+`PLE*`), TIM 0x6800 | 回復 sprite beside GUTS UP / LIFE UP (same rect in every file) | recovery items in fights | medium | sprite painter, all files in one build | 012 |
+| 3 | `DAT2/CEFT1.BIZ` TIM 0x10800 | win banner done v157 (CLOSE WIN!); still:  愛と友情のプラトン and フィニッシュ strips, red vertical name labels (24) | every fight | high | sprite painter (`hud_v150`/`hud_v155`) | 003, 008 |
+| 4 | `DAT2/PL140/PL240/PL410.BIZ`, TIM 0x6800 | 回復 sprite under GUTS UP / LIFE UP (only these three files) | recovery moves | medium | built v157 (offline preview), unseen | 012 (done) |
 | 5 | `DAT2/EDITCM01-24.BIZ` (412x369 move table, 512x256 super names) | per-character move lists: headers and move names | move list screens | medium-high | painter or image generation; 24 files | 013 |
 | 6 | `DAT2/SIKEN1/2/10/20.BIZ` | exam question text sheet, results card (table headers, 達成率) | exams in School Life | medium-high | painter + band text | 014 |
 | 7 | `DAT2/KOUBAI.TIZ`, `KOUBAI0.TIZ`, `KOUBAI1.TIZ` | shop labels, おまけ title, 戻る | shop / bonuses | medium | painter | 014 |
@@ -19,3 +19,6 @@ Coverage (image side, by file family, judged from the sheets): English, or only 
 | 11 | `DAT2/KOUKA00-04.BIZ` | school-song lyric images (320x256) | school song screens | low | band text / image generation | 015 |
 
 Not located as images (script or font driven): the episode card and return-to-Mode-Select prompt (queue 006), the loading-card credit (queue 005), the TOURNAMENT label font (queue 007).
+
+| 12 | `DAT2/CEFT3.BIZ` TIM 0x19000 (banner copy, x-256 of CEFT1) and 0x10800 (Training atlas/labels) | announcer banners for another mode; Training mode labels (トータルコンボダメージ, ツープラトン, 完全燃焼, 根性) | Training or other mode | medium | banner jobs reusable; Training text is a glyph atlas | 008 |
+| 13 | code strings (overlays `DAT1/*.BIN`, `SLPS_021.20`) | runtime text drawn from the font: N発 combo counter, 先制 popup, other fight popups | every fight | high | needs a string patch tool (find Shift-JIS strings in code, patch with same-length English) | new |

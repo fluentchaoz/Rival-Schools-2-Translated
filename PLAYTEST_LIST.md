@@ -108,3 +108,6 @@ Seen in game: FIN AL (deciding round at 1-1), and on v155 "SWAP LEAD ?" under th
 
 ## v156 (2026-11-27): epilogue narration (EDB), unverified
 Built, not seen in game: 22 EDB pages in English (queue 011). To check: reach an epilogue; text should be readable, not clipped, no black screen. Ending dialogue pages ED01-24 are still Japanese.
+
+## v157 (2026-11-28): CLOSE WIN! banner, HEAL sprite (unverified)
+Built, not seen in game: win banner after a won round should read CLOSE WIN! (when the win is narrow); HEAL under GUTS UP / LIFE UP for characters 140/240/410. Savestates: a state made mid-fight keeps old HUD art in memory; use slot 5/12 (the loading card) to see new art from the disc.

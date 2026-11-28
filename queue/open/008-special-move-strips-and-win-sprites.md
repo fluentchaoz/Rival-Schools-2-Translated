@@ -17,3 +17,9 @@ Meaning and trigger unknown; trigger each in a fight to learn what the Japanese 
 
 ## Seen 2026-11-27 (v154)
 After a won round the game shows a big red-gold Japanese banner **辛勝!** (narrow win; probably 勝 plus 辛/幸 cells) beside the winner's portrait, with the 主役交代? box lower left (task 004). The "ROUND BONUS 0" panel under it is already English. Likely English: "NARROW WIN!" or "CLOSE WIN!" (guess; check for the other win variants such as 完勝 and 圧勝 first). Captured frames: `work/shots/run-081623` (outside the repo), roughly frames 130-160.
+
+## Progress 2026-11-28 (v157, offline preview only, not seen in game)
+- Done: win banner 辛勝! = 幸 (705,108,53,32) -> CLOSE + 勝 (514,112,59,39) -> WIN, with the shared "!" cell: reads CLOSE WIN!. Painter job in `tools/hud_v157.py`.
+- Found: the on-screen "N発" combo counter and the "先制" popup are NOT in this sheet. The red-grid areas are reserved space the game fills at run time from the font, so those strings live in code (overlay/executable strings) and need a text patch, not an image edit. 発 at (711,143,25,17) belongs to the finish-move caption strip (フィニッシュ必殺... 発 ○); I left it alone because its meaning is unclear.
+- Still open: 愛と友情のツープラトン pink-bar strip, フィニッシュ必殺 strip, 24 vertical name labels (cells merge in the sheet and must be split by gaps; plan: identify each by matching rendered Japanese roster names, then stack or rotate English).
+- CEFT3 (DAT2/CEFT3.BIZ) was checked: TIM 0x19000 is a copy of CEFT1's announcer banners (最終 第戦 開始! 決着 and numerals) shifted -256 px, used by another mode, and TIM 0x10800 is the Training-mode glyph atlas and labels. Both still Japanese. The banner copy can reuse the CEFT1 jobs with x-256.
